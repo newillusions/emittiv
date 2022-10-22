@@ -4,7 +4,7 @@
 	import TheSecond from './SectionIndividualStreams.svelte';
 	import TheThird from './SectionStreams.svelte';
 	import TheFourth from './SectionProjectLifecycle.svelte';
-	import TheFifth from './SectioncompleteServices.svelte';
+	import TheFifth from './SectionCompleteServices.svelte';
 </script>
 
 <main>
