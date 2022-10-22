@@ -1,0 +1,28 @@
+{
+	"pwople": [
+		{
+			"id": 1,
+			"name": "andrew hawkes",
+			"skills": ["audio", "technical direction", "project management"],
+			"p1": "andy has been involved in professional audio design and operations for over 25 years.",
+			"p2": "after several years running live events, he branched into technical and project management where he developed a strong interest in venue operations and workflows.",
+			"linkedin": "https://www.linkedin.com/in/andrew-hawkes-184005153/"
+		},
+		{
+			"id": 2,
+			"name": "martin robert",
+			"skills": ["lighting", "video", "control systems"],
+			"p1": "martin's career has spanned many facets of lighting and video from global tours with a-list artists, permanent installations on iconic buildings to consulting for global events.",
+			"p2": "his current development is centred on dynamic, generative and communicative control systems.",
+			"linkedin": "https://www.linkedin.com/in/newillusions/"
+		},
+		{
+			"id": 3,
+			"name": "sky bembury",
+			"skills": ["lighting", "product development", "control systems"],
+			"p1": "for over 20 years, sky has been working across the usa, europe and the middle east. his previous work has included several hotels, restaurants and residences.",
+			"p2": "sky also acts as our lead designer for custom fittings and fixtures.",
+			"linkedin": "https://www.linkedin.com/in/sky-bembury/"
+		}
+	]
+}
