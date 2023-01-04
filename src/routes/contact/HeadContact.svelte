@@ -17,8 +17,10 @@
 				<span>hello(at)emittiv.com</span>
 				<div class="spacer-reg" />
 				<span class="headline">operating hours</span>
-				<span>Monday - Friday</span>
+				<span>Monday - Thursday</span>
 				<span>9am-6pm</span>
+				<span>Friday</span>
+				<span>9am-2pm</span>
 				<span>...</span>
 				<span>Ha! We wish! 🙂</span>
 			</div>

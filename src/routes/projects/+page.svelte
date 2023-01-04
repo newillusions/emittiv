@@ -5,7 +5,7 @@
 
 <svelte:head>
 	<!-- title max length:  -->
-	<title>emittiv - sensory design to enhance built environments</title>
+	<title>emittiv - previous projects and experience</title>
 	<!-- description max length:  -->
 	<meta
 		name="description"
@@ -18,7 +18,7 @@
 	<!-- og:type: article or website -->
 	<meta property="og:type" content="website" />
 	<!-- og:title length: 40-60 chs -->
-	<meta property="og:title" content="emittiv - sensory design to enhance built environments" />
+	<meta property="og:title" content="emittiv - previous projects and experience" />
 	<!-- og:description max length:  2-4 sentences-->
 	<meta
 		property="og:description"
