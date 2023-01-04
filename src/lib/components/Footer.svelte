@@ -80,7 +80,7 @@
 	</div>
 </section>
 <div class="copyright">
-	&copy; {year} emittiv design. all rights reserved.
+	&copy; {year} emittiv llc-fz. all rights reserved.
 </div>
 
 <style lang="scss">
