@@ -7,9 +7,9 @@
 </script>
 
 <svelte:head>
-	<!-- title max length:  -->
+	<!-- title max length: 40-60chs -->
 	<title>emittiv - sensory design to enhance built environments</title>
-	<!-- description max length:  -->
+	<!-- description max length: 2-4 sentences [155 chs] -->
 	<meta
 		name="description"
 		content="lighting, video, sound and scent design making spaces more appealing, luxurious, and enticing. We bring the magic of theatre into people's every day lives."
@@ -22,7 +22,7 @@
 	<meta property="og:type" content="website" />
 	<!-- og:title length: 40-60 chs -->
 	<meta property="og:title" content="emittiv - sensory design to enhance built environments" />
-	<!-- og:description max length:  2-4 sentences-->
+	<!-- og:description max length: 2-4 sentences [155 chs] -->
 	<meta
 		property="og:description"
 		content="lighting, video, sound and scent design making spaces more appealing, luxurious, and enticing. We bring the magic of theatre into people's every day lives."
