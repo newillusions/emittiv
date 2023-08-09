@@ -43,6 +43,7 @@
 	}
 </script>
 
+<!-- svelte-ignore a11y-click-events-have-key-events -->
 <div class="nav-overlay f col center middle" id="nav-overlay" on:click={navClose}>
 	<div class="split">
 		<div class="nav-list v-padding-1 f center left col">
@@ -71,6 +72,7 @@
 		</div>
 	</div>
 </div>
+<!-- svelte-ignore a11y-click-events-have-key-events -->
 <div class="menu-btn" class:open={menuState.state === 'open'} on:click={navToggle}>
 	<div class="menu-btn__burger" />
 </div>
