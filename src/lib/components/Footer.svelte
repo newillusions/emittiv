@@ -45,17 +45,17 @@
 			<div class="footer-body row">
 				<div class="icons">
 					<div class="icon" id="fb">
-						<a href="https://www.facebook.com/emittiv" target="_blank">
+						<a href="https://www.facebook.com/emittiv" target="_blank" rel="noreferrer">
 							<IconFB />
 						</a>
 					</div>
 					<div class="icon" id="linkedin">
-						<a href="https://www.linkedin.com/company/emittiv/" target="_blank">
+						<a href="https://www.linkedin.com/company/emittiv/" target="_blank" rel="noreferrer">
 							<IconLinkedIn />
 						</a>
 					</div>
 					<div class="icon" id="instagram">
-						<a href="https://www.instagram.com/emittiv" target="_blank">
+						<a href="https://www.instagram.com/emittiv" target="_blank" rel="noreferrer">
 							<IconInstagram />
 						</a>
 					</div>
@@ -65,12 +65,12 @@
                             </a>
                         </div> -->
 					<div class="icon" id="twitter">
-						<a href="https://twitter.com/emittiv" target="_blank">
+						<a href="https://twitter.com/emittiv" target="_blank" rel="noreferrer">
 							<IconTwitter />
 						</a>
 					</div>
 					<div class="icon" id="whatsapp">
-						<a href="https://wa.me/971585855569" target="_blank">
+						<a href="https://wa.me/971585855569" target="_blank" rel="noreferrer">
 							<IconWhatsApp />
 						</a>
 					</div>
