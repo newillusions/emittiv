@@ -5,7 +5,7 @@
 <section class="screen content" id="team" data-label="The Team">
 	<div class="container">
 		<div class="f center middle">
-			<span class="tagline">the team</span>
+			<span class="tagline">the core team</span>
 		</div>
 		<div class="split">
 			<TeamCard />

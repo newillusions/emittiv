@@ -17,7 +17,7 @@
 		<p>{person.p2}</p>
 		<div class="socials f row">
 			{#if person.linkedin}
-				<a href={person.linkedin} target="_blank" class="icon">
+				<a href={person.linkedin} target="_blank" rel="noreferrer" class="icon">
 					<IconLinkedIn size="36" />
 				</a>
 			{/if}
