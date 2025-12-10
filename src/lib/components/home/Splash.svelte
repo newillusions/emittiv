@@ -11,6 +11,7 @@
 				/>
 			</div>
 			<div class="v-padding-1 f center middle">
+				<h1 class="sr-only">Sensory Design for the Built Environment</h1>
 				<span class="tagline animate fadeIn three"
 					>make<span class="animate toSplash six">:</span></span
 				>

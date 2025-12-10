@@ -426,6 +426,19 @@ section.footer {
 	font-size: 0.7rem;
 }
 
+// Screen reader only - visually hidden but accessible to search engines
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
 // ! Desktop Adjustments below here
 
 @media only screen and (min-width: 600px) {

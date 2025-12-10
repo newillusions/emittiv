@@ -7,32 +7,34 @@
 </script>
 
 <svelte:head>
-	<!-- title max length: 40-60chs -->
-	<title>emittiv - sensory design to enhance built environments</title>
-	<!-- description max length: 2-4 sentences [155 chs] -->
+	<title>Sensory Design Dubai | Lighting, Video, Sound & Scent | emittiv</title>
 	<meta
 		name="description"
-		content="lighting, video, sound and scent design making spaces more appealing, luxurious, and enticing. We bring the magic of theatre into people's every day lives."
+		content="Transform spaces with multisensory design. emittiv brings theatrical expertise to lighting, video, sound and scent design for hospitality, retail and commercial environments in Dubai & GCC."
 	/>
-	<!--  cannonical:  -->
 	<link rel="canonical" href="https://www.emittiv.com/" />
-	<!--  robots: ”index,follow” or ”noindex,follow” -->
-	<meta name="”robots”" content="”index,follow”" />
-	<!-- og:type: article or website -->
+	<meta name="robots" content="index,follow" />
+
+	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<!-- og:title length: 40-60 chs -->
-	<meta property="og:title" content="emittiv - sensory design to enhance built environments" />
-	<!-- og:description max length: 2-4 sentences [155 chs] -->
+	<meta property="og:title" content="Sensory Design Dubai | Lighting, Video, Sound & Scent | emittiv" />
 	<meta
 		property="og:description"
-		content="lighting, video, sound and scent design making spaces more appealing, luxurious, and enticing. We bring the magic of theatre into people's every day lives."
+		content="Transform spaces with multisensory design. emittiv brings theatrical expertise to lighting, video, sound and scent design for hospitality, retail and commercial environments in Dubai & GCC."
 	/>
-	<!-- og:image: hero image of page -->
 	<meta property="og:image" content="https://www.emittiv.com/img/logo_strap.svg" />
-	<!-- og:url: original URL of page / story -->
 	<meta property="og:url" content="https://www.emittiv.com/" />
-	<!-- og:site_name:  -->
-	<meta property="og:site_name" content="emittiv sensory design" />
+	<meta property="og:site_name" content="emittiv" />
+	<meta property="og:locale" content="en_AE" />
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Sensory Design Dubai | Lighting, Video, Sound & Scent | emittiv" />
+	<meta name="twitter:description" content="Transform spaces with multisensory design. Theatrical expertise for hospitality, retail and commercial environments." />
+	<meta name="twitter:image" content="https://www.emittiv.com/img/logo_strap.svg" />
+
+	<!-- Schema.org JSON-LD -->
+	{@html '<scr' + 'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.emittiv.com/#organization","name":"emittiv","url":"https://www.emittiv.com","logo":{"@type":"ImageObject","url":"https://www.emittiv.com/img/logo_strap.svg"},"description":"Sensory design consultancy specializing in lighting, video, sound and scent for the built environment","address":{"@type":"PostalAddress","addressLocality":"Dubai","addressRegion":"Dubai","addressCountry":"AE"},"contactPoint":{"@type":"ContactPoint","email":"hello@emittiv.com","contactType":"customer service"},"sameAs":["https://www.linkedin.com/company/emittiv","https://www.instagram.com/emittiv"]},{"@type":"LocalBusiness","@id":"https://www.emittiv.com/#localbusiness","name":"emittiv","image":"https://www.emittiv.com/img/logo_strap.svg","url":"https://www.emittiv.com","telephone":"","email":"hello@emittiv.com","address":{"@type":"PostalAddress","streetAddress":"Dubai Marina","addressLocality":"Dubai","addressCountry":"AE"},"geo":{"@type":"GeoCoordinates","latitude":25.0757,"longitude":55.1394},"areaServed":[{"@type":"Country","name":"United Arab Emirates"},{"@type":"Country","name":"Saudi Arabia"},{"@type":"Country","name":"Qatar"}],"priceRange":"$$$"},{"@type":"WebSite","@id":"https://www.emittiv.com/#website","url":"https://www.emittiv.com","name":"emittiv - Sensory Design","publisher":{"@id":"https://www.emittiv.com/#organization"}}]}</scr' + 'ipt>'}
 </svelte:head>
 
 <main>

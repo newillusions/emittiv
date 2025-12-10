@@ -1,0 +1,9 @@
+# robots.txt for emittiv.com
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.emittiv.com/sitemap.xml
+
+# Crawl-delay (optional, for polite crawlers)
+Crawl-delay: 1

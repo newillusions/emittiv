@@ -4,35 +4,31 @@
 </script>
 
 <svelte:head>
-	<!-- title max length:  -->
-	<title>emittiv - contact details - get in touch to get the ball rolling</title>
-	<!-- description max length:  -->
+	<title>Contact emittiv | Sensory Design Consultancy Dubai</title>
 	<meta
 		name="description"
-		content="lighting, video, sound and scent design making spaces more appealing, luxurious, and enticing. We bring the magic of theatre into people's every day lives."
+		content="Get in touch with emittiv for sensory design consultancy in Dubai and the GCC. Transform your space with expert lighting, video, sound and scent design."
 	/>
-	<!--  cannonical:  -->
 	<link rel="canonical" href="https://www.emittiv.com/contact" />
-	<!--  robots: ”index,follow” or ”noindex,follow” -->
-	<meta name="”robots”" content="”index,follow”" />
-	<!-- og:type: article or website -->
+	<meta name="robots" content="index,follow" />
+
+	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<!-- og:title length: 40-60 chs -->
-	<meta
-		property="og:title"
-		content="emittiv - contact details - get in touch to get the ball rolling"
-	/>
-	<!-- og:description max length:  2-4 sentences-->
+	<meta property="og:title" content="Contact emittiv | Sensory Design Consultancy Dubai" />
 	<meta
 		property="og:description"
-		content="lighting, video, sound and scent design making spaces more appealing, luxurious, and enticing. We bring the magic of theatre into people's every day lives."
+		content="Get in touch with emittiv for sensory design consultancy in Dubai and the GCC. Transform your space with expert lighting, video, sound and scent design."
 	/>
-	<!-- og:image: hero image of page -->
 	<meta property="og:image" content="https://www.emittiv.com/img/logo_strap.svg" />
-	<!-- og:url: original URL of page / story -->
 	<meta property="og:url" content="https://www.emittiv.com/contact" />
-	<!-- og:site_name:  -->
-	<meta property="og:site_name" content="emittiv sensory design" />
+	<meta property="og:site_name" content="emittiv" />
+	<meta property="og:locale" content="en_AE" />
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Contact emittiv | Sensory Design Dubai" />
+	<meta name="twitter:description" content="Transform your space with expert sensory design. Lighting, video, sound and scent consultancy in Dubai & GCC." />
+	<meta name="twitter:image" content="https://www.emittiv.com/img/logo_strap.svg" />
 </svelte:head>
 
 <main>

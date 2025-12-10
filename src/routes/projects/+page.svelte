@@ -4,32 +4,31 @@
 </script>
 
 <svelte:head>
-	<!-- title max length:  -->
-	<title>emittiv - previous projects and experience</title>
-	<!-- description max length:  -->
+	<title>Sensory Design Projects | Hospitality, Retail & Commercial | emittiv</title>
 	<meta
 		name="description"
-		content="lighting, video, sound and scent design making spaces more appealing, luxurious, and enticing. We bring the magic of theatre into people's every day lives."
+		content="Explore emittiv's portfolio of sensory design projects across hospitality, retail and commercial sectors. Lighting, video, sound and scent design case studies from Dubai and beyond."
 	/>
-	<!--  cannonical:  -->
 	<link rel="canonical" href="https://www.emittiv.com/projects" />
-	<!--  robots: ”index,follow” or ”noindex,follow” -->
-	<meta name="”robots”" content="”index,follow”" />
-	<!-- og:type: article or website -->
+	<meta name="robots" content="index,follow" />
+
+	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<!-- og:title length: 40-60 chs -->
-	<meta property="og:title" content="emittiv - previous projects and experience" />
-	<!-- og:description max length:  2-4 sentences-->
+	<meta property="og:title" content="Sensory Design Projects | emittiv Portfolio" />
 	<meta
 		property="og:description"
-		content="lighting, video, sound and scent design making spaces more appealing, luxurious, and enticing. We bring the magic of theatre into people's every day lives."
+		content="Explore emittiv's portfolio of sensory design projects across hospitality, retail and commercial sectors."
 	/>
-	<!-- og:image: hero image of page -->
 	<meta property="og:image" content="https://www.emittiv.com/img/logo_strap.svg" />
-	<!-- og:url: original URL of page / story -->
 	<meta property="og:url" content="https://www.emittiv.com/projects" />
-	<!-- og:site_name:  -->
-	<meta property="og:site_name" content="emittiv sensory design" />
+	<meta property="og:site_name" content="emittiv" />
+	<meta property="og:locale" content="en_AE" />
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Sensory Design Projects | emittiv Dubai" />
+	<meta name="twitter:description" content="Portfolio of sensory design projects: lighting, video, sound and scent for hospitality, retail and commercial environments." />
+	<meta name="twitter:image" content="https://www.emittiv.com/img/logo_strap.svg" />
 </svelte:head>
 
 <main>

@@ -3,32 +3,20 @@
 </script>
 
 <svelte:head>
-	<!-- title max length:  -->
-	<title>emittiv - privacy policy - we don't sell your data</title>
-	<!-- description max length:  -->
+	<title>Privacy Policy | emittiv</title>
 	<meta
 		name="description"
-		content="lighting, video, sound and scent design making spaces more appealing, luxurious, and enticing. We bring the magic of theatre into people's every day lives."
+		content="emittiv privacy policy. How we collect, use and protect your data. We respect your privacy and do not sell your information."
 	/>
-	<!--  cannonical:  -->
 	<link rel="canonical" href="https://www.emittiv.com/privacy" />
-	<!--  robots: ”index,follow” or ”noindex,follow” -->
-	<meta name="”robots”" content="”index,follow”" />
-	<!-- og:type: article or website -->
+	<meta name="robots" content="noindex,follow" />
+
+	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<!-- og:title length: 40-60 chs -->
-	<meta property="og:title" content="emittiv - privacy policy - we don't sell your data" />
-	<!-- og:description max length:  2-4 sentences-->
-	<meta
-		property="og:description"
-		content="lighting, video, sound and scent design making spaces more appealing, luxurious, and enticing. We bring the magic of theatre into people's every day lives."
-	/>
-	<!-- og:image: hero image of page -->
-	<meta property="og:image" content="https://www.emittiv.com/img/logo_strap.svg" />
-	<!-- og:url: original URL of page / story -->
+	<meta property="og:title" content="Privacy Policy | emittiv" />
+	<meta property="og:description" content="emittiv privacy policy and data protection information." />
 	<meta property="og:url" content="https://www.emittiv.com/privacy" />
-	<!-- og:site_name:  -->
-	<meta property="og:site_name" content="emittiv sensory design" />
+	<meta property="og:site_name" content="emittiv" />
 </svelte:head>
 
 <main>

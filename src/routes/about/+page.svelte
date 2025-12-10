@@ -5,35 +5,34 @@
 </script>
 
 <svelte:head>
-	<!-- title max length:  -->
-	<title>emittiv - about the company - beginnings, reasons, and staff</title>
-	<!-- description max length:  -->
+	<title>About emittiv | Sensory Design Consultancy Dubai | Our Team</title>
 	<meta
 		name="description"
-		content="lighting, video, sound and scent design making spaces more appealing, luxurious, and enticing. We bring the magic of theatre into people's every day lives."
+		content="emittiv brings 25+ years of theatrical and entertainment expertise to sensory design for the built environment. Meet our Dubai-based team of lighting, audio and experience design specialists."
 	/>
-	<!--  cannonical:  -->
 	<link rel="canonical" href="https://www.emittiv.com/about" />
-	<!--  robots: ”index,follow” or ”noindex,follow” -->
-	<meta name="”robots”" content="”index,follow”" />
-	<!-- og:type: article or website -->
+	<meta name="robots" content="index,follow" />
+
+	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<!-- og:title length: 40-60 chs -->
-	<meta
-		property="og:title"
-		content="emittiv - about the company - beginnings, reasons, and staff"
-	/>
-	<!-- og:description max length:  2-4 sentences-->
+	<meta property="og:title" content="About emittiv | Sensory Design Consultancy Dubai" />
 	<meta
 		property="og:description"
-		content="lighting, video, sound and scent design making spaces more appealing, luxurious, and enticing. We bring the magic of theatre into people's every day lives."
+		content="emittiv brings 25+ years of theatrical and entertainment expertise to sensory design for the built environment. Meet our Dubai-based specialist team."
 	/>
-	<!-- og:image: hero image of page -->
 	<meta property="og:image" content="https://www.emittiv.com/img/logo_strap.svg" />
-	<!-- og:url: original URL of page / story -->
 	<meta property="og:url" content="https://www.emittiv.com/about" />
-	<!-- og:site_name:  -->
-	<meta property="og:site_name" content="emittiv sensory design" />
+	<meta property="og:site_name" content="emittiv" />
+	<meta property="og:locale" content="en_AE" />
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="About emittiv | Sensory Design Consultancy Dubai" />
+	<meta name="twitter:description" content="25+ years of theatrical expertise applied to sensory design for hospitality, retail and commercial environments." />
+	<meta name="twitter:image" content="https://www.emittiv.com/img/logo_strap.svg" />
+
+	<!-- Schema.org JSON-LD -->
+	{@html '<scr' + 'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"AboutPage","@id":"https://www.emittiv.com/about","name":"About emittiv","description":"Learn about emittiv, our team and our approach to sensory design","mainEntity":{"@id":"https://www.emittiv.com/#organization"}},{"@type":"Person","@id":"https://www.emittiv.com/about#andrew-hawkes","name":"Andrew Hawkes","jobTitle":"Audio & Technical Director","description":"25+ years experience in professional audio, live events, operations and workflows","worksFor":{"@id":"https://www.emittiv.com/#organization"}},{"@type":"Person","@id":"https://www.emittiv.com/about#martin-robert","name":"Martin Robert","jobTitle":"Lighting, Video & Control Systems Director","description":"Background in touring with prominent artists, permanent installations on iconic structures, and large-scale events","worksFor":{"@id":"https://www.emittiv.com/#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"About","item":"https://www.emittiv.com/about"}]}]}</scr' + 'ipt>'}
 </svelte:head>
 
 <main>
