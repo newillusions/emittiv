@@ -32,92 +32,114 @@
 	{@html '<scr' + 'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Service","@id":"https://www.emittiv.com/services/lighting","name":"Architectural Lighting Design","provider":{"@id":"https://www.emittiv.com/#organization"},"description":"Specialist architectural lighting design combining theatrical expertise with modern technology. Dynamic, programmable lighting systems for hospitality, retail and commercial spaces.","serviceType":"Lighting Design Consultancy","areaServed":{"@type":"Country","name":"United Arab Emirates"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.emittiv.com/services"},{"@type":"ListItem","position":3,"name":"Lighting","item":"https://www.emittiv.com/services/lighting"}]}]}</scr' + 'ipt>'}
 </svelte:head>
 
-<main class="service-page">
-	<section class="hero">
-		<h1>lighting</h1>
-		<p class="tagline">beyond simple illumination.</p>
+<main>
+	<!-- Hero Section -->
+	<section class="screen-flow content" data-label="Hero">
+		<div class="container">
+			<div class="f col center middle">
+				<span class="tagline">lighting</span>
+				<div class="spacer-reg" />
+				<span class="headline">beyond simple illumination.</span>
+			</div>
+		</div>
 	</section>
 
-	<section class="content">
-		<h2>more than just light levels</h2>
-		<p>lighting shapes atmosphere, guides focus and affects how people feel — often more than they realise.</p>
-		<p>our roots in theatre mean we treat light as a narrative tool, not just a technical requirement. the same principles that shape a stage can transform a lobby, a restaurant or a public space.</p>
+	<!-- More than just light levels -->
+	<section class="screen-flow content" data-label="Introduction">
+		<div class="container">
+			<div class="split">
+				<div class="section-title order-1">
+					<h2>more than just<br />light levels</h2>
+				</div>
+				<div class="v-padding-1 f col middle order-2">
+					<span>lighting shapes atmosphere, guides focus and affects how people feel — often more than they realise.</span>
+					<div class="spacer-med" />
+					<span>our roots in theatre mean we treat light as a <span class="splash">narrative tool</span>, not just a technical requirement. the same principles that shape a stage can transform a lobby, a restaurant or a public space.</span>
+				</div>
+			</div>
+		</div>
+	</section>
 
-		<h2>dynamic lighting design</h2>
-		<p>spaces change through the day. lighting should too. our systems are <strong>programmable and responsive</strong>:</p>
-		<ul>
-			<li><strong>colour-temperature shifts</strong> that mirror natural daylight</li>
-			<li><strong>layered scenes</strong> for different uses and times</li>
-			<li><strong>texture and pattern</strong> — soft shadows, dappled light, the kind of detail you find outdoors</li>
-			<li><strong>integration with video and control systems</strong> for coordinated effects</li>
-		</ul>
+	<!-- Dynamic lighting design -->
+	<section class="screen-flow content" data-label="Dynamic">
+		<div class="container">
+			<div class="split">
+				<div class="section-title order-3">
+					<h2>dynamic<br />lighting design</h2>
+				</div>
+				<div class="v-padding-1 f col middle order-2">
+					<span>spaces change through the day. lighting should too.</span>
+					<div class="spacer-med" />
+					<span class="headline">our systems are <span class="splash">programmable</span> and <span class="splash">responsive</span>.</span>
+					<div class="spacer-med" />
+					<span><strong>colour-temperature shifts</strong> that mirror natural daylight.</span>
+					<span><strong>layered scenes</strong> for different uses and times.</span>
+					<span><strong>texture and pattern</strong> — soft shadows, dappled light, the kind of detail you find outdoors.</span>
+					<span><strong>integration</strong> with video and control systems for coordinated effects.</span>
+				</div>
+			</div>
+		</div>
+	</section>
 
-		<h2>theatrical techniques, architectural applications</h2>
-		<p>from entertainment we bring an understanding of timing, contrast, rhythm and emotional impact.</p>
-		<p>we design lighting that:</p>
-		<ul>
-			<li>creates <strong>focal points and hierarchy</strong></li>
-			<li>uses <strong>colour as an emotional tool</strong></li>
-			<li>supports <strong>wayfinding and spatial clarity</strong></li>
-			<li>enhances <strong>materials and architectural features</strong></li>
-			<li>delivers <strong>memorable experiences</strong></li>
-		</ul>
+	<!-- Theatrical techniques -->
+	<section class="screen-flow content" data-label="Theatrical">
+		<div class="container">
+			<div class="split">
+				<div class="section-title order-1">
+					<h2>theatrical techniques,<br />architectural applications</h2>
+				</div>
+				<div class="v-padding-1 f col middle order-2">
+					<span>from entertainment we bring an understanding of timing, contrast, rhythm and emotional impact.</span>
+					<div class="spacer-med" />
+					<span class="headline">we design lighting that:</span>
+					<div class="spacer-reg" />
+					<span>creates <strong>focal points and hierarchy</strong>.</span>
+					<span>uses <strong>colour as an emotional tool</strong>.</span>
+					<span>supports <strong>wayfinding and spatial clarity</strong>.</span>
+					<span>enhances <strong>materials and architectural features</strong>.</span>
+					<span>delivers <strong>memorable experiences</strong>.</span>
+				</div>
+			</div>
+		</div>
+	</section>
 
-		<h2>from concept to commissioning</h2>
-		<p>we stay involved through the full arc of a project — early concept, detailed design, procurement support, installation supervision, programming and commissioning.</p>
-		<p><strong>we work as part of the client's design team</strong>, ensuring the outcome matches the intent, not just the drawings. we use advanced 3d calculation tools to model levels and coverage so clients can understand the result before fixtures arrive on site.</p>
-		<p>our documentation covers layouts, specifications, control strategy and programming requirements — complete and build-ready.</p>
+	<!-- From concept to commissioning -->
+	<section class="screen-flow content" data-label="Process">
+		<div class="container">
+			<div class="split">
+				<div class="section-title order-3">
+					<h2>from concept to<br />commissioning</h2>
+				</div>
+				<div class="v-padding-1 f col middle order-2">
+					<span>we stay involved through the full arc of a project — early concept, detailed design, procurement support, installation supervision, programming and commissioning.</span>
+					<div class="spacer-med" />
+					<span class="headline"><span class="splash">we work as part of the client's design team</span></span>
+					<div class="spacer-med" />
+					<span>ensuring the outcome matches the intent, not just the drawings. we use advanced 3d calculation tools to model levels and coverage so clients can understand the result before fixtures arrive on site.</span>
+					<div class="spacer-reg" />
+					<span>our documentation covers layouts, specifications, control strategy and programming requirements — complete and build-ready.</span>
+				</div>
+			</div>
+		</div>
+	</section>
 
-		<h2>no brand allegiances</h2>
-		<p>we don't represent manufacturers. we specify what fits the project. sometimes that's a high-end European fixture; other times a carefully chosen alternative.</p>
-		<p>we often recommend modular fittings with replaceable drivers and LED modules. they cost more upfront but extend system life significantly and keep maintenance straightforward.</p>
+	<!-- Independent by design -->
+	<section class="screen-flow content" data-label="Independence">
+		<div class="container">
+			<div class="split">
+				<div class="section-title order-1">
+					<h2>independent<br />by design</h2>
+				</div>
+				<div class="v-padding-1 f col middle order-2">
+					<span>we don't represent manufacturers. we specify what fits the project. sometimes that's a high-end European fixture; other times a carefully chosen alternative.</span>
+					<div class="spacer-med" />
+					<span>we favour <span class="splash">serviceable fittings</span> — replaceable drivers and LED modules that extend system life and keep maintenance straightforward.</span>
+					<div class="spacer-lge" />
+					<span class="underline">
+						<a class="navItem" href="/services#streams">back to services</a>
+					</span>
+				</div>
+			</div>
+		</div>
 	</section>
 </main>
-
-<style>
-	.service-page {
-		max-width: 800px;
-		margin: 0 auto;
-		padding: 2rem;
-	}
-
-	.hero {
-		text-align: center;
-		padding: 4rem 0;
-	}
-
-	.hero h1 {
-		font-size: 3rem;
-		font-weight: 300;
-		margin-bottom: 0.5rem;
-		text-transform: lowercase;
-	}
-
-	.tagline {
-		font-size: 1.25rem;
-		opacity: 0.8;
-	}
-
-	.content h2 {
-		font-size: 1.5rem;
-		font-weight: 400;
-		margin-top: 3rem;
-		margin-bottom: 1rem;
-		text-transform: lowercase;
-	}
-
-	.content p {
-		line-height: 1.7;
-		margin-bottom: 1rem;
-	}
-
-	.content ul {
-		margin: 1rem 0;
-		padding-left: 1.5rem;
-	}
-
-	.content li {
-		line-height: 1.7;
-		margin-bottom: 0.5rem;
-	}
-</style>

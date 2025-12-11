@@ -32,85 +32,123 @@
 	{@html '<scr' + 'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Service","@id":"https://www.emittiv.com/services/scent","name":"Scent Design","provider":{"@id":"https://www.emittiv.com/#organization"},"description":"Scent design for the built environment. Multi-zone ambient scenting systems that shift through the day, reinforcing atmosphere and experience in hospitality and commercial spaces.","serviceType":"Scent Design","areaServed":{"@type":"Country","name":"United Arab Emirates"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.emittiv.com/services"},{"@type":"ListItem","position":3,"name":"Scent","item":"https://www.emittiv.com/services/scent"}]}]}</scr' + 'ipt>'}
 </svelte:head>
 
-<main class="service-page">
-	<section class="hero">
-		<h1>scent</h1>
-		<p class="tagline">the most memorable sense.</p>
+<main>
+	<!-- Hero Section -->
+	<section class="screen-flow content" data-label="Hero">
+		<div class="container">
+			<div class="f col center middle">
+				<span class="tagline">scent</span>
+				<div class="spacer-reg" />
+				<span class="headline">the most memorable sense.</span>
+			</div>
+		</div>
 	</section>
 
-	<section class="content">
-		<h2>the hidden layer</h2>
-		<p>scent shapes our emotional response before we even register it. it lingers in memory long after someone has stepped outside. yet it's often left out of spatial design — a missed opportunity.</p>
+	<!-- The hidden layer -->
+	<section class="screen-flow content" data-label="Introduction">
+		<div class="container">
+			<div class="split">
+				<div class="section-title order-1">
+					<h2>the hidden<br />layer</h2>
+				</div>
+				<div class="v-padding-1 f col middle order-2">
+					<span>scent shapes our emotional response before we even register it. it lingers in memory long after someone has stepped outside.</span>
+					<div class="spacer-med" />
+					<span>yet it's often left out of spatial design — a <span class="splash">missed opportunity</span>.</span>
+				</div>
+			</div>
+		</div>
+	</section>
 
-		<h2>scent as narrative</h2>
-		<p>we don't treat scent as a single signature note. we use it to build a narrative. different zones, different times, different moods.</p>
-		<p>modern diffusion systems can cycle through multiple fragrances, shifting on schedule or by activity: bright in the morning, grounding in the evening, distinct tones for different areas. scent becomes part of the choreography.</p>
+	<!-- Scent as narrative -->
+	<section class="screen-flow content" data-label="Narrative">
+		<div class="container">
+			<div class="split">
+				<div class="section-title order-3">
+					<h2>scent as<br />narrative</h2>
+				</div>
+				<div class="v-padding-1 f col middle order-2">
+					<span>we don't treat scent as a single signature note. we use it to build a narrative. different zones, different times, different moods.</span>
+					<div class="spacer-med" />
+					<span>modern diffusion systems can cycle through multiple fragrances, shifting on schedule or by activity: <span class="splash">bright in the morning, grounding in the evening</span>, distinct tones for different areas.</span>
+					<div class="spacer-med" />
+					<span>scent becomes part of the choreography.</span>
+				</div>
+			</div>
+		</div>
+	</section>
 
-		<h2>designing with scent</h2>
-		<p>we collaborate with fragrance houses and system manufacturers. our role is defining where scent is used, how it's delivered, and guiding clients toward the right fragrance direction.</p>
-		<p>delivery options include:</p>
-		<ul>
-			<li><strong>HVAC-integrated diffusion</strong> for broad coverage</li>
-			<li><strong>standalone units</strong> for specific zones</li>
-			<li><strong>programmable systems</strong> that adjust intensity or fragrance by schedule or occupancy</li>
-		</ul>
+	<!-- Designing with scent -->
+	<section class="screen-flow content" data-label="Design">
+		<div class="container">
+			<div class="split">
+				<div class="section-title order-1">
+					<h2>designing<br />with scent</h2>
+				</div>
+				<div class="v-padding-1 f col middle order-2">
+					<span>we collaborate with fragrance houses and system manufacturers. our role is defining where scent is used, how it's delivered, and guiding clients toward the right fragrance direction.</span>
+					<div class="spacer-med" />
+					<span class="headline">delivery options include:</span>
+					<div class="spacer-reg" />
+					<span><strong>HVAC-integrated diffusion</strong> for broad coverage.</span>
+					<span><strong>standalone units</strong> for specific zones.</span>
+					<span><strong>programmable systems</strong> that adjust intensity or fragrance by schedule or occupancy.</span>
+				</div>
+			</div>
+		</div>
+	</section>
 
-		<h2>part of the whole</h2>
-		<p>scent works best when aligned with lighting, sound and movement. warm light with warm fragrances. energising audio with bright, fresh tones. coordinated layers reinforce each other.</p>
-		<p>we design scent as part of the complete sensory experience — not an add-on.</p>
+	<!-- Part of the whole -->
+	<section class="screen-flow content" data-label="Holistic">
+		<div class="container">
+			<div class="split">
+				<div class="section-title order-3">
+					<h2>part of<br />the whole</h2>
+				</div>
+				<div class="v-padding-1 f col middle order-2">
+					<span>scent works best when aligned with lighting, sound and movement. warm light with warm fragrances. energising audio with bright, fresh tones.</span>
+					<div class="spacer-med" />
+					<span><span class="splash">coordinated layers reinforce each other</span>.</span>
+					<div class="spacer-med" />
+					<span>we design scent as part of the complete sensory experience — not an add-on.</span>
+				</div>
+			</div>
+		</div>
+	</section>
 
-		<h2>seeing it through</h2>
-		<p>our involvement runs from concept to installation. specifying systems, coordinating suppliers, supervising on site. final adjustments — diffusion rates, timing, zone balance — are where the detail matters.</p>
+	<!-- Seeing it through -->
+	<section class="screen-flow content" data-label="Process">
+		<div class="container">
+			<div class="split">
+				<div class="section-title order-1">
+					<h2>seeing it<br />through</h2>
+				</div>
+				<div class="v-padding-1 f col middle order-2">
+					<span>our involvement runs from concept to installation. specifying systems, coordinating suppliers, supervising on site.</span>
+					<div class="spacer-med" />
+					<span>final adjustments — <span class="splash">diffusion rates, timing, zone balance</span> — are where the detail matters.</span>
+				</div>
+			</div>
+		</div>
+	</section>
 
-		<h2>no supplier lock-in</h2>
-		<p>we're independent. we don't sell fragrance or hardware, and we don't lock clients into a specific partner. we recommend based on coverage, maintenance, budget and performance. the fragrance relationship ultimately belongs to the client.</p>
+	<!-- Independent by design -->
+	<section class="screen-flow content" data-label="Independence">
+		<div class="container">
+			<div class="split">
+				<div class="section-title order-3">
+					<h2>independent<br />by design</h2>
+				</div>
+				<div class="v-padding-1 f col middle order-2">
+					<span>we're independent. we don't sell fragrance or hardware, and we don't lock clients into a specific partner.</span>
+					<div class="spacer-med" />
+					<span>we recommend based on coverage, maintenance, budget and performance. the <span class="splash">fragrance relationship ultimately belongs to the client</span>.</span>
+					<div class="spacer-lge" />
+					<span class="underline">
+						<a class="navItem" href="/services#streams">back to services</a>
+					</span>
+				</div>
+			</div>
+		</div>
 	</section>
 </main>
-
-<style>
-	.service-page {
-		max-width: 800px;
-		margin: 0 auto;
-		padding: 2rem;
-	}
-
-	.hero {
-		text-align: center;
-		padding: 4rem 0;
-	}
-
-	.hero h1 {
-		font-size: 3rem;
-		font-weight: 300;
-		margin-bottom: 0.5rem;
-		text-transform: lowercase;
-	}
-
-	.tagline {
-		font-size: 1.25rem;
-		opacity: 0.8;
-	}
-
-	.content h2 {
-		font-size: 1.5rem;
-		font-weight: 400;
-		margin-top: 3rem;
-		margin-bottom: 1rem;
-		text-transform: lowercase;
-	}
-
-	.content p {
-		line-height: 1.7;
-		margin-bottom: 1rem;
-	}
-
-	.content ul {
-		margin: 1rem 0;
-		padding-left: 1.5rem;
-	}
-
-	.content li {
-		line-height: 1.7;
-		margin-bottom: 0.5rem;
-	}
-</style>

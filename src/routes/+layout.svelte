@@ -13,8 +13,8 @@
 <TheMenu />
 <Transitions pathname={data.pathname}>
 	<slot />
+	<TheFooter />
 </Transitions>
-<TheFooter />
 
 <style>
 </style>
