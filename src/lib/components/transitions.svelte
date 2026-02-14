@@ -1,11 +1,13 @@
 <script>
 	import { fade } from 'svelte/transition';
 	import { beforeNavigate, afterNavigate, disableScrollHandling } from '$app/navigation';
+	import { dev } from '$app/environment';
 
 	export let pathname = '';
 
 	let targetHash = '';
 	let isTransitioning = false;
+	let isFirstNavigation = true;
 
 	beforeNavigate((navigation) => {
 		targetHash = navigation.to?.url?.hash || '';
@@ -14,6 +16,14 @@
 
 	afterNavigate(() => {
 		disableScrollHandling();
+
+		// Track SPA navigation with Matomo (skip initial page load, production only)
+		if (!isFirstNavigation && !dev && typeof window !== 'undefined' && window._paq) {
+			window._paq.push(['setCustomUrl', window.location.href]);
+			window._paq.push(['setDocumentTitle', document.title]);
+			window._paq.push(['trackPageView']);
+		}
+		isFirstNavigation = false;
 
 		// Scroll to position after fade-out completes (500ms)
 		setTimeout(() => {
