@@ -78,6 +78,7 @@ Credentials loaded via `~/.claude/scripts/mcp-with-creds.sh` from `~/.claude/.cr
 Flat config at `eslint.config.js` (ESLint 10, migrated from legacy `.eslintrc.cjs`).
 
 Key rule overrides:
+
 - `svelte/no-at-html-tags: warn` — `{@html}` is used intentionally for structured content (not user input)
 - `svelte/require-each-key: warn` — good practice, not enforced yet
 - `svelte/no-navigation-without-resolve: off` — site deploys to root, no base path needed
