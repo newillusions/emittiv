@@ -62,8 +62,8 @@
 				<div class="v-padding-1 f col middle order-2">
 					<span
 						>video escaped the screen. it's on facades now, ceilings, floors — architecture itself
-						has become the display. building skins carry motion and light at scales that would have
-						seemed absurd a decade ago.</span
+						has become the display. surfaces that were once static now carry motion, colour and
+						light at scales that would have seemed absurd a decade ago.</span
 					>
 					<div class="spacer-med" />
 					<span class="headline">surfaces become <span class="splash">canvases</span>.</span>

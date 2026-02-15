@@ -17,7 +17,9 @@
 				<span class="headline">partners <span class="splash">throughout</span>.</span>
 				<div class="spacer-reg" />
 				<span
-					>we're able to support projects from concept through to operation and anything in between.</span
+					>we're able to support projects from concept through to operation and anything in
+					between — aligned with the RIBA Plan of Work stages that our architecture and
+					interior design partners follow.</span
 				>
 			</div>
 		</div>

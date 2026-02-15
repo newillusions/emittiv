@@ -15,6 +15,9 @@
 		</ul>
 		<p>{person.p1}</p>
 		<p>{person.p2}</p>
+		{#if person.p3}
+			<p>{person.p3}</p>
+		{/if}
 		<div class="socials f row">
 			{#if person.linkedin}
 				<a href={person.linkedin} target="_blank" rel="noreferrer" class="icon">

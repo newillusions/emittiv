@@ -18,7 +18,7 @@
 				<span class="headline">a single <span class="splash">frequency</span>.</span>
 				<div class="spacer-reg" />
 				<span
-					>this allows us and our Clients the greatest freedom in chosing the right approach for the
+					>this allows us and our Clients the greatest freedom in choosing the right approach for the
 					project.</span
 				>
 			</div>

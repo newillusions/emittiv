@@ -13,7 +13,7 @@
 				<div class="spacer-reg" />
 				<span class="headline">harmony, balance and cohesion.</span>
 				<div class="spacer-reg" />
-				our aim is to compliment and enhance the built environment using "intangible" design elements.
+				our aim is to complement and enhance the built environment using "intangible" design elements.
 			</div>
 		</div>
 	</div>
