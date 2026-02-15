@@ -3,229 +3,97 @@
 		<div class="h30 f center middle col">
 			<span class="headline">Terms and Conditions</span>
 			<div class="spacer-reg" />
-			<span>last updated: 29 June 2022</span>
+			<span>last updated: 15 February 2026</span>
 		</div>
 		<div class="split">
 			<div class="v-padding-1 f col middle">
-				<span class="section-head">Website Terms</span>
-				<span
-					>Our Standard Terms and Conditions of Contract can be found on our downloads page.</span
-				>
-				<span>Please read these terms and conditions carefully before using our service.</span>
-				<div class="spacer-reg" />
-				<p>Welcome to <span class="splash">emittiv</span>!</p>
-
 				<p>
-					These terms and conditions outline the rules and regulations for the use of emittiv's
-					Website, located at emittiv.com.
+					These terms and conditions govern your use of emittiv.com, operated by emittiv L.L.C-FZ
+					("emittiv", "we", "us"). By using this website you accept these terms. If you do not
+					agree, please do not use the site.
+				</p>
+				<p>
+					emittiv may update these terms from time to time. Changes take effect when published on
+					this page.
 				</p>
 
+				<span class="section-head">About this website</span>
 				<p>
-					By accessing this website we assume you accept these terms and conditions. Do not continue
-					to use emittiv if you do not agree to all of the terms and conditions outlined on this
-					page.
+					This website provides information about emittiv's sensory design consultancy services. It
+					is not a shop, marketplace, or platform. There are no user accounts, no transactions, and
+					no interactive features beyond a contact form.
 				</p>
 
+				<span class="section-head">Intellectual property</span>
 				<p>
-					The following terminology applies to these Terms and Conditions, Privacy Statement and
-					Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person
-					log on this website and compliant to the Company's terms and conditions. "The Company",
-					"Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us",
-					refers to both the Client and ourselves. All terms refer to the offer, acceptance and
-					consideration of payment necessary to undertake the process of our assistance to the
-					Client in the most appropriate manner for the express purpose of meeting the Client's
-					needs in respect of provision of the Company's stated services, in accordance with and
-					subject to, prevailing law of Netherlands. Any use of the above terminology or other words
-					in the singular, plural, capitalization and/or he/she or they, are taken as
-					interchangeable and therefore as referring to same.
+					All content on this website — including text, graphics, logos, icons and design — is the
+					property of emittiv or its licensors and is protected by applicable intellectual property
+					laws. You may view and print pages for personal, non-commercial use. You may not
+					reproduce, distribute, modify or republish any material without our written permission.
 				</p>
 
-				<span class="section-head">Cookies</span>
-
+				<span class="section-head">Cookies and analytics</span>
 				<p>
-					We employ the use of cookies. By accessing emittiv, you agreed to use cookies in agreement
-					with the emittiv's Privacy Policy.
+					This website does not use cookies. We use self-hosted, cookieless analytics (Matomo) to
+					understand how the site is used. No personal data is collected through analytics. Full
+					details are in our <a class="navItem" href="/privacy">privacy policy</a>.
 				</p>
 
+				<span class="section-head">Third-party services</span>
 				<p>
-					Most interactive websites use cookies to let us retrieve the user's details for each
-					visit. Cookies are used by our website to enable the functionality of certain areas to
-					make it easier for people visiting our website. Some of our affiliate/advertising partners
-					may also use cookies.
+					The website uses Cloudflare for hosting and EmailJS for contact form delivery. We do not
+					use advertising networks, affiliate programmes, or social media tracking.
 				</p>
 
-				<span class="section-head">License</span>
-
+				<span class="section-head">Contact form</span>
 				<p>
-					Unless otherwise stated, emittiv and/or its licensors own the intellectual property rights
-					for all material on emittiv. All intellectual property rights are reserved. You may access
-					this from emittiv for your own personal use subjected to restrictions set in these terms
-					and conditions.
+					Information submitted through our contact form (name, email, message) is sent to us as a
+					standard email via EmailJS. We do not store submissions in a database. By submitting the
+					form, you consent to this information being sent to us for the purpose of responding to
+					your enquiry.
 				</p>
 
-				<p>You must not:</p>
-				<ul>
-					<li>Republish material from emittiv</li>
-					<li>Sell, rent or sub-license material from emittiv</li>
-					<li>Reproduce, duplicate or copy material from emittiv</li>
-					<li>Redistribute content from emittiv</li>
-				</ul>
-
-				<p>This Agreement shall begin on the date hereof.</p>
-
-				<span class="section-head">Hyperlinking to our Content</span>
-
-				<p>The following organizations may link to our Website without prior written approval:</p>
-
-				<ul>
-					<li>Government agencies;</li>
-					<li>Search engines;</li>
-					<li>News organizations;</li>
-					<li>
-						Online directory distributors may link to our Website in the same manner as they
-						hyperlink to the Websites of other listed businesses; and
-					</li>
-					<li>
-						System wide Accredited Businesses except soliciting non-profit organizations, charity
-						shopping malls, and charity fundraising groups which may not hyperlink to our Web site.
-					</li>
-				</ul>
-
+				<span class="section-head">Links to other websites</span>
 				<p>
-					These organizations may link to our home page, to publications or to other Website
-					information so long as the link: (a) is not in any way deceptive; (b) does not falsely
-					imply sponsorship, endorsement or approval of the linking party and its products and/or
-					services; and (c) fits within the context of the linking party's site.
+					This website may contain links to external sites. We are not responsible for the content
+					or privacy practices of those sites.
 				</p>
 
+				<span class="section-head">Linking to this website</span>
 				<p>
-					We may consider and approve other link requests from the following types of organizations:
+					You may link to our website provided the link is not misleading, does not imply
+					endorsement or sponsorship, and is presented fairly. Use of our logo requires prior
+					written permission.
 				</p>
 
-				<ul>
-					<li>commonly-known consumer and/or business information sources;</li>
-					<li>dot.com community sites;</li>
-					<li>associations or other groups representing charities;</li>
-					<li>online directory distributors;</li>
-					<li>internet portals;</li>
-					<li>accounting, law and consulting firms; and</li>
-					<li>educational institutions and trade associations.</li>
-				</ul>
-
+				<span class="section-head">Accuracy of information</span>
 				<p>
-					We will approve link requests from these organizations if we decide that: (a) the link
-					would not make us look unfavorably to ourselves or to our accredited businesses; (b) the
-					organization does not have any negative records with us; (c) the benefit to us from the
-					visibility of the hyperlink compensates the absence of emittiv; and (d) the link is in the
-					context of general resource information.
+					We make reasonable efforts to keep the information on this website current and accurate,
+					but we do not guarantee completeness or accuracy. Our services, team and project
+					information may change without notice on this site.
 				</p>
 
+				<span class="section-head">Limitation of liability</span>
 				<p>
-					These organizations may link to our home page so long as the link: (a) is not in any way
-					deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking
-					party and its products or services; and (c) fits within the context of the linking party's
-					site.
+					To the maximum extent permitted by law, emittiv shall not be liable for any loss or
+					damage arising from your use of this website or reliance on its content. This does not
+					affect any liability that cannot be excluded under applicable law, including liability for
+					death, personal injury, or fraud.
 				</p>
 
+				<span class="section-head">Governing law</span>
 				<p>
-					If you are one of the organizations listed in paragraph 2 above and are interested in
-					linking to our website, you must inform us by sending an e-mail to emittiv. Please include
-					your name, your organization name, contact information as well as the URL of your site, a
-					list of any URLs from which you intend to link to our Website, and a list of the URLs on
-					our site to which you would like to link. Wait 2-3 weeks for a response.
+					These terms are governed by and construed in accordance with the laws of the United Arab
+					Emirates. Any disputes shall be subject to the exclusive jurisdiction of the courts of
+					Dubai.
 				</p>
 
-				<p>Approved organizations may hyperlink to our Website as follows:</p>
-
-				<ul>
-					<li>By use of our corporate name; or</li>
-					<li>By use of the uniform resource locator being linked to; or</li>
-					<li>
-						By use of any other description of our Website being linked to that makes sense within
-						the context and format of content on the linking party's site.
-					</li>
-				</ul>
-
+				<span class="section-head">Contact</span>
 				<p>
-					No use of emittiv's logo or other artwork will be allowed for linking absent a trademark
-					license agreement.
-				</p>
-
-				<span class="section-head">iFrames</span>
-
-				<p>
-					Without prior approval and written permission, you may not create frames around our
-					Webpages that alter in any way the visual presentation or appearance of our Website.
-				</p>
-
-				<span class="section-head">Content Liability</span>
-
-				<p>
-					We shall not be held responsible for any content that appears on your Website. You agree
-					to protect and defend us against all claims that is rising on your Website. No link(s)
-					should appear on any Website that may be interpreted as libelous, obscene or criminal, or
-					which infringes, otherwise violates, or advocates the infringement or other violation of,
-					any third party rights.
-				</p>
-
-				<span class="section-head">Your Privacy</span>
-
-				<p>Please read Privacy Policy</p>
-
-				<span class="section-head">Reservation of Rights</span>
-
-				<p>
-					We reserve the right to request that you remove all links or any particular link to our
-					Website. You approve to immediately remove all links to our Website upon request. We also
-					reserve the right to amen these terms and conditions and it's linking policy at any time.
-					By continuously linking to our Website, you agree to be bound to and follow these linking
-					terms and conditions.
-				</p>
-
-				<span class="section-head">Removal of links from our website</span>
-
-				<p>
-					If you find any link on our Website that is offensive for any reason, you are free to
-					contact and inform us at any moment. We will consider requests to remove links but we are
-					not obligated to or so or to respond to you directly.
-				</p>
-
-				<p>
-					We do not ensure that the information on this website is correct, we do not warrant its
-					completeness or accuracy; nor do we promise to ensure that the website remains available
-					or that the material on the website is kept up to date.
-				</p>
-
-				<span class="section-head">Disclaimer</span>
-
-				<p>
-					To the maximum extent permitted by applicable law, we exclude all representations,
-					warranties and conditions relating to our website and the use of this website. Nothing in
-					this disclaimer will:
-				</p>
-
-				<ul>
-					<li>limit or exclude our or your liability for death or personal injury;</li>
-					<li>limit or exclude our or your liability for fraud or fraudulent misrepresentation;</li>
-					<li>
-						limit any of our or your liabilities in any way that is not permitted under applicable
-						law; or
-					</li>
-					<li>
-						exclude any of our or your liabilities that may not be excluded under applicable law.
-					</li>
-				</ul>
-
-				<p>
-					The limitations and prohibitions of liability set in this Section and elsewhere in this
-					disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities
-					arising under the disclaimer, including liabilities arising in contract, in tort and for
-					breach of statutory duty.
-				</p>
-
-				<p>
-					As long as the website and the information and services on the website are provided free
-					of charge, we will not be liable for any loss or damage of any nature.
+					For any questions about these terms, contact us at hello (at) emittiv.com or use our <a
+						class="navItem"
+						href="/contact">contact form</a
+					>.
 				</p>
 			</div>
 		</div>
