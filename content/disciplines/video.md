@@ -27,6 +27,7 @@ video is no longer confined to displays. it's now part of architecture — facad
 LED technologies have expanded rapidly: transparent panels, mesh systems, custom pixel layouts. building skins can now carry motion and light at an architectural scale.
 
 we design:
+
 - **media facades** that animate exteriors
 - **LED video walls** for lobbies, retail and entertainment
 - **projection mapping** for features and events
@@ -39,6 +40,7 @@ many video installations hide long-term dependencies — proprietary tools, clos
 we design open platforms. documented workflows. standard formats. any content partner can develop for the system, now or years from now. the client owns the platform, not just the files it plays.
 
 our systems are:
+
 - **open** — no proprietary traps
 - **easy to update** — by any creator
 - **schedule-friendly** — automated for times and events

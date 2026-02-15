@@ -27,6 +27,7 @@ we approach sound holistically. the playback system, the content, the room acous
 ### beyond background music
 
 sound design is more than choosing a playlist. it's about:
+
 - **spatial audio** that places sound in three dimensions, not just left and right
 - **environmental sources** — sound that emerges from the space itself, not obviously from speakers
 - **content that fits** — curated or composed to reinforce the experience
@@ -37,6 +38,7 @@ sound design is more than choosing a playlist. it's about:
 modern networked audio (Dante, AES67) provides unprecedented flexibility. audio can be routed anywhere, zones can be reconfigured in software, and systems can scale as spaces evolve.
 
 we design systems that are:
+
 - **flexible** — easily adapted as needs change
 - **integrated** — working with lighting and video for coordinated scenes
 - **manageable** — with intuitive control interfaces

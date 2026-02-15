@@ -39,6 +39,7 @@ transitions between scenes can be instant or gradual — a slow shift as the day
 ### intuitive interfaces
 
 complex systems should be simple to operate. we design control interfaces that:
+
 - **make sense to non-technical users**
 - **provide the right level of control** — simple day-to-day, detailed when needed
 - **work across devices** — wall panels, tablets, phones
@@ -46,6 +47,7 @@ complex systems should be simple to operate. we design control interfaces that:
 ### integration and automation
 
 our control systems integrate with building management systems (BMS), booking systems, and other operational platforms. scenes can be triggered automatically by:
+
 - **time schedules**
 - **occupancy sensors**
 - **calendar events**

@@ -7,18 +7,16 @@
 	// let form = {};
 
 	function sendEmail() {
-		let message = document.getElementById('contactForm');
+		let message = document.getElementById('contactForm') as HTMLFormElement;
 		send = 'sending';
 		emailjs.sendForm('service_d35xsjl', 'template_xr3oinc', message, 'EqsaqQIEqZ4PMOHcM').then(
-			(result) => {
+			() => {
 				resetForm();
 				send = 'success';
-				// console.log('SUCCESS!', result.text);
 			},
-			(error) => {
+			() => {
 				resetForm();
 				send = 'failed';
-				// console.log('FAILED...', error.text);
 			}
 		);
 	}
@@ -31,10 +29,10 @@
 	};
 
 	function resetForm() {
-		(formData.from_name = ''),
-			(formData.from_email = ''),
-			(formData.from_phone = ''),
-			(formData.message = '');
+		formData.from_name = '';
+		formData.from_email = '';
+		formData.from_phone = '';
+		formData.message = '';
 	}
 </script>
 

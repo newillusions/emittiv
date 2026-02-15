@@ -15,12 +15,14 @@ emittiv is a **design and consulting** firm. We work on the client's design team
 - Being there in person during commissioning is critical — ensures design intent is realised
 
 **Preferred phrasing:**
+
 - "we work on the client's design team"
 - "we design..." not "we install..."
 - "programming supervision" not "programming briefs"
 - "working alongside contractors"
 
 **Avoid:**
+
 - Negative framing like "we don't do X" or "we're not contractors"
 - Anything that sounds like we're distancing from the project
 
@@ -29,6 +31,7 @@ emittiv is a **design and consulting** firm. We work on the client's design team
 ## Deliverables
 
 Typical deliverables (adjust per discipline):
+
 - Design documentation
 - Layouts / plans
 - Equipment/fixture specifications

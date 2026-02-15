@@ -35,6 +35,7 @@ modern diffusion systems can hold multiple scents, switching between them on sch
 we work with specialist fragrance suppliers and system manufacturers — our role is designing where scent happens, how it's delivered, and working with clients to select or develop the right fragrances for their spaces.
 
 delivery options include:
+
 - **HVAC-integrated diffusion** for broad coverage across large areas
 - **standalone units** for specific zones or moments
 - **programmable systems** that shift intensity and fragrance by time or occupancy

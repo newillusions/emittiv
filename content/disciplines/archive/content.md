@@ -29,6 +29,7 @@ so rather than offering "our guy" for every job, we connect clients with special
 ### content strategy
 
 before creating content, we help define:
+
 - **what stories to tell** — brand narratives, seasonal themes, event tie-ins
 - **content types** — ambient loops, featured moments, interactive elements
 - **update cadence** — how often content should refresh
@@ -43,6 +44,7 @@ clients can work through us or go direct to the artists. we're not trying to cli
 ### audio content
 
 soundscapes and ambient audio we can help with more directly. we develop bespoke audio content that:
+
 - reinforces the atmosphere and story of a space
 - varies by zone and time of day
 - evolves with seasons and events

@@ -58,11 +58,11 @@ src/
 
 Configured in `.mcp.json` (gitignored), using credential wrapper:
 
-| Server | Package | Purpose |
-|--------|---------|---------|
-| svelte | @sveltejs/mcp | Official Svelte docs + autofixer |
-| gsc | mcp-server-gsc | Google Search Console data |
-| matomo | @mj-kiwi/matomo-mcp-server | Matomo analytics |
+| Server | Package                    | Purpose                          |
+| ------ | -------------------------- | -------------------------------- |
+| svelte | @sveltejs/mcp              | Official Svelte docs + autofixer |
+| gsc    | mcp-server-gsc             | Google Search Console data       |
+| matomo | @mj-kiwi/matomo-mcp-server | Matomo analytics                 |
 
 Credentials loaded via `~/.claude/scripts/mcp-with-creds.sh` from `~/.claude/.credentials.env`.
 

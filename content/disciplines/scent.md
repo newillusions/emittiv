@@ -33,6 +33,7 @@ modern diffusion systems can cycle through multiple fragrances, shifting on sche
 we collaborate with fragrance houses and system manufacturers. our role is defining where scent is used, how it's delivered, and guiding clients toward the right fragrance direction.
 
 delivery options include:
+
 - **HVAC-integrated diffusion** for broad coverage
 - **standalone units** for specific zones
 - **programmable systems** that adjust intensity or fragrance by schedule or occupancy

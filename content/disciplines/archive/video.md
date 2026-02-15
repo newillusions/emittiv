@@ -29,6 +29,7 @@ we design video systems that transform static surfaces into dynamic canvases.
 modern LED technology allows video to be embedded into building skins at scales that were impossible a decade ago. transparent LED, mesh screens, and custom pixel layouts open up new possibilities for architectural expression.
 
 we design:
+
 - **media facades** that animate building exteriors
 - **LED video walls** for lobbies, retail and entertainment venues
 - **projection mapping** for architectural features and events
@@ -41,6 +42,7 @@ too often, video installations come with strings attached. proprietary tools, ve
 we take a different approach. we design systems and workflows that are open — any content developer the client chooses to work with, now or in the future, can create for and update the system. the client owns their platform, not just their content.
 
 our systems are designed to be:
+
 - **open** — standard formats, documented workflows, no proprietary traps
 - **easily updated** by whoever the client works with
 - **scheduled and automated** for different times and events

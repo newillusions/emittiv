@@ -28,15 +28,20 @@
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="About emittiv | Sensory Design Consultancy Dubai" />
-	<meta name="twitter:description" content="25+ years of theatrical expertise applied to sensory design for hospitality, retail and commercial environments." />
+	<meta
+		name="twitter:description"
+		content="25+ years of theatrical expertise applied to sensory design for hospitality, retail and commercial environments."
+	/>
 	<meta name="twitter:image" content="https://www.emittiv.com/img/logo_strap.svg" />
 
 	<!-- Schema.org JSON-LD -->
-	{@html '<scr' + 'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"AboutPage","@id":"https://www.emittiv.com/about","name":"About emittiv","description":"Learn about emittiv, our team and our approach to sensory design","mainEntity":{"@id":"https://www.emittiv.com/#organization"}},{"@type":"Person","@id":"https://www.emittiv.com/about#andrew-hawkes","name":"Andrew Hawkes","jobTitle":"Audio & Technical Director","description":"25+ years experience in professional audio, live events, operations and workflows","worksFor":{"@id":"https://www.emittiv.com/#organization"}},{"@type":"Person","@id":"https://www.emittiv.com/about#martin-robert","name":"Martin Robert","jobTitle":"Lighting, Video & Control Systems Director","description":"Background in touring with prominent artists, permanent installations on iconic structures, and large-scale events","worksFor":{"@id":"https://www.emittiv.com/#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"About","item":"https://www.emittiv.com/about"}]}]}</scr' + 'ipt>'}
+	{@html '<scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"AboutPage","@id":"https://www.emittiv.com/about","name":"About emittiv","description":"Learn about emittiv, our team and our approach to sensory design","mainEntity":{"@id":"https://www.emittiv.com/#organization"}},{"@type":"Person","@id":"https://www.emittiv.com/about#andrew-hawkes","name":"Andrew Hawkes","jobTitle":"Audio & Technical Director","description":"25+ years experience in professional audio, live events, operations and workflows","worksFor":{"@id":"https://www.emittiv.com/#organization"}},{"@type":"Person","@id":"https://www.emittiv.com/about#martin-robert","name":"Martin Robert","jobTitle":"Lighting, Video & Control Systems Director","description":"Background in touring with prominent artists, permanent installations on iconic structures, and large-scale events","worksFor":{"@id":"https://www.emittiv.com/#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"About","item":"https://www.emittiv.com/about"}]}]}</scr' +
+		'ipt>'}
 </svelte:head>
 
 <main>
-	<TheHead side={'order-3'} />
-	<TheFirst side={'order-1'} />
+	<TheHead side="order-3" />
+	<TheFirst side="order-1" />
 	<TheSecond />
 </main>

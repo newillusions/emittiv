@@ -27,11 +27,14 @@
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Contact emittiv | Sensory Design Dubai" />
-	<meta name="twitter:description" content="Transform your space with expert sensory design. Lighting, video, sound and scent consultancy in Dubai & GCC." />
+	<meta
+		name="twitter:description"
+		content="Transform your space with expert sensory design. Lighting, video, sound and scent consultancy in Dubai & GCC."
+	/>
 	<meta name="twitter:image" content="https://www.emittiv.com/img/logo_strap.svg" />
 </svelte:head>
 
 <main>
-	<TheHead side={'order-1'} />
-	<TheForm side={'order-1'} />
+	<TheHead side="order-1" />
+	<TheForm side="order-1" />
 </main>

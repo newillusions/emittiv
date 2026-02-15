@@ -14,7 +14,10 @@
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Downloads & Resources | emittiv" />
-	<meta property="og:description" content="Download emittiv resources, brochures and documentation for sensory design projects." />
+	<meta
+		property="og:description"
+		content="Download emittiv resources, brochures and documentation for sensory design projects."
+	/>
 	<meta property="og:image" content="https://www.emittiv.com/img/logo_strap.svg" />
 	<meta property="og:url" content="https://www.emittiv.com/downloads" />
 	<meta property="og:site_name" content="emittiv" />

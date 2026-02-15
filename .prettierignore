@@ -7,6 +7,9 @@ node_modules
 .env.*
 !.env.example
 
+# Claude Code local settings
+.claude/settings.local.json
+
 # Ignore files for PNPM, NPM and YARN
 pnpm-lock.yaml
 package-lock.json

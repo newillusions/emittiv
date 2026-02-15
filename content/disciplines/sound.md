@@ -25,6 +25,7 @@ sound has a profound impact on how a space feels, yet it's often handled last. t
 ### beyond background music
 
 sound design isn't just setting a playlist. it's about:
+
 - **spatial audio** that places sound in three dimensions
 - **environmental sources** that feel native to the space
 - **purposeful content** — curated or composed for the environment
@@ -35,6 +36,7 @@ sound design isn't just setting a playlist. it's about:
 Dante, AES67 and modern networked platforms allow routing and reconfiguration with ease. zones shift in software. systems scale without redesign.
 
 we design audio that is:
+
 - **flexible** — ready for change
 - **integrated** — part of the wider sensory system
 - **manageable** — intuitive to operate

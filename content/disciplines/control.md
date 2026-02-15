@@ -39,6 +39,7 @@ scenes can shift instantly or evolve slowly — subtle transitions through the d
 ### intuitive interfaces
 
 complex systems don't need complex controls. we design interfaces that:
+
 - make sense to non-technical users
 - offer simple day-to-day control, with depth when needed
 - work across devices — wall panels, tablets, mobile
@@ -46,6 +47,7 @@ complex systems don't need complex controls. we design interfaces that:
 ### integration and automation
 
 our systems interface with BMS platforms, booking systems and other operational tools. scenes can trigger automatically based on:
+
 - **time schedules**
 - **occupancy and sensors**
 - **calendar or event data**

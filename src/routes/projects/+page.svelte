@@ -27,11 +27,14 @@
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Sensory Design Projects | emittiv Dubai" />
-	<meta name="twitter:description" content="Portfolio of sensory design projects: lighting, video, sound and scent for hospitality, retail and commercial environments." />
+	<meta
+		name="twitter:description"
+		content="Portfolio of sensory design projects: lighting, video, sound and scent for hospitality, retail and commercial environments."
+	/>
 	<meta name="twitter:image" content="https://www.emittiv.com/img/logo_strap.svg" />
 </svelte:head>
 
 <main>
-	<TheHead side={'order-1'} />
+	<TheHead side="order-1" />
 	<TheFirst />
 </main>

@@ -38,6 +38,7 @@ spaces change through the day. lighting should too. our systems are **programmab
 from entertainment we bring an understanding of timing, contrast, rhythm and emotional impact.
 
 we design lighting that:
+
 - creates **focal points and hierarchy**
 - uses **colour as an emotional tool**
 - supports **wayfinding and spatial clarity**

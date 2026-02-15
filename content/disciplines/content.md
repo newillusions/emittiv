@@ -29,6 +29,7 @@ so instead of pushing a single "in-house" style, we bring in the right specialis
 ### content strategy
 
 before anything is created, we help define:
+
 - **what stories to tell** — brand narratives, seasonal rhythms, event moments
 - **content types** — ambient loops, feature sequences, interactive elements
 - **update cadence** — how often content should shift or refresh
@@ -43,6 +44,7 @@ from ambient motion pieces to responsive installations, we connect clients to ar
 ### audio content
 
 sound is different. ambient soundscapes are something we develop directly — crafted to:
+
 - strengthen the atmosphere and narrative of a space
 - shift by time of day or zone
 - adapt to seasons, events and operational patterns

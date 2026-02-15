@@ -11,8 +11,8 @@
 			<div class="v-padding-1 f col middle order-2">
 				<span
 					>our core team are all
-					<span class="splash">accomplished designers</span> in their own right, so we're also happy
-					to work on one or more aspects as well.</span
+					<span class="splash">accomplished designers</span> in their own right, so we're also happy to
+					work on one or more aspects as well.</span
 				>
 				<div class="spacer-reg" />
 				<span class="headline">a single <span class="splash">frequency</span>.</span>

@@ -38,6 +38,7 @@ static lighting is a missed opportunity. our designs are **programmable and resp
 our background in live entertainment means we understand light as a creative medium, not just a technical requirement.
 
 we design lighting that:
+
 - creates **focal points and visual hierarchy**
 - uses **colour as an emotional tool** — subtle washes, shifts in tone
 - supports **wayfinding and spatial definition**

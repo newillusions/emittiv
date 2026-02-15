@@ -2,14 +2,18 @@
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
-	src: local(''), url('../../../fonts/montserrat-v23-latin-regular.woff2') format('woff2');
+	src:
+		local(''),
+		url('../../../fonts/montserrat-v23-latin-regular.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'Ubuntu';
 	font-style: regular;
 	font-weight: 400;
-	src: local(''), url('../../../fonts/ubuntu-v19-latin-regular.woff2') format('woff2');
+	src:
+		local(''),
+		url('../../../fonts/ubuntu-v19-latin-regular.woff2') format('woff2');
 }
 
 :root {

@@ -14,7 +14,10 @@
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Privacy Policy | emittiv" />
-	<meta property="og:description" content="emittiv privacy policy and data protection information." />
+	<meta
+		property="og:description"
+		content="emittiv privacy policy and data protection information."
+	/>
 	<meta property="og:url" content="https://www.emittiv.com/privacy" />
 	<meta property="og:site_name" content="emittiv" />
 </svelte:head>

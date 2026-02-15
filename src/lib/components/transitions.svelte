@@ -47,7 +47,11 @@
 
 <div class="transition-container" class:transitioning={isTransitioning}>
 	{#key pathname}
-		<div class="transition-page" in:fade={{ duration: 500, delay: 500 }} out:fade={{ duration: 500 }}>
+		<div
+			class="transition-page"
+			in:fade={{ duration: 500, delay: 500 }}
+			out:fade={{ duration: 500 }}
+		>
 			<slot />
 		</div>
 	{/key}
