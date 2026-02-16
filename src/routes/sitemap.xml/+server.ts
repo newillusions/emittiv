@@ -1,3 +1,5 @@
+export const prerender = true;
+
 export async function GET() {
 	const today = new Date().toISOString().split('T')[0];
 

@@ -94,7 +94,23 @@ Packages: `typescript-eslint`, `eslint-plugin-svelte`, `eslint-config-prettier`
 - **Business model:** Emittiv is design and consultancy ONLY — does not sell or install products
 - **`.claude/` in .prettierignore:** Session artifacts are excluded from formatting checks
 
+## SEO & Indexing
+
+After content changes, follow this workflow:
+
+1. **Build check:** `npm run build` — must pass with 0 errors
+2. **Push to GitHub:** `git push github main` — triggers Cloudflare Pages deployment
+3. **Verify live site:** Check new URLs return 200 (not 404) before requesting indexing
+4. **GSC sitemap resubmit:** `mcp__gsc__submit_sitemap` with `sc-domain:emittiv.com` and `https://www.emittiv.com/sitemap.xml`
+5. **GSC URL inspection:** `mcp__gsc__index_inspect` for each changed URL to request recrawl
+6. **IndexNow (Bing/Yandex):** POST to `https://api.indexnow.org/indexnow` with changed URLs (API key needed — set up as Cloudflare Pages environment variable or generate via site verification)
+7. **Matomo:** No action needed — SPA tracking picks up new pages automatically via `afterNavigate`
+
+**GSC property:** `sc-domain:emittiv.com` (domain-level, site owner)
+**GSC API limitation:** Sitemap submit returns 403 — OAuth token may need write scope. Use GSC web UI as fallback.
+
 ## Known Issues
 
+- **Cloudflare Pages 404 on nested routes:** All `/services/*` and `/projects/*` sub-pages return 404 on live site despite being on GitHub. Root pages (`/services`, `/projects`) work. Likely cause: `adapter-auto` not generating proper Cloudflare Workers output — may need `@sveltejs/adapter-cloudflare` explicitly. **Blocks all indexing work.**
 - 108 svelte-check warnings: `element_invalid_self_closing_tag` in service pages (cosmetic, fix during content work)
 - ipvlan L2 on br0: Unraid host can't curl its own containers — test from Mac

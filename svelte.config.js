@@ -1,5 +1,5 @@
 import nodeAdapter from '@sveltejs/adapter-node';
-import autoAdapter from '@sveltejs/adapter-auto';
+import staticAdapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 const isDocker = process.env.DOCKER_BUILD === 'true';
@@ -9,7 +9,15 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: isDocker ? nodeAdapter() : autoAdapter()
+		adapter: isDocker
+			? nodeAdapter()
+			: staticAdapter({
+					pages: 'build',
+					assets: 'build',
+					fallback: '404.html',
+					precompress: false,
+					strict: true
+				})
 	}
 };
 
