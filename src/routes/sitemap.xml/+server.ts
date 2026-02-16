@@ -62,6 +62,60 @@ export async function GET() {
     <priority>0.90</priority>
   </url>
   <url>
+    <loc>https://www.emittiv.com/projects/sheikh-zayed-grand-mosque</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.emittiv.com/projects/burj-al-arab</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.emittiv.com/projects/expo-2020</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.emittiv.com/projects/kapsarc</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.emittiv.com/projects/dubai-parks-and-resorts</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.emittiv.com/projects/jumeirah-beach-hotel</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.emittiv.com/projects/city-walk</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.emittiv.com/projects/dubai-mall-penguinarium</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.emittiv.com/projects/al-imam-university</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://www.emittiv.com/about</loc>
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>

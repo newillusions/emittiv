@@ -7,15 +7,15 @@
 			<div class="f col">
 				<span class="list-head"><span class="splash">Landmarks:</span></span>
 				<ul class="disc">
-					<li>Sheikh Zayed Grand Mosque</li>
+					<li><a href="/projects/sheikh-zayed-grand-mosque">Sheikh Zayed Grand Mosque</a></li>
 					<li>Sheikh Zayed Bridge</li>
 					<li>Lusail Multpurpose Hall</li>
 					<li>Abu Dhabi Justce Court</li>
 				</ul>
 				<span class="list-head"><span class="splash">Hospitality:</span></span>
 				<ul class="disc">
-					<li>Burj Al Arab</li>
-					<li>Jumeirah Beach Hotel</li>
+					<li><a href="/projects/burj-al-arab">Burj Al Arab</a></li>
+					<li><a href="/projects/jumeirah-beach-hotel">Jumeirah Beach Hotel</a></li>
 					<li>Mercure Hotel, Dubai</li>
 					<li>Novokov Restaurant</li>
 				</ul>
@@ -29,19 +29,19 @@
 			<div class="f col">
 				<span class="list-head"><span class="splash">Destinations:</span></span>
 				<ul class="disc">
-					<li>Expo 2020</li>
+					<li><a href="/projects/expo-2020">Expo 2020</a></li>
 					<li>Cirque du Soleil - Zaia</li>
 				</ul>
 				<span class="list-head"><span class="splash">Themed:</span></span>
 				<ul class="disc">
 					<li>Seaworld Abu Dhabi</li>
-					<li>Dubai Parks and Resorts</li>
+					<li><a href="/projects/dubai-parks-and-resorts">Dubai Parks and Resorts</a></li>
 					<li>Wild Wadi</li>
 				</ul>
 				<span class="list-head"><span class="splash">FECs and Attractions:</span></span>
 				<ul class="disc">
-					<li>City Walk</li>
-					<li>Dubai Mall Aquarium Penguinarium</li>
+					<li><a href="/projects/city-walk">City Walk</a></li>
+					<li><a href="/projects/dubai-mall-penguinarium">Dubai Mall Aquarium Penguinarium</a></li>
 					<li>Utopia Adventure Park</li>
 					<li>The View</li>
 					<li>The Palm Fountain</li>
@@ -50,8 +50,8 @@
 			<div class="f col">
 				<span class="list-head"><span class="splash">Venues:</span></span>
 				<ul class="disc">
-					<li>Al Imam University</li>
-					<li>Kapsarc</li>
+					<li><a href="/projects/al-imam-university">Al Imam University</a></li>
+					<li><a href="/projects/kapsarc">KAPSARC</a></li>
 					<li>Royal Welsh College of Music and Drama</li>
 					<li>Dubai Opera</li>
 					<li>English National Opera</li>
@@ -100,5 +100,16 @@
 
 	.list-head {
 		margin-bottom: 1rem;
+	}
+
+	li a {
+		color: var(--white);
+		text-decoration: none;
+		border-bottom: 1px solid var(--splash);
+		transition: color 0.2s ease;
+
+		&:hover {
+			color: var(--splash);
+		}
 	}
 </style>
