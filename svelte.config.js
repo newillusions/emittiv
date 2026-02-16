@@ -12,8 +12,8 @@ const config = {
 		adapter: isDocker
 			? nodeAdapter()
 			: staticAdapter({
-					pages: 'build',
-					assets: 'build',
+					pages: '.svelte-kit/cloudflare',
+					assets: '.svelte-kit/cloudflare',
 					fallback: '404.html',
 					precompress: false,
 					strict: true
