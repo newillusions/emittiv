@@ -67,10 +67,11 @@
 					>
 					<div class="spacer-med" />
 					<span
-						>our roots are in theatre, where light is a <span class="splash">narrative tool</span>,
-						not just a technical checkbox. we've spent years obsessing over how light moves, how it
-						shifts through a performance, how a single change can transform a moment. yes, we're
-						geeks. the same principles that shape a stage can transform a lobby, a restaurant or a
+						>emittiv is a young practice built on a long history in the field. our roots are in
+						theatre, where light is a <span class="splash">narrative tool</span>, not just a
+						technical checkbox. we've spent years obsessing over how light moves, how it shifts
+						through a performance, how a single change can transform a moment. yes, we're geeks.
+						the same principles that shape a stage can transform a lobby, a restaurant or a
 						public space.</span
 					>
 				</div>

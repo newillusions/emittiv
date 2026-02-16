@@ -73,9 +73,9 @@
 					>
 					<div class="spacer-med" />
 					<span
-						>we bring that mindset to architectural environments. both founders are recognised
-						control-system specialists in the region. it's one of the core strengths of the practice
-						— and a step beyond what most design studios can deliver.</span
+						>we bring that mindset to architectural environments. control integration is one of
+						the core strengths of the practice — and a step beyond what most design studios
+						can deliver.</span
 					>
 				</div>
 			</div>
