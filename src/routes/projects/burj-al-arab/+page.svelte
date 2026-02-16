@@ -63,16 +63,17 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>after years of managing ageing facade lighting equipment, the engineering team
-						at the Burj Al Arab needed a reliable replacement. the challenge was sourcing LED
-						fixtures with sufficient output and narrow beam angles to illuminate the structure
-						from significant distance — while maintaining uninterrupted nighttime operation.</span
+						>after many years of diligently fighting the conditions, the engineering team at
+						the Burj Al Arab decided it was time to replace their ailing facade lighting
+						fixtures. finding LED fixtures with sufficient output and narrow enough beams to
+						throw the <span class="splash">300 metres</span> required on this project was
+						quite a challenge.</span
 					>
 					<div class="spacer-med" />
 					<span
-						>the system also needed flexibility for <span class="splash"
-							>event and celebration lighting</span
-						> in multiple colours, on request from the hotel's operations team.</span
+						>a project of this significance needed to work reliably night after night without
+						fail, while still providing the flexibility to allow the client to join in special
+						events by lighting the facade in various colours.</span
 					>
 				</div>
 			</div>

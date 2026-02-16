@@ -60,16 +60,14 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>the operators wanted to transform a central space into a destination beyond
-						retail — introducing multimedia shows that would draw visitors back. the challenge
-						was delivering both permanent shows and temporary events while
-						<span class="splash">minimising disruption to daily operations</span>.</span
+						>malls need more than just retail outlets these days. they need to be
+						<span class="splash">destinations in their own right</span> — providing
+						attractions, family entertainment centres and other entertainment.</span
 					>
 					<div class="spacer-med" />
 					<span
-						>the system needed to integrate theatrical lighting with existing fountain
-						lighting and architectural systems into a unified platform that could be operated
-						by the venue's own team.</span
+						>the operators wanted to introduce new multimedia shows to the central attraction
+						— both permanent shows and temporary events across several months.</span
 					>
 				</div>
 			</div>
@@ -84,15 +82,16 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>we designed and programmed the lighting for multiple shows, working with the
-						creative team to integrate theatrical lighting controls with the existing fountain
-						and architectural systems.</span
+						>we designed and programmed the lighting, working with the creative team and
+						<span class="splash">working nights</span> to minimise disruption to daily
+						operations.</span
 					>
 					<div class="spacer-med" />
 					<span
-						>installation and programming happened <span class="splash">through the night</span
-						> to avoid disrupting daytime operations — a constraint that shaped every decision
-						from fixture selection to cable routing. the shows are still running today.</span
+						>our experience in show lighting allowed us to seamlessly integrate with the
+						wider systems installed — incorporating the fountain lighting and architectural
+						control systems with the theatrical lighting controls into a unified system
+						across the attraction and mall. the shows are still running today.</span
 					>
 				</div>
 			</div>
@@ -107,6 +106,7 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span><strong>location:</strong> Dubai, UAE</span>
+					<span><strong>client:</strong> Meeras</span>
 					<span><strong>type:</strong> destination, multimedia attraction</span>
 					<span><strong>size:</strong> 13,000 m&sup2;</span>
 					<span><strong>disciplines:</strong> lighting, control</span>

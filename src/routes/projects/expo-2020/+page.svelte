@@ -60,16 +60,16 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>a site of this scale involves dozens of contractors, multiple design firms and
-						construction phases that don't always align. the public realm lighting had been
-						delivered by various teams across the site — each working to their own brief.</span
+						>the engagement began with unifying multiple public realm lighting designs across
+						the site. the public realm lighting had been delivered by various teams and
+						contractors — each working to their own brief.</span
 					>
 					<div class="spacer-med" />
 					<span
-						>our engagement began with a need to <span class="splash"
-							>bring coherence to the whole</span
-						> — reviewing what was already installed and finding ways to harmonise the experience
-						for visitors moving through landscapes, plazas and public spaces.</span
+						>the goal was <span class="splash"
+							>a unified guest experience</span
+						> across the landscapes, plazas and parks — bringing coherence to the whole
+						while respecting the design intent of each area.</span
 					>
 				</div>
 			</div>
@@ -84,13 +84,13 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>we conducted a comprehensive peer review of existing installations across the
-						site, assessing each phase and coordinating with the original lighting designers
-						to respect their intent while making the adjustments the event required.</span
+						>we conducted a peer review of existing work and coordinated with the original
+						project lighting designers to maintain design intent while making the adjustments
+						the event required.</span
 					>
 					<div class="spacer-med" />
 					<span
-						>the goal was visual consistency without uniformity — <span class="splash"
+						>the result was visual consistency without uniformity — <span class="splash"
 							>each zone retaining its character</span
 						> while feeling part of the same place.</span
 					>

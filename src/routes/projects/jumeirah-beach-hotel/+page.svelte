@@ -63,16 +63,17 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>the hotel's existing lighting fixtures had deteriorated significantly over time.
-						the engineering team needed a replacement that could operate reliably night after
-						night while maintaining flexibility for special events requiring colour
-						variations.</span
+						>after many years of diligently fighting the conditions, the engineering team at
+						the Jumeirah Beach Hotel decided it was time to replace their ailing fixtures.
+						this was <span class="splash"
+							>the first large-scale dynamic facade lighting project</span
+						> in the region to use LED fixtures.</span
 					>
 					<div class="spacer-med" />
 					<span
-						>this was one of the <span class="splash"
-							>first large-scale dynamic facade lighting projects</span
-						> in the region to use LED fixtures — there was no established playbook to follow.</span
+						>a project of this significance needed to work reliably night after night without
+						fail, while still providing the flexibility to allow the client to join in special
+						events by lighting the facade in various colours.</span
 					>
 				</div>
 			</div>
@@ -87,15 +88,9 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>we designed and implemented the facade lighting system, later expanding the scope
-						to include the road-facing elevation — extending the original design concept
-						across the full building.</span
-					>
-					<div class="spacer-med" />
-					<span
-						>the system was designed for dual objectives: robust, fail-proof nightly operation
-						paired with the flexibility to create bespoke colour schemes for events and
-						celebrations on request.</span
+						>we designed and implemented the facade lighting system. after several years, we
+						were asked to extend the original design to include the
+						<span class="splash">road side of the building</span> as well.</span
 					>
 				</div>
 			</div>

@@ -63,16 +63,11 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>a 2,500-seat theatre built in the 1970s needed a comprehensive renovation —
-						incorporating contemporary technology while
-						<span class="splash">restoring the space's former character</span>. the scope
-						expanded well beyond the main auditorium to include facilities across the
-						campus.</span
-					>
-					<div class="spacer-med" />
-					<span
-						>the lighting and control systems needed to support a wide range of uses — from
-						formal events to everyday campus life.</span
+						>originally built in the 1970s, the project began with renovating and
+						reinvigorating the 2,500-seat theatre and a number of smaller auditoria —
+						designing new lighting, audio, video and automated rigging systems to
+						<span class="splash">restore the space to its former condition</span> and
+						enhance it further.</span
 					>
 				</div>
 			</div>
@@ -87,16 +82,15 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>we designed the lighting and control systems for the main theatre — then
-						extended the work across the Ladies Campus, Student Lobby, Library, Sports
-						Stadium and several other campus facilities.</span
+						>this renovation was the first in the region to incorporate
+						<span class="splash">colour-changing LED technology for the auditorium seating
+						area</span> (FoH) — allowing the designs on stage to be brought out into the
+						house.</span
 					>
 					<div class="spacer-med" />
 					<span
-						>the auditorium featured one of the region's first installations of
-						<span class="splash">colour-changing LED technology in seating areas</span>,
-						allowing stage designs to extend into the audience — blurring the boundary between
-						performer and spectator.</span
+						>the work extended across the Ladies Campus, Student Lobby, Library, Water Tower,
+						Sports Stadium, Royal Gate and Boundary Fence renovations.</span
 					>
 				</div>
 			</div>
@@ -111,6 +105,8 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span><strong>location:</strong> Riyadh, KSA</span>
+					<span><strong>client:</strong> Al Imam University</span>
+					<span><strong>architect:</strong> Typsa</span>
 					<span><strong>type:</strong> performance venue, education</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
 					<div class="spacer-lge" />

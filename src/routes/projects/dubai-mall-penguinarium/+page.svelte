@@ -63,15 +63,17 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>creating an ice cave in the Dubai desert is one thing. doing it while supporting
-						the natural biological cycles of the inhabitants is another. the lighting had to
-						balance <span class="splash">immersive guest experience</span> with functional
-						animal welfare requirements.</span
+						>creating an ice cave in the Dubai desert? sure! why not! linking different
+						lighting control systems to
+						<span class="splash">support the animal welfare</span> as well? sounds like
+						fun!</span
 					>
 					<div class="spacer-med" />
 					<span
-						>the system also needed to synchronise with video presentations and show control
-						systems to deliver an educational, animated experience for visitors.</span
+						>the challenge was establishing a distinctive environment for guests while
+						prioritising animal comfort and natural cycles — then integrating with show
+						control systems to produce an immersive animated experience synchronised with
+						educational video content.</span
 					>
 				</div>
 			</div>
@@ -86,17 +88,17 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>we coordinated with multiple stakeholders to develop integrated lighting systems
-						that served dual purposes — atmosphere for guests and appropriate conditions for
-						the animals.</span
+						>we worked collaboratively across multiple stakeholders, conducting thorough
+						research to establish the right conditions for the animals alongside the guest
+						experience.</span
 					>
 					<div class="spacer-med" />
 					<span
-						>photosensors throughout the attraction monitor and adjust ambient levels,
-						ensuring the lighting harmonises with <span class="splash"
-							>animal-specific lighting cycles</span
-						>. the system networks with show control to synchronise lighting changes with
-						video and audio cues.</span
+						>photosensors automatically adjust overall attraction lighting levels to align
+						with <span class="splash">animal-specific lighting requirements</span>,
+						enhancing their overall welfare. the lighting infrastructure integrates with show
+						control to produce the immersive animated experience synchronised with video
+						content.</span
 					>
 				</div>
 			</div>
@@ -111,6 +113,7 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span><strong>location:</strong> Dubai, UAE</span>
+					<span><strong>client:</strong> Emaar Entertainment</span>
 					<span><strong>type:</strong> family entertainment, attraction</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
 					<div class="spacer-lge" />

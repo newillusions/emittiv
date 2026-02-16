@@ -77,17 +77,15 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>themed entertainment is where our theatrical background is most at home. every
-						space tells a story, every transition matters, and the technical systems need to
-						deliver reliably — day after day, in desert heat, to audiences who don't know
-						or care how it works.</span
+						>working simultaneously across multiple parks, from area development to rides and
+						fully themed <span class="splash">IP-based attractions</span> — each environment
+						with its own character, narrative and technical demands.</span
 					>
 					<div class="spacer-med" />
 					<span
-						>Dubai Parks and Resorts brought together multiple themed environments, each with
-						its own character, narrative and technical demands. the challenge was
-						<span class="splash">consistency across diversity</span> — unified quality
-						without uniformity.</span
+						>the lighting concepts needed to be in line with the IP holder's vision and
+						requirements, while ensuring the various systems and projects would all link in
+						to the park-wide controls.</span
 					>
 				</div>
 			</div>
@@ -108,16 +106,14 @@
 					<h2>our role</h2>
 					<div class="spacer-med" />
 					<span
-						>we provided lighting and control design services — working within the themed
-						entertainment design framework that these projects demand.</span
+						>we provided the original lighting concepts for renovations of existing areas as
+						well as new themed attractions under development.</span
 					>
 					<div class="spacer-med" />
 					<span
-						>this is the kind of project where <span class="splash"
-							>consistency matters</span
-						>. when lighting and control are designed together from the start across multiple
-						zones, the result is more cohesive — and the coordination headaches during
-						installation are significantly reduced.</span
+						>we then <span class="splash">managed external teams</span> through the schematic
+						and detailed design phases to ensure the various systems and projects would all
+						link in to the park-wide controls.</span
 					>
 				</div>
 			</div>
@@ -132,6 +128,7 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span><strong>location:</strong> Dubai, UAE</span>
+					<span><strong>client:</strong> Dubai Parks and Resorts</span>
 					<span><strong>type:</strong> themed entertainment, destination</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
 					<div class="spacer-lge" />

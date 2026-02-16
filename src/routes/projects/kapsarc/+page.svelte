@@ -75,15 +75,15 @@
 				<div class="v-padding-1 f col middle order-2">
 					<span
 						>lighting a Zaha Hadid interior presents a specific challenge — hundreds of
-						panels, each with unique dimensions and angles. the systems needed to
-						<span class="splash">vanish when not in use</span>, allowing the architecture to
-						speak for itself.</span
+						small panels, each with unique dimensions and shapes. the lighting systems needed
+						to be <span class="splash">invisible when not in use</span>, allowing the
+						interior design to remain the focal point.</span
 					>
 					<div class="spacer-med" />
 					<span
-						>the venue operates as both a 2,256 m&sup2; divisible hall and a dedicated
-						328-seat auditorium — each mode requiring different lighting, rigging and control
-						configurations.</span
+						>the main hall subdivides into 5 separate rooms or combines in various
+						configurations. a 328-seat auditorium on the same site serves high-profile
+						clients and press conferences.</span
 					>
 				</div>
 			</div>
@@ -104,17 +104,19 @@
 					<h2>our role</h2>
 					<div class="spacer-med" />
 					<span
-						>we designed and delivered complete performance and rigging solutions — over 40
-						motorised line-sets and several hundred lights, all networked through a control
-						system that allows portable desks to manage any part of the venue from any
-						location.</span
+						>we delivered performance lighting and rigging — over 40 motorised line-sets and
+						several hundred luminaires. portable lighting desks can connect to any room,
+						allowing operators to
+						<span class="splash">control all or part of the system</span> with ease.</span
 					>
 					<div class="spacer-med" />
 					<span
-						>the control architecture balances <span class="splash"
-							>event flexibility with simple daily operation</span
-						> — DMX for performance lighting, DALI for architectural, and dedicated switches
-						for maintenance staff who need to work without a lighting desk.</span
+						>the auditorium features fully integrated architectural and stage lighting using
+						DMX and DALI protocols — balanced for event operation and daily use, including
+						dedicated switches for cleaning staff. midway through the project, the client
+						revised electrical supply requirements from dual 110v/230v to single supply,
+						requiring system redesign — we met the original deadlines despite the
+						changes.</span
 					>
 				</div>
 			</div>
@@ -130,7 +132,9 @@
 				<div class="v-padding-1 f col middle order-2">
 					<span><strong>location:</strong> Riyadh, KSA</span>
 					<span><strong>client:</strong> Saudi Aramco</span>
+					<span><strong>architect:</strong> Zaha Hadid</span>
 					<span><strong>type:</strong> multipurpose hall, conference venue</span>
+					<span><strong>size:</strong> 2,256 m&sup2;</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
 					<div class="spacer-lge" />
 					<span class="underline">

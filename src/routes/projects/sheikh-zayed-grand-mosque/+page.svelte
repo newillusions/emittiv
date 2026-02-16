@@ -77,15 +77,17 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>the original facade lighting system had reached the end of its operational life
-						after years of service. the client needed a modern renewal — but the original
-						design intent had to be <span class="splash">faithfully preserved</span>.</span
+						>after years of operation, the original facade lighting system designed by Speirs
+						and Major Associates had reached the end of its useful life. the scope included
+						replacement of over 1,000 fixtures and a complete lighting control system
+						overhaul comprising
+						<span class="splash">40+ switches and 100 nodes</span>.</span
 					>
 					<div class="spacer-med" />
 					<span
-						>this meant replacing over 1,000 fixtures and the entire control infrastructure
-						while ensuring the result was indistinguishable from the original to anyone
-						looking at the building.</span
+						>the new control platform needed to integrate with the existing network
+						infrastructure — and the result had to be indistinguishable from the original
+						to anyone looking at the building.</span
 					>
 				</div>
 			</div>
@@ -106,17 +108,15 @@
 					<h2>our role</h2>
 					<div class="spacer-med" />
 					<span
-						>we led the modernisation — designing a strategy to transfer legacy control data
-						into a format compatible with the new platform, and conducting extensive
-						colour-matching tests to ensure the new LED fixtures matched the original
-						scheme.</span
+						>we developed a strategy to transfer data from the original control system and
+						conducted colour-matching tests to ensure the new LED fixtures replicated the
+						original design as closely as possible.</span
 					>
 					<div class="spacer-med" />
 					<span
-						>the control system includes <span class="splash">custom software</span> that
-						replicates lunar phase cycles, dynamically adjusting the mosque's nighttime
-						illumination throughout the month — a feature of the original design that needed
-						to carry forward seamlessly.</span
+						>the system includes <span class="splash">custom software</span> that simulates
+						lunar phases, changing the mosque's colour nightly with the moon cycles — a
+						feature of the original design that needed to carry forward seamlessly.</span
 					>
 				</div>
 			</div>
@@ -131,6 +131,7 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span><strong>location:</strong> Abu Dhabi, UAE</span>
+					<span><strong>client:</strong> SZGMC</span>
 					<span><strong>type:</strong> iconic building, house of worship</span>
 					<span><strong>size:</strong> 121,800 m&sup2;</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
