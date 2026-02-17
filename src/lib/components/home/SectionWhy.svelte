@@ -13,11 +13,11 @@
 					>our core team all have extensive histories in theatre and entertainment, where all our
 					senses are used to set a scene and tell a story.</span
 				>
-				<div class="spacer-med" />
+				<div class="spacer-med"></div>
 				<span class="headline"
 					>these elements are often <span class="splash">underutilised</span> in our built environments.</span
 				>
-				<div class="spacer-med" />
+				<div class="spacer-med"></div>
 				<span
 					>our aim is to enhance people's everyday lives by adding layers that make our spaces more
 					interesting and beautiful.</span

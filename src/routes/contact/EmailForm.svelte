@@ -44,7 +44,7 @@
 					>This form goes to a live email address that we monitor, <br />so we promise to get back
 					in touch asap!</span
 				>
-				<div class="spacer-lge" />
+				<div class="spacer-lge"></div>
 			</div>
 			<div class="f col middle order-2">
 				<form class="f col" on:submit|preventDefault={sendEmail} id="contactForm">
@@ -73,10 +73,10 @@
 						wrap="hard"
 						required
 						bind:value={formData.message}
-					/>
+					></textarea>
 					<input type="submit" class="submit" value="Send" />
 				</form>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				{#if send === 'sending'}
 					<div class="spacer-med">
 						<span class="splash">Sending...</span>
@@ -91,7 +91,7 @@
 						/>Please refresh the page and try again.
 					</div>
 				{:else}
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 				{/if}
 			</div>
 		</div>

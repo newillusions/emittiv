@@ -12,9 +12,9 @@
 				<span
 					>we provide <span class="splash">specialist designs</span> for a wide range of sensory systems.</span
 				>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span class="headline">the full <span class="splash">spectrum</span>.</span>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span
 					>by combining these together, we are able to create more
 					<span class="splash">compelling experiences</span> and spaces.</span

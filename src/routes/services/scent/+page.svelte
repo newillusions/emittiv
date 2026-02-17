@@ -47,7 +47,7 @@
 		<div class="container">
 			<div class="f col center middle">
 				<span class="tagline">scent</span>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span class="headline">the most memorable sense.</span>
 			</div>
 		</div>
@@ -66,7 +66,7 @@
 						experience. scent is the most powerful memory trigger we have — and most designers
 						ignore it completely.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>scent shapes emotional response before you're even conscious of it. it lingers in
 						memory long after someone has stepped outside. yet it's often left out of spatial design
@@ -89,13 +89,13 @@
 						>we don't treat scent as a single signature note. we use it to build a narrative.
 						different zones, different times, different moods.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>modern diffusion systems can cycle through multiple fragrances, shifting on schedule or
 						by activity: <span class="splash">bright in the morning, grounding in the evening</span
 						>, distinct tones for different areas.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span>scent becomes part of the choreography.</span>
 				</div>
 			</div>
@@ -115,9 +115,9 @@
 						where scent is used, how it's delivered, and guiding clients toward the right fragrance
 						direction.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span class="headline">delivery options include:</span>
-					<div class="spacer-reg" />
+					<div class="spacer-reg"></div>
 					<span><strong>HVAC-integrated diffusion</strong> for broad coverage.</span>
 					<span><strong>standalone units</strong> for specific zones.</span>
 					<span
@@ -140,9 +140,9 @@
 						>scent works best when aligned with lighting, sound and movement. warm light with warm
 						fragrances. energising audio with bright, fresh tones.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span><span class="splash">coordinated layers reinforce each other</span>.</span>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span>we design scent as part of the complete sensory experience — not an add-on.</span>
 				</div>
 			</div>
@@ -161,7 +161,7 @@
 						>our involvement runs from concept to installation. specifying systems, coordinating
 						suppliers, supervising on site.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>final adjustments — <span class="splash">diffusion rates, timing, zone balance</span> — are
 						where the detail matters.</span
@@ -183,17 +183,17 @@
 						>we don't sell diffusers. we don't have a signature scent we push on every client. we're
 						not trying to lock you into refill contracts.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>most scent companies are product suppliers dressed up as consultants. they'll recommend
 						what they sell, not necessarily what the space needs.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>we design the system, define the zones and timing, and help you find the right
 						fragrance partner. the <span class="splash">relationship belongs to you</span> — not us.</span
 					>
-					<div class="spacer-lge" />
+					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/services#streams">back to services</a>
 					</span>

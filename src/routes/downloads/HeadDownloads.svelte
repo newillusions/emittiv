@@ -6,9 +6,9 @@
 		<div class="split">
 			<div class="f col">
 				<span class="headline">our documents</span>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span>for convenience, you can download some of our documents and papers here.</span>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<ul>
 					<li>
 						<span class="coming-soon">Company Profile</span>
@@ -22,9 +22,9 @@
 			</div>
 			<div class="f col">
 				<span class="headline">links</span>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span>some useful sites, organisations, and documents.</span>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<ul>
 					<li>
 						emittiv provides all our proposals under the terms of the ACE short form consulting

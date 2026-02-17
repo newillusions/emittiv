@@ -50,7 +50,7 @@
 		<div class="container">
 			<div class="f col center middle">
 				<span class="tagline">content</span>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span class="headline">keeping spaces alive.</span>
 			</div>
 		</div>
@@ -69,13 +69,13 @@
 						— millions spent on hardware, and the content is an afterthought. even the best audio
 						system needs material that does more than fill the silence.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>we don't pretend to be a one-stop content studio. different projects demand different
 						hands. sometimes you need a <span class="splash">drummer with attitude</span>. sometimes
 						a classical violinist. rarely the same person — and rarely at the same time.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>so instead of pushing a single "in-house" style, we bring in the right specialists for
 						each brief. over time we've built relationships with artists around the world whose work
@@ -95,7 +95,7 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span>before anything is created, we help define:</span>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						><strong>what stories to tell</strong> — brand narratives, seasonal rhythms, event moments.</span
 					>
@@ -124,13 +124,13 @@
 						is wide, styles vary, and it makes sense to bring in specialists who live and breathe
 						the craft.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>from ambient motion pieces to responsive installations, we <span class="splash"
 							>connect clients to artists</span
 						> who match the aesthetic and technical needs of the system.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>clients can work through us or directly with the creators; we don't insert ourselves
 						without reason. our goal is simply to see the system used well.</span
@@ -153,7 +153,7 @@
 							>develop directly</span
 						> — crafted to:</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span>strengthen the <strong>atmosphere and narrative</strong> of a space.</span>
 					<span>shift by <strong>time of day or zone</strong>.</span>
 					<span>adapt to <strong>seasons, events and operational patterns</strong>.</span>
@@ -175,11 +175,11 @@
 						system capability, making sure content is built with a clear understanding of what the
 						hardware can actually do.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>we designed the system. we want to see it <span class="splash">come alive</span>.</span
 					>
-					<div class="spacer-lge" />
+					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/services#streams">back to services</a>
 					</span>

@@ -16,12 +16,12 @@
 					>together, we bring over
 					<span class="splash">70 years</span> combined experience.</span
 				>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span class="headline"
 					>a young company<br />
 					with a <span class="splash">long history</span></span
 				>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span
 					>our team have been involved with some of the worlds'
 					<span class="splash">largest</span>, most

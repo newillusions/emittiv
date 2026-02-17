@@ -50,7 +50,7 @@
 		<div class="container">
 			<div class="f col center middle">
 				<span class="tagline">sound</span>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span class="headline">the invisible layer.</span>
 			</div>
 		</div>
@@ -70,7 +70,7 @@
 						afterthought. someone remembers to add speakers the week before opening. we think that's
 						backwards.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>the playback system, the acoustics, the content, how people move through the space —
 						it's all connected. we treat it as <span class="splash">one system</span>.</span
@@ -89,9 +89,9 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span>playlists are not sound design. sorry.</span>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span>actual sound design is about:</span>
-					<div class="spacer-reg" />
+					<div class="spacer-reg"></div>
 					<span><strong>spatial audio</strong> that places sound in three dimensions.</span>
 					<span><strong>environmental sources</strong> that feel native to the space.</span>
 					<span><strong>purposeful content</strong> — curated or composed for the environment.</span
@@ -114,9 +114,9 @@
 						>Dante, AES67 and modern networked platforms allow routing and reconfiguration with
 						ease. zones shift in software. systems scale without redesign.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span class="headline">we design audio that is:</span>
-					<div class="spacer-reg" />
+					<div class="spacer-reg"></div>
 					<span><strong>flexible</strong> — ready for change.</span>
 					<span><strong>integrated</strong> — part of the wider sensory system.</span>
 					<span><strong>manageable</strong> — intuitive to operate.</span>
@@ -137,7 +137,7 @@
 						>ambient soundscapes can define atmosphere subtly but powerfully: water and birdsong in
 						wellness, the energy of a market in a food hall, quiet tonal layers in a lobby.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>we create bespoke audio content or <span class="splash"
 							>collaborate with composers</span
@@ -161,7 +161,7 @@
 						>we join early in the design process, specify hardware and strategy, and stay involved
 						through installation. tuning on site is where the system takes shape.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>acoustic modelling tools allow us to <span class="splash"
 							>predict coverage and identify issues</span
@@ -184,19 +184,19 @@
 						>we don't sell speakers or amplifiers. we're not pushing a particular brand because
 						they've given us a good margin this quarter.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>we have manufacturers we trust — the ones that consistently perform and don't leave
 						clients stranded when firmware updates stop. but the choice always follows the brief,
 						not the relationship.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>we also lean toward repairable, modular equipment. amplifiers with swappable cards,
 						serviceable loudspeakers. the lifespan is longer, and we'd rather not contribute to the
 						pile of e-waste.</span
 					>
-					<div class="spacer-lge" />
+					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/services#streams">back to services</a>
 					</span>

@@ -14,9 +14,9 @@
 					<span class="splash">accomplished designers</span> in their own right, so we're also happy to
 					work on one or more aspects as well.</span
 				>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span class="headline">a single <span class="splash">frequency</span>.</span>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span
 					>this allows us and our Clients the greatest freedom in choosing the right approach for the
 					project.</span

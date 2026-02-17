@@ -57,9 +57,9 @@
 		></div>
 		<div class="hero-overlay">
 			<span class="tagline">Burj Al Arab</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span class="headline">iconic building. facade lighting.</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span class="disciplines">lighting / control</span>
 		</div>
 	</section>
@@ -78,7 +78,7 @@
 						throw the <span class="splash">300 metres</span> required on this project was
 						quite a challenge.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>a project of this significance needed to work reliably night after night without
 						fail, while still providing the flexibility to allow the client to join in special
@@ -101,7 +101,7 @@
 						replacement — evaluating products on performance and longevity rather than
 						manufacturer relationships.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>the control system was designed to give the hotel's team straightforward
 						day-to-day operation while retaining the flexibility to create bespoke colour
@@ -123,7 +123,7 @@
 					<span><strong>client:</strong> Jumeirah</span>
 					<span><strong>type:</strong> iconic building, hospitality</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
-					<div class="spacer-lge" />
+					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>
 					</span>

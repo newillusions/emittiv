@@ -71,9 +71,9 @@
 		></div>
 		<div class="hero-overlay">
 			<span class="tagline">Sheikh Zayed Grand Mosque</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span class="headline">iconic building. facade renewal.</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span class="disciplines">lighting / control</span>
 		</div>
 	</section>
@@ -92,7 +92,7 @@
 						overhaul comprising
 						<span class="splash">40+ switches and 100 nodes</span>.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>the new control platform needed to integrate with the existing network
 						infrastructure — and the result had to be indistinguishable from the original
@@ -118,13 +118,13 @@
 				</div>
 				<div class="split-text">
 					<h2>our role</h2>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>we developed a strategy to transfer data from the original control system and
 						conducted colour-matching tests to ensure the new LED fixtures replicated the
 						original design as closely as possible.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>the system includes <span class="splash">custom software</span> that simulates
 						lunar phases, changing the mosque's colour nightly with the moon cycles — a
@@ -147,7 +147,7 @@
 					<span><strong>type:</strong> iconic building, house of worship</span>
 					<span><strong>size:</strong> 121,800 m&sup2;</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
-					<div class="spacer-lge" />
+					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>
 					</span>

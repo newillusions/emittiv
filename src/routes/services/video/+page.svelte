@@ -50,7 +50,7 @@
 		<div class="container">
 			<div class="f col center middle">
 				<span class="tagline">video</span>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span class="headline">architecture in motion.</span>
 			</div>
 		</div>
@@ -69,9 +69,9 @@
 						has become the display. surfaces that were once static now carry motion, colour and
 						light at scales that would have seemed absurd a decade ago.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span class="headline">surfaces become <span class="splash">canvases</span>.</span>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>and yet, most of them end up playing logo loops and stock footage. what a waste.</span
 					>
@@ -92,9 +92,9 @@
 						>LED technologies have expanded rapidly: transparent panels, mesh systems, custom pixel
 						layouts. building skins can now carry motion and light at an architectural scale.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span class="headline">we design:</span>
-					<div class="spacer-reg" />
+					<div class="spacer-reg"></div>
 					<span><strong>media facades</strong> that animate exteriors.</span>
 					<span><strong>LED video walls</strong> for lobbies, retail and entertainment.</span>
 					<span><strong>projection mapping</strong> for features and events.</span>
@@ -119,17 +119,17 @@
 						away and took the keys with them. proprietary tools, closed formats, workflows nobody
 						else can touch — it's a trap, and it's everywhere in this industry.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>we design <span class="splash">open platforms</span>. documented workflows. standard
 						formats. any content partner can develop for the system, now or years from now. the
 						client owns the platform, not just the files it plays.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span>your media wall, your rules.</span>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span class="headline">our systems are:</span>
-					<div class="spacer-reg" />
+					<div class="spacer-reg"></div>
 					<span><strong>open</strong> — no proprietary traps.</span>
 					<span><strong>easy to update</strong> — by any creator.</span>
 					<span><strong>schedule-friendly</strong> — automated for times and events.</span>
@@ -152,7 +152,7 @@
 						partners as the concept evolves. we stay on the design team through specification,
 						installation and commissioning.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>we can also <span class="splash">introduce content developers</span> where needed — but the
 						client is never locked into a particular studio or workflow.</span
@@ -175,7 +175,7 @@
 						procurement support, supervision. calibration and content loading on site is where
 						everything becomes real.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>3d visualisation tools allow us to <span class="splash"
 							>map viewing angles, pixel densities and legibility</span
@@ -198,12 +198,12 @@
 						>we don't sell LED panels or media servers. we're not here to shift units — we're here
 						to make sure the system actually works in five years, not just on opening night.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>we evaluate products on performance and longevity. modular panels, serviceable
 						components, processors that evolve with firmware updates. the cheapest option rarely is.</span
 					>
-					<div class="spacer-lge" />
+					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/services#streams">back to services</a>
 					</span>

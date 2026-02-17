@@ -12,10 +12,10 @@
 			<div class="f col middle order-2">
 				<span class="headline">find us</span>
 				<span>marina, dubai, uae</span>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span class="headline">email us</span>
 				<span>hello(at)emittiv.com</span>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span class="headline">operating hours</span>
 				<span>Monday - Thursday</span>
 				<span>9am-6pm</span>

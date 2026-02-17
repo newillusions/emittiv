@@ -50,7 +50,7 @@
 		<div class="container">
 			<div class="f col center middle">
 				<span class="tagline">lighting</span>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span class="headline">beyond simple illumination.</span>
 			</div>
 		</div>
@@ -69,7 +69,7 @@
 						you see is shaped by how it's lit. lighting sets mood, guides attention, affects how
 						people feel — often without them noticing.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>emittiv is a young practice built on a long history in the field. our roots are in
 						theatre, where light is a <span class="splash">narrative tool</span>, not just a
@@ -92,12 +92,12 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span>spaces change through the day. lighting should too.</span>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span class="headline"
 						>our systems are <span class="splash">programmable</span> and
 						<span class="splash">responsive</span>.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span><strong>colour-temperature shifts</strong> that mirror natural daylight.</span>
 					<span><strong>layered scenes</strong> for different uses and times.</span>
 					<span
@@ -124,9 +124,9 @@
 						>from entertainment we bring an understanding of timing, contrast, rhythm and emotional
 						impact.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span class="headline">we design lighting that:</span>
-					<div class="spacer-reg" />
+					<div class="spacer-reg"></div>
 					<span>creates <strong>focal points and hierarchy</strong>.</span>
 					<span>uses <strong>colour as an emotional tool</strong>.</span>
 					<span>supports <strong>wayfinding and spatial clarity</strong>.</span>
@@ -149,17 +149,17 @@
 						>we stay involved through the full arc of a project — early concept, detailed design,
 						procurement support, installation supervision, programming and commissioning.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span class="headline"
 						><span class="splash">we work as part of the client's design team</span></span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>ensuring the outcome matches the intent, not just the drawings. we use advanced 3d
 						calculation tools to model levels and coverage so clients can understand the result
 						before fixtures arrive on site.</span
 					>
-					<div class="spacer-reg" />
+					<div class="spacer-reg"></div>
 					<span
 						>our documentation covers layouts, specifications, control strategy and programming
 						requirements — complete and build-ready.</span
@@ -182,18 +182,18 @@
 						the project — sometimes a high-end European fixture, sometimes a carefully chosen
 						alternative that does the job for half the price.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>if your "lighting designer" also happens to sell the fixtures, ask yourself who they're
 						really designing for.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>we favour <span class="splash">serviceable fittings</span> — replaceable drivers and LED
 						modules that extend system life and keep maintenance straightforward. the throwaway approach
 						might be easier to sell, but we'd rather not see our work in a skip five years from now.</span
 					>
-					<div class="spacer-lge" />
+					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/services#streams">back to services</a>
 					</span>

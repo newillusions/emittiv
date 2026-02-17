@@ -16,9 +16,9 @@
 					>we aim to provide <span class="splash">ease</span> and
 					<span class="splash">efficiency</span> to our Clients.</span
 				>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span class="headline">a <span class="splash">team</span> of specialists.</span>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span
 					>as a result, we're happy to work in a number of
 					<span class="splash">different ways</span>.</span

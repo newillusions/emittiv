@@ -71,8 +71,8 @@
 </section>
 <section id="discl" data-label="Acknowledgements">
 	<div class="container center">
-		<div class="spacer-med" />
-		<div class="spacer-med" />
+		<div class="spacer-med"></div>
+		<div class="spacer-med"></div>
 		<span class="t07">
 			whilst some of these projects were undertaken by<br />
 			our team when they were working for other companies,<br />

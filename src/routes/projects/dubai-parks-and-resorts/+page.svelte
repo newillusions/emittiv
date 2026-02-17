@@ -71,9 +71,9 @@
 		></div>
 		<div class="hero-overlay">
 			<span class="tagline">Dubai Parks and Resorts</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span class="headline">themed entertainment. multiple disciplines.</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span class="disciplines">lighting / control</span>
 		</div>
 	</section>
@@ -90,7 +90,7 @@
 						fully themed <span class="splash">IP-based attractions</span> — each environment
 						with its own character, narrative and technical demands.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>the lighting concepts needed to be in line with the IP holder's vision and
 						requirements, while ensuring the various systems and projects would all link in
@@ -116,12 +116,12 @@
 				</div>
 				<div class="split-text">
 					<h2>our role</h2>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>we provided the original lighting concepts for renovations of existing areas as
 						well as new themed attractions under development.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>we then <span class="splash">managed external teams</span> through the schematic
 						and detailed design phases to ensure the various systems and projects would all
@@ -143,7 +143,7 @@
 					<span><strong>client:</strong> Dubai Parks and Resorts</span>
 					<span><strong>type:</strong> themed entertainment, destination</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
-					<div class="spacer-lge" />
+					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>
 					</span>

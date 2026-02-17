@@ -13,12 +13,12 @@
 					>we design experiences, not just systems - making sure all of our elements work together
 					to deliver a unified and polished concept.</span
 				>
-				<div class="spacer-med" />
+				<div class="spacer-med"></div>
 				<span class="headline"
 					><span class="splash">technical</span> systems<br />for
 					<span class="splash">creative</span> results.</span
 				>
-				<div class="spacer-med" />
+				<div class="spacer-med"></div>
 				<span
 					>from output levels and equipment aesthetics through to the programming and content, all
 					our designs work toward the same goal.</span

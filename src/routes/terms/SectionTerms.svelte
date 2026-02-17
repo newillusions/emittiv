@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="h30 f center middle col">
 			<span class="headline">Terms and Conditions</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span>last updated: 15 February 2026</span>
 		</div>
 		<div class="split">
@@ -103,17 +103,6 @@
 <style lang="scss">
 	p {
 		margin-bottom: 1rem;
-		font-size: 0.8rem;
-		line-height: 1.2rem;
-	}
-
-	ul {
-		margin-bottom: 1rem;
-		padding-left: 1rem;
-		list-style-type: disc;
-	}
-
-	li {
 		font-size: 0.8rem;
 		line-height: 1.2rem;
 	}

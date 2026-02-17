@@ -54,9 +54,9 @@
 		></div>
 		<div class="hero-overlay">
 			<span class="tagline">City Walk</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span class="headline">multimedia attraction. show lighting.</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span class="disciplines">lighting / control</span>
 		</div>
 	</section>
@@ -73,7 +73,7 @@
 						<span class="splash">destinations in their own right</span> — providing
 						attractions, family entertainment centres and other entertainment.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>the operators wanted to introduce new multimedia shows to the central attraction
 						— both permanent shows and temporary events across several months.</span
@@ -95,7 +95,7 @@
 						<span class="splash">working nights</span> to minimise disruption to daily
 						operations.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>our experience in show lighting allowed us to seamlessly integrate with the
 						wider systems installed — incorporating the fountain lighting and architectural
@@ -119,7 +119,7 @@
 					<span><strong>type:</strong> destination, multimedia attraction</span>
 					<span><strong>size:</strong> 13,000 m&sup2;</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
-					<div class="spacer-lge" />
+					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>
 					</span>

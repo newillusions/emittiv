@@ -10,9 +10,9 @@
 			</div>
 			<div class="v-padding-1 f col middle order-2">
 				we design systems that support each other and create dynamic and vibrant spaces.
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span class="headline">harmony, balance and cohesion.</span>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				our aim is to complement and enhance the built environment using "intangible" design elements.
 			</div>
 		</div>

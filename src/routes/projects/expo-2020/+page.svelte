@@ -54,9 +54,9 @@
 		></div>
 		<div class="hero-overlay">
 			<span class="tagline">Expo 2020</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span class="headline">public realm. 4.38 million square metres.</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span class="disciplines">lighting / control</span>
 		</div>
 	</section>
@@ -73,7 +73,7 @@
 						the site. the public realm lighting had been delivered by various teams and
 						contractors — each working to their own brief.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>the goal was <span class="splash"
 							>a unified guest experience</span
@@ -97,7 +97,7 @@
 						project lighting designers to maintain design intent while making the adjustments
 						the event required.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>the result was visual consistency without uniformity — <span class="splash"
 							>each zone retaining its character</span
@@ -120,7 +120,7 @@
 					<span><strong>type:</strong> destination, public realm</span>
 					<span><strong>size:</strong> 4,380,000 m&sup2;</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
-					<div class="spacer-lge" />
+					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>
 					</span>

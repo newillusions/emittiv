@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="h30 f center middle col">
 			<span class="headline">Privacy Policy</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span>last updated: 15 February 2026</span>
 		</div>
 		<div class="split">

@@ -68,9 +68,9 @@
 		></div>
 		<div class="hero-overlay">
 			<span class="tagline">KAPSARC</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span class="headline">multipurpose hall. Zaha Hadid.</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span class="disciplines">lighting / control</span>
 		</div>
 	</section>
@@ -88,7 +88,7 @@
 						to be <span class="splash">invisible when not in use</span>, allowing the
 						interior design to remain the focal point.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>the main hall subdivides into 5 separate rooms or combines in various
 						configurations. a 328-seat auditorium on the same site serves high-profile
@@ -114,14 +114,14 @@
 				</div>
 				<div class="split-text">
 					<h2>our role</h2>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>we delivered performance lighting and rigging — over 40 motorised line-sets and
 						several hundred luminaires. portable lighting desks can connect to any room,
 						allowing operators to
 						<span class="splash">control all or part of the system</span> with ease.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>the auditorium features fully integrated architectural and stage lighting using
 						DMX and DALI protocols — balanced for event operation and daily use, including
@@ -148,7 +148,7 @@
 					<span><strong>type:</strong> multipurpose hall, conference venue</span>
 					<span><strong>size:</strong> 2,256 m&sup2;</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
-					<div class="spacer-lge" />
+					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>
 					</span>

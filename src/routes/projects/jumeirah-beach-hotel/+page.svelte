@@ -57,9 +57,9 @@
 		></div>
 		<div class="hero-overlay">
 			<span class="tagline">Jumeirah Beach Hotel</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span class="headline">iconic building. dynamic facade.</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span class="disciplines">lighting / control</span>
 		</div>
 	</section>
@@ -78,7 +78,7 @@
 							>the first large-scale dynamic facade lighting project</span
 						> in the region to use LED fixtures.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>a project of this significance needed to work reliably night after night without
 						fail, while still providing the flexibility to allow the client to join in special
@@ -117,7 +117,7 @@
 					<span><strong>client:</strong> Jumeirah</span>
 					<span><strong>type:</strong> iconic building, hospitality</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
-					<div class="spacer-lge" />
+					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>
 					</span>

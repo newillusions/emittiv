@@ -57,9 +57,9 @@
 		></div>
 		<div class="hero-overlay">
 			<span class="tagline">Al Imam University</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span class="headline">performance venue. full renovation.</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span class="disciplines">lighting / control</span>
 		</div>
 	</section>
@@ -96,7 +96,7 @@
 						area</span> (FoH) — allowing the designs on stage to be brought out into the
 						house.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>the work extended across the Ladies Campus, Student Lobby, Library, Water Tower,
 						Sports Stadium, Royal Gate and Boundary Fence renovations.</span
@@ -118,7 +118,7 @@
 					<span><strong>architect:</strong> Typsa</span>
 					<span><strong>type:</strong> performance venue, education</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
-					<div class="spacer-lge" />
+					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>
 					</span>

@@ -10,7 +10,7 @@
 			</div>
 			<div class="v-padding-1 f col middle order-2">
 				<span class="headline">lighting, video, sound and scent for the built environment.</span>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span
 					>we work with <span class="splash">technologies</span> that work with our
 					<span class="splash">senses</span>.</span

@@ -50,7 +50,7 @@
 		<div class="container">
 			<div class="f col center middle">
 				<span class="tagline">control</span>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span class="headline">bringing it all together.</span>
 			</div>
 		</div>
@@ -69,13 +69,13 @@
 						don't talk to each other. there are no scenes — just switches. we think that's a waste
 						of potential.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>this is where our <span class="splash">theatrical background</span> matters. show control
 						teaches timing, sequencing, precision — many systems behaving as one coherent thing. we've
 						spent careers making that happen under pressure, live, in front of audiences.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>we bring that mindset to architectural environments. control integration is one of
 						the core strengths of the practice — and a step beyond what most design studios
@@ -98,7 +98,7 @@
 						>instead of managing individual devices, we design around <strong>scenes</strong> — combinations
 						of settings that create a defined mood.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						><strong>morning arrival</strong> — bright, energising light; upbeat audio; fresh scent.</span
 					>
@@ -106,7 +106,7 @@
 						><strong>evening service</strong> — warm light, softer soundscape, richer fragrance.</span
 					>
 					<span><strong>event mode</strong> — bold lighting, active video, elevated audio.</span>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>scenes can shift instantly or evolve slowly — <span class="splash"
 							>subtle transitions through the day</span
@@ -126,9 +126,9 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span>complex systems don't need complex controls.</span>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span class="headline">we design interfaces that:</span>
-					<div class="spacer-reg" />
+					<div class="spacer-reg"></div>
 					<span>make sense to <strong>non-technical users</strong>.</span>
 					<span>offer <strong>simple day-to-day control</strong>, with depth when needed.</span>
 					<span>work across devices — <strong>wall panels, tablets, mobile</strong>.</span>
@@ -149,7 +149,7 @@
 						>our systems interface with BMS platforms, booking systems and other operational tools.
 						scenes can trigger automatically based on:</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span><strong>time schedules</strong></span>
 					<span><strong>occupancy and sensors</strong></span>
 					<span><strong>calendar or event data</strong></span>
@@ -171,12 +171,12 @@
 						>we're increasingly working with <span class="splash">generative control</span>: systems
 						that respond to inputs in real time rather than recalling static presets.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>occupancy patterns, time of day, sensor data, even weather — all feeding into a living
 						system.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>not every project needs this level of complexity, but when it fits, the results are
 						compelling. we keep close to emerging tools because this is where the field is heading.</span
@@ -198,13 +198,13 @@
 						>we don't sell hardware and we're not tied to manufacturers. we specify platforms
 						because they suit the project, not because we need to hit a sales target.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>that <span class="splash">independence is rare in this market</span> — most "consultants"
 						in this space are really integrators who happen to offer design services. the design comes
 						second to the install contract.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>we have favourites that consistently perform well, but the brief always comes first.
 						and we prefer modular systems where components can be swapped rather than entire racks
@@ -227,13 +227,13 @@
 						>we develop the control strategy, specify the hardware and software, supervise
 						programming, and handle commissioning.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>when everything connects for the first time and scenes start to take shape, that's
 						where the design decisions become real — <span class="splash">and we're there</span
 						>.</span
 					>
-					<div class="spacer-lge" />
+					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/services#streams">back to services</a>
 					</span>

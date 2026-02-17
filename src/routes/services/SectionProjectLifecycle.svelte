@@ -13,9 +13,9 @@
 					>the systems we specialise in require more than just layout drawings to achieve their
 					aims.</span
 				>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span class="headline">partners <span class="splash">throughout</span>.</span>
-				<div class="spacer-reg" />
+				<div class="spacer-reg"></div>
 				<span
 					>we're able to support projects from concept through to operation and anything in
 					between — aligned with the RIBA Plan of Work stages that our architecture and

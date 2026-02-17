@@ -57,9 +57,9 @@
 		></div>
 		<div class="hero-overlay">
 			<span class="tagline">Dubai Mall Penguinarium</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span class="headline">attraction lighting. animal welfare.</span>
-			<div class="spacer-reg" />
+			<div class="spacer-reg"></div>
 			<span class="disciplines">lighting / control</span>
 		</div>
 	</section>
@@ -77,7 +77,7 @@
 						<span class="splash">support the animal welfare</span> as well? sounds like
 						fun!</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>the challenge was establishing a distinctive environment for guests while
 						prioritising animal comfort and natural cycles — then integrating with show
@@ -101,7 +101,7 @@
 						research to establish the right conditions for the animals alongside the guest
 						experience.</span
 					>
-					<div class="spacer-med" />
+					<div class="spacer-med"></div>
 					<span
 						>photosensors automatically adjust overall attraction lighting levels to align
 						with <span class="splash">animal-specific lighting requirements</span>,
@@ -125,7 +125,7 @@
 					<span><strong>client:</strong> Emaar Entertainment</span>
 					<span><strong>type:</strong> family entertainment, attraction</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
-					<div class="spacer-lge" />
+					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>
 					</span>
