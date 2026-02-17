@@ -16,7 +16,7 @@
 					<span class="splash">senses</span>.</span
 				>
 				<span class="underline">
-					<a class="navItem" href="/services">more info</a>
+					<a class="navItem" href="/services">explore our services</a>
 				</span>
 			</div>
 		</div>
