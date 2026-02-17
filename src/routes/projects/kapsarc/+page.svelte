@@ -64,7 +64,7 @@
 	<section class="hero-bleed">
 		<div
 			class="hero-image"
-			style="background-image: url(/img/projects/kapsarc/hero.jpg); transform: translateY({scrollY * 0.15}px)"
+			style="background-image: url(/img/projects/kapsarc/hero.webp); transform: translateY({scrollY * 0.15}px)"
 		></div>
 		<div class="hero-overlay">
 			<span class="tagline">KAPSARC</span>
@@ -103,11 +103,14 @@
 		<div class="container">
 			<div class="split-image-layout">
 				<div class="split-img {splitRevealed ? 'revealed' : ''}">
-					<img
-						src="/img/projects/kapsarc/auditorium.jpg"
-						alt="KAPSARC auditorium performance lighting"
-						loading="lazy"
-					/>
+					<picture>
+						<source srcset="/img/projects/kapsarc/auditorium.webp" type="image/webp" />
+						<img
+							src="/img/projects/kapsarc/auditorium.jpg"
+							alt="KAPSARC auditorium performance lighting"
+							loading="lazy"
+						/>
+					</picture>
 				</div>
 				<div class="split-text">
 					<h2>our role</h2>

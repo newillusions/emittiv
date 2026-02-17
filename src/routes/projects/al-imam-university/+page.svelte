@@ -53,7 +53,7 @@
 	<section class="hero-bleed">
 		<div
 			class="hero-image"
-			style="background-image: url(/img/projects/al-imam-university/hero.jpg); transform: translateY({scrollY * 0.15}px)"
+			style="background-image: url(/img/projects/al-imam-university/hero.webp); transform: translateY({scrollY * 0.15}px)"
 		></div>
 		<div class="hero-overlay">
 			<span class="tagline">Al Imam University</span>

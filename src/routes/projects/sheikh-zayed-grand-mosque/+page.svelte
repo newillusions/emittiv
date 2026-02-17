@@ -67,7 +67,7 @@
 	<section class="hero-bleed">
 		<div
 			class="hero-image"
-			style="background-image: url(/img/projects/sheikh-zayed-grand-mosque/hero.jpg); transform: translateY({scrollY * 0.15}px)"
+			style="background-image: url(/img/projects/sheikh-zayed-grand-mosque/hero.webp); transform: translateY({scrollY * 0.15}px)"
 		></div>
 		<div class="hero-overlay">
 			<span class="tagline">Sheikh Zayed Grand Mosque</span>
@@ -107,11 +107,14 @@
 		<div class="container">
 			<div class="split-image-layout">
 				<div class="split-img {splitRevealed ? 'revealed' : ''}">
-					<img
-						src="/img/projects/sheikh-zayed-grand-mosque/domes.jpg"
-						alt="Sheikh Zayed Grand Mosque domes illuminated at night"
-						loading="lazy"
-					/>
+					<picture>
+						<source srcset="/img/projects/sheikh-zayed-grand-mosque/domes.webp" type="image/webp" />
+						<img
+							src="/img/projects/sheikh-zayed-grand-mosque/domes.jpg"
+							alt="Sheikh Zayed Grand Mosque domes illuminated at night"
+							loading="lazy"
+						/>
+					</picture>
 				</div>
 				<div class="split-text">
 					<h2>our role</h2>
