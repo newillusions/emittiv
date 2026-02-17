@@ -18,6 +18,9 @@
 		property="og:description"
 		content="emittiv privacy policy and data protection information."
 	/>
+	<meta property="og:image" content="https://www.emittiv.com/img/og-default.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
 	<meta property="og:url" content="https://www.emittiv.com/privacy" />
 	<meta property="og:site_name" content="emittiv" />
 </svelte:head>

@@ -19,7 +19,9 @@
 		property="og:description"
 		content="Explore emittiv's portfolio of sensory design projects across hospitality, retail and commercial sectors."
 	/>
-	<meta property="og:image" content="https://www.emittiv.com/img/logo_strap.svg" />
+	<meta property="og:image" content="https://www.emittiv.com/img/og-default.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
 	<meta property="og:url" content="https://www.emittiv.com/projects" />
 	<meta property="og:site_name" content="emittiv" />
 	<meta property="og:locale" content="en_AE" />
@@ -31,7 +33,9 @@
 		name="twitter:description"
 		content="Portfolio of sensory design projects: lighting, video, sound and scent for hospitality, retail and commercial environments."
 	/>
-	<meta name="twitter:image" content="https://www.emittiv.com/img/logo_strap.svg" />
+	<meta name="twitter:image" content="https://www.emittiv.com/img/og-default.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
 </svelte:head>
 
 <main>

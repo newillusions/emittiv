@@ -20,7 +20,9 @@
 		property="og:description"
 		content="Video system design for architecture: media facades, LED video walls, projection mapping and digital signage. Creating dynamic visual environments for commercial spaces in Dubai."
 	/>
-	<meta property="og:image" content="https://www.emittiv.com/img/logo_strap.svg" />
+	<meta property="og:image" content="https://www.emittiv.com/img/og-default.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
 	<meta property="og:url" content="https://www.emittiv.com/services/video" />
 	<meta property="og:site_name" content="emittiv" />
 	<meta property="og:locale" content="en_AE" />
@@ -32,7 +34,9 @@
 		name="twitter:description"
 		content="Video system design for architecture: media facades, LED video walls, projection mapping and digital signage."
 	/>
-	<meta name="twitter:image" content="https://www.emittiv.com/img/logo_strap.svg" />
+	<meta name="twitter:image" content="https://www.emittiv.com/img/og-default.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +

@@ -31,6 +31,15 @@
 	<meta property="og:site_name" content="emittiv" />
 	<meta property="og:locale" content="en_AE" />
 
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Expo 2020 Public Realm Lighting | emittiv" />
+	<meta
+		name="twitter:description"
+		content=""
+	/>
+	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/expo-2020/hero.jpg" />
+
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
 		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/expo-2020","name":"Expo 2020 Public Realm Lighting","description":"Public realm lighting coordination for Expo 2020 Dubai","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/expo-2020/hero.jpg","locationCreated":{"@type":"Place","name":"Dubai, UAE"},"keywords":"public realm, lighting design, expo, destination, Dubai"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"Expo 2020","item":"https://www.emittiv.com/projects/expo-2020"}]}]}</scr' +

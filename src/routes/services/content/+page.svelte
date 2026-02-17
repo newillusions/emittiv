@@ -20,7 +20,9 @@
 		property="og:description"
 		content="Ongoing content creation and curation for video walls, soundscapes and digital displays. Keeping sensory environments fresh and engaging in Dubai hospitality and retail."
 	/>
-	<meta property="og:image" content="https://www.emittiv.com/img/logo_strap.svg" />
+	<meta property="og:image" content="https://www.emittiv.com/img/og-default.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
 	<meta property="og:url" content="https://www.emittiv.com/services/content" />
 	<meta property="og:site_name" content="emittiv" />
 	<meta property="og:locale" content="en_AE" />
@@ -32,7 +34,9 @@
 		name="twitter:description"
 		content="Ongoing content creation and curation for video walls, soundscapes and digital displays."
 	/>
-	<meta name="twitter:image" content="https://www.emittiv.com/img/logo_strap.svg" />
+	<meta name="twitter:image" content="https://www.emittiv.com/img/og-default.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +

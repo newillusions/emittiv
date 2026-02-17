@@ -34,6 +34,15 @@
 	<meta property="og:site_name" content="emittiv" />
 	<meta property="og:locale" content="en_AE" />
 
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Al Imam University Auditorium | emittiv" />
+	<meta
+		name="twitter:description"
+		content=""
+	/>
+	<meta name="twitter:image" content="" />
+
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
 		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/al-imam-university","name":"Al Imam University Auditorium","description":"Lighting and control design for the Al Imam University auditorium renovation, Riyadh","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/al-imam-university/hero.jpg","locationCreated":{"@type":"Place","name":"Riyadh, KSA"},"keywords":"auditorium, performance venue, lighting, control, Riyadh"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"Al Imam University","item":"https://www.emittiv.com/projects/al-imam-university"}]}]}</scr' +

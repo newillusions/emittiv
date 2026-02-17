@@ -31,6 +31,15 @@
 	<meta property="og:site_name" content="emittiv" />
 	<meta property="og:locale" content="en_AE" />
 
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="City Walk Multimedia Attraction | emittiv" />
+	<meta
+		name="twitter:description"
+		content=""
+	/>
+	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/city-walk/hero.jpg" />
+
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
 		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/city-walk","name":"City Walk Multimedia Attraction","description":"Theatrical lighting and show control for the City Walk multimedia attraction, Dubai","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/city-walk/hero.jpg","locationCreated":{"@type":"Place","name":"Dubai, UAE"},"keywords":"show lighting, multimedia, fountain lighting, theatrical, control systems, Dubai"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"City Walk","item":"https://www.emittiv.com/projects/city-walk"}]}]}</scr' +

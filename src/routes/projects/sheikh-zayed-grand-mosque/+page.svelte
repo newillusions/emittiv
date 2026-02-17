@@ -48,6 +48,15 @@
 	<meta property="og:site_name" content="emittiv" />
 	<meta property="og:locale" content="en_AE" />
 
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Sheikh Zayed Grand Mosque Lighting | emittiv" />
+	<meta
+		name="twitter:description"
+		content=""
+	/>
+	<meta name="twitter:image" content="" />
+
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
 		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/sheikh-zayed-grand-mosque","name":"Sheikh Zayed Grand Mosque Lighting","description":"Facade lighting renewal for the Sheikh Zayed Grand Mosque, Abu Dhabi","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/sheikh-zayed-grand-mosque/hero.jpg","locationCreated":{"@type":"Place","name":"Abu Dhabi, UAE"},"keywords":"facade lighting, mosque, iconic building, LED, control systems, Abu Dhabi"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"Sheikh Zayed Grand Mosque","item":"https://www.emittiv.com/projects/sheikh-zayed-grand-mosque"}]}]}</scr' +

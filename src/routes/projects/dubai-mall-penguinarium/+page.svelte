@@ -34,6 +34,15 @@
 	<meta property="og:site_name" content="emittiv" />
 	<meta property="og:locale" content="en_AE" />
 
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Dubai Mall Penguinarium | Attraction Lighting | emittiv" />
+	<meta
+		name="twitter:description"
+		content=""
+	/>
+	<meta name="twitter:image" content="" />
+
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
 		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/dubai-mall-penguinarium","name":"Dubai Mall Penguinarium","description":"Lighting and control for the Dubai Mall Penguinarium attraction","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/dubai-mall-penguinarium/hero.jpg","locationCreated":{"@type":"Place","name":"Dubai, UAE"},"keywords":"attraction lighting, control, animal welfare, family entertainment, Dubai"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"Dubai Mall Penguinarium","item":"https://www.emittiv.com/projects/dubai-mall-penguinarium"}]}]}</scr' +

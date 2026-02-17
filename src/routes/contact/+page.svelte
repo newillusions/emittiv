@@ -19,7 +19,9 @@
 		property="og:description"
 		content="Get in touch with emittiv for sensory design consultancy in Dubai and the GCC. Transform your space with expert lighting, video, sound and scent design."
 	/>
-	<meta property="og:image" content="https://www.emittiv.com/img/logo_strap.svg" />
+	<meta property="og:image" content="https://www.emittiv.com/img/og-default.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
 	<meta property="og:url" content="https://www.emittiv.com/contact" />
 	<meta property="og:site_name" content="emittiv" />
 	<meta property="og:locale" content="en_AE" />
@@ -31,7 +33,9 @@
 		name="twitter:description"
 		content="Transform your space with expert sensory design. Lighting, video, sound and scent consultancy in Dubai & GCC."
 	/>
-	<meta name="twitter:image" content="https://www.emittiv.com/img/logo_strap.svg" />
+	<meta name="twitter:image" content="https://www.emittiv.com/img/og-default.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
 </svelte:head>
 
 <main>

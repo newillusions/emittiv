@@ -15,6 +15,9 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Terms & Conditions | emittiv" />
 	<meta property="og:description" content="Website terms and conditions for emittiv.com" />
+	<meta property="og:image" content="https://www.emittiv.com/img/og-default.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
 	<meta property="og:url" content="https://www.emittiv.com/terms" />
 	<meta property="og:site_name" content="emittiv" />
 </svelte:head>
