@@ -7,3 +7,8 @@ node_modules
 .env.*
 !.env.example
 .mcp.json
+.claude/mcp-local/
+.claude/HANDOVER.md
+.claude/rules/
+.playwright-mcp/
+*.png
