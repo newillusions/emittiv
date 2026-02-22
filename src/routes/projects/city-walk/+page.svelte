@@ -1,11 +1,25 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+
 	let scrollY = $state(0);
+	let innerHeight = $state(0);
+	let splitEl: HTMLElement | null = $state(null);
+	let splitRevealed = $state(false);
+
 	function handleScroll() {
 		scrollY = window.scrollY;
+		if (splitEl && !splitRevealed) {
+			const rect = splitEl.getBoundingClientRect();
+			if (rect.top < innerHeight * 0.85) {
+				splitRevealed = true;
+			}
+		}
 	}
+
 	onMount(() => {
+		innerHeight = window.innerHeight;
 		window.addEventListener('scroll', handleScroll, { passive: true });
+		handleScroll();
 		return () => window.removeEventListener('scroll', handleScroll);
 	});
 </script>
@@ -83,13 +97,22 @@
 		</div>
 	</section>
 
-	<section class="screen-flow content" data-label="Role">
+	<section class="split-section content" bind:this={splitEl}>
 		<div class="container">
-			<div class="split">
-				<div class="section-title order-3">
-					<h2>our role</h2>
+			<div class="split-image-layout">
+				<div class="split-img {splitRevealed ? 'revealed' : ''}">
+					<picture>
+						<source srcset="/img/projects/city-walk/attraction.webp" type="image/webp" />
+						<img
+							src="/img/projects/city-walk/attraction.jpg"
+							alt="City Walk multimedia attraction illuminated at night"
+							loading="lazy"
+						/>
+					</picture>
 				</div>
-				<div class="v-padding-1 f col middle order-2">
+				<div class="split-text">
+					<h2>our role</h2>
+					<div class="spacer-med"></div>
 					<span
 						>we designed and programmed the lighting, working with the creative team and
 						<span class="splash">working nights</span> to minimise disruption to daily
@@ -166,9 +189,55 @@
 		);
 	}
 
+	/* ── Split image + text ── */
+	.split-section {
+		padding: 4rem 0;
+	}
+
+	.split-image-layout {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 3rem;
+		align-items: center;
+		min-height: 40vh;
+
+		h2 {
+			font-family: 'Ubuntu', sans-serif;
+			font-size: clamp(1.5rem, 3vw, 2.5rem);
+			font-weight: 300;
+			color: var(--white);
+		}
+	}
+
+	.split-img {
+		overflow: hidden;
+		border-radius: 2px;
+		clip-path: inset(0 100% 0 0);
+		transition: clip-path 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+		&.revealed {
+			clip-path: inset(0 0 0 0);
+		}
+
+		img {
+			display: block;
+			width: 100%;
+			transition: transform 0.6s ease;
+		}
+
+		&:hover img {
+			transform: scale(1.03);
+		}
+	}
+
 	@media (max-width: 768px) {
 		.hero-bleed {
 			height: 60vh;
+		}
+
+		.split-image-layout {
+			grid-template-columns: 1fr;
+			gap: 2rem;
 		}
 	}
 </style>

@@ -71,7 +71,7 @@
 			<div class="spacer-reg"></div>
 			<span class="headline">multipurpose hall. Zaha Hadid.</span>
 			<div class="spacer-reg"></div>
-			<span class="disciplines">lighting / control</span>
+			<span class="disciplines">project management / lighting / control</span>
 		</div>
 	</section>
 
@@ -116,19 +116,18 @@
 					<h2>our role</h2>
 					<div class="spacer-med"></div>
 					<span
-						>we delivered performance lighting and rigging — over 40 motorised line-sets and
-						several hundred luminaires. portable lighting desks can connect to any room,
-						allowing operators to
-						<span class="splash">control all or part of the system</span> with ease.</span
+						>we <span class="splash">project managed the entertainment spaces installation</span>
+						— coordinating over 40 motorised line-sets, several hundred luminaires, and
+						portable lighting desks that can connect to any room, allowing operators to
+						control all or part of the system with ease.</span
 					>
 					<div class="spacer-med"></div>
 					<span
 						>the auditorium features fully integrated architectural and stage lighting using
-						DMX and DALI protocols — balanced for event operation and daily use, including
-						dedicated switches for cleaning staff. midway through the project, the client
-						revised electrical supply requirements from dual 110v/230v to single supply,
-						requiring system redesign — we met the original deadlines despite the
-						changes.</span
+						DMX and DALI protocols — balanced for event operation and daily use. midway
+						through the project, the client revised electrical supply requirements from dual
+						110v/230v to single supply, requiring system redesign — we met the original
+						deadlines despite the changes.</span
 					>
 				</div>
 			</div>
