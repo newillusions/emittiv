@@ -7,10 +7,10 @@
 </script>
 
 <svelte:head>
-	<title>Sensory Design Dubai | Lighting, Video, Sound & Scent | emittiv</title>
+	<title>Lighting & Sensory Design Consultancy Dubai | emittiv</title>
 	<meta
 		name="description"
-		content="Transform spaces with multisensory design. emittiv brings theatrical expertise to lighting, video, sound and scent design for hospitality, retail and commercial environments in Dubai & GCC."
+		content="Sensory design consultancy in Dubai. emittiv brings theatrical expertise to lighting, video, sound and scent design for hospitality and commercial environments."
 	/>
 	<link rel="canonical" href="https://www.emittiv.com/" />
 	<meta name="robots" content="index,follow" />
@@ -19,11 +19,11 @@
 	<meta property="og:type" content="website" />
 	<meta
 		property="og:title"
-		content="Sensory Design Dubai | Lighting, Video, Sound & Scent | emittiv"
+		content="Lighting & Sensory Design Consultancy Dubai | emittiv"
 	/>
 	<meta
 		property="og:description"
-		content="Transform spaces with multisensory design. emittiv brings theatrical expertise to lighting, video, sound and scent design for hospitality, retail and commercial environments in Dubai & GCC."
+		content="Sensory design consultancy in Dubai. emittiv brings theatrical expertise to lighting, video, sound and scent design for hospitality and commercial environments."
 	/>
 	<meta property="og:image" content="https://www.emittiv.com/img/og-default.png" />
 	<meta property="og:image:width" content="1200" />
@@ -36,7 +36,7 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta
 		name="twitter:title"
-		content="Sensory Design Dubai | Lighting, Video, Sound & Scent | emittiv"
+		content="Lighting & Sensory Design Consultancy Dubai | emittiv"
 	/>
 	<meta
 		name="twitter:description"
