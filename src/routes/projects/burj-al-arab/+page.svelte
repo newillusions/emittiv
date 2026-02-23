@@ -50,7 +50,7 @@
 	<meta name="twitter:title" content="Burj Al Arab Facade Lighting | emittiv" />
 	<meta
 		name="twitter:description"
-		content=""
+		content="Facade lighting design for the Burj Al Arab, Dubai. LED replacement programme for one of the world's most recognised buildings."
 	/>
 	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/burj-al-arab/hero.jpg" />
 
@@ -67,7 +67,7 @@
 			style="background-image: url(/img/projects/burj-al-arab/hero.webp); transform: translateY({scrollY * 0.15}px)"
 		></div>
 		<div class="hero-overlay">
-			<span class="tagline">Burj Al Arab</span>
+			<h1 class="tagline">Burj Al Arab</h1>
 			<div class="spacer-reg"></div>
 			<span class="headline">iconic building. facade lighting.</span>
 			<div class="spacer-reg"></div>
@@ -143,6 +143,8 @@
 					<span><strong>client:</strong> Jumeirah</span>
 					<span><strong>type:</strong> iconic building, hospitality</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
+					<div class="spacer-med"></div>
+					<span>learn more about our <a href="/services/lighting">lighting design</a> and <a href="/services/control">control systems</a> services.</span>
 					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>

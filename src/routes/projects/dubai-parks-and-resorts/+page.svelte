@@ -53,9 +53,9 @@
 	<meta name="twitter:title" content="Dubai Parks and Resorts | Themed Entertainment | emittiv" />
 	<meta
 		name="twitter:description"
-		content=""
+		content="Lighting and control design for Dubai Parks and Resorts themed entertainment environments including attractions, rides and public areas."
 	/>
-	<meta name="twitter:image" content="" />
+	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/dubai-parks-and-resorts/hero.jpg" />
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
@@ -70,7 +70,7 @@
 			style="background-image: url(/img/projects/dubai-parks-and-resorts/hero.webp); transform: translateY({scrollY * 0.15}px)"
 		></div>
 		<div class="hero-overlay">
-			<span class="tagline">Dubai Parks and Resorts</span>
+			<h1 class="tagline">Dubai Parks and Resorts</h1>
 			<div class="spacer-reg"></div>
 			<span class="headline">themed entertainment. multiple disciplines.</span>
 			<div class="spacer-reg"></div>

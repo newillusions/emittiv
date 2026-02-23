@@ -53,9 +53,9 @@
 	<meta name="twitter:title" content="Jumeirah Beach Hotel Facade Lighting | emittiv" />
 	<meta
 		name="twitter:description"
-		content=""
+		content="Dynamic facade lighting for the Jumeirah Beach Hotel. One of the region's first large-scale dynamic LED facade installations."
 	/>
-	<meta name="twitter:image" content="" />
+	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/jumeirah-beach-hotel/hero.jpg" />
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
@@ -70,7 +70,7 @@
 			style="background-image: url(/img/projects/jumeirah-beach-hotel/hero.webp); transform: translateY({scrollY * 0.15}px)"
 		></div>
 		<div class="hero-overlay">
-			<span class="tagline">Jumeirah Beach Hotel</span>
+			<h1 class="tagline">Jumeirah Beach Hotel</h1>
 			<div class="spacer-reg"></div>
 			<span class="headline">iconic building. dynamic facade.</span>
 			<div class="spacer-reg"></div>

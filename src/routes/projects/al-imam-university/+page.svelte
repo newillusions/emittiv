@@ -53,9 +53,9 @@
 	<meta name="twitter:title" content="Al Imam University Auditorium | emittiv" />
 	<meta
 		name="twitter:description"
-		content=""
+		content="Lighting and control design for the Al Imam University auditorium. Systems for a 2,500-seat theatre and campus facilities."
 	/>
-	<meta name="twitter:image" content="" />
+	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/al-imam-university/hero.jpg" />
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
@@ -70,7 +70,7 @@
 			style="background-image: url(/img/projects/al-imam-university/hero.webp); transform: translateY({scrollY * 0.15}px)"
 		></div>
 		<div class="hero-overlay">
-			<span class="tagline">Al Imam University</span>
+			<h1 class="tagline">Al Imam University</h1>
 			<div class="spacer-reg"></div>
 			<span class="headline">performance venue. full renovation.</span>
 			<div class="spacer-reg"></div>

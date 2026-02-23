@@ -53,9 +53,9 @@
 	<meta name="twitter:title" content="Dubai Mall Penguinarium | Attraction Lighting | emittiv" />
 	<meta
 		name="twitter:description"
-		content=""
+		content="Lighting and control for the Dubai Mall Penguinarium. Immersive design balancing guest experience with animal welfare."
 	/>
-	<meta name="twitter:image" content="" />
+	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/dubai-mall-penguinarium/hero.jpg" />
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
@@ -70,7 +70,7 @@
 			style="background-image: url(/img/projects/dubai-mall-penguinarium/hero.webp); transform: translateY({scrollY * 0.15}px)"
 		></div>
 		<div class="hero-overlay">
-			<span class="tagline">Dubai Mall Penguinarium</span>
+			<h1 class="tagline">Dubai Mall Penguinarium</h1>
 			<div class="spacer-reg"></div>
 			<span class="headline">attraction lighting. animal welfare.</span>
 			<div class="spacer-reg"></div>
@@ -148,6 +148,8 @@
 					<span><strong>client:</strong> Emaar Entertainment</span>
 					<span><strong>type:</strong> family entertainment, attraction</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
+					<div class="spacer-med"></div>
+					<span>learn more about our <a href="/services/lighting">lighting design</a> and <a href="/services/control">control systems</a> services.</span>
 					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>

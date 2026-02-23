@@ -3,7 +3,7 @@
 </script>
 
 <section class="screen content" id="reasons" data-label="Reasons">
-	<div class="page-header">about emittiv</div>
+	<h1 class="page-header">about emittiv</h1>
 	<div class="container h70">
 		<div class="split">
 			<div class="section-title {side}">

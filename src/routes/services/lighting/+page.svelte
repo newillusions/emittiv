@@ -49,7 +49,7 @@
 	<section class="screen-flow content" data-label="Hero">
 		<div class="container">
 			<div class="f col center middle">
-				<span class="tagline">lighting</span>
+				<h1 class="tagline">lighting</h1>
 				<div class="spacer-reg"></div>
 				<span class="headline">beyond simple illumination.</span>
 			</div>
@@ -193,6 +193,8 @@
 						modules that extend system life and keep maintenance straightforward. the throwaway approach
 						might be easier to sell, but we'd rather not see our work in a skip five years from now.</span
 					>
+					<div class="spacer-med"></div>
+					<span>see our lighting work on the <a href="/projects/burj-al-arab">Burj Al Arab</a> and <a href="/projects/sheikh-zayed-grand-mosque">Sheikh Zayed Grand Mosque</a>.</span>
 					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/services#streams">back to services</a>

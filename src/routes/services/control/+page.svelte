@@ -49,7 +49,7 @@
 	<section class="screen-flow content" data-label="Hero">
 		<div class="container">
 			<div class="f col center middle">
-				<span class="tagline">control</span>
+				<h1 class="tagline">control</h1>
 				<div class="spacer-reg"></div>
 				<span class="headline">bringing it all together.</span>
 			</div>
@@ -233,6 +233,8 @@
 						where the design decisions become real — <span class="splash">and we're there</span
 						>.</span
 					>
+					<div class="spacer-med"></div>
+					<span>see control integration in action at <a href="/projects/city-walk">City Walk</a> and <a href="/projects/kapsarc">KAPSARC</a>.</span>
 					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/services#streams">back to services</a>

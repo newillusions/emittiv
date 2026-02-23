@@ -45,32 +45,34 @@
 
 <!-- svelte-ignore a11y_no_static_element_interactions -->
 <div class="nav-overlay f col center middle" id="nav-overlay" on:click={navClose} on:keydown={(e) => e.key === 'Escape' && navClose()}>
-	<div class="split">
-		<div class="nav-list v-padding-1 f center left col">
-			<ul>
-				{#each navPrimary as item}
-					<li>
-						<a class="navItem" class:active={$page.url.pathname === item.path} href={item.path}
-							>{item.title}</a
-						>
-					</li>
-				{/each}
-			</ul>
+	<nav aria-label="Main navigation">
+		<div class="split">
+			<div class="nav-list v-padding-1 f center left col">
+				<ul>
+					{#each navPrimary as item}
+						<li>
+							<a class="navItem" class:active={$page.url.pathname === item.path} href={item.path}
+								>{item.title}</a
+							>
+						</li>
+					{/each}
+				</ul>
+			</div>
+			<div class="nav-list wide v-padding-1 f center left col">
+				<ul>
+					{#each navSecondary as item}
+						<li>
+							<a
+								class="navItem-small"
+								class:active={$page.url.pathname === item.path}
+								href={item.path}>{item.title}</a
+							>
+						</li>
+					{/each}
+				</ul>
+			</div>
 		</div>
-		<div class="nav-list wide v-padding-1 f center left col">
-			<ul>
-				{#each navSecondary as item}
-					<li>
-						<a
-							class="navItem-small"
-							class:active={$page.url.pathname === item.path}
-							href={item.path}>{item.title}</a
-						>
-					</li>
-				{/each}
-			</ul>
-		</div>
-	</div>
+	</nav>
 </div>
 <div class="menu-btn" class:open={menuState.state === 'open'} on:click={navToggle} on:keydown={(e) => e.key === 'Enter' && navToggle()} role="button" tabindex="0" aria-label="Toggle navigation menu">
 	<div class="menu-btn__burger"></div>

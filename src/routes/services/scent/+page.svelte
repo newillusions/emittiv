@@ -46,7 +46,7 @@
 	<section class="screen-flow content" data-label="Hero">
 		<div class="container">
 			<div class="f col center middle">
-				<span class="tagline">scent</span>
+				<h1 class="tagline">scent</h1>
 				<div class="spacer-reg"></div>
 				<span class="headline">the most memorable sense.</span>
 			</div>

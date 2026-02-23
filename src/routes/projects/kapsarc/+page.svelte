@@ -50,7 +50,7 @@
 	<meta name="twitter:title" content="KAPSARC Multipurpose Hall | Performance Venue | emittiv" />
 	<meta
 		name="twitter:description"
-		content=""
+		content="Lighting and control systems for the KAPSARC Multipurpose Hall. Zaha Hadid-designed venue with motorised rigging and flexible control."
 	/>
 	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/kapsarc/hero.jpg" />
 
@@ -67,7 +67,7 @@
 			style="background-image: url(/img/projects/kapsarc/hero.webp); transform: translateY({scrollY * 0.15}px)"
 		></div>
 		<div class="hero-overlay">
-			<span class="tagline">KAPSARC</span>
+			<h1 class="tagline">KAPSARC</h1>
 			<div class="spacer-reg"></div>
 			<span class="headline">multipurpose hall. Zaha Hadid.</span>
 			<div class="spacer-reg"></div>

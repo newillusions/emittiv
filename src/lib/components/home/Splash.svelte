@@ -1,5 +1,10 @@
-<section class="screen content" id="home" data-label="Home">
-	<div class="container">
+<script lang="ts">
+	import HeroCanvas from './HeroCanvas.svelte';
+</script>
+
+<section class="screen content hero-section" id="home" data-label="Home">
+	<HeroCanvas />
+	<div class="container hero-content">
 		<div class="split">
 			<div>
 				<img
@@ -20,3 +25,14 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	.hero-section {
+		position: relative;
+	}
+
+	.hero-content {
+		position: relative;
+		z-index: 1;
+	}
+</style>

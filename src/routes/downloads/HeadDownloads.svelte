@@ -1,7 +1,7 @@
 <script lang="ts"></script>
 
 <section class="screen content" id="downloads" data-label="Downloads">
-	<div class="page-header">downloads</div>
+	<h1 class="page-header">downloads</h1>
 	<div class="container h70">
 		<div class="split">
 			<div class="f col">

@@ -49,7 +49,7 @@
 	<section class="screen-flow content" data-label="Hero">
 		<div class="container">
 			<div class="f col center middle">
-				<span class="tagline">video</span>
+				<h1 class="tagline">video</h1>
 				<div class="spacer-reg"></div>
 				<span class="headline">architecture in motion.</span>
 			</div>
@@ -203,6 +203,8 @@
 						>we evaluate products on performance and longevity. modular panels, serviceable
 						components, processors that evolve with firmware updates. the cheapest option rarely is.</span
 					>
+					<div class="spacer-med"></div>
+					<span>see our video work at <a href="/projects/jumeirah-beach-hotel">Jumeirah Beach Hotel</a> and <a href="/projects/city-walk">City Walk</a>.</span>
 					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/services#streams">back to services</a>

@@ -50,7 +50,7 @@
 	<meta name="twitter:title" content="Expo 2020 Public Realm Lighting | emittiv" />
 	<meta
 		name="twitter:description"
-		content=""
+		content="Public realm lighting coordination for Expo 2020 Dubai across 4.38 million square metres of landscapes, plazas and public spaces."
 	/>
 	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/expo-2020/hero.jpg" />
 
@@ -67,7 +67,7 @@
 			style="background-image: url(/img/projects/expo-2020/hero.webp); transform: translateY({scrollY * 0.15}px)"
 		></div>
 		<div class="hero-overlay">
-			<span class="tagline">Expo 2020</span>
+			<h1 class="tagline">Expo 2020</h1>
 			<div class="spacer-reg"></div>
 			<span class="headline">public realm. 4.38 million square metres.</span>
 			<div class="spacer-reg"></div>
@@ -143,6 +143,8 @@
 					<span><strong>type:</strong> destination, public realm</span>
 					<span><strong>size:</strong> 4,380,000 m&sup2;</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
+					<div class="spacer-med"></div>
+					<span>learn more about our <a href="/services/lighting">lighting design</a> and <a href="/services/control">control systems</a> services.</span>
 					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>

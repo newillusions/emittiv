@@ -1,8 +1,6 @@
 export const prerender = true;
 
 export async function GET() {
-	const today = new Date().toISOString().split('T')[0];
-
 	return new Response(
 		`<?xml version="1.0" encoding="UTF-8" ?>
 <urlset
@@ -11,139 +9,139 @@ export async function GET() {
 >
   <url>
     <loc>https://www.emittiv.com/</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/services</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/services/lighting</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/services/control</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/services/sound</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/services/video</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/services/content</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/services/scent</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/projects</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/projects/sheikh-zayed-grand-mosque</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/projects/burj-al-arab</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/projects/expo-2020</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/projects/kapsarc</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/projects/dubai-parks-and-resorts</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/projects/jumeirah-beach-hotel</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/projects/city-walk</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/projects/dubai-mall-penguinarium</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/projects/al-imam-university</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/about</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/contact</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/downloads</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2026-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/privacy</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.30</priority>
   </url>
   <url>
     <loc>https://www.emittiv.com/terms</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.30</priority>
   </url>

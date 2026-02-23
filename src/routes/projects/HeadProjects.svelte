@@ -3,7 +3,7 @@
 </script>
 
 <section class="screen content" id="intro" data-label="Intro">
-	<div class="page-header">our experience</div>
+	<h1 class="page-header">our experience</h1>
 	<div class="container center h70">
 		<div class="split">
 			<div class="section-title {side}">

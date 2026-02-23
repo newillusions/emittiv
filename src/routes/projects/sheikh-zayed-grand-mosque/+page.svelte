@@ -53,9 +53,9 @@
 	<meta name="twitter:title" content="Sheikh Zayed Grand Mosque Lighting | emittiv" />
 	<meta
 		name="twitter:description"
-		content=""
+		content="Facade lighting renewal for the Sheikh Zayed Grand Mosque. Modernisation of over 1,000 fixtures while preserving original design intent."
 	/>
-	<meta name="twitter:image" content="" />
+	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/sheikh-zayed-grand-mosque/hero.jpg" />
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
@@ -70,7 +70,7 @@
 			style="background-image: url(/img/projects/sheikh-zayed-grand-mosque/hero.webp); transform: translateY({scrollY * 0.15}px)"
 		></div>
 		<div class="hero-overlay">
-			<span class="tagline">Sheikh Zayed Grand Mosque</span>
+			<h1 class="tagline">Sheikh Zayed Grand Mosque</h1>
 			<div class="spacer-reg"></div>
 			<span class="headline">iconic building. facade renewal.</span>
 			<div class="spacer-reg"></div>
@@ -147,6 +147,8 @@
 					<span><strong>type:</strong> iconic building, house of worship</span>
 					<span><strong>size:</strong> 121,800 m&sup2;</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
+					<div class="spacer-med"></div>
+					<span>learn more about our <a href="/services/lighting">lighting design</a> and <a href="/services/control">control systems</a> services.</span>
 					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>

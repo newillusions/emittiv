@@ -36,6 +36,11 @@
 	<meta name="twitter:image" content="https://www.emittiv.com/img/og-default.png" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
+
+	<!-- Schema.org JSON-LD -->
+	{@html '<scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"ContactPage","@id":"https://www.emittiv.com/contact","name":"Contact emittiv","description":"Get in touch with emittiv for sensory design consultancy in Dubai and the GCC","mainEntity":{"@id":"https://www.emittiv.com/#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Contact","item":"https://www.emittiv.com/contact"}]}]}</scr' +
+		'ipt>'}
 </svelte:head>
 
 <main>
