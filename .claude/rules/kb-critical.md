@@ -2,8 +2,9 @@
 
 # KB Project Critical Rules
 
-_Auto-generated for emittiv website_
-_Last updated: 2026-02-13T11:00:00Z_
+*Auto-generated for emittiv website*
+*Last updated: 2026-02-24T08:00:00Z*
+*Detected tech tags: svelte, docker*
 
 ---
 
@@ -13,8 +14,8 @@ _Last updated: 2026-02-13T11:00:00Z_
 
 Emittiv is a UAE (Dubai)-based lighting design consultancy. Contact: martin@emittiv.com. Staff rates...
 
-_Source: observation:p1oha4iz3ihxe35pwv1n | Scope: auto (emittiv) | Access count: 96_
+*Source: observation:p1oha4iz3ihxe35pwv1n | Scope: auto (emittiv) | Access count: 96*
 
 ---
 
-_Total: 1 project-scoped rule_
+*Total: 1 project-scoped rule*
