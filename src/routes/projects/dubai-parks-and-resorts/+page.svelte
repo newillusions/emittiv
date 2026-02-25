@@ -106,11 +106,19 @@
 			<div class="split-image-layout">
 				<div class="split-img {splitRevealed ? 'revealed' : ''}">
 					<picture>
-						<source srcset="/img/projects/dubai-parks-and-resorts/area.webp" type="image/webp" />
+						<source
+							srcset="/img/projects/dubai-parks-and-resorts/area-400w.webp 400w, /img/projects/dubai-parks-and-resorts/area-800w.webp 800w, /img/projects/dubai-parks-and-resorts/area.webp 1280w"
+							sizes="(min-width: 768px) 50vw, 100vw"
+							type="image/webp"
+						/>
 						<img
 							src="/img/projects/dubai-parks-and-resorts/area.jpg"
+							srcset="/img/projects/dubai-parks-and-resorts/area-400w.jpg 400w, /img/projects/dubai-parks-and-resorts/area-800w.jpg 800w, /img/projects/dubai-parks-and-resorts/area.jpg 1280w"
+							sizes="(min-width: 768px) 50vw, 100vw"
 							alt="Dubai Parks and Resorts themed area lighting"
 							loading="lazy"
+							width="1280"
+							height="858"
 						/>
 					</picture>
 				</div>

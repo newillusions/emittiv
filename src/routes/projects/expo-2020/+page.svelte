@@ -104,11 +104,19 @@
 			<div class="split-image-layout">
 				<div class="split-img {splitRevealed ? 'revealed' : ''}">
 					<picture>
-						<source srcset="/img/projects/expo-2020/district.webp" type="image/webp" />
+						<source
+							srcset="/img/projects/expo-2020/district-400w.webp 400w, /img/projects/expo-2020/district-800w.webp 800w, /img/projects/expo-2020/district.webp 1200w"
+							sizes="(min-width: 768px) 50vw, 100vw"
+							type="image/webp"
+						/>
 						<img
 							src="/img/projects/expo-2020/district.jpg"
+							srcset="/img/projects/expo-2020/district-400w.jpg 400w, /img/projects/expo-2020/district-800w.jpg 800w, /img/projects/expo-2020/district.jpg 1200w"
+							sizes="(min-width: 768px) 50vw, 100vw"
 							alt="Expo 2020 illuminated geodesic domes at sunset"
 							loading="lazy"
+							width="1200"
+							height="800"
 						/>
 					</picture>
 				</div>

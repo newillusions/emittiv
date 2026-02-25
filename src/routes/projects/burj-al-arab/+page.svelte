@@ -105,11 +105,19 @@
 			<div class="split-image-layout">
 				<div class="split-img {splitRevealed ? 'revealed' : ''}">
 					<picture>
-						<source srcset="/img/projects/burj-al-arab/facade.webp" type="image/webp" />
+						<source
+							srcset="/img/projects/burj-al-arab/facade-400w.webp 400w, /img/projects/burj-al-arab/facade-800w.webp 800w, /img/projects/burj-al-arab/facade.webp 1200w"
+							sizes="(min-width: 768px) 50vw, 100vw"
+							type="image/webp"
+						/>
 						<img
 							src="/img/projects/burj-al-arab/facade.jpg"
+							srcset="/img/projects/burj-al-arab/facade-400w.jpg 400w, /img/projects/burj-al-arab/facade-800w.jpg 800w, /img/projects/burj-al-arab/facade.jpg 1200w"
+							sizes="(min-width: 768px) 50vw, 100vw"
 							alt="Burj Al Arab facade lit with combination colour scheme at night"
 							loading="lazy"
+							width="1200"
+							height="800"
 						/>
 					</picture>
 				</div>

@@ -1,0 +1,21 @@
+{
+	"name": "emittiv — Sensory Design Consultancy",
+	"short_name": "emittiv",
+	"description": "Lighting and sensory design consultancy in Dubai. Lighting, video, sound and scent for the built environment.",
+	"start_url": "/",
+	"display": "browser",
+	"background_color": "#000000",
+	"theme_color": "#ff9900",
+	"icons": [
+		{
+			"src": "/icon-192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/favicon.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}

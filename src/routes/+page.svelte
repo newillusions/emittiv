@@ -4,6 +4,7 @@
 	import TheSensoryDesign from '$lib/components/home/SectionSensoryDesign.svelte';
 	import TheWhy from '$lib/components/home/SectionWhy.svelte';
 	import TheHow from '$lib/components/home/SectionHow.svelte';
+	import TheWhere from '$lib/components/home/SectionWhere.svelte';
 	import TheFeaturedProjects from '$lib/components/home/SectionFeaturedProjects.svelte';
 </script>
 
@@ -58,5 +59,6 @@
 	<TheSensoryDesign side="order-1" />
 	<TheWhy side="order-3" />
 	<TheHow side="order-1" />
+	<TheWhere side="order-3" />
 	<TheFeaturedProjects />
 </main>

@@ -102,11 +102,19 @@
 			<div class="split-image-layout">
 				<div class="split-img {splitRevealed ? 'revealed' : ''}">
 					<picture>
-						<source srcset="/img/projects/al-imam-university/campus.webp" type="image/webp" />
+						<source
+							srcset="/img/projects/al-imam-university/campus-400w.webp 400w, /img/projects/al-imam-university/campus-800w.webp 800w, /img/projects/al-imam-university/campus.webp 1200w"
+							sizes="(min-width: 768px) 50vw, 100vw"
+							type="image/webp"
+						/>
 						<img
 							src="/img/projects/al-imam-university/campus.jpg"
+							srcset="/img/projects/al-imam-university/campus-400w.jpg 400w, /img/projects/al-imam-university/campus-800w.jpg 800w, /img/projects/al-imam-university/campus.jpg 1200w"
+							sizes="(min-width: 768px) 50vw, 100vw"
 							alt="Al Imam University campus site plan showing the renovation scope"
 							loading="lazy"
+							width="1200"
+							height="800"
 						/>
 					</picture>
 				</div>

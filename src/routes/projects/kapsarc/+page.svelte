@@ -104,11 +104,19 @@
 			<div class="split-image-layout">
 				<div class="split-img {splitRevealed ? 'revealed' : ''}">
 					<picture>
-						<source srcset="/img/projects/kapsarc/auditorium.webp" type="image/webp" />
+						<source
+							srcset="/img/projects/kapsarc/auditorium-400w.webp 400w, /img/projects/kapsarc/auditorium-800w.webp 800w, /img/projects/kapsarc/auditorium.webp 1600w"
+							sizes="(min-width: 768px) 50vw, 100vw"
+							type="image/webp"
+						/>
 						<img
 							src="/img/projects/kapsarc/auditorium.jpg"
+							srcset="/img/projects/kapsarc/auditorium-400w.jpg 400w, /img/projects/kapsarc/auditorium-800w.jpg 800w, /img/projects/kapsarc/auditorium.jpg 1600w"
+							sizes="(min-width: 768px) 50vw, 100vw"
 							alt="KAPSARC auditorium performance lighting"
 							loading="lazy"
+							width="1600"
+							height="1072"
 						/>
 					</picture>
 				</div>

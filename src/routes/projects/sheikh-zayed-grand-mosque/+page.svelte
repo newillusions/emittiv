@@ -108,11 +108,19 @@
 			<div class="split-image-layout">
 				<div class="split-img {splitRevealed ? 'revealed' : ''}">
 					<picture>
-						<source srcset="/img/projects/sheikh-zayed-grand-mosque/domes.webp" type="image/webp" />
+						<source
+							srcset="/img/projects/sheikh-zayed-grand-mosque/domes-400w.webp 400w, /img/projects/sheikh-zayed-grand-mosque/domes-800w.webp 800w, /img/projects/sheikh-zayed-grand-mosque/domes.webp 1440w"
+							sizes="(min-width: 768px) 50vw, 100vw"
+							type="image/webp"
+						/>
 						<img
 							src="/img/projects/sheikh-zayed-grand-mosque/domes.jpg"
+							srcset="/img/projects/sheikh-zayed-grand-mosque/domes-400w.jpg 400w, /img/projects/sheikh-zayed-grand-mosque/domes-800w.jpg 800w, /img/projects/sheikh-zayed-grand-mosque/domes.jpg 1440w"
+							sizes="(min-width: 768px) 50vw, 100vw"
 							alt="Sheikh Zayed Grand Mosque domes illuminated at night"
 							loading="lazy"
+							width="1440"
+							height="965"
 						/>
 					</picture>
 				</div>

@@ -108,11 +108,19 @@
 			<div class="split-image-layout">
 				<div class="split-img {splitRevealed ? 'revealed' : ''}">
 					<picture>
-						<source srcset="/img/projects/dubai-mall-penguinarium/tank.webp" type="image/webp" />
+						<source
+							srcset="/img/projects/dubai-mall-penguinarium/tank-400w.webp 400w, /img/projects/dubai-mall-penguinarium/tank-800w.webp 800w, /img/projects/dubai-mall-penguinarium/tank.webp 1000w"
+							sizes="(min-width: 768px) 50vw, 100vw"
+							type="image/webp"
+						/>
 						<img
 							src="/img/projects/dubai-mall-penguinarium/tank.jpg"
+							srcset="/img/projects/dubai-mall-penguinarium/tank-400w.jpg 400w, /img/projects/dubai-mall-penguinarium/tank-800w.jpg 800w, /img/projects/dubai-mall-penguinarium/tank.jpg 1000w"
+							sizes="(min-width: 768px) 50vw, 100vw"
 							alt="Dubai Mall Penguinarium tank with carefully designed lighting"
 							loading="lazy"
+							width="1000"
+							height="670"
 						/>
 					</picture>
 				</div>

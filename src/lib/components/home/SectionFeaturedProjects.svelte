@@ -3,22 +3,26 @@
 		{
 			slug: 'sheikh-zayed-grand-mosque',
 			name: 'Sheikh Zayed Grand Mosque',
-			description: 'LED re-lighting and control system replacement for the iconic facade'
+			description: 'LED re-lighting and control system replacement for the iconic facade',
+			heroWidth: 1600
 		},
 		{
 			slug: 'burj-al-arab',
 			name: 'Burj Al Arab',
-			description: 'Facade LED upgrade and control system for the world\'s most recognizable hotel'
+			description: 'Facade LED upgrade and control system for the world\'s most recognizable hotel',
+			heroWidth: 703
 		},
 		{
 			slug: 'expo-2020',
 			name: 'Expo 2020',
-			description: 'Site-wide lighting review — unifying multiple designers\' work across 4.38 million m\u00B2'
+			description: 'Site-wide lighting review — unifying multiple designers\' work across 4.38 million m\u00B2',
+			heroWidth: 1920
 		},
 		{
 			slug: 'kapsarc',
 			name: 'KAPSARC',
-			description: 'Project management of entertainment spaces for Zaha Hadid\'s research centre'
+			description: 'Project management of entertainment spaces for Zaha Hadid\'s research centre',
+			heroWidth: 700
 		}
 	];
 </script>
@@ -34,9 +38,15 @@
 				<a href="/projects/{project.slug}" class="project-card">
 					<div class="card-image">
 						<picture>
-							<source srcset="/img/projects/{project.slug}/hero.webp" type="image/webp" />
+							<source
+								srcset="/img/projects/{project.slug}/hero-400w.webp 400w, /img/projects/{project.slug}/hero-800w.webp 800w, /img/projects/{project.slug}/hero.webp {project.heroWidth}w"
+								sizes="(min-width: 600px) 50vw, 100vw"
+								type="image/webp"
+							/>
 							<img
 								src="/img/projects/{project.slug}/hero.jpg"
+								srcset="/img/projects/{project.slug}/hero-400w.jpg 400w, /img/projects/{project.slug}/hero-800w.jpg 800w, /img/projects/{project.slug}/hero.jpg {project.heroWidth}w"
+								sizes="(min-width: 600px) 50vw, 100vw"
 								alt={project.name}
 								loading="lazy"
 								width="600"

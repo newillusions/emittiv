@@ -102,11 +102,19 @@
 			<div class="split-image-layout">
 				<div class="split-img {splitRevealed ? 'revealed' : ''}">
 					<picture>
-						<source srcset="/img/projects/city-walk/attraction.webp" type="image/webp" />
+						<source
+							srcset="/img/projects/city-walk/attraction-400w.webp 400w, /img/projects/city-walk/attraction.webp 800w"
+							sizes="(min-width: 768px) 50vw, 100vw"
+							type="image/webp"
+						/>
 						<img
 							src="/img/projects/city-walk/attraction.jpg"
+							srcset="/img/projects/city-walk/attraction-400w.jpg 400w, /img/projects/city-walk/attraction.jpg 800w"
+							sizes="(min-width: 768px) 50vw, 100vw"
 							alt="City Walk multimedia attraction illuminated at night"
 							loading="lazy"
+							width="800"
+							height="536"
 						/>
 					</picture>
 				</div>
