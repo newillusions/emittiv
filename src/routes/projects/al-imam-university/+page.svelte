@@ -65,10 +65,22 @@
 
 <main>
 	<section class="hero-bleed">
-		<div
-			class="hero-image"
-			style="background-image: url(/img/projects/al-imam-university/hero.webp); transform: translateY({scrollY * 0.15}px)"
-		></div>
+		<picture>
+			<source
+				srcset="/img/projects/al-imam-university/hero-400w.webp 400w, /img/projects/al-imam-university/hero-800w.webp 800w, /img/projects/al-imam-university/hero.webp 1600w"
+				sizes="100vw"
+				type="image/webp"
+			/>
+			<img
+				class="hero-image"
+				src="/img/projects/al-imam-university/hero.jpg"
+				srcset="/img/projects/al-imam-university/hero-400w.jpg 400w, /img/projects/al-imam-university/hero-800w.jpg 800w, /img/projects/al-imam-university/hero.jpg 1600w"
+				sizes="100vw"
+				alt="Al Imam University auditorium interior"
+				style="transform: translateY({scrollY * 0.15}px)"
+				loading="eager"
+			/>
+		</picture>
 		<div class="hero-overlay">
 			<h1 class="tagline">Al Imam University</h1>
 			<div class="spacer-reg"></div>
@@ -175,8 +187,10 @@
 	.hero-image {
 		position: absolute;
 		inset: -15% 0;
-		background-size: cover;
-		background-position: center;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
 		will-change: transform;
 	}
 

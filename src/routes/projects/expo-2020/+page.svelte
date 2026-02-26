@@ -62,10 +62,22 @@
 
 <main>
 	<section class="hero-bleed">
-		<div
-			class="hero-image"
-			style="background-image: url(/img/projects/expo-2020/hero.webp); transform: translateY({scrollY * 0.15}px)"
-		></div>
+		<picture>
+			<source
+				srcset="/img/projects/expo-2020/hero-400w.webp 400w, /img/projects/expo-2020/hero-800w.webp 800w, /img/projects/expo-2020/hero.webp 1920w"
+				sizes="100vw"
+				type="image/webp"
+			/>
+			<img
+				class="hero-image"
+				src="/img/projects/expo-2020/hero.jpg"
+				srcset="/img/projects/expo-2020/hero-400w.jpg 400w, /img/projects/expo-2020/hero-800w.jpg 800w, /img/projects/expo-2020/hero.jpg 1920w"
+				sizes="100vw"
+				alt="Expo 2020 Dubai public realm lighting at dusk"
+				style="transform: translateY({scrollY * 0.15}px)"
+				loading="eager"
+			/>
+		</picture>
 		<div class="hero-overlay">
 			<h1 class="tagline">Expo 2020</h1>
 			<div class="spacer-reg"></div>
@@ -179,8 +191,10 @@
 	.hero-image {
 		position: absolute;
 		inset: -15% 0;
-		background-size: cover;
-		background-position: center;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
 		will-change: transform;
 	}
 

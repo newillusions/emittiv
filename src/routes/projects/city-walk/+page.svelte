@@ -62,10 +62,22 @@
 
 <main>
 	<section class="hero-bleed">
-		<div
-			class="hero-image"
-			style="background-image: url(/img/projects/city-walk/hero.webp); transform: translateY({scrollY * 0.15}px)"
-		></div>
+		<picture>
+			<source
+				srcset="/img/projects/city-walk/hero-400w.webp 400w, /img/projects/city-walk/hero-800w.webp 800w, /img/projects/city-walk/hero.webp 1280w"
+				sizes="100vw"
+				type="image/webp"
+			/>
+			<img
+				class="hero-image"
+				src="/img/projects/city-walk/hero.jpg"
+				srcset="/img/projects/city-walk/hero-400w.jpg 400w, /img/projects/city-walk/hero-800w.jpg 800w, /img/projects/city-walk/hero.jpg 1280w"
+				sizes="100vw"
+				alt="City Walk Dubai multimedia attraction lighting"
+				style="transform: translateY({scrollY * 0.15}px)"
+				loading="eager"
+			/>
+		</picture>
 		<div class="hero-overlay">
 			<h1 class="tagline">City Walk</h1>
 			<div class="spacer-reg"></div>
@@ -178,8 +190,10 @@
 	.hero-image {
 		position: absolute;
 		inset: -15% 0;
-		background-size: cover;
-		background-position: center;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
 		will-change: transform;
 	}
 
