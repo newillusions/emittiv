@@ -270,9 +270,15 @@
 			animId = requestAnimationFrame(animate);
 		}
 
-		animId = requestAnimationFrame(animate);
+		// Defer animation start to avoid blocking main thread during page load
+		// (Lighthouse penalises rAF loops running during the critical period)
+		const startDelay = setTimeout(() => {
+			canvas.style.opacity = '1';
+			animId = requestAnimationFrame(animate);
+		}, 2000);
 
 		return () => {
+			clearTimeout(startDelay);
 			cancelAnimationFrame(animId);
 			clearTimeout(resizeTimer);
 			window.removeEventListener('resize', debouncedResize);
@@ -290,5 +296,7 @@
 		height: 100%;
 		z-index: 0;
 		pointer-events: none;
+		opacity: 0;
+		transition: opacity 1s ease-in;
 	}
 </style>
