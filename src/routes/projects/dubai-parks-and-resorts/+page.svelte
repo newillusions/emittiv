@@ -28,7 +28,7 @@
 	<title>Dubai Parks and Resorts | Themed Entertainment Lighting | emittiv</title>
 	<meta
 		name="description"
-		content="Lighting and control design for Dubai Parks and Resorts. Themed entertainment environments including attractions, rides and public areas."
+		content="Themed entertainment lighting design for Dubai Parks and Resorts, UAE. Attractions, rides and public areas across multiple parks."
 	/>
 	<link rel="canonical" href="https://www.emittiv.com/projects/dubai-parks-and-resorts" />
 	<meta name="robots" content="index,follow" />
@@ -38,7 +38,7 @@
 	<meta property="og:title" content="Dubai Parks and Resorts | Themed Entertainment | emittiv" />
 	<meta
 		property="og:description"
-		content="Lighting and control design for Dubai Parks and Resorts themed entertainment environments."
+		content="Themed entertainment lighting design for Dubai Parks and Resorts, UAE."
 	/>
 	<meta
 		property="og:image"
@@ -53,13 +53,13 @@
 	<meta name="twitter:title" content="Dubai Parks and Resorts | Themed Entertainment | emittiv" />
 	<meta
 		name="twitter:description"
-		content="Lighting and control design for Dubai Parks and Resorts themed entertainment environments including attractions, rides and public areas."
+		content="Themed entertainment lighting design for Dubai Parks and Resorts, UAE. Attractions, rides and public areas across multiple parks."
 	/>
 	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/dubai-parks-and-resorts/hero.jpg" />
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/dubai-parks-and-resorts","name":"Dubai Parks and Resorts","description":"Sensory design for Dubai Parks and Resorts themed entertainment environments","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/dubai-parks-and-resorts/hero.jpg","locationCreated":{"@type":"Place","name":"Dubai, UAE"},"keywords":"themed entertainment, theme park, lighting, control, Dubai"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"Dubai Parks and Resorts","item":"https://www.emittiv.com/projects/dubai-parks-and-resorts"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/dubai-parks-and-resorts","name":"Dubai Parks and Resorts","description":"Sensory design for Dubai Parks and Resorts themed entertainment environments","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/dubai-parks-and-resorts/hero.jpg","locationCreated":{"@type":"Place","name":"Dubai, UAE"},"keywords":"themed entertainment, theme park, lighting designer, control, Dubai, UAE"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"Dubai Parks and Resorts","item":"https://www.emittiv.com/projects/dubai-parks-and-resorts"}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -138,8 +138,9 @@
 					<h2>our role</h2>
 					<div class="spacer-med"></div>
 					<span
-						>we provided the original lighting concepts for renovations of existing areas as
-						well as new themed attractions under development.</span
+						>as the themed entertainment lighting designer, we provided the original lighting
+						concepts for renovations of existing areas as well as new themed attractions
+						under development.</span
 					>
 					<div class="spacer-med"></div>
 					<span
@@ -161,7 +162,7 @@
 				<div class="v-padding-1 f col middle order-2">
 					<span><strong>location:</strong> Dubai, UAE</span>
 					<span><strong>client:</strong> Dubai Parks and Resorts</span>
-					<span><strong>type:</strong> themed entertainment, destination</span>
+					<span><strong>type:</strong> themed entertainment, destination, UAE</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
 					<div class="spacer-lge"></div>
 					<span class="underline">
