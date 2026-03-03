@@ -239,6 +239,9 @@
 					<span class="underline">
 						<a class="navItem" href="/services#streams">back to services</a>
 					</span>
+					<span class="underline">
+						<a class="navItem" href="https://sensory.design/the-senses/#the-whole" target="_blank" rel="noopener">the art of orchestration</a>
+					</span>
 				</div>
 			</div>
 		</div>

@@ -197,6 +197,9 @@
 					<span class="underline">
 						<a class="navItem" href="/services#streams">back to services</a>
 					</span>
+					<span class="underline">
+						<a class="navItem" href="https://sensory.design/the-senses/#scent" target="_blank" rel="noopener">scent as a sensory medium</a>
+					</span>
 				</div>
 			</div>
 		</div>

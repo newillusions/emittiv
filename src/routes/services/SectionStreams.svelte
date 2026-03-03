@@ -55,8 +55,8 @@
 				<IconControl />
 				<span class="headline">control</span>
 				<p>
-					centralised control systems allow different systems to operate in unison creating coherent
-					scenes and transitions.
+					centralised control synchronises every sensory layer — light, sound, scent and video
+					operating as one coordinated system.
 				</p>
 			</a>
 			<a href="/services/content" class="f col top center card">

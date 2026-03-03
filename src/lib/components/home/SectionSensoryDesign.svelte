@@ -18,6 +18,11 @@
 				<span class="underline">
 					<a class="navItem" href="/services">explore our services</a>
 				</span>
+				<span class="underline">
+					<a class="navItem" href="https://sensory.design" target="_blank" rel="noopener"
+						>learn about the discipline</a
+					>
+				</span>
 			</div>
 		</div>
 	</div>
