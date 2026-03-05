@@ -25,20 +25,20 @@
 </script>
 
 <svelte:head>
-	<title>Burj Al Arab Facade Lighting | Iconic Building | emittiv</title>
+	<title>Burj Al Arab Facade Lighting Design | Dubai | emittiv</title>
 	<meta
 		name="description"
-		content="Facade lighting design for the Burj Al Arab, Dubai. LED replacement programme delivering reliable nighttime illumination and flexible event lighting for one of the world's most recognised buildings."
+		content="Hotel facade lighting design for the Burj Al Arab, Dubai. LED replacement programme with 300-metre throw distances, colour-changing event lighting and full control system design."
 	/>
 	<link rel="canonical" href="https://www.emittiv.com/projects/burj-al-arab" />
 	<meta name="robots" content="index,follow" />
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Burj Al Arab Facade Lighting | emittiv" />
+	<meta property="og:title" content="Burj Al Arab Facade Lighting Design | emittiv" />
 	<meta
 		property="og:description"
-		content="Facade lighting design for the Burj Al Arab, Dubai. LED replacement programme for one of the world's most recognised buildings."
+		content="Hotel facade lighting design for the Burj Al Arab, Dubai. LED replacement with 300m throw distances and colour-changing event lighting."
 	/>
 	<meta property="og:image" content="https://www.emittiv.com/img/projects/burj-al-arab/hero.jpg" />
 	<meta property="og:url" content="https://www.emittiv.com/projects/burj-al-arab" />
@@ -47,16 +47,16 @@
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Burj Al Arab Facade Lighting | emittiv" />
+	<meta name="twitter:title" content="Burj Al Arab Facade Lighting Design | emittiv" />
 	<meta
 		name="twitter:description"
-		content="Facade lighting design for the Burj Al Arab, Dubai. LED replacement programme for one of the world's most recognised buildings."
+		content="Hotel facade lighting design for the Burj Al Arab, Dubai. LED replacement with 300m throw distances and colour-changing event lighting."
 	/>
 	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/burj-al-arab/hero.jpg" />
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/burj-al-arab","name":"Burj Al Arab Facade Lighting","description":"Facade lighting design for the Burj Al Arab, Dubai","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/burj-al-arab/hero.jpg","locationCreated":{"@type":"Place","name":"Dubai, UAE"},"keywords":"facade lighting, iconic building, hospitality, LED, Dubai"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"Burj Al Arab","item":"https://www.emittiv.com/projects/burj-al-arab"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/burj-al-arab","name":"Burj Al Arab Facade Lighting Design","description":"Hotel facade lighting design for the Burj Al Arab, Dubai. LED replacement with 300m throw distances.","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/burj-al-arab/hero.jpg","locationCreated":{"@type":"Place","name":"Dubai, UAE"},"keywords":"facade lighting, iconic building, hospitality, LED, Dubai"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"Burj Al Arab","item":"https://www.emittiv.com/projects/burj-al-arab"}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -147,6 +147,15 @@
 						day-to-day operation while retaining the flexibility to create bespoke colour
 						schemes for events and national celebrations.</span
 					>
+					<div class="spacer-med"></div>
+					<span
+						>operating in Dubai's harsh marine environment, every fixture needed to
+						withstand salt air, extreme heat and wind loading at height — while
+						maintaining consistent colour and output across the full
+						<span class="splash">300-metre facade</span>. the result is a landmark
+						lighting scheme that performs reliably every night and transforms for
+						special occasions.</span
+					>
 				</div>
 			</div>
 		</div>
@@ -164,7 +173,7 @@
 					<span><strong>type:</strong> iconic building, hospitality</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
 					<div class="spacer-med"></div>
-					<span>learn more about our <a href="/services/lighting">lighting design</a> and <a href="/services/control">control systems</a> services.</span>
+					<span>learn more about our <a href="/services/lighting">lighting design</a> and <a href="/services/control">control systems</a> services, or explore how we approach <a href="https://sensory.design/the-senses/#light" target="_blank" rel="noopener">light as a sensory medium</a>.</span>
 					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>
