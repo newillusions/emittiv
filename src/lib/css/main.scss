@@ -5,7 +5,7 @@
 	font-display: swap;
 	src:
 		local(''),
-		url('../../../fonts/montserrat-v23-latin-regular.woff2') format('woff2');
+		url('/fonts/montserrat-v23-latin-regular.woff2') format('woff2');
 }
 
 @font-face {
@@ -15,7 +15,7 @@
 	font-display: swap;
 	src:
 		local(''),
-		url('../../../fonts/ubuntu-v19-latin-regular.woff2') format('woff2');
+		url('/fonts/ubuntu-v19-latin-regular.woff2') format('woff2');
 }
 
 :root {
