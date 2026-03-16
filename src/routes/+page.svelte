@@ -2,6 +2,7 @@
 	import TheSplash from '$lib/components/home/Splash.svelte';
 	// import data from '$data/sections.json';
 	import TheSensoryDesign from '$lib/components/home/SectionSensoryDesign.svelte';
+	import TheStreams from './services/SectionStreams.svelte';
 	import TheWhy from '$lib/components/home/SectionWhy.svelte';
 	import TheHow from '$lib/components/home/SectionHow.svelte';
 	import TheWhere from '$lib/components/home/SectionWhere.svelte';
@@ -57,6 +58,7 @@
 <main>
 	<TheSplash />
 	<TheSensoryDesign side="order-1" />
+	<TheStreams />
 	<TheWhy side="order-3" />
 	<TheHow side="order-1" />
 	<TheWhere side="order-3" />
