@@ -3,7 +3,7 @@
 	import { beforeNavigate, afterNavigate, disableScrollHandling } from '$app/navigation';
 	import { dev } from '$app/environment';
 
-	export let pathname = '';
+	let { pathname = '' } = $props();
 
 	let targetHash = '';
 	let isTransitioning = false;

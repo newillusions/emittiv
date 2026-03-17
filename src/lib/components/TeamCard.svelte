@@ -2,7 +2,7 @@
 	import IconLinkedIn from '$lib/icons/social/LinkedIn.svelte';
 	import data from '$lib/data/staff.json';
 
-	let people = data.pwople;
+	let people = data.people;
 </script>
 
 {#each people as person}

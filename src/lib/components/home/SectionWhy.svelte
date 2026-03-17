@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let side = '';
+	let { side = '' } = $props();
 </script>
 
 <section class="screen content" id="why" data-label="Why?">

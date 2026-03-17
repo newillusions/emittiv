@@ -1,14 +1,11 @@
 <script lang="ts">
-	export let size = '48';
-	export let color = 'currentColor';
-	export let ariaLabel = 'control';
+	let { size = '48', color = 'currentColor', ariaLabel = 'control', ...restProps } = $props();
 </script>
 
 <svg
 	width={size}
 	height={size}
-	class={$$props.class}
-	{...$$restProps}
+	{...restProps}
 	aria-label={ariaLabel}
 	viewBox="0 0 24 24"
 	fill={color}

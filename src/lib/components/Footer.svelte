@@ -96,7 +96,7 @@
 	}
 
 	.active {
-		color: #f8982b;
+		color: var(--splash);
 	}
 
 	.icons {
@@ -112,7 +112,7 @@
 			display: inline-flex;
 			align-items: center;
 			justify-content: center;
-			color: #999999;
+			color: var(--light);
 			// background-color: #444;
 			padding: 0.15rem;
 			margin-right: 0.75rem;
@@ -120,7 +120,7 @@
 			transition: all 0.2s ease-in-out;
 		}
 		.icon:hover {
-			color: #f8982b;
+			color: var(--splash);
 		}
 	}
 	.copyright {

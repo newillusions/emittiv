@@ -53,6 +53,6 @@
 
 	a,
 	.coming-soon {
-		color: #f90;
+		color: var(--splash);
 	}
 </style>

@@ -1,10 +1,9 @@
 <script lang="ts">
-	export let side = '';
+	let { side = '' } = $props();
 
 	import emailjs from '@emailjs/browser';
 
 	let send = '';
-	// let form = {};
 
 	function sendEmail() {
 		let message = document.getElementById('contactForm') as HTMLFormElement;
@@ -106,7 +105,7 @@
 		outline: none;
 		line-height: 1.5rem;
 		padding: 0 10px;
-		background-color: #666;
+		background-color: var(--dark);
 		-webkit-font-smoothing: antialiased;
 	}
 
@@ -116,7 +115,7 @@
 
 	input:focus,
 	textarea:focus {
-		border: 1px solid #f90;
+		border: 1px solid var(--splash);
 	}
 
 	textarea {
@@ -132,7 +131,7 @@
 		max-width: 8rem;
 	}
 	.submit:hover {
-		background-color: #f90;
-		color: #000;
+		background-color: var(--splash);
+		color: var(--black);
 	}
 </style>

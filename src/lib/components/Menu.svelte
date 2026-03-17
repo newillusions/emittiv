@@ -83,7 +83,7 @@
 
 <style scoped lang="scss">
 	.active {
-		color: #f8982b;
+		color: var(--splash);
 	}
 
 	.nav-list {
@@ -167,7 +167,7 @@
 		width: 2em;
 		height: 7px;
 		// display: inline-block;
-		background-color: #f8982b;
+		background-color: var(--splash);
 		border-radius: 5px;
 		transition: all 0.5s ease-in-out;
 		// margin-top: 8px;
@@ -179,7 +179,7 @@
 		position: absolute;
 		width: 2em;
 		height: 7px;
-		background-color: #f8982b;
+		background-color: var(--splash);
 		border-radius: 5px;
 		transition: all 0.5s ease-in-out;
 	}

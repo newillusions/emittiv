@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import '$lib/css/reset.scss';
 	import '$lib/css/main.scss';
 	import '$lib/css/animate.scss';
@@ -6,8 +6,8 @@
 	import TheFooter from '$lib/components/Footer.svelte';
 	import Transitions from '$lib/components/transitions.svelte';
 
-	/** @type {import('./$types').LayoutData} */
-	export let data;
+	import type { PageData } from './$types';
+	let { data }: { data: PageData } = $props();
 </script>
 
 <TheMenu />
