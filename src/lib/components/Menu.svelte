@@ -5,46 +5,24 @@
 	const navPrimary = data.navPrimary;
 	const navSecondary = data.navSecondary;
 
-	const menuState = {
-		state: 'closed'
-	};
+	let isOpen = $state(false);
 
 	function navToggle() {
-		const fnc = menuState.state;
-		if (fnc === 'closed') {
-			navOpen();
-		} else if (fnc === 'open') {
-			navClose();
-		}
-	}
-
-	function navOpen() {
-		const div = document.getElementById('nav-overlay');
-		const menuBtn = document.querySelector('.menu-btn');
-		if (div) {
-			div.style.height = '100%';
-		}
-		if (menuBtn) {
-			menuBtn.classList.add('open');
-		}
-		menuState.state = 'open';
+		isOpen = !isOpen;
 	}
 
 	function navClose() {
-		var div = document.getElementById('nav-overlay');
-		const menuBtn = document.querySelector('.menu-btn');
-		if (div) {
-			div.style.height = '0%';
-		}
-		if (menuBtn) {
-			menuBtn.classList.remove('open');
-		}
-		menuState.state = 'closed';
+		isOpen = false;
 	}
 </script>
 
 <!-- svelte-ignore a11y_no_static_element_interactions -->
-<div class="nav-overlay f col center middle" id="nav-overlay" on:click={navClose} on:keydown={(e) => e.key === 'Escape' && navClose()}>
+<div
+	class="nav-overlay f col center middle"
+	class:open={isOpen}
+	onclick={navClose}
+	onkeydown={(e) => e.key === 'Escape' && navClose()}
+>
 	<nav aria-label="Main navigation">
 		<div class="split">
 			<div class="nav-list v-padding-1 f center left col">
@@ -74,12 +52,17 @@
 		</div>
 	</nav>
 </div>
-<div class="menu-btn" class:open={menuState.state === 'open'} on:click={navToggle} on:keydown={(e) => e.key === 'Enter' && navToggle()} role="button" tabindex="0" aria-label="Toggle navigation menu">
+<div
+	class="menu-btn"
+	class:open={isOpen}
+	onclick={navToggle}
+	onkeydown={(e) => e.key === 'Enter' && navToggle()}
+	role="button"
+	tabindex="0"
+	aria-label="Toggle navigation menu"
+>
 	<div class="menu-btn__burger"></div>
 </div>
-<span class="hidden">
-	{menuState.state}
-</span>
 
 <style scoped lang="scss">
 	.active {
@@ -105,10 +88,10 @@
 		flex-direction: column;
 		transition: all 0.4s ease-in-out;
 		z-index: 10;
-	}
 
-	.hidden {
-		display: none;
+		&.open {
+			height: 100%;
+		}
 	}
 
 	.wide {
@@ -139,38 +122,26 @@
 		text-underline-offset: 0.25rem;
 	}
 
-	//////////////////////////////////
-
 	.menu-btn {
 		position: fixed;
 		top: 1rem;
 		right: 1rem;
-		// position: relative;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		width: 2em;
 		height: 45px;
-		// width: 80px;
-		// height: 80px;
 		cursor: pointer;
-		// opacity: 0.5;
 		transition: all 0.5s ease-in-out;
 		z-index: 11;
 	}
 
-	// .menu-btn:hover {
-	//     opacity: 1;
-	// }
-
 	.menu-btn__burger {
 		width: 2em;
 		height: 7px;
-		// display: inline-block;
 		background-color: var(--splash);
 		border-radius: 5px;
 		transition: all 0.5s ease-in-out;
-		// margin-top: 8px;
 	}
 
 	.menu-btn__burger::before,
