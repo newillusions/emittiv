@@ -180,6 +180,8 @@
 						>we designed the system. we want to see it <span class="splash">come alive</span>.</span
 					>
 					<div class="spacer-lge"></div>
+					<span>related disciplines: <a class="navItem" href="/services/video">video</a> · <a class="navItem" href="/services/sound">sound</a></span>
+					<div class="spacer-reg"></div>
 					<span class="underline">
 						<a class="navItem" href="/services#streams">back to services</a>
 					</span>

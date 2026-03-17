@@ -194,6 +194,8 @@
 						fragrance partner. the <span class="splash">relationship belongs to you</span> — not us.</span
 					>
 					<div class="spacer-lge"></div>
+					<span>related disciplines: <a class="navItem" href="/services/sound">sound</a> · <a class="navItem" href="/services/lighting">lighting</a></span>
+					<div class="spacer-reg"></div>
 					<span class="underline">
 						<a class="navItem" href="/services#streams">back to services</a>
 					</span>

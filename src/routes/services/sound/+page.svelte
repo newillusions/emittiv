@@ -197,6 +197,8 @@
 						pile of e-waste.</span
 					>
 					<div class="spacer-lge"></div>
+					<span>related disciplines: <a class="navItem" href="/services/scent">scent</a> · <a class="navItem" href="/services/content">content</a></span>
+					<div class="spacer-reg"></div>
 					<span class="underline">
 						<a class="navItem" href="/services#streams">back to services</a>
 					</span>

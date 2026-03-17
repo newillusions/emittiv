@@ -206,6 +206,8 @@
 					<div class="spacer-med"></div>
 					<span>see our video work at <a href="/projects/jumeirah-beach-hotel">Jumeirah Beach Hotel</a> and <a href="/projects/city-walk">City Walk</a>.</span>
 					<div class="spacer-lge"></div>
+					<span>related disciplines: <a class="navItem" href="/services/lighting">lighting</a> · <a class="navItem" href="/services/content">content</a></span>
+					<div class="spacer-reg"></div>
 					<span class="underline">
 						<a class="navItem" href="/services#streams">back to services</a>
 					</span>

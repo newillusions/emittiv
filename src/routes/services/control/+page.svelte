@@ -236,6 +236,8 @@
 					<div class="spacer-med"></div>
 					<span>see control integration in action at <a href="/projects/city-walk">City Walk</a> and <a href="/projects/kapsarc">KAPSARC</a>.</span>
 					<div class="spacer-lge"></div>
+					<span>related disciplines: <a class="navItem" href="/services/lighting">lighting</a> · <a class="navItem" href="/services/video">video</a> · <a class="navItem" href="/services/sound">sound</a></span>
+					<div class="spacer-reg"></div>
 					<span class="underline">
 						<a class="navItem" href="/services#streams">back to services</a>
 					</span>
