@@ -141,5 +141,5 @@ After content changes, follow this workflow:
 ## Known Issues
 
 - ~~**Cloudflare Pages 404 on nested routes:**~~ **RESOLVED (Feb 2026)** — All nested routes now return 200 OK. 17 sub-pages still unknown to Google (not yet crawled) — use GSC index_inspect and IndexNow agent to accelerate discovery.
-- 108 svelte-check warnings: `element_invalid_self_closing_tag` in service pages (cosmetic, fix during content work)
+- 4 svelte-check warnings remain: `slot_element_deprecated`, `event_directive_deprecated`, `non_reactive_update` (non-critical)
 - ipvlan L2 on br0: Unraid host can't curl its own containers — test from Mac

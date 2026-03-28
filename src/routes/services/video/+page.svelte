@@ -204,7 +204,7 @@
 						components, processors that evolve with firmware updates. the cheapest option rarely is.</span
 					>
 					<div class="spacer-med"></div>
-					<span>see our video work at <a href="/projects/jumeirah-beach-hotel">Jumeirah Beach Hotel</a> and <a href="/projects/city-walk">City Walk</a>.</span>
+					<span>see our video work at <a href="/projects/the-wave">The Wave</a> and <a href="/projects/the-hub">The Hub</a>.</span>
 					<div class="spacer-lge"></div>
 					<span>related disciplines: <a class="navItem" href="/services/lighting">lighting</a> · <a class="navItem" href="/services/content">content</a></span>
 					<div class="spacer-reg"></div>

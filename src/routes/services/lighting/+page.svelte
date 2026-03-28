@@ -194,7 +194,7 @@
 						might be easier to sell, but we'd rather not see our work in a skip five years from now.</span
 					>
 					<div class="spacer-med"></div>
-					<span>see our lighting work on the <a href="/projects/burj-al-arab">Burj Al Arab</a> and <a href="/projects/sheikh-zayed-grand-mosque">Sheikh Zayed Grand Mosque</a>.</span>
+					<span>see our lighting work on <a href="/projects/the-sail">The Sail</a> and <a href="/projects/the-mosque">The Mosque</a>.</span>
 					<div class="spacer-lge"></div>
 					<span>related disciplines: <a class="navItem" href="/services/video">video</a> · <a class="navItem" href="/services/control">control</a></span>
 					<div class="spacer-reg"></div>

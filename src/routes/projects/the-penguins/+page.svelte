@@ -25,41 +25,41 @@
 </script>
 
 <svelte:head>
-	<title>Sheikh Zayed Grand Mosque Lighting | Iconic Building | emittiv</title>
+	<title>The Penguins | Animal Habitat Attraction Lighting | emittiv</title>
 	<meta
 		name="description"
-		content="Facade lighting renewal for the Sheikh Zayed Grand Mosque, Abu Dhabi. Modernisation of over 1,000 fixtures and full control infrastructure while preserving the original design intent."
+		content="Lighting and control for a penguin habitat attraction in the UAE. Immersive design balancing guest experience with animal welfare lighting requirements."
 	/>
-	<link rel="canonical" href="https://www.emittiv.com/projects/sheikh-zayed-grand-mosque" />
+	<link rel="canonical" href="https://www.emittiv.com/projects/the-penguins" />
 	<meta name="robots" content="index,follow" />
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Sheikh Zayed Grand Mosque Lighting | emittiv" />
+	<meta property="og:title" content="The Penguins | Animal Habitat Attraction | emittiv" />
 	<meta
 		property="og:description"
-		content="Facade lighting renewal for the Sheikh Zayed Grand Mosque. Modernisation of over 1,000 fixtures while preserving the original design intent."
+		content="Lighting and control for a penguin habitat attraction in the UAE. Immersive design balancing guest experience with animal welfare."
 	/>
 	<meta
 		property="og:image"
-		content="https://www.emittiv.com/img/projects/sheikh-zayed-grand-mosque/hero.jpg"
+		content="https://www.emittiv.com/img/projects/dubai-mall-penguinarium/hero.jpg"
 	/>
-	<meta property="og:url" content="https://www.emittiv.com/projects/sheikh-zayed-grand-mosque" />
+	<meta property="og:url" content="https://www.emittiv.com/projects/the-penguins" />
 	<meta property="og:site_name" content="emittiv" />
 	<meta property="og:locale" content="en_AE" />
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Sheikh Zayed Grand Mosque Lighting | emittiv" />
+	<meta name="twitter:title" content="The Penguins | Animal Habitat Attraction | emittiv" />
 	<meta
 		name="twitter:description"
-		content="Facade lighting renewal for the Sheikh Zayed Grand Mosque. Modernisation of over 1,000 fixtures while preserving original design intent."
+		content="Lighting and control for a penguin habitat attraction in the UAE. Immersive design balancing guest experience with animal welfare."
 	/>
-	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/sheikh-zayed-grand-mosque/hero.jpg" />
+	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/dubai-mall-penguinarium/hero.jpg" />
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/sheikh-zayed-grand-mosque","name":"Sheikh Zayed Grand Mosque Lighting","description":"Facade lighting renewal for the Sheikh Zayed Grand Mosque, Abu Dhabi","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/sheikh-zayed-grand-mosque/hero.jpg","locationCreated":{"@type":"Place","name":"Abu Dhabi, UAE"},"keywords":"facade lighting, mosque, iconic building, LED, control systems, Abu Dhabi"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"Sheikh Zayed Grand Mosque","item":"https://www.emittiv.com/projects/sheikh-zayed-grand-mosque"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-penguins","name":"The Penguins — Animal Habitat Attraction","description":"Lighting and control for a penguin habitat attraction in the UAE, balancing guest experience with animal welfare","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/dubai-mall-penguinarium/hero.jpg","locationCreated":{"@type":"Place","name":"UAE"},"keywords":"attraction lighting, control, animal welfare, family entertainment, UAE"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The Penguins","item":"https://www.emittiv.com/projects/the-penguins"}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -67,24 +67,24 @@
 	<section class="hero-bleed">
 		<picture>
 			<source
-				srcset="/img/projects/sheikh-zayed-grand-mosque/hero-400w.webp 400w, /img/projects/sheikh-zayed-grand-mosque/hero-800w.webp 800w, /img/projects/sheikh-zayed-grand-mosque/hero.webp 1600w"
+				srcset="/img/projects/dubai-mall-penguinarium/hero-400w.webp 400w, /img/projects/dubai-mall-penguinarium/hero-800w.webp 800w, /img/projects/dubai-mall-penguinarium/hero.webp 830w"
 				sizes="100vw"
 				type="image/webp"
 			/>
 			<img
 				class="hero-image"
-				src="/img/projects/sheikh-zayed-grand-mosque/hero.jpg"
-				srcset="/img/projects/sheikh-zayed-grand-mosque/hero-400w.jpg 400w, /img/projects/sheikh-zayed-grand-mosque/hero-800w.jpg 800w, /img/projects/sheikh-zayed-grand-mosque/hero.jpg 1600w"
+				src="/img/projects/dubai-mall-penguinarium/hero.jpg"
+				srcset="/img/projects/dubai-mall-penguinarium/hero-400w.jpg 400w, /img/projects/dubai-mall-penguinarium/hero-800w.jpg 800w, /img/projects/dubai-mall-penguinarium/hero.jpg 830w"
 				sizes="100vw"
-				alt="Sheikh Zayed Grand Mosque illuminated at night"
+				alt="Penguin habitat attraction with immersive lighting design"
 				style="transform: translateY({scrollY * 0.15}px)"
 				loading="eager"
 			/>
 		</picture>
 		<div class="hero-overlay">
-			<h1 class="tagline">Sheikh Zayed Grand Mosque</h1>
+			<h1 class="tagline">The Penguins</h1>
 			<div class="spacer-reg"></div>
-			<span class="headline">iconic building. facade renewal.</span>
+			<span class="headline">attraction lighting. animal welfare.</span>
 			<div class="spacer-reg"></div>
 			<span class="disciplines">lighting / control</span>
 		</div>
@@ -98,17 +98,18 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>after years of operation, the original facade lighting system designed by Speirs
-						and Major Associates had reached the end of its useful life. the scope included
-						replacement of over 1,000 fixtures and a complete lighting control system
-						overhaul comprising
-						<span class="splash">40+ switches and 100 nodes</span>.</span
+						>creating a convincing ice cave in the middle of the desert? sure! why not! linking different
+						lighting control systems to
+						<span class="splash">support the animal welfare</span> as well? sounds like
+						fun!</span
 					>
 					<div class="spacer-med"></div>
 					<span
-						>the new control platform needed to integrate with the existing network
-						infrastructure — and the result had to be indistinguishable from the original
-						to anyone looking at the building.</span
+						>the challenge was establishing a distinctive, believable frozen environment for guests while
+						prioritising animal comfort and natural lighting cycles. the habitat lighting had to serve
+						two very different audiences — the animals living there and the visitors experiencing it.
+						a further layer of complexity came from integrating with show control systems to produce
+						an immersive animated experience synchronised with educational video content.</span
 					>
 				</div>
 			</div>
@@ -121,18 +122,18 @@
 				<div class="split-img {splitRevealed ? 'revealed' : ''}">
 					<picture>
 						<source
-							srcset="/img/projects/sheikh-zayed-grand-mosque/domes-400w.webp 400w, /img/projects/sheikh-zayed-grand-mosque/domes-800w.webp 800w, /img/projects/sheikh-zayed-grand-mosque/domes.webp 1440w"
+							srcset="/img/projects/dubai-mall-penguinarium/tank-400w.webp 400w, /img/projects/dubai-mall-penguinarium/tank-800w.webp 800w, /img/projects/dubai-mall-penguinarium/tank.webp 1000w"
 							sizes="(min-width: 768px) 50vw, 100vw"
 							type="image/webp"
 						/>
 						<img
-							src="/img/projects/sheikh-zayed-grand-mosque/domes.jpg"
-							srcset="/img/projects/sheikh-zayed-grand-mosque/domes-400w.jpg 400w, /img/projects/sheikh-zayed-grand-mosque/domes-800w.jpg 800w, /img/projects/sheikh-zayed-grand-mosque/domes.jpg 1440w"
+							src="/img/projects/dubai-mall-penguinarium/tank.jpg"
+							srcset="/img/projects/dubai-mall-penguinarium/tank-400w.jpg 400w, /img/projects/dubai-mall-penguinarium/tank-800w.jpg 800w, /img/projects/dubai-mall-penguinarium/tank.jpg 1000w"
 							sizes="(min-width: 768px) 50vw, 100vw"
-							alt="Sheikh Zayed Grand Mosque domes illuminated at night"
+							alt="Penguin habitat tank with carefully considered animal welfare lighting"
 							loading="lazy"
-							width="1440"
-							height="965"
+							width="1000"
+							height="670"
 						/>
 					</picture>
 				</div>
@@ -140,15 +141,18 @@
 					<h2>our role</h2>
 					<div class="spacer-med"></div>
 					<span
-						>we developed a strategy to transfer data from the original control system and
-						conducted colour-matching tests to ensure the new LED fixtures replicated the
-						original design as closely as possible.</span
+						>we worked collaboratively across multiple stakeholders — including zoological
+						consultants and attraction designers — conducting thorough research to establish
+						the right conditions for the animals alongside the guest experience.</span
 					>
 					<div class="spacer-med"></div>
 					<span
-						>the system includes <span class="splash">custom software</span> that simulates
-						lunar phases, changing the mosque's colour nightly with the moon cycles — a
-						feature of the original design that needed to carry forward seamlessly.</span
+						>photosensors automatically adjust overall attraction lighting levels to align
+						with <span class="splash">animal-specific lighting requirements</span>,
+						supporting natural behavioural patterns and enhancing their overall welfare.
+						the lighting infrastructure integrates with show control to produce the
+						immersive animated experience synchronised with video content, all without
+						compromising the habitat environment.</span
 					>
 				</div>
 			</div>
@@ -162,10 +166,8 @@
 					<h2>project details</h2>
 				</div>
 				<div class="v-padding-1 f col middle order-2">
-					<span><strong>location:</strong> Abu Dhabi, UAE</span>
-					<span><strong>client:</strong> SZGMC</span>
-					<span><strong>type:</strong> iconic building, house of worship</span>
-					<span><strong>size:</strong> 121,800 m&sup2;</span>
+					<span><strong>location:</strong> UAE</span>
+					<span><strong>type:</strong> family entertainment, attraction</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
 					<div class="spacer-med"></div>
 					<span>learn more about our <a href="/services/lighting">lighting design</a> and <a href="/services/control">control systems</a> services.</span>
@@ -186,7 +188,6 @@
 		opacity: 0.6;
 	}
 
-	/* ── Full-bleed hero ── */
 	.hero-bleed {
 		position: relative;
 		height: 85vh;

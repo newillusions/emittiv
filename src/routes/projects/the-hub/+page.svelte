@@ -25,38 +25,38 @@
 </script>
 
 <svelte:head>
-	<title>City Walk Multimedia Attraction | Show Lighting | emittiv</title>
+	<title>The Hub | Urban Multimedia Attraction | Show Lighting | emittiv</title>
 	<meta
 		name="description"
-		content="Theatrical lighting and show control for the City Walk multimedia attraction, Dubai. Permanent and temporary shows integrating lighting, fountains and architectural systems."
+		content="Theatrical lighting and show control for an urban mixed-use multimedia attraction in the UAE. Permanent and temporary shows integrating lighting, fountains and architectural systems."
 	/>
-	<link rel="canonical" href="https://www.emittiv.com/projects/city-walk" />
+	<link rel="canonical" href="https://www.emittiv.com/projects/the-hub" />
 	<meta name="robots" content="index,follow" />
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="City Walk Multimedia Attraction | emittiv" />
+	<meta property="og:title" content="The Hub | Urban Multimedia Attraction | emittiv" />
 	<meta
 		property="og:description"
-		content="Theatrical lighting and show control for the City Walk multimedia attraction. Permanent shows integrating lighting, fountains and architectural systems."
+		content="Theatrical lighting and show control for an urban mixed-use multimedia attraction. Permanent shows integrating lighting, fountains and architectural systems."
 	/>
 	<meta property="og:image" content="https://www.emittiv.com/img/projects/city-walk/hero.jpg" />
-	<meta property="og:url" content="https://www.emittiv.com/projects/city-walk" />
+	<meta property="og:url" content="https://www.emittiv.com/projects/the-hub" />
 	<meta property="og:site_name" content="emittiv" />
 	<meta property="og:locale" content="en_AE" />
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="City Walk Multimedia Attraction | emittiv" />
+	<meta name="twitter:title" content="The Hub | Urban Multimedia Attraction | emittiv" />
 	<meta
 		name="twitter:description"
-		content="Theatrical lighting and show control for the City Walk multimedia attraction in Dubai."
+		content="Theatrical lighting and show control for an urban mixed-use multimedia attraction in the UAE."
 	/>
 	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/city-walk/hero.jpg" />
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/city-walk","name":"City Walk Multimedia Attraction","description":"Theatrical lighting and show control for the City Walk multimedia attraction, Dubai","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/city-walk/hero.jpg","locationCreated":{"@type":"Place","name":"Dubai, UAE"},"keywords":"show lighting, multimedia, fountain lighting, theatrical, control systems, Dubai"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"City Walk","item":"https://www.emittiv.com/projects/city-walk"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-hub","name":"The Hub — Urban Multimedia Attraction","description":"Theatrical lighting and show control for an urban mixed-use multimedia attraction in the UAE","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/city-walk/hero.jpg","locationCreated":{"@type":"Place","name":"UAE"},"keywords":"show lighting, multimedia, fountain lighting, theatrical, control systems, UAE"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The Hub","item":"https://www.emittiv.com/projects/the-hub"}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -73,13 +73,13 @@
 				src="/img/projects/city-walk/hero.jpg"
 				srcset="/img/projects/city-walk/hero-400w.jpg 400w, /img/projects/city-walk/hero-800w.jpg 800w, /img/projects/city-walk/hero.jpg 1280w"
 				sizes="100vw"
-				alt="City Walk Dubai multimedia attraction lighting"
+				alt="Urban mixed-use attraction illuminated at night"
 				style="transform: translateY({scrollY * 0.15}px)"
 				loading="eager"
 			/>
 		</picture>
 		<div class="hero-overlay">
-			<h1 class="tagline">City Walk</h1>
+			<h1 class="tagline">The Hub</h1>
 			<div class="spacer-reg"></div>
 			<span class="headline">multimedia attraction. show lighting.</span>
 			<div class="spacer-reg"></div>
@@ -95,14 +95,16 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>malls need more than just retail outlets these days. they need to be
+						>retail destinations need more than just shops these days. they need to be
 						<span class="splash">destinations in their own right</span> — providing
-						attractions, family entertainment centres and other entertainment.</span
+						attractions, family entertainment and experiences that draw people back.</span
 					>
 					<div class="spacer-med"></div>
 					<span
 						>the operators wanted to introduce new multimedia shows to the central attraction
-						— both permanent shows and temporary events across several months.</span
+						— both permanent shows and temporary seasonal events running across several months
+						of the year. the challenge was creating a lighting language that could flex
+						between an everyday ambient state and a fully choreographed performance mode.</span
 					>
 				</div>
 			</div>
@@ -123,7 +125,7 @@
 							src="/img/projects/city-walk/attraction.jpg"
 							srcset="/img/projects/city-walk/attraction-400w.jpg 400w, /img/projects/city-walk/attraction.jpg 800w"
 							sizes="(min-width: 768px) 50vw, 100vw"
-							alt="City Walk multimedia attraction illuminated at night"
+							alt="Multimedia attraction show lighting with fountain and architectural integration"
 							loading="lazy"
 							width="800"
 							height="536"
@@ -134,16 +136,17 @@
 					<h2>our role</h2>
 					<div class="spacer-med"></div>
 					<span
-						>we designed and programmed the lighting, working with the creative team and
+						>we designed and programmed the lighting, working closely with the creative team and
 						<span class="splash">working nights</span> to minimise disruption to daily
-						operations.</span
+						operations and the thousands of visitors passing through each day.</span
 					>
 					<div class="spacer-med"></div>
 					<span
 						>our experience in show lighting allowed us to seamlessly integrate with the
 						wider systems installed — incorporating the fountain lighting and architectural
 						control systems with the theatrical lighting controls into a unified system
-						across the attraction and mall. the shows are still running today.</span
+						across the attraction. careful programming ensured smooth transitions between
+						show states and reliable unattended operation. the shows are still running today.</span
 					>
 				</div>
 			</div>
@@ -157,8 +160,7 @@
 					<h2>project details</h2>
 				</div>
 				<div class="v-padding-1 f col middle order-2">
-					<span><strong>location:</strong> Dubai, UAE</span>
-					<span><strong>client:</strong> Meeras</span>
+					<span><strong>location:</strong> UAE</span>
 					<span><strong>type:</strong> destination, multimedia attraction</span>
 					<span><strong>size:</strong> 13,000 m&sup2;</span>
 					<span><strong>disciplines:</strong> lighting, control</span>

@@ -7,15 +7,15 @@
 			<div class="f col">
 				<span class="list-head"><span class="splash">Landmarks:</span></span>
 				<ul class="disc">
-					<li><a href="/projects/sheikh-zayed-grand-mosque">Sheikh Zayed Grand Mosque</a></li>
+					<li><a href="/projects/the-mosque">The Mosque</a></li>
 					<li>Sheikh Zayed Bridge</li>
 					<li>Lusail Multpurpose Hall</li>
 					<li>Abu Dhabi Justce Court</li>
 				</ul>
 				<span class="list-head"><span class="splash">Hospitality:</span></span>
 				<ul class="disc">
-					<li><a href="/projects/burj-al-arab">Burj Al Arab</a></li>
-					<li><a href="/projects/jumeirah-beach-hotel">Jumeirah Beach Hotel</a></li>
+					<li><a href="/projects/the-sail">The Sail</a></li>
+					<li><a href="/projects/the-wave">The Wave</a></li>
 					<li>Mercure Hotel, Dubai</li>
 					<li>Novokov Restaurant</li>
 				</ul>
@@ -29,19 +29,19 @@
 			<div class="f col">
 				<span class="list-head"><span class="splash">Destinations:</span></span>
 				<ul class="disc">
-					<li><a href="/projects/expo-2020">Expo 2020</a></li>
+					<li><a href="/projects/the-exhibition">The Exhibition</a></li>
 					<li>Cirque du Soleil - Zaia</li>
 				</ul>
 				<span class="list-head"><span class="splash">Themed:</span></span>
 				<ul class="disc">
 					<li>Seaworld Abu Dhabi</li>
-					<li><a href="/projects/dubai-parks-and-resorts">Dubai Parks and Resorts</a></li>
+					<li><a href="/projects/the-theme-parks">The Theme Parks</a></li>
 					<li>Wild Wadi</li>
 				</ul>
 				<span class="list-head"><span class="splash">FECs and Attractions:</span></span>
 				<ul class="disc">
-					<li><a href="/projects/city-walk">City Walk</a></li>
-					<li><a href="/projects/dubai-mall-penguinarium">Dubai Mall Aquarium Penguinarium</a></li>
+					<li><a href="/projects/the-hub">The Hub</a></li>
+					<li><a href="/projects/the-penguins">The Penguins</a></li>
 					<li>Utopia Adventure Park</li>
 					<li>The View</li>
 					<li>The Palm Fountain</li>
@@ -50,8 +50,8 @@
 			<div class="f col">
 				<span class="list-head"><span class="splash">Venues:</span></span>
 				<ul class="disc">
-					<li><a href="/projects/al-imam-university">Al Imam University</a></li>
-					<li><a href="/projects/kapsarc">KAPSARC</a></li>
+					<li><a href="/projects/the-university">The University</a></li>
+					<li><a href="/projects/the-research-centre">The Research Centre</a></li>
 					<li>Royal Welsh College of Music and Drama</li>
 					<li>Dubai Opera</li>
 					<li>English National Opera</li>

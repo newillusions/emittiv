@@ -25,41 +25,38 @@
 </script>
 
 <svelte:head>
-	<title>Jumeirah Beach Hotel Facade Lighting | Iconic Building | emittiv</title>
+	<title>The Sail | Iconic Hotel Facade Lighting | emittiv</title>
 	<meta
 		name="description"
-		content="Dynamic facade lighting design for the Jumeirah Beach Hotel, Dubai. One of the region's first large-scale dynamic LED facade installations."
+		content="Facade lighting design for an iconic sail-shaped hotel in Dubai. LED replacement programme with extreme throw distances, colour-changing event lighting and full control system design."
 	/>
-	<link rel="canonical" href="https://www.emittiv.com/projects/jumeirah-beach-hotel" />
+	<link rel="canonical" href="https://www.emittiv.com/projects/the-sail" />
 	<meta name="robots" content="index,follow" />
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Jumeirah Beach Hotel Facade Lighting | emittiv" />
+	<meta property="og:title" content="The Sail | Iconic Hotel Facade Lighting | emittiv" />
 	<meta
 		property="og:description"
-		content="Dynamic facade lighting for the Jumeirah Beach Hotel. One of the region's first large-scale dynamic LED facade installations."
+		content="Facade lighting design for an iconic sail-shaped hotel in Dubai. LED replacement with extreme throw distances and colour-changing event lighting."
 	/>
-	<meta
-		property="og:image"
-		content="https://www.emittiv.com/img/projects/jumeirah-beach-hotel/hero.jpg"
-	/>
-	<meta property="og:url" content="https://www.emittiv.com/projects/jumeirah-beach-hotel" />
+	<meta property="og:image" content="https://www.emittiv.com/img/projects/burj-al-arab/hero.jpg" />
+	<meta property="og:url" content="https://www.emittiv.com/projects/the-sail" />
 	<meta property="og:site_name" content="emittiv" />
 	<meta property="og:locale" content="en_AE" />
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Jumeirah Beach Hotel Facade Lighting | emittiv" />
+	<meta name="twitter:title" content="The Sail | Iconic Hotel Facade Lighting | emittiv" />
 	<meta
 		name="twitter:description"
-		content="Dynamic facade lighting for the Jumeirah Beach Hotel. One of the region's first large-scale dynamic LED facade installations."
+		content="Facade lighting design for an iconic sail-shaped hotel in Dubai. LED replacement with extreme throw distances and colour-changing event lighting."
 	/>
-	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/jumeirah-beach-hotel/hero.jpg" />
+	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/burj-al-arab/hero.jpg" />
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/jumeirah-beach-hotel","name":"Jumeirah Beach Hotel Facade Lighting","description":"Dynamic facade lighting design for the Jumeirah Beach Hotel, Dubai","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/jumeirah-beach-hotel/hero.jpg","locationCreated":{"@type":"Place","name":"Dubai, UAE"},"keywords":"facade lighting, dynamic LED, iconic building, hospitality, control, Dubai"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"Jumeirah Beach Hotel","item":"https://www.emittiv.com/projects/jumeirah-beach-hotel"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-sail","name":"The Sail — Iconic Hotel Facade Lighting","description":"Facade lighting design for an iconic sail-shaped hotel in Dubai. LED replacement with extreme throw distances.","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/burj-al-arab/hero.jpg","locationCreated":{"@type":"Place","name":"Dubai, UAE"},"keywords":"facade lighting, iconic building, hospitality, LED, Dubai"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The Sail","item":"https://www.emittiv.com/projects/the-sail"}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -67,24 +64,24 @@
 	<section class="hero-bleed">
 		<picture>
 			<source
-				srcset="/img/projects/jumeirah-beach-hotel/hero-400w.webp 400w, /img/projects/jumeirah-beach-hotel/hero-800w.webp 800w, /img/projects/jumeirah-beach-hotel/hero.webp 1600w"
+				srcset="/img/projects/burj-al-arab/hero-400w.webp 400w, /img/projects/burj-al-arab/hero.webp 703w"
 				sizes="100vw"
 				type="image/webp"
 			/>
 			<img
 				class="hero-image"
-				src="/img/projects/jumeirah-beach-hotel/hero.jpg"
-				srcset="/img/projects/jumeirah-beach-hotel/hero-400w.jpg 400w, /img/projects/jumeirah-beach-hotel/hero-800w.jpg 800w, /img/projects/jumeirah-beach-hotel/hero.jpg 1600w"
+				src="/img/projects/burj-al-arab/hero.jpg"
+				srcset="/img/projects/burj-al-arab/hero-400w.jpg 400w, /img/projects/burj-al-arab/hero.jpg 703w"
 				sizes="100vw"
-				alt="Jumeirah Beach Hotel dynamic facade lighting"
+				alt="Iconic sail-shaped hotel facade illuminated at night"
 				style="transform: translateY({scrollY * 0.15}px)"
 				loading="eager"
 			/>
 		</picture>
 		<div class="hero-overlay">
-			<h1 class="tagline">Jumeirah Beach Hotel</h1>
+			<h1 class="tagline">The Sail</h1>
 			<div class="spacer-reg"></div>
-			<span class="headline">iconic building. dynamic facade.</span>
+			<span class="headline">iconic building. facade lighting.</span>
 			<div class="spacer-reg"></div>
 			<span class="disciplines">lighting / control</span>
 		</div>
@@ -98,11 +95,12 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>after many years of diligently fighting the conditions, the engineering team at
-						the Jumeirah Beach Hotel decided it was time to replace their ailing fixtures.
-						this was <span class="splash"
-							>the first large-scale dynamic facade lighting project</span
-						> in the region to use LED fixtures.</span
+						>after many years of diligently fighting the conditions, the engineering team
+						decided it was time to replace the hotel's ailing facade lighting fixtures.
+						finding LED fixtures with sufficient output and narrow enough beams to
+						throw the <span class="splash">300 metres</span> required on this project was
+						quite a challenge — particularly given the marine environment and the extreme
+						height at which the fixtures operate.</span
 					>
 					<div class="spacer-med"></div>
 					<span
@@ -121,15 +119,15 @@
 				<div class="split-img {splitRevealed ? 'revealed' : ''}">
 					<picture>
 						<source
-							srcset="/img/projects/jumeirah-beach-hotel/facade-400w.webp 400w, /img/projects/jumeirah-beach-hotel/facade-800w.webp 800w, /img/projects/jumeirah-beach-hotel/facade.webp 1200w"
+							srcset="/img/projects/burj-al-arab/facade-400w.webp 400w, /img/projects/burj-al-arab/facade-800w.webp 800w, /img/projects/burj-al-arab/facade.webp 1200w"
 							sizes="(min-width: 768px) 50vw, 100vw"
 							type="image/webp"
 						/>
 						<img
-							src="/img/projects/jumeirah-beach-hotel/facade.jpg"
-							srcset="/img/projects/jumeirah-beach-hotel/facade-400w.jpg 400w, /img/projects/jumeirah-beach-hotel/facade-800w.jpg 800w, /img/projects/jumeirah-beach-hotel/facade.jpg 1200w"
+							src="/img/projects/burj-al-arab/facade.jpg"
+							srcset="/img/projects/burj-al-arab/facade-400w.jpg 400w, /img/projects/burj-al-arab/facade-800w.jpg 800w, /img/projects/burj-al-arab/facade.jpg 1200w"
 							sizes="(min-width: 768px) 50vw, 100vw"
-							alt="Jumeirah Beach Hotel facade lit in magenta at night"
+							alt="Hotel facade lit with combination colour scheme at night"
 							loading="lazy"
 							width="1200"
 							height="800"
@@ -140,9 +138,25 @@
 					<h2>our role</h2>
 					<div class="spacer-med"></div>
 					<span
-						>we designed and implemented the facade lighting system. after several years, we
-						were asked to extend the original design to include the
-						<span class="splash">road side of the building</span> as well.</span
+						>we provided independent specification and design services for the facade lighting
+						replacement — evaluating products on performance and longevity rather than
+						manufacturer relationships.</span
+					>
+					<div class="spacer-med"></div>
+					<span
+						>the control system was designed to give the hotel's team straightforward
+						day-to-day operation while retaining the flexibility to create bespoke colour
+						schemes for events and national celebrations.</span
+					>
+					<div class="spacer-med"></div>
+					<span
+						>operating in Dubai's harsh marine environment, every fixture needed to
+						withstand salt air, extreme heat and wind loading at height — while
+						maintaining consistent colour and output across the full
+						<span class="splash">300-metre facade</span>. independent specification meant
+						product selection was driven entirely by performance and durability, not
+						manufacturer preference. the result is a landmark lighting scheme that performs
+						reliably every night and transforms for special occasions.</span
 					>
 				</div>
 			</div>
@@ -157,9 +171,10 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span><strong>location:</strong> Dubai, UAE</span>
-					<span><strong>client:</strong> Jumeirah</span>
 					<span><strong>type:</strong> iconic building, hospitality</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
+					<div class="spacer-med"></div>
+					<span>learn more about our <a href="/services/lighting">lighting design</a> and <a href="/services/control">control systems</a> services, or explore how we approach <a href="https://sensory.design/the-senses/#light" target="_blank" rel="noopener">light as a sensory medium</a>.</span>
 					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>

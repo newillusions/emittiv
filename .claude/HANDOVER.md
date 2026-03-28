@@ -2,69 +2,62 @@
 
 ## Current Status
 
-All 23 pages live on www.emittiv.com. Security headers, SEO meta tags, and mobile optimizations deployed. All audit scores at 90-100. Two project pages (al-imam-university, sheikh-zayed-grand-mosque) still unknown to Google — resubmitted via IndexNow.
+emittiv.com fully deployed on Cloudflare Pages v3 / Node 22. Codebase clean (Svelte 5 $props(), design tokens, reactive Menu). Company profile R06 copy and PPTX draft produced. All 6 service discipline pages submitted for Google indexing via GSC + IndexNow.
 
 ## Last Session
 
-**Date**: 2026-02-24
-**Summary**: Checked GSC indexing for al-imam-university and sheikh-zayed-grand-mosque — both still "URL is unknown to Google". Resubmitted via IndexNow (HTTP 200). Audited emittiv Unraid Docker template against wiki standards — passed all checks; added missing ReadMe and Support URLs. Audited all ~80 Docker templates on primary for missing fields. Fixed 8 CC-deployed templates (lx-specs-api, 3x surrealdb, forgejo, gitea-runner, 2x n8n). Found lx-specs-api is running on AI server (10.0.20.11), removed stale orphan template from primary. Flagged hardcoded CLAUDE_API_KEY in lx-specs-api template as security issue (not yet resolved).
+**Date**: 2026-03-27
+**Summary**: Checked Google indexing status for the full site. Found 6/8 indexable pages indexed, but all 6 service discipline pages (`/services/lighting`, `/services/control`, `/services/content`, `/services/sound`, `/services/scent`, `/services/video`) still completely unknown to Google — never crawled despite being in sitemap and linked from homepage. Submitted all 6 via GSC "Request Indexing" UI (Playwright automation) and IndexNow API. Verified internal linking is correct (all 6 linked from both `/` and `/services`, all in `sitemap.xml`). User also asked about the PPTX location (`docs/profile-build/emittiv-company-profile-r06.pptx`).
 
 ## Key Context
 
-| Resource         | Value                                                           |
-| ---------------- | --------------------------------------------------------------- |
-| Forgejo repo     | forge.mms.name/emittiv/emittiv-website (private)                |
-| GitHub repo      | github.com/newillusions/emittiv (production → Cloudflare Pages) |
-| Docker container | 10.0.23.134:3000 on br0 (Unraid primary)                       |
-| Production URL   | www.emittiv.com (Cloudflare Pages)                              |
-| Matomo           | matomo.emittiv.online (Site ID: 1)                              |
-| GSC property     | sc-domain:emittiv.com                                           |
-| IndexNow key     | a4bd0f7dc314443d9624867deaf91084                                |
+| Resource | Value |
+|----------|-------|
+| Forgejo repo | forge.mms.name/emittiv/emittiv-website (private) |
+| GitHub repo | github.com/newillusions/emittiv (production) |
+| Production URL | www.emittiv.com (Cloudflare Pages v3, Node 22) |
+| GSC property | sc-domain:emittiv.com |
+| IndexNow key | a4bd0f7dc314443d9624867deaf91084 |
+| R06 copy doc | docs/company-profile-r06-copy.md |
+| R06 PPTX draft | docs/profile-build/emittiv-company-profile-r06.pptx |
+| R05 source PDF | ~/Desktop/emittiv Company Profile/emittiv company profile r05.pdf |
 
 ## Next Steps
 
-1. **Monitor GSC indexing** — Check al-imam-university + sheikh-zayed-grand-mosque again in 2-4 days (resubmitted 2026-02-24)
-2. **Responsive images** — Add srcset/sizes to project page images (currently 0% responsive)
-3. **Homepage content** — Thin at 171 words, target keyword "lighting design consultancy dubai" not in body text
-4. **More project pages** — Seaworld, Wild Wadi, Dubai Opera, etc.
-5. **Google Business Profile** — Set up for local SEO
-6. **PWA manifest** — Optional, would bring mobile score to 100
-7. **lx-specs-api credential issue** — Hardcoded CLAUDE_API_KEY + AILX_API_KEY in AI server template (flag to AILX instance)
+### SEO & Indexing (Priority)
+1. **Re-check GSC in ~1 week** (by Apr 3) — verify the 6 service pages have been crawled and indexed after the Mar 27 submission
+2. **Structured data enrichment** — JSON-LD relatedLink between services
+
+### Company Profile
+3. **Add project photography** to PPTX — cannibalise NI diagonal collage imagery for 2-3 showcase pages
+4. **Swap placeholder logo** on cover and back cover with actual emittiv logo asset
+5. **Add team headshots** to Core Team slide
+6. **Refine header bars** — add subtle warm gradient (currently solid #1A1A1A)
+7. **Review discipline icons** — swap with r05 originals if preferred
+
+### Code Quality
+8. **transitions.svelte** — migrate plain variables to $state()
+9. **HeroCanvas.svelte** — 303 lines, extract helper functions
+10. **sitemap.xml/+server.ts** — generate XML from route list instead of hardcoded string
+
+### Infrastructure
+11. **Vite 8 + vite-plugin-svelte v7 upgrade** — major bump, deferred
+12. **More project pages** — Seaworld, Wild Wadi, Dubai Opera
 
 ## Recent Decisions
 
-- **Security headers**: Full CSP with self + matomo + emailjs, HSTS preload, X-Frame-Options DENY
-- **Title strategy**: "Lighting & Sensory Design Consultancy Dubai | emittiv" (53 chars, includes target keyword)
-- **Linkinator false positives**: 563 broken links are crawler artifact — no action needed
-- **Template audit**: Only CC-deployed containers need template completeness; CA-installed containers are maintained by Community Applications
-- **lx-specs-api on primary**: Stale orphan template removed — container runs on AI server (10.0.20.11) at 10.0.21.52:8080
-
-## Audit Scores (as of 2026-02-23)
-
-| Audit | Score |
-|-------|-------|
-| Security Headers | 100/100 (7/7 headers) |
-| Technical SEO | 100/100 |
-| Mobile | 90/100 (A) |
-| Sitemap/Robots | Clean |
-| On-Page SEO | Needs keyword work |
-
-## Tooling Inventory
-
-| Category | Count | Details |
-|----------|-------|---------|
-| MCP Servers | 7 | svelte, gsc, matomo, lighthouse, linkinator, accessibility, pagespeed |
-| Agents | 10 | seo-auditor, performance-monitor, deployment-validator, content-reviewer, indexnow-notify, image-optimizer, visual-tester, structured-data, security-headers, social-preview |
-| Hooks | 1 | pre-deploy-check.sh (build validation on push) |
+- **Sensory Design as category**: Emittiv owns sensory.design domain, actively building the concept as a USP — deserves dedicated page (Mar 26)
+- **wedontdesignforfree.com**: Added to Independent page as concrete evidence of the independence stance (Mar 26)
+- **Content discipline reframed**: Emittiv connects clients with creators and manages integration — not an in-house content team (Mar 26)
+- **Sustainability folded into Design Approach**: "Considered by Design" section replaces standalone Sustainable page — modular systems, screen-first docs, minimal components (Mar 26)
+- **Private AI mentioned**: On-prem AI systems added to Current page with explicit privacy framing — no client data shared externally (Mar 26)
 
 ## Notes
 
-- `static/_headers` controls Cloudflare Pages security headers (deployed via build output)
-- `*.png` is in .gitignore — apple-touch-icon.png and favicon.png were force-added with `git add -f`
-- HeroCanvas uses simplex noise for blob movement, requestAnimationFrame loop, respects prefers-reduced-motion
-- `.mcp.json` is gitignored — local MCP config stays local
-- Unraid Docker template changes (Support, ReadMe, etc.) are UI metadata only — no container restart needed
+- Profile is 12 slides (cover + 10 content + back cover) plus 2-3 project showcase pages to be added with photography
+- 6 service sub-pages indexing requested via GSC UI + IndexNow on 2026-03-27 — first time using GSC UI "Request Indexing" button (API doesn't trigger actual indexing)
+- GSC overview shows 15 indexed pages, 11 not indexed (includes the 6 service pages + privacy/terms noindex + others)
 
 ---
 
-*Updated: 2026-02-24*
+*Updated: 2026-03-27*

@@ -25,38 +25,38 @@
 </script>
 
 <svelte:head>
-	<title>KAPSARC Multipurpose Hall | Performance Venue | emittiv</title>
+	<title>The Research Centre | Multipurpose Hall | emittiv</title>
 	<meta
 		name="description"
-		content="Lighting and control systems for the KAPSARC Multipurpose Hall, Riyadh. Zaha Hadid-designed venue with motorised rigging and flexible control architecture."
+		content="Lighting and control systems for a landmark research centre multipurpose hall in the Middle East. Architecturally distinctive venue with motorised rigging and flexible control architecture."
 	/>
-	<link rel="canonical" href="https://www.emittiv.com/projects/kapsarc" />
+	<link rel="canonical" href="https://www.emittiv.com/projects/the-research-centre" />
 	<meta name="robots" content="index,follow" />
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="KAPSARC Multipurpose Hall | Performance Venue | emittiv" />
+	<meta property="og:title" content="The Research Centre | Multipurpose Hall | emittiv" />
 	<meta
 		property="og:description"
-		content="Lighting and control for the KAPSARC Multipurpose Hall. Zaha Hadid-designed venue with motorised rigging and flexible control."
+		content="Lighting and control for a landmark research centre multipurpose hall. Architecturally distinctive venue with motorised rigging and flexible control."
 	/>
 	<meta property="og:image" content="https://www.emittiv.com/img/projects/kapsarc/hero.jpg" />
-	<meta property="og:url" content="https://www.emittiv.com/projects/kapsarc" />
+	<meta property="og:url" content="https://www.emittiv.com/projects/the-research-centre" />
 	<meta property="og:site_name" content="emittiv" />
 	<meta property="og:locale" content="en_AE" />
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="KAPSARC Multipurpose Hall | Performance Venue | emittiv" />
+	<meta name="twitter:title" content="The Research Centre | Multipurpose Hall | emittiv" />
 	<meta
 		name="twitter:description"
-		content="Lighting and control systems for the KAPSARC Multipurpose Hall. Zaha Hadid-designed venue with motorised rigging and flexible control."
+		content="Lighting and control systems for a landmark research centre multipurpose hall. Architecturally distinctive venue with motorised rigging and flexible control."
 	/>
 	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/kapsarc/hero.jpg" />
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/kapsarc","name":"KAPSARC Multipurpose Hall","description":"Lighting and control systems for the KAPSARC Multipurpose Hall, Riyadh","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/kapsarc/hero.jpg","locationCreated":{"@type":"Place","name":"Riyadh, KSA"},"keywords":"lighting, multipurpose hall, Zaha Hadid, control systems, rigging, Riyadh"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"KAPSARC","item":"https://www.emittiv.com/projects/kapsarc"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-research-centre","name":"The Research Centre Multipurpose Hall","description":"Lighting and control systems for a landmark research centre multipurpose hall in the Middle East","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/kapsarc/hero.jpg","locationCreated":{"@type":"Place","name":"Middle East"},"keywords":"lighting, multipurpose hall, control systems, rigging, research centre, Middle East"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The Research Centre","item":"https://www.emittiv.com/projects/the-research-centre"}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -73,15 +73,15 @@
 				src="/img/projects/kapsarc/hero.jpg"
 				srcset="/img/projects/kapsarc/hero-400w.jpg 400w, /img/projects/kapsarc/hero.jpg 700w"
 				sizes="100vw"
-				alt="KAPSARC multipurpose hall designed by Zaha Hadid"
+				alt="research centre multipurpose hall interior"
 				style="transform: translateY({scrollY * 0.15}px)"
 				loading="eager"
 			/>
 		</picture>
 		<div class="hero-overlay">
-			<h1 class="tagline">KAPSARC</h1>
+			<h1 class="tagline">The Research Centre</h1>
 			<div class="spacer-reg"></div>
-			<span class="headline">multipurpose hall. Zaha Hadid.</span>
+			<span class="headline">multipurpose hall. architectural interior.</span>
 			<div class="spacer-reg"></div>
 			<span class="disciplines">project management / lighting / control</span>
 		</div>
@@ -95,10 +95,11 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>lighting a Zaha Hadid interior presents a specific challenge — hundreds of
-						small panels, each with unique dimensions and shapes. the lighting systems needed
+						>lighting a boldly sculpted architectural interior presents a specific challenge — hundreds of
+						small panels, each with unique dimensions and custom shapes. the lighting systems needed
 						to be <span class="splash">invisible when not in use</span>, allowing the
-						interior design to remain the focal point.</span
+						interior design to remain the focal point. careful coordination between luminaire positions and
+						the architectural geometry was essential from the outset.</span
 					>
 					<div class="spacer-med"></div>
 					<span
@@ -125,7 +126,7 @@
 							src="/img/projects/kapsarc/auditorium.jpg"
 							srcset="/img/projects/kapsarc/auditorium-400w.jpg 400w, /img/projects/kapsarc/auditorium-800w.jpg 800w, /img/projects/kapsarc/auditorium.jpg 1600w"
 							sizes="(min-width: 768px) 50vw, 100vw"
-							alt="KAPSARC auditorium performance lighting"
+							alt="research centre auditorium performance lighting"
 							loading="lazy"
 							width="1600"
 							height="1072"
@@ -161,9 +162,7 @@
 					<h2>project details</h2>
 				</div>
 				<div class="v-padding-1 f col middle order-2">
-					<span><strong>location:</strong> Riyadh, KSA</span>
-					<span><strong>client:</strong> Saudi Aramco</span>
-					<span><strong>architect:</strong> Zaha Hadid</span>
+					<span><strong>location:</strong> Middle East</span>
 					<span><strong>type:</strong> multipurpose hall, conference venue</span>
 					<span><strong>size:</strong> 2,256 m&sup2;</span>
 					<span><strong>disciplines:</strong> lighting, control</span>

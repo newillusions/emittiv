@@ -25,41 +25,38 @@
 </script>
 
 <svelte:head>
-	<title>Dubai Mall Penguinarium | Attraction Lighting | emittiv</title>
+	<title>The Exhibition | Public Realm Lighting | Destination Design | emittiv</title>
 	<meta
 		name="description"
-		content="Lighting and control for the Dubai Mall Penguinarium. Immersive attraction design balancing guest experience with animal welfare lighting requirements."
+		content="Public realm lighting coordination for a major international exhibition in the UAE. Peer review and harmonisation of site-wide lighting across a vast public realm of landscapes, plazas and public spaces."
 	/>
-	<link rel="canonical" href="https://www.emittiv.com/projects/dubai-mall-penguinarium" />
+	<link rel="canonical" href="https://www.emittiv.com/projects/the-exhibition" />
 	<meta name="robots" content="index,follow" />
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Dubai Mall Penguinarium | Attraction Lighting | emittiv" />
+	<meta property="og:title" content="The Exhibition | Public Realm Lighting | emittiv" />
 	<meta
 		property="og:description"
-		content="Lighting and control for the Dubai Mall Penguinarium. Immersive design balancing guest experience with animal welfare."
+		content="Public realm lighting coordination for a major international exhibition in the UAE. Harmonisation of site-wide lighting across a vast public realm of landscapes, plazas and public spaces."
 	/>
-	<meta
-		property="og:image"
-		content="https://www.emittiv.com/img/projects/dubai-mall-penguinarium/hero.jpg"
-	/>
-	<meta property="og:url" content="https://www.emittiv.com/projects/dubai-mall-penguinarium" />
+	<meta property="og:image" content="https://www.emittiv.com/img/projects/expo-2020/hero.jpg" />
+	<meta property="og:url" content="https://www.emittiv.com/projects/the-exhibition" />
 	<meta property="og:site_name" content="emittiv" />
 	<meta property="og:locale" content="en_AE" />
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Dubai Mall Penguinarium | Attraction Lighting | emittiv" />
+	<meta name="twitter:title" content="The Exhibition | Public Realm Lighting | emittiv" />
 	<meta
 		name="twitter:description"
-		content="Lighting and control for the Dubai Mall Penguinarium. Immersive design balancing guest experience with animal welfare."
+		content="Public realm lighting coordination for a major international exhibition in the UAE — harmonising site-wide lighting across vast landscapes, plazas and public spaces."
 	/>
-	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/dubai-mall-penguinarium/hero.jpg" />
+	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/expo-2020/hero.jpg" />
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/dubai-mall-penguinarium","name":"Dubai Mall Penguinarium","description":"Lighting and control for the Dubai Mall Penguinarium attraction","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/dubai-mall-penguinarium/hero.jpg","locationCreated":{"@type":"Place","name":"Dubai, UAE"},"keywords":"attraction lighting, control, animal welfare, family entertainment, Dubai"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"Dubai Mall Penguinarium","item":"https://www.emittiv.com/projects/dubai-mall-penguinarium"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-exhibition","name":"The Exhibition — Public Realm Lighting","description":"Public realm lighting coordination for a major international exhibition in the UAE","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/expo-2020/hero.jpg","locationCreated":{"@type":"Place","name":"UAE"},"keywords":"public realm, lighting design, exhibition, destination, UAE"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The Exhibition","item":"https://www.emittiv.com/projects/the-exhibition"}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -67,24 +64,24 @@
 	<section class="hero-bleed">
 		<picture>
 			<source
-				srcset="/img/projects/dubai-mall-penguinarium/hero-400w.webp 400w, /img/projects/dubai-mall-penguinarium/hero-800w.webp 800w, /img/projects/dubai-mall-penguinarium/hero.webp 830w"
+				srcset="/img/projects/expo-2020/hero-400w.webp 400w, /img/projects/expo-2020/hero-800w.webp 800w, /img/projects/expo-2020/hero.webp 1920w"
 				sizes="100vw"
 				type="image/webp"
 			/>
 			<img
 				class="hero-image"
-				src="/img/projects/dubai-mall-penguinarium/hero.jpg"
-				srcset="/img/projects/dubai-mall-penguinarium/hero-400w.jpg 400w, /img/projects/dubai-mall-penguinarium/hero-800w.jpg 800w, /img/projects/dubai-mall-penguinarium/hero.jpg 830w"
+				src="/img/projects/expo-2020/hero.jpg"
+				srcset="/img/projects/expo-2020/hero-400w.jpg 400w, /img/projects/expo-2020/hero-800w.jpg 800w, /img/projects/expo-2020/hero.jpg 1920w"
 				sizes="100vw"
-				alt="Dubai Mall Penguinarium immersive lighting design"
+				alt="International exhibition public realm lighting at dusk"
 				style="transform: translateY({scrollY * 0.15}px)"
 				loading="eager"
 			/>
 		</picture>
 		<div class="hero-overlay">
-			<h1 class="tagline">Dubai Mall Penguinarium</h1>
+			<h1 class="tagline">The Exhibition</h1>
 			<div class="spacer-reg"></div>
-			<span class="headline">attraction lighting. animal welfare.</span>
+			<span class="headline">public realm. vast destination.</span>
 			<div class="spacer-reg"></div>
 			<span class="disciplines">lighting / control</span>
 		</div>
@@ -98,17 +95,17 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>creating an ice cave in the Dubai desert? sure! why not! linking different
-						lighting control systems to
-						<span class="splash">support the animal welfare</span> as well? sounds like
-						fun!</span
+						>the engagement began with unifying multiple public realm lighting designs across
+						the site. the lighting had been delivered by various teams and
+						contractors — each working to their own brief, resulting in a patchwork of approaches
+						across one of the region's most ambitious destination projects.</span
 					>
 					<div class="spacer-med"></div>
 					<span
-						>the challenge was establishing a distinctive environment for guests while
-						prioritising animal comfort and natural cycles — then integrating with show
-						control systems to produce an immersive animated experience synchronised with
-						educational video content.</span
+						>the goal was <span class="splash"
+							>a unified guest experience</span
+						> across the landscapes, plazas and parks — bringing coherence to the whole
+						while respecting the design intent of each area.</span
 					>
 				</div>
 			</div>
@@ -121,18 +118,18 @@
 				<div class="split-img {splitRevealed ? 'revealed' : ''}">
 					<picture>
 						<source
-							srcset="/img/projects/dubai-mall-penguinarium/tank-400w.webp 400w, /img/projects/dubai-mall-penguinarium/tank-800w.webp 800w, /img/projects/dubai-mall-penguinarium/tank.webp 1000w"
+							srcset="/img/projects/expo-2020/district-400w.webp 400w, /img/projects/expo-2020/district-800w.webp 800w, /img/projects/expo-2020/district.webp 1200w"
 							sizes="(min-width: 768px) 50vw, 100vw"
 							type="image/webp"
 						/>
 						<img
-							src="/img/projects/dubai-mall-penguinarium/tank.jpg"
-							srcset="/img/projects/dubai-mall-penguinarium/tank-400w.jpg 400w, /img/projects/dubai-mall-penguinarium/tank-800w.jpg 800w, /img/projects/dubai-mall-penguinarium/tank.jpg 1000w"
+							src="/img/projects/expo-2020/district.jpg"
+							srcset="/img/projects/expo-2020/district-400w.jpg 400w, /img/projects/expo-2020/district-800w.jpg 800w, /img/projects/expo-2020/district.jpg 1200w"
 							sizes="(min-width: 768px) 50vw, 100vw"
-							alt="Dubai Mall Penguinarium tank with carefully designed lighting"
+							alt="Exhibition district illuminated structures at sunset"
 							loading="lazy"
-							width="1000"
-							height="670"
+							width="1200"
+							height="800"
 						/>
 					</picture>
 				</div>
@@ -140,17 +137,16 @@
 					<h2>our role</h2>
 					<div class="spacer-med"></div>
 					<span
-						>we worked collaboratively across multiple stakeholders, conducting thorough
-						research to establish the right conditions for the animals alongside the guest
-						experience.</span
+						>we conducted a peer review of existing work and coordinated with the original
+						project lighting designers to maintain design intent while making the adjustments
+						the event required. each zone had its own narrative — our role was to find the
+						thread that connected them without flattening the individuality of each space.</span
 					>
 					<div class="spacer-med"></div>
 					<span
-						>photosensors automatically adjust overall attraction lighting levels to align
-						with <span class="splash">animal-specific lighting requirements</span>,
-						enhancing their overall welfare. the lighting infrastructure integrates with show
-						control to produce the immersive animated experience synchronised with video
-						content.</span
+						>the result was visual consistency without uniformity — <span class="splash"
+							>each zone retaining its character</span
+						> while feeling part of the same place.</span
 					>
 				</div>
 			</div>
@@ -164,9 +160,8 @@
 					<h2>project details</h2>
 				</div>
 				<div class="v-padding-1 f col middle order-2">
-					<span><strong>location:</strong> Dubai, UAE</span>
-					<span><strong>client:</strong> Emaar Entertainment</span>
-					<span><strong>type:</strong> family entertainment, attraction</span>
+					<span><strong>location:</strong> UAE</span>
+					<span><strong>type:</strong> destination, public realm</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
 					<div class="spacer-med"></div>
 					<span>learn more about our <a href="/services/lighting">lighting design</a> and <a href="/services/control">control systems</a> services.</span>

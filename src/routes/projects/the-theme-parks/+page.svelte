@@ -25,38 +25,41 @@
 </script>
 
 <svelte:head>
-	<title>Expo 2020 Public Realm Lighting | Destination Design | emittiv</title>
+	<title>The Theme Parks | Themed Entertainment Lighting | emittiv</title>
 	<meta
 		name="description"
-		content="Public realm lighting coordination for Expo 2020 Dubai. Peer review and harmonisation of site-wide lighting across 4.38 million square metres of landscapes, plazas and public spaces."
+		content="Themed entertainment lighting design for a large-scale destination theme park complex in the UAE. Attractions, rides and public areas across multiple parks."
 	/>
-	<link rel="canonical" href="https://www.emittiv.com/projects/expo-2020" />
+	<link rel="canonical" href="https://www.emittiv.com/projects/the-theme-parks" />
 	<meta name="robots" content="index,follow" />
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Expo 2020 Public Realm Lighting | emittiv" />
+	<meta property="og:title" content="The Theme Parks | Themed Entertainment | emittiv" />
 	<meta
 		property="og:description"
-		content="Public realm lighting coordination for Expo 2020 Dubai. Harmonisation of site-wide lighting across 4.38 million square metres."
+		content="Themed entertainment lighting design for a large-scale destination theme park complex in the UAE."
 	/>
-	<meta property="og:image" content="https://www.emittiv.com/img/projects/expo-2020/hero.jpg" />
-	<meta property="og:url" content="https://www.emittiv.com/projects/expo-2020" />
+	<meta
+		property="og:image"
+		content="https://www.emittiv.com/img/projects/dubai-parks-and-resorts/hero.jpg"
+	/>
+	<meta property="og:url" content="https://www.emittiv.com/projects/the-theme-parks" />
 	<meta property="og:site_name" content="emittiv" />
 	<meta property="og:locale" content="en_AE" />
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Expo 2020 Public Realm Lighting | emittiv" />
+	<meta name="twitter:title" content="The Theme Parks | Themed Entertainment | emittiv" />
 	<meta
 		name="twitter:description"
-		content="Public realm lighting coordination for Expo 2020 Dubai across 4.38 million square metres of landscapes, plazas and public spaces."
+		content="Themed entertainment lighting design for a large-scale destination theme park complex in the UAE. Attractions, rides and public areas across multiple parks."
 	/>
-	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/expo-2020/hero.jpg" />
+	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/dubai-parks-and-resorts/hero.jpg" />
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/expo-2020","name":"Expo 2020 Public Realm Lighting","description":"Public realm lighting coordination for Expo 2020 Dubai","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/expo-2020/hero.jpg","locationCreated":{"@type":"Place","name":"Dubai, UAE"},"keywords":"public realm, lighting design, expo, destination, Dubai"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"Expo 2020","item":"https://www.emittiv.com/projects/expo-2020"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-theme-parks","name":"The Theme Parks","description":"Sensory design for a large-scale themed entertainment destination in the UAE","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/dubai-parks-and-resorts/hero.jpg","locationCreated":{"@type":"Place","name":"UAE"},"keywords":"themed entertainment, theme park, lighting designer, control, UAE"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The Theme Parks","item":"https://www.emittiv.com/projects/the-theme-parks"}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -64,24 +67,24 @@
 	<section class="hero-bleed">
 		<picture>
 			<source
-				srcset="/img/projects/expo-2020/hero-400w.webp 400w, /img/projects/expo-2020/hero-800w.webp 800w, /img/projects/expo-2020/hero.webp 1920w"
+				srcset="/img/projects/dubai-parks-and-resorts/hero-400w.webp 400w, /img/projects/dubai-parks-and-resorts/hero-800w.webp 800w, /img/projects/dubai-parks-and-resorts/hero.webp 1280w"
 				sizes="100vw"
 				type="image/webp"
 			/>
 			<img
 				class="hero-image"
-				src="/img/projects/expo-2020/hero.jpg"
-				srcset="/img/projects/expo-2020/hero-400w.jpg 400w, /img/projects/expo-2020/hero-800w.jpg 800w, /img/projects/expo-2020/hero.jpg 1920w"
+				src="/img/projects/dubai-parks-and-resorts/hero.jpg"
+				srcset="/img/projects/dubai-parks-and-resorts/hero-400w.jpg 400w, /img/projects/dubai-parks-and-resorts/hero-800w.jpg 800w, /img/projects/dubai-parks-and-resorts/hero.jpg 1280w"
 				sizes="100vw"
-				alt="Expo 2020 Dubai public realm lighting at dusk"
+				alt="themed entertainment park lighting at night"
 				style="transform: translateY({scrollY * 0.15}px)"
 				loading="eager"
 			/>
 		</picture>
 		<div class="hero-overlay">
-			<h1 class="tagline">Expo 2020</h1>
+			<h1 class="tagline">The Theme Parks</h1>
 			<div class="spacer-reg"></div>
-			<span class="headline">public realm. 4.38 million square metres.</span>
+			<span class="headline">themed entertainment. multiple disciplines.</span>
 			<div class="spacer-reg"></div>
 			<span class="disciplines">lighting / control</span>
 		</div>
@@ -95,16 +98,16 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>the engagement began with unifying multiple public realm lighting designs across
-						the site. the public realm lighting had been delivered by various teams and
-						contractors — each working to their own brief.</span
+						>working simultaneously across multiple parks, from area development to rides and
+						fully themed <span class="splash">IP-based attractions</span> — each environment
+						with its own character, narrative and technical demands. the scale of the destination
+						meant that consistency and integration were as important as individual creative expression.</span
 					>
 					<div class="spacer-med"></div>
 					<span
-						>the goal was <span class="splash"
-							>a unified guest experience</span
-						> across the landscapes, plazas and parks — bringing coherence to the whole
-						while respecting the design intent of each area.</span
+						>the lighting concepts needed to be in line with the IP holder's vision and
+						requirements, while ensuring the various systems and projects would all link in
+						to the park-wide controls.</span
 					>
 				</div>
 			</div>
@@ -117,18 +120,18 @@
 				<div class="split-img {splitRevealed ? 'revealed' : ''}">
 					<picture>
 						<source
-							srcset="/img/projects/expo-2020/district-400w.webp 400w, /img/projects/expo-2020/district-800w.webp 800w, /img/projects/expo-2020/district.webp 1200w"
+							srcset="/img/projects/dubai-parks-and-resorts/area-400w.webp 400w, /img/projects/dubai-parks-and-resorts/area-800w.webp 800w, /img/projects/dubai-parks-and-resorts/area.webp 1280w"
 							sizes="(min-width: 768px) 50vw, 100vw"
 							type="image/webp"
 						/>
 						<img
-							src="/img/projects/expo-2020/district.jpg"
-							srcset="/img/projects/expo-2020/district-400w.jpg 400w, /img/projects/expo-2020/district-800w.jpg 800w, /img/projects/expo-2020/district.jpg 1200w"
+							src="/img/projects/dubai-parks-and-resorts/area.jpg"
+							srcset="/img/projects/dubai-parks-and-resorts/area-400w.jpg 400w, /img/projects/dubai-parks-and-resorts/area-800w.jpg 800w, /img/projects/dubai-parks-and-resorts/area.jpg 1280w"
 							sizes="(min-width: 768px) 50vw, 100vw"
-							alt="Expo 2020 illuminated geodesic domes at sunset"
+							alt="themed entertainment park area lighting"
 							loading="lazy"
-							width="1200"
-							height="800"
+							width="1280"
+							height="858"
 						/>
 					</picture>
 				</div>
@@ -136,15 +139,15 @@
 					<h2>our role</h2>
 					<div class="spacer-med"></div>
 					<span
-						>we conducted a peer review of existing work and coordinated with the original
-						project lighting designers to maintain design intent while making the adjustments
-						the event required.</span
+						>as the themed entertainment lighting designer, we provided the original lighting
+						concepts for renovations of existing areas as well as new themed attractions
+						under development.</span
 					>
 					<div class="spacer-med"></div>
 					<span
-						>the result was visual consistency without uniformity — <span class="splash"
-							>each zone retaining its character</span
-						> while feeling part of the same place.</span
+						>we then <span class="splash">managed external teams</span> through the schematic
+						and detailed design phases to ensure the various systems and projects would all
+						link in to the park-wide controls.</span
 					>
 				</div>
 			</div>
@@ -158,13 +161,9 @@
 					<h2>project details</h2>
 				</div>
 				<div class="v-padding-1 f col middle order-2">
-					<span><strong>location:</strong> Dubai, UAE</span>
-					<span><strong>client:</strong> Expo 2020</span>
-					<span><strong>type:</strong> destination, public realm</span>
-					<span><strong>size:</strong> 4,380,000 m&sup2;</span>
+					<span><strong>location:</strong> UAE</span>
+					<span><strong>type:</strong> themed entertainment, destination</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
-					<div class="spacer-med"></div>
-					<span>learn more about our <a href="/services/lighting">lighting design</a> and <a href="/services/control">control systems</a> services.</span>
 					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>
@@ -182,6 +181,7 @@
 		opacity: 0.6;
 	}
 
+	/* -- Full-bleed hero -- */
 	.hero-bleed {
 		position: relative;
 		height: 85vh;
@@ -214,7 +214,7 @@
 		);
 	}
 
-	/* ── Split image + text ── */
+	/* -- Split image + text -- */
 	.split-section {
 		padding: 4rem 0;
 	}

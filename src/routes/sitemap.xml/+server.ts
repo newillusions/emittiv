@@ -22,36 +22,36 @@ const routes: SitemapRoute[] = [
 	// Projects
 	{ path: '/projects', lastmod: '2026-02-20', changefreq: 'monthly', priority: 0.9 },
 	{
-		path: '/projects/sheikh-zayed-grand-mosque',
+		path: '/projects/the-mosque',
 		lastmod: '2026-02-15',
 		changefreq: 'yearly',
 		priority: 0.7
 	},
-	{ path: '/projects/burj-al-arab', lastmod: '2026-02-15', changefreq: 'yearly', priority: 0.7 },
-	{ path: '/projects/expo-2020', lastmod: '2026-02-15', changefreq: 'yearly', priority: 0.7 },
-	{ path: '/projects/kapsarc', lastmod: '2026-02-15', changefreq: 'yearly', priority: 0.7 },
+	{ path: '/projects/the-sail', lastmod: '2026-02-15', changefreq: 'yearly', priority: 0.7 },
+	{ path: '/projects/the-exhibition', lastmod: '2026-02-15', changefreq: 'yearly', priority: 0.7 },
+	{ path: '/projects/the-research-centre', lastmod: '2026-03-28', changefreq: 'yearly', priority: 0.7 },
 	{
-		path: '/projects/dubai-parks-and-resorts',
-		lastmod: '2026-02-15',
+		path: '/projects/the-theme-parks',
+		lastmod: '2026-03-28',
 		changefreq: 'yearly',
 		priority: 0.7
 	},
 	{
-		path: '/projects/jumeirah-beach-hotel',
-		lastmod: '2026-02-15',
+		path: '/projects/the-wave',
+		lastmod: '2026-03-28',
 		changefreq: 'yearly',
 		priority: 0.7
 	},
-	{ path: '/projects/city-walk', lastmod: '2026-02-15', changefreq: 'yearly', priority: 0.7 },
+	{ path: '/projects/the-hub', lastmod: '2026-03-28', changefreq: 'yearly', priority: 0.7 },
 	{
-		path: '/projects/dubai-mall-penguinarium',
-		lastmod: '2026-02-15',
+		path: '/projects/the-penguins',
+		lastmod: '2026-03-28',
 		changefreq: 'yearly',
 		priority: 0.7
 	},
 	{
-		path: '/projects/al-imam-university',
-		lastmod: '2026-02-15',
+		path: '/projects/the-university',
+		lastmod: '2026-03-28',
 		changefreq: 'yearly',
 		priority: 0.7
 	},
