@@ -5,9 +5,9 @@
 
 	let { pathname = '' } = $props();
 
-	let targetHash = '';
-	let isTransitioning = false;
-	let isFirstNavigation = true;
+	let targetHash = $state('');
+	let isTransitioning = $state(false);
+	let isFirstNavigation = $state(true);
 
 	beforeNavigate((navigation) => {
 		targetHash = navigation.to?.url?.hash || '';

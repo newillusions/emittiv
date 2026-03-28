@@ -12,3 +12,8 @@ node_modules
 .claude/rules/
 .playwright-mcp/
 *.png
+*.jpeg
+*.jpg
+/docs/
+/google-business-profile-setup.md
+/jeddah-search.md

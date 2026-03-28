@@ -1,155 +1,96 @@
 export const prerender = true;
 
-export async function GET() {
-	return new Response(
-		`<?xml version="1.0" encoding="UTF-8" ?>
+interface SitemapRoute {
+	path: string;
+	lastmod: string;
+	changefreq: 'daily' | 'weekly' | 'monthly' | 'yearly';
+	priority: number;
+}
+
+const routes: SitemapRoute[] = [
+	{ path: '/', lastmod: '2026-02-22', changefreq: 'weekly', priority: 1.0 },
+
+	// Services
+	{ path: '/services', lastmod: '2026-02-20', changefreq: 'monthly', priority: 0.9 },
+	{ path: '/services/lighting', lastmod: '2026-02-20', changefreq: 'monthly', priority: 0.85 },
+	{ path: '/services/control', lastmod: '2026-02-20', changefreq: 'monthly', priority: 0.85 },
+	{ path: '/services/sound', lastmod: '2026-02-20', changefreq: 'monthly', priority: 0.85 },
+	{ path: '/services/video', lastmod: '2026-02-20', changefreq: 'monthly', priority: 0.85 },
+	{ path: '/services/content', lastmod: '2026-02-20', changefreq: 'monthly', priority: 0.85 },
+	{ path: '/services/scent', lastmod: '2026-02-20', changefreq: 'monthly', priority: 0.85 },
+
+	// Projects
+	{ path: '/projects', lastmod: '2026-02-20', changefreq: 'monthly', priority: 0.9 },
+	{
+		path: '/projects/sheikh-zayed-grand-mosque',
+		lastmod: '2026-02-15',
+		changefreq: 'yearly',
+		priority: 0.7
+	},
+	{ path: '/projects/burj-al-arab', lastmod: '2026-02-15', changefreq: 'yearly', priority: 0.7 },
+	{ path: '/projects/expo-2020', lastmod: '2026-02-15', changefreq: 'yearly', priority: 0.7 },
+	{ path: '/projects/kapsarc', lastmod: '2026-02-15', changefreq: 'yearly', priority: 0.7 },
+	{
+		path: '/projects/dubai-parks-and-resorts',
+		lastmod: '2026-02-15',
+		changefreq: 'yearly',
+		priority: 0.7
+	},
+	{
+		path: '/projects/jumeirah-beach-hotel',
+		lastmod: '2026-02-15',
+		changefreq: 'yearly',
+		priority: 0.7
+	},
+	{ path: '/projects/city-walk', lastmod: '2026-02-15', changefreq: 'yearly', priority: 0.7 },
+	{
+		path: '/projects/dubai-mall-penguinarium',
+		lastmod: '2026-02-15',
+		changefreq: 'yearly',
+		priority: 0.7
+	},
+	{
+		path: '/projects/al-imam-university',
+		lastmod: '2026-02-15',
+		changefreq: 'yearly',
+		priority: 0.7
+	},
+
+	// Other pages
+	{ path: '/about', lastmod: '2026-02-20', changefreq: 'monthly', priority: 0.8 },
+	{ path: '/contact', lastmod: '2026-02-20', changefreq: 'monthly', priority: 0.7 },
+	{ path: '/downloads', lastmod: '2026-01-15', changefreq: 'monthly', priority: 0.5 },
+	{ path: '/privacy', lastmod: '2025-12-01', changefreq: 'yearly', priority: 0.3 },
+	{ path: '/terms', lastmod: '2025-12-01', changefreq: 'yearly', priority: 0.3 }
+];
+
+const BASE_URL = 'https://www.emittiv.com';
+
+function buildSitemap(entries: SitemapRoute[]): string {
+	const urls = entries
+		.map(
+			(r) => `  <url>
+    <loc>${BASE_URL}${r.path}</loc>
+    <lastmod>${r.lastmod}</lastmod>
+    <changefreq>${r.changefreq}</changefreq>
+    <priority>${r.priority.toFixed(2)}</priority>
+  </url>`
+		)
+		.join('\n');
+
+	return `<?xml version="1.0" encoding="UTF-8" ?>
 <urlset
   xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="https://www.w3.org/1999/xhtml"
 >
-  <url>
-    <loc>https://www.emittiv.com/</loc>
-    <lastmod>2026-02-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.00</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/services</loc>
-    <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/services/lighting</loc>
-    <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/services/control</loc>
-    <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/services/sound</loc>
-    <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/services/video</loc>
-    <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/services/content</loc>
-    <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/services/scent</loc>
-    <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/projects</loc>
-    <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/projects/sheikh-zayed-grand-mosque</loc>
-    <lastmod>2026-02-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/projects/burj-al-arab</loc>
-    <lastmod>2026-02-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/projects/expo-2020</loc>
-    <lastmod>2026-02-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/projects/kapsarc</loc>
-    <lastmod>2026-02-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/projects/dubai-parks-and-resorts</loc>
-    <lastmod>2026-02-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/projects/jumeirah-beach-hotel</loc>
-    <lastmod>2026-02-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/projects/city-walk</loc>
-    <lastmod>2026-02-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/projects/dubai-mall-penguinarium</loc>
-    <lastmod>2026-02-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/projects/al-imam-university</loc>
-    <lastmod>2026-02-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/about</loc>
-    <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/contact</loc>
-    <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/downloads</loc>
-    <lastmod>2026-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/privacy</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.30</priority>
-  </url>
-  <url>
-    <loc>https://www.emittiv.com/terms</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.30</priority>
-  </url>
-</urlset>`,
-		{
-			headers: {
-				'Content-Type': 'application/xml'
-			}
+${urls}
+</urlset>`;
+}
+
+export async function GET() {
+	return new Response(buildSitemap(routes), {
+		headers: {
+			'Content-Type': 'application/xml'
 		}
-	);
+	});
 }
