@@ -34,9 +34,9 @@
 				</ul>
 				<span class="list-head"><span class="splash">Themed:</span></span>
 				<ul class="disc">
-					<li>Seaworld Abu Dhabi</li>
+					<li><a href="/projects/the-fish-tank">Seaworld Abu Dhabi</a></li>
 					<li><a href="/projects/the-theme-parks">The Theme Parks</a></li>
-					<li>Wild Wadi</li>
+					<li><a href="/projects/the-waterpark">Wild Wadi</a></li>
 				</ul>
 				<span class="list-head"><span class="splash">FECs and Attractions:</span></span>
 				<ul class="disc">

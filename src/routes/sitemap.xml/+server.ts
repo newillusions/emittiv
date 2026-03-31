@@ -20,7 +20,7 @@ const routes: SitemapRoute[] = [
 	{ path: '/services/scent', lastmod: '2026-02-20', changefreq: 'monthly', priority: 0.85 },
 
 	// Projects
-	{ path: '/projects', lastmod: '2026-02-20', changefreq: 'monthly', priority: 0.9 },
+	{ path: '/projects', lastmod: '2026-03-31', changefreq: 'monthly', priority: 0.9 },
 	{
 		path: '/projects/the-mosque',
 		lastmod: '2026-02-15',
@@ -52,6 +52,13 @@ const routes: SitemapRoute[] = [
 	{
 		path: '/projects/the-university',
 		lastmod: '2026-03-28',
+		changefreq: 'yearly',
+		priority: 0.7
+	},
+	{ path: '/projects/the-waterpark', lastmod: '2026-03-31', changefreq: 'yearly', priority: 0.7 },
+	{
+		path: '/projects/the-fish-tank',
+		lastmod: '2026-03-31',
 		changefreq: 'yearly',
 		priority: 0.7
 	},
