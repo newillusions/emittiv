@@ -20,7 +20,7 @@
 		<div class="footer-col order-1">
 			<div class="footer-head">Contact</div>
 			<div class="footer-body">
-				marina, dubai, uae<br />
+				dubai south, dubai, uae<br />
 				hello (at) emittiv.com
 			</div>
 		</div>

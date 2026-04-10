@@ -11,7 +11,7 @@
 			</div>
 			<div class="f col middle order-2">
 				<span class="headline">find us</span>
-				<span>marina, dubai, uae</span>
+				<span>dubai south, dubai, uae</span>
 				<div class="spacer-reg"></div>
 				<span class="headline">email us</span>
 				<span>hello(at)emittiv.com</span>

@@ -1,0 +1,10 @@
+# 301 redirects: old real-name project URLs to anonymized case study pages
+/projects/burj-al-arab /projects/the-sail 301
+/projects/sheikh-zayed-grand-mosque /projects/the-mosque 301
+/projects/expo-2020 /projects/the-exhibition 301
+/projects/city-walk /projects/the-hub 301
+/projects/dubai-mall-penguinarium /projects/the-penguins 301
+/projects/kapsarc /projects/the-research-centre 301
+/projects/dubai-parks-and-resorts /projects/the-theme-parks 301
+/projects/al-imam-university /projects/the-university 301
+/projects/jumeirah-beach-hotel /projects/the-wave 301
