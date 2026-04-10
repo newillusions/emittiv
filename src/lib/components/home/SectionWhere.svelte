@@ -21,7 +21,7 @@
 				<div class="spacer-med"></div>
 				<span
 					>from five-star hotels and world-class museums to retail destinations and urban
-					landmarks — we bring creative and technical expertise to projects that demand more
+					landmarks - we bring creative and technical expertise to projects that demand more
 					than just illumination.</span
 				>
 				<span>we design the experience. we don't sell or install equipment.</span>

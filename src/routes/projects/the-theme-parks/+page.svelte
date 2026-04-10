@@ -99,7 +99,7 @@
 				<div class="v-padding-1 f col middle order-2">
 					<span
 						>working simultaneously across multiple parks, from area development to rides and
-						fully themed <span class="splash">IP-based attractions</span> — each environment
+						fully themed <span class="splash">IP-based attractions</span> - each environment
 						with its own character, narrative and technical demands. the scale of the destination
 						meant that consistency and integration were as important as individual creative expression.</span
 					>

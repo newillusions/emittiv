@@ -55,7 +55,7 @@
 				<IconControl />
 				<span class="headline">control</span>
 				<p>
-					centralised control synchronises every sensory layer — light, sound, scent and video
+					centralised control synchronises every sensory layer - light, sound, scent and video
 					operating as one coordinated system.
 				</p>
 			</a>

@@ -65,7 +65,7 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>video escaped the screen. it's on facades now, ceilings, floors — architecture itself
+						>video escaped the screen. it's on facades now, ceilings, floors - architecture itself
 						has become the display. surfaces that were once static now carry motion, colour and
 						light at scales that would have seemed absurd a decade ago.</span
 					>
@@ -117,7 +117,7 @@
 					<span
 						>we've seen too many beautiful installations go dark because the original vendor walked
 						away and took the keys with them. proprietary tools, closed formats, workflows nobody
-						else can touch — it's a trap, and it's everywhere in this industry.</span
+						else can touch - it's a trap, and it's everywhere in this industry.</span
 					>
 					<div class="spacer-med"></div>
 					<span
@@ -130,10 +130,10 @@
 					<div class="spacer-med"></div>
 					<span class="headline">our systems are:</span>
 					<div class="spacer-reg"></div>
-					<span><strong>open</strong> — no proprietary traps.</span>
-					<span><strong>easy to update</strong> — by any creator.</span>
-					<span><strong>schedule-friendly</strong> — automated for times and events.</span>
-					<span><strong>integrated</strong> — aligned with lighting, sound and control.</span>
+					<span><strong>open</strong> - no proprietary traps.</span>
+					<span><strong>easy to update</strong> - by any creator.</span>
+					<span><strong>schedule-friendly</strong> - automated for times and events.</span>
+					<span><strong>integrated</strong> - aligned with lighting, sound and control.</span>
 				</div>
 			</div>
 		</div>
@@ -154,7 +154,7 @@
 					>
 					<div class="spacer-med"></div>
 					<span
-						>we can also <span class="splash">introduce content developers</span> where needed — but the
+						>we can also <span class="splash">introduce content developers</span> where needed - but the
 						client is never locked into a particular studio or workflow.</span
 					>
 				</div>
@@ -179,7 +179,7 @@
 					<span
 						>3d visualisation tools allow us to <span class="splash"
 							>map viewing angles, pixel densities and legibility</span
-						> long before construction — avoiding surprises later.</span
+						> long before construction - avoiding surprises later.</span
 					>
 				</div>
 			</div>
@@ -195,7 +195,7 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>we don't sell LED panels or media servers. we're not here to shift units — we're here
+						>we don't sell LED panels or media servers. we're not here to shift units - we're here
 						to make sure the system actually works in five years, not just on opening night.</span
 					>
 					<div class="spacer-med"></div>

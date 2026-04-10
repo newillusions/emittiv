@@ -185,7 +185,7 @@
 				}
 			}
 
-			// Draw dots — orange when connected, grey when isolated
+			// Draw dots - orange when connected, grey when isolated
 			for (let i = 0; i < nodes.length; i++) {
 				const node = nodes[i];
 				const c = connectedness[i];

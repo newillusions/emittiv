@@ -18,7 +18,7 @@
 			slug: 'the-exhibition',
 			imgDir: 'expo-2020',
 			name: 'The Exhibition',
-			description: 'Site-wide lighting review — unifying multiple designers\' work across a vast public realm',
+			description: 'Site-wide lighting review - unifying multiple designers\' work across a vast public realm',
 			heroWidth: 1920
 		},
 		{

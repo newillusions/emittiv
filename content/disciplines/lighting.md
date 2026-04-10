@@ -20,7 +20,7 @@ beyond simple illumination.
 
 ### more than just light levels
 
-lighting shapes atmosphere, guides focus and affects how people feel — often more than they realise.
+lighting shapes atmosphere, guides focus and affects how people feel - often more than they realise.
 
 our roots in theatre mean we treat light as a narrative tool, not just a technical requirement. the same principles that shape a stage can transform a lobby, a restaurant or a public space.
 
@@ -30,7 +30,7 @@ spaces change through the day. lighting should too. our systems are **programmab
 
 - **colour-temperature shifts** that mirror natural daylight
 - **layered scenes** for different uses and times
-- **texture and pattern** — soft shadows, dappled light, the kind of detail you find outdoors
+- **texture and pattern** - soft shadows, dappled light, the kind of detail you find outdoors
 - **integration with video and control systems** for coordinated effects
 
 ### theatrical techniques, architectural applications
@@ -47,11 +47,11 @@ we design lighting that:
 
 ### from concept to commissioning
 
-we stay involved through the full arc of a project — early concept, detailed design, procurement support, installation supervision, programming and commissioning.
+we stay involved through the full arc of a project - early concept, detailed design, procurement support, installation supervision, programming and commissioning.
 
 **we work as part of the client's design team**, ensuring the outcome matches the intent, not just the drawings. we use advanced 3d calculation tools to model levels and coverage so clients can understand the result before fixtures arrive on site.
 
-our documentation covers layouts, specifications, control strategy and programming requirements — complete and build-ready.
+our documentation covers layouts, specifications, control strategy and programming requirements - complete and build-ready.
 
 ### no brand allegiances
 

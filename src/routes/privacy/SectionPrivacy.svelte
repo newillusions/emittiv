@@ -32,7 +32,7 @@
 				<span class="section-head">Analytics</span>
 				<p>
 					We use <strong>Matomo</strong>, a privacy-focused analytics platform, hosted on our own
-					infrastructure. Our Matomo configuration is set to <strong>cookieless tracking</strong> — no
+					infrastructure. Our Matomo configuration is set to <strong>cookieless tracking</strong> - no
 					cookies are placed on your device for analytics purposes.
 				</p>
 				<p>
@@ -56,11 +56,11 @@
 				<p>We use the following third-party services:</p>
 				<ul>
 					<li>
-						<strong>EmailJS</strong> — processes contact form submissions. Their privacy policy is available
+						<strong>EmailJS</strong> - processes contact form submissions. Their privacy policy is available
 						at emailjs.com.
 					</li>
 					<li>
-						<strong>Cloudflare</strong> — hosts and delivers this website. Cloudflare may collect standard
+						<strong>Cloudflare</strong> - hosts and delivers this website. Cloudflare may collect standard
 						web server logs (IP address, browser type, pages requested) as part of their content delivery
 						service.
 					</li>

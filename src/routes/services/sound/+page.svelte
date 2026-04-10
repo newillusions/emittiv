@@ -65,14 +65,14 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>sound is always there, even when you don't notice it. that's exactly the point — it
+						>sound is always there, even when you don't notice it. that's exactly the point - it
 						shapes mood before you're conscious of it. and yet, in most projects, it's an
 						afterthought. someone remembers to add speakers the week before opening. we think that's
 						backwards.</span
 					>
 					<div class="spacer-med"></div>
 					<span
-						>the playback system, the acoustics, the content, how people move through the space —
+						>the playback system, the acoustics, the content, how people move through the space -
 						it's all connected. we treat it as <span class="splash">one system</span>.</span
 					>
 				</div>
@@ -94,7 +94,7 @@
 					<div class="spacer-reg"></div>
 					<span><strong>spatial audio</strong> that places sound in three dimensions.</span>
 					<span><strong>environmental sources</strong> that feel native to the space.</span>
-					<span><strong>purposeful content</strong> — curated or composed for the environment.</span
+					<span><strong>purposeful content</strong> - curated or composed for the environment.</span
 					>
 					<span><strong>zoning and control</strong> that gives each area its own character.</span>
 				</div>
@@ -117,9 +117,9 @@
 					<div class="spacer-med"></div>
 					<span class="headline">we design audio that is:</span>
 					<div class="spacer-reg"></div>
-					<span><strong>flexible</strong> — ready for change.</span>
-					<span><strong>integrated</strong> — part of the wider sensory system.</span>
-					<span><strong>manageable</strong> — intuitive to operate.</span>
+					<span><strong>flexible</strong> - ready for change.</span>
+					<span><strong>integrated</strong> - part of the wider sensory system.</span>
+					<span><strong>manageable</strong> - intuitive to operate.</span>
 				</div>
 			</div>
 		</div>
@@ -141,7 +141,7 @@
 					<span
 						>we create bespoke audio content or <span class="splash"
 							>collaborate with composers</span
-						>. when we bring composers in, it's early — understanding the system and the space
+						>. when we bring composers in, it's early - understanding the system and the space
 						shapes their work, and it shows in the end result.</span
 					>
 				</div>
@@ -186,7 +186,7 @@
 					>
 					<div class="spacer-med"></div>
 					<span
-						>we have manufacturers we trust — the ones that consistently perform and don't leave
+						>we have manufacturers we trust - the ones that consistently perform and don't leave
 						clients stranded when firmware updates stop. but the choice always follows the brief,
 						not the relationship.</span
 					>

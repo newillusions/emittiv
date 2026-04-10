@@ -12,7 +12,7 @@ emittiv is a **design and consulting** firm. We work on the client's design team
 
 - We create the vision and documentation
 - We supervise contractors during programming and commissioning
-- Being there in person during commissioning is critical — ensures design intent is realised
+- Being there in person during commissioning is critical - ensures design intent is realised
 
 **Preferred phrasing:**
 
@@ -47,7 +47,7 @@ Typical deliverables (adjust per discipline):
 
 - Lowercase headlines
 - Short, punchy sentences
-- "we" voice — conversational, not corporate
+- "we" voice - conversational, not corporate
 - Theatrical/experiential language
 - Emphasise the entertainment background as differentiator
 - Avoid jargon where possible

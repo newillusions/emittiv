@@ -56,7 +56,7 @@
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-hub","name":"The Hub — Urban Multimedia Attraction","description":"Theatrical lighting and show control for an urban mixed-use multimedia attraction in the UAE","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/city-walk/hero.jpg","locationCreated":{"@type":"Place","name":"UAE"},"keywords":"show lighting, multimedia, fountain lighting, theatrical, control systems, UAE"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The Hub","item":"https://www.emittiv.com/projects/the-hub"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-hub","name":"The Hub - Urban Multimedia Attraction","description":"Theatrical lighting and show control for an urban mixed-use multimedia attraction in the UAE","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/city-walk/hero.jpg","locationCreated":{"@type":"Place","name":"UAE"},"keywords":"show lighting, multimedia, fountain lighting, theatrical, control systems, UAE"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The Hub","item":"https://www.emittiv.com/projects/the-hub"}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -96,13 +96,13 @@
 				<div class="v-padding-1 f col middle order-2">
 					<span
 						>retail destinations need more than just shops these days. they need to be
-						<span class="splash">destinations in their own right</span> — providing
+						<span class="splash">destinations in their own right</span> - providing
 						attractions, family entertainment and experiences that draw people back.</span
 					>
 					<div class="spacer-med"></div>
 					<span
 						>the operators wanted to introduce new multimedia shows to the central attraction
-						— both permanent shows and temporary seasonal events running across several months
+						- both permanent shows and temporary seasonal events running across several months
 						of the year. the challenge was creating a lighting language that could flex
 						between an everyday ambient state and a fully choreographed performance mode.</span
 					>
@@ -143,7 +143,7 @@
 					<div class="spacer-med"></div>
 					<span
 						>our experience in show lighting allowed us to seamlessly integrate with the
-						wider systems installed — incorporating the fountain lighting and architectural
+						wider systems installed - incorporating the fountain lighting and architectural
 						control systems with the theatrical lighting controls into a unified system
 						across the attraction. careful programming ensured smooth transitions between
 						show states and reliable unattended operation. the shows are still running today.</span
@@ -165,7 +165,6 @@
 					<span><strong>size:</strong> 13,000 m&sup2;</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
 					<div class="spacer-med"></div>
-					<span>learn more about our <a href="/services/lighting">lighting design</a> and <a href="/services/control">control systems</a> services.</span>
 					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>

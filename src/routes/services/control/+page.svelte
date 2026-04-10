@@ -66,19 +66,19 @@
 				<div class="v-padding-1 f col middle order-2">
 					<span
 						>most spaces have lighting in one system, audio in another, video somewhere else. they
-						don't talk to each other. there are no scenes — just switches. we think that's a waste
+						don't talk to each other. there are no scenes - just switches. we think that's a waste
 						of potential.</span
 					>
 					<div class="spacer-med"></div>
 					<span
 						>this is where our <span class="splash">theatrical background</span> matters. show control
-						teaches timing, sequencing, precision — many systems behaving as one coherent thing. we've
+						teaches timing, sequencing, precision - many systems behaving as one coherent thing. we've
 						spent careers making that happen under pressure, live, in front of audiences.</span
 					>
 					<div class="spacer-med"></div>
 					<span
 						>we bring that mindset to architectural environments. control integration is one of
-						the core strengths of the practice — and a step beyond what most design studios
+						the core strengths of the practice - and a step beyond what most design studios
 						can deliver.</span
 					>
 				</div>
@@ -95,20 +95,20 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>instead of managing individual devices, we design around <strong>scenes</strong> — combinations
+						>instead of managing individual devices, we design around <strong>scenes</strong> - combinations
 						of settings that create a defined mood.</span
 					>
 					<div class="spacer-med"></div>
 					<span
-						><strong>morning arrival</strong> — bright, energising light; upbeat audio; fresh scent.</span
+						><strong>morning arrival</strong> - bright, energising light; upbeat audio; fresh scent.</span
 					>
 					<span
-						><strong>evening service</strong> — warm light, softer soundscape, richer fragrance.</span
+						><strong>evening service</strong> - warm light, softer soundscape, richer fragrance.</span
 					>
-					<span><strong>event mode</strong> — bold lighting, active video, elevated audio.</span>
+					<span><strong>event mode</strong> - bold lighting, active video, elevated audio.</span>
 					<div class="spacer-med"></div>
 					<span
-						>scenes can shift instantly or evolve slowly — <span class="splash"
+						>scenes can shift instantly or evolve slowly - <span class="splash"
 							>subtle transitions through the day</span
 						> or sharp changes for a specific moment.</span
 					>
@@ -131,7 +131,7 @@
 					<div class="spacer-reg"></div>
 					<span>make sense to <strong>non-technical users</strong>.</span>
 					<span>offer <strong>simple day-to-day control</strong>, with depth when needed.</span>
-					<span>work across devices — <strong>wall panels, tablets, mobile</strong>.</span>
+					<span>work across devices - <strong>wall panels, tablets, mobile</strong>.</span>
 				</div>
 			</div>
 		</div>
@@ -164,7 +164,7 @@
 		<div class="container">
 			<div class="split">
 				<div class="section-title order-1">
-					<h2>beyond presets —<br />responsive environments</h2>
+					<h2>beyond presets -<br />responsive environments</h2>
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
@@ -173,7 +173,7 @@
 					>
 					<div class="spacer-med"></div>
 					<span
-						>occupancy patterns, time of day, sensor data, even weather — all feeding into a living
+						>occupancy patterns, time of day, sensor data, even weather - all feeding into a living
 						system.</span
 					>
 					<div class="spacer-med"></div>
@@ -200,7 +200,7 @@
 					>
 					<div class="spacer-med"></div>
 					<span
-						>that <span class="splash">independence is rare in this market</span> — most "consultants"
+						>that <span class="splash">independence is rare in this market</span> - most "consultants"
 						in this space are really integrators who happen to offer design services. the design comes
 						second to the install contract.</span
 					>
@@ -230,7 +230,7 @@
 					<div class="spacer-med"></div>
 					<span
 						>when everything connects for the first time and scenes start to take shape, that's
-						where the design decisions become real — <span class="splash">and we're there</span
+						where the design decisions become real - <span class="splash">and we're there</span
 						>.</span
 					>
 					<div class="spacer-med"></div>

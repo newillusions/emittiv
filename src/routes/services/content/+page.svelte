@@ -66,14 +66,14 @@
 				<div class="v-padding-1 f col middle order-2">
 					<span
 						>a beautiful video wall playing a screensaver is a tragedy. we've seen it too many times
-						— millions spent on hardware, and the content is an afterthought. even the best audio
+						- millions spent on hardware, and the content is an afterthought. even the best audio
 						system needs material that does more than fill the silence.</span
 					>
 					<div class="spacer-med"></div>
 					<span
 						>we don't pretend to be a one-stop content studio. different projects demand different
 						hands. sometimes you need a <span class="splash">drummer with attitude</span>. sometimes
-						a classical violinist. rarely the same person — and rarely at the same time.</span
+						a classical violinist. rarely the same person - and rarely at the same time.</span
 					>
 					<div class="spacer-med"></div>
 					<span
@@ -97,14 +97,14 @@
 					<span>before anything is created, we help define:</span>
 					<div class="spacer-med"></div>
 					<span
-						><strong>what stories to tell</strong> — brand narratives, seasonal rhythms, event moments.</span
+						><strong>what stories to tell</strong> - brand narratives, seasonal rhythms, event moments.</span
 					>
 					<span
-						><strong>content types</strong> — ambient loops, feature sequences, interactive elements.</span
+						><strong>content types</strong> - ambient loops, feature sequences, interactive elements.</span
 					>
-					<span><strong>update cadence</strong> — how often content should shift or refresh.</span>
+					<span><strong>update cadence</strong> - how often content should shift or refresh.</span>
 					<span
-						><strong>content guidelines</strong> — a framework that keeps coherence across multiple creators.</span
+						><strong>content guidelines</strong> - a framework that keeps coherence across multiple creators.</span
 					>
 				</div>
 			</div>
@@ -120,7 +120,7 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>we don't produce video or generative work ourselves — and that's deliberate. the field
+						>we don't produce video or generative work ourselves - and that's deliberate. the field
 						is wide, styles vary, and it makes sense to bring in specialists who live and breathe
 						the craft.</span
 					>
@@ -151,7 +151,7 @@
 					<span
 						>sound is different. ambient soundscapes are something we <span class="splash"
 							>develop directly</span
-						> — crafted to:</span
+						> - crafted to:</span
 					>
 					<div class="spacer-med"></div>
 					<span>strengthen the <strong>atmosphere and narrative</strong> of a space.</span>

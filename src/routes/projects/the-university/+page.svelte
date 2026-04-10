@@ -59,7 +59,7 @@
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-university","name":"The University — Performance Venue Renovation","description":"Lighting and control design for a major university auditorium renovation in the Middle East, including a 2,500-seat theatre and campus-wide facilities","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/al-imam-university/hero.jpg","locationCreated":{"@type":"Place","name":"Middle East"},"keywords":"auditorium, performance venue, lighting, control, university, Middle East"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The University","item":"https://www.emittiv.com/projects/the-university"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-university","name":"The University - Performance Venue Renovation","description":"Lighting and control design for a major university auditorium renovation in the Middle East, including a 2,500-seat theatre and campus-wide facilities","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/al-imam-university/hero.jpg","locationCreated":{"@type":"Place","name":"Middle East"},"keywords":"auditorium, performance venue, lighting, control, university, Middle East"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The University","item":"https://www.emittiv.com/projects/the-university"}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -100,7 +100,7 @@
 					<span
 						>originally built in the 1970s, this major campus had fallen behind in terms of
 						technical capability. the project began with renovating and reinvigorating the
-						2,500-seat theatre and a number of smaller auditoria — designing new lighting,
+						2,500-seat theatre and a number of smaller auditoria - designing new lighting,
 						audio, video and automated rigging systems to
 						<span class="splash">restore the space to its former condition</span> and
 						take it significantly further. the scale and ambition of the brief made it one
@@ -138,14 +138,14 @@
 					<span
 						>this renovation was the first in the region to incorporate
 						<span class="splash">colour-changing LED technology for the auditorium seating
-						area</span> (FoH) — allowing the lighting designs on stage to be brought out
+						area</span> (FoH) - allowing the lighting designs on stage to be brought out
 						into the house and enveloping the audience in the performance.</span
 					>
 					<div class="spacer-med"></div>
 					<span
 						>the scope extended well beyond the main theatre, encompassing the Ladies Campus,
 						Student Lobby, Library, Water Tower, Sports Stadium, Royal Gate and Boundary
-						Fence — a truly campus-wide transformation of the technical and aesthetic
+						Fence - a truly campus-wide transformation of the technical and aesthetic
 						lighting infrastructure.</span
 					>
 				</div>
@@ -164,7 +164,6 @@
 					<span><strong>type:</strong> performance venue, education</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
 					<div class="spacer-med"></div>
-					<span>learn more about our <a href="/services/lighting">lighting design</a> and <a href="/services/control">control systems</a> services.</span>
 					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>

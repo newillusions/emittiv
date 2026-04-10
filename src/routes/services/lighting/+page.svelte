@@ -67,7 +67,7 @@
 					<span
 						>we trust our eyes so completely, we rarely question what we're seeing. but everything
 						you see is shaped by how it's lit. lighting sets mood, guides attention, affects how
-						people feel — often without them noticing.</span
+						people feel - often without them noticing.</span
 					>
 					<div class="spacer-med"></div>
 					<span
@@ -101,7 +101,7 @@
 					<span><strong>colour-temperature shifts</strong> that mirror natural daylight.</span>
 					<span><strong>layered scenes</strong> for different uses and times.</span>
 					<span
-						><strong>texture and pattern</strong> — soft shadows, dappled light, the kind of detail you
+						><strong>texture and pattern</strong> - soft shadows, dappled light, the kind of detail you
 						find outdoors.</span
 					>
 					<span
@@ -146,7 +146,7 @@
 				</div>
 				<div class="v-padding-1 f col middle order-2">
 					<span
-						>we stay involved through the full arc of a project — early concept, detailed design,
+						>we stay involved through the full arc of a project - early concept, detailed design,
 						procurement support, installation supervision, programming and commissioning.</span
 					>
 					<div class="spacer-med"></div>
@@ -162,7 +162,7 @@
 					<div class="spacer-reg"></div>
 					<span
 						>our documentation covers layouts, specifications, control strategy and programming
-						requirements — complete and build-ready.</span
+						requirements - complete and build-ready.</span
 					>
 				</div>
 			</div>
@@ -179,7 +179,7 @@
 				<div class="v-padding-1 f col middle order-2">
 					<span
 						>we don't represent manufacturers. we don't get kickbacks. we specify what actually fits
-						the project — sometimes a high-end European fixture, sometimes a carefully chosen
+						the project - sometimes a high-end European fixture, sometimes a carefully chosen
 						alternative that does the job for half the price.</span
 					>
 					<div class="spacer-med"></div>
@@ -189,7 +189,7 @@
 					>
 					<div class="spacer-med"></div>
 					<span
-						>we favour <span class="splash">serviceable fittings</span> — replaceable drivers and LED
+						>we favour <span class="splash">serviceable fittings</span> - replaceable drivers and LED
 						modules that extend system life and keep maintenance straightforward. the throwaway approach
 						might be easier to sell, but we'd rather not see our work in a skip five years from now.</span
 					>

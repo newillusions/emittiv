@@ -20,7 +20,7 @@ the most memorable sense.
 
 ### the hidden layer
 
-scent shapes our emotional response before we even register it. it lingers in memory long after someone has stepped outside. yet it's often left out of spatial design — a missed opportunity.
+scent shapes our emotional response before we even register it. it lingers in memory long after someone has stepped outside. yet it's often left out of spatial design - a missed opportunity.
 
 ### scent as narrative
 
@@ -42,11 +42,11 @@ delivery options include:
 
 scent works best when aligned with lighting, sound and movement. warm light with warm fragrances. energising audio with bright, fresh tones. coordinated layers reinforce each other.
 
-we design scent as part of the complete sensory experience — not an add-on.
+we design scent as part of the complete sensory experience - not an add-on.
 
 ### seeing it through
 
-our involvement runs from concept to installation. specifying systems, coordinating suppliers, supervising on site. final adjustments — diffusion rates, timing, zone balance — are where the detail matters.
+our involvement runs from concept to installation. specifying systems, coordinating suppliers, supervising on site. final adjustments - diffusion rates, timing, zone balance - are where the detail matters.
 
 ### no supplier lock-in
 

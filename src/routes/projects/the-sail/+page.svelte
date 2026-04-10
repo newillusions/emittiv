@@ -56,7 +56,7 @@
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-sail","name":"The Sail — Iconic Hotel Facade Lighting","description":"Facade lighting design for an iconic sail-shaped hotel in Dubai. LED replacement with extreme throw distances.","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/burj-al-arab/hero.jpg","locationCreated":{"@type":"Place","name":"Dubai, UAE"},"keywords":"facade lighting, iconic building, hospitality, LED, Dubai"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The Sail","item":"https://www.emittiv.com/projects/the-sail"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-sail","name":"The Sail - Iconic Hotel Facade Lighting","description":"Facade lighting design for an iconic sail-shaped hotel in Dubai. LED replacement with extreme throw distances.","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/burj-al-arab/hero.jpg","locationCreated":{"@type":"Place","name":"Dubai, UAE"},"keywords":"facade lighting, iconic building, hospitality, LED, Dubai"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The Sail","item":"https://www.emittiv.com/projects/the-sail"}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -99,7 +99,7 @@
 						decided it was time to replace the hotel's ailing facade lighting fixtures.
 						finding LED fixtures with sufficient output and narrow enough beams to
 						throw the <span class="splash">300 metres</span> required on this project was
-						quite a challenge — particularly given the marine environment and the extreme
+						quite a challenge - particularly given the marine environment and the extreme
 						height at which the fixtures operate.</span
 					>
 					<div class="spacer-med"></div>
@@ -139,7 +139,7 @@
 					<div class="spacer-med"></div>
 					<span
 						>we provided independent specification and design services for the facade lighting
-						replacement — evaluating products on performance and longevity rather than
+						replacement - evaluating products on performance and longevity rather than
 						manufacturer relationships.</span
 					>
 					<div class="spacer-med"></div>
@@ -151,7 +151,7 @@
 					<div class="spacer-med"></div>
 					<span
 						>operating in Dubai's harsh marine environment, every fixture needed to
-						withstand salt air, extreme heat and wind loading at height — while
+						withstand salt air, extreme heat and wind loading at height - while
 						maintaining consistent colour and output across the full
 						<span class="splash">300-metre facade</span>. independent specification meant
 						product selection was driven entirely by performance and durability, not
@@ -174,7 +174,6 @@
 					<span><strong>type:</strong> iconic building, hospitality</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
 					<div class="spacer-med"></div>
-					<span>learn more about our <a href="/services/lighting">lighting design</a> and <a href="/services/control">control systems</a> services, or explore how we approach <a href="https://sensory.design/the-senses/#light" target="_blank" rel="noopener">light as a sensory medium</a>.</span>
 					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>

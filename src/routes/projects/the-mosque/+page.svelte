@@ -59,7 +59,7 @@
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-mosque","name":"The Mosque — Iconic Building Lighting Renewal","description":"Facade lighting renewal for a landmark house of worship in the UAE","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/sheikh-zayed-grand-mosque/hero.jpg","locationCreated":{"@type":"Place","name":"UAE"},"keywords":"facade lighting, mosque, iconic building, LED, control systems, UAE"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The Mosque","item":"https://www.emittiv.com/projects/the-mosque"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-mosque","name":"The Mosque - Iconic Building Lighting Renewal","description":"Facade lighting renewal for a landmark house of worship in the UAE","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/sheikh-zayed-grand-mosque/hero.jpg","locationCreated":{"@type":"Place","name":"UAE"},"keywords":"facade lighting, mosque, iconic building, LED, control systems, UAE"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The Mosque","item":"https://www.emittiv.com/projects/the-mosque"}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -106,7 +106,7 @@
 					<div class="spacer-med"></div>
 					<span
 						>the new control platform needed to integrate with the existing network
-						infrastructure — and the result had to be indistinguishable from the original
+						infrastructure - and the result had to be indistinguishable from the original
 						to anyone looking at the building. for a structure of this cultural significance,
 						fidelity to the original design vision was non-negotiable.</span
 					>
@@ -143,12 +143,12 @@
 						>we developed a strategy to transfer data from the original control system and
 						conducted rigorous colour-matching tests to ensure the new LED fixtures replicated
 						the original design as closely as possible. a building of this standing demands
-						that the technical upgrade remains invisible — the lighting experience, unchanged.</span
+						that the technical upgrade remains invisible - the lighting experience, unchanged.</span
 					>
 					<div class="spacer-med"></div>
 					<span
 						>the system includes <span class="splash">custom software</span> that simulates
-						lunar phases, changing the building's colour nightly with the moon cycles — a
+						lunar phases, changing the building's colour nightly with the moon cycles - a
 						feature of the original design that needed to carry forward seamlessly.</span
 					>
 				</div>
@@ -167,7 +167,6 @@
 					<span><strong>type:</strong> iconic building, house of worship</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
 					<div class="spacer-med"></div>
-					<span>learn more about our <a href="/services/lighting">lighting design</a> and <a href="/services/control">control systems</a> services.</span>
 					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>

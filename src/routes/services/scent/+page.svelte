@@ -63,14 +63,14 @@
 				<div class="v-padding-1 f col middle order-2">
 					<span
 						>you remember how places smell. years later, a single note can bring back an entire
-						experience. scent is the most powerful memory trigger we have — and most designers
+						experience. scent is the most powerful memory trigger we have - and most designers
 						ignore it completely.</span
 					>
 					<div class="spacer-med"></div>
 					<span
 						>scent shapes emotional response before you're even conscious of it. it lingers in
 						memory long after someone has stepped outside. yet it's often left out of spatial design
-						entirely — a <span class="splash">missed opportunity</span>.</span
+						entirely - a <span class="splash">missed opportunity</span>.</span
 					>
 				</div>
 			</div>
@@ -143,7 +143,7 @@
 					<div class="spacer-med"></div>
 					<span><span class="splash">coordinated layers reinforce each other</span>.</span>
 					<div class="spacer-med"></div>
-					<span>we design scent as part of the complete sensory experience — not an add-on.</span>
+					<span>we design scent as part of the complete sensory experience - not an add-on.</span>
 				</div>
 			</div>
 		</div>
@@ -163,7 +163,7 @@
 					>
 					<div class="spacer-med"></div>
 					<span
-						>final adjustments — <span class="splash">diffusion rates, timing, zone balance</span> — are
+						>final adjustments - <span class="splash">diffusion rates, timing, zone balance</span> - are
 						where the detail matters.</span
 					>
 				</div>
@@ -191,7 +191,7 @@
 					<div class="spacer-med"></div>
 					<span
 						>we design the system, define the zones and timing, and help you find the right
-						fragrance partner. the <span class="splash">relationship belongs to you</span> — not us.</span
+						fragrance partner. the <span class="splash">relationship belongs to you</span> - not us.</span
 					>
 					<div class="spacer-lge"></div>
 					<span>related disciplines: <a class="navItem" href="/services/sound">sound</a> · <a class="navItem" href="/services/lighting">lighting</a></span>

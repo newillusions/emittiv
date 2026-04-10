@@ -50,13 +50,13 @@
 	<meta name="twitter:title" content="The Exhibition | Public Realm Lighting | emittiv" />
 	<meta
 		name="twitter:description"
-		content="Public realm lighting coordination for a major international exhibition in the UAE — harmonising site-wide lighting across vast landscapes, plazas and public spaces."
+		content="Public realm lighting coordination for a major international exhibition in the UAE - harmonising site-wide lighting across vast landscapes, plazas and public spaces."
 	/>
 	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/expo-2020/hero.jpg" />
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-exhibition","name":"The Exhibition — Public Realm Lighting","description":"Public realm lighting coordination for a major international exhibition in the UAE","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/expo-2020/hero.jpg","locationCreated":{"@type":"Place","name":"UAE"},"keywords":"public realm, lighting design, exhibition, destination, UAE"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The Exhibition","item":"https://www.emittiv.com/projects/the-exhibition"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-exhibition","name":"The Exhibition - Public Realm Lighting","description":"Public realm lighting coordination for a major international exhibition in the UAE","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/expo-2020/hero.jpg","locationCreated":{"@type":"Place","name":"UAE"},"keywords":"public realm, lighting design, exhibition, destination, UAE"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The Exhibition","item":"https://www.emittiv.com/projects/the-exhibition"}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -97,14 +97,14 @@
 					<span
 						>the engagement began with unifying multiple public realm lighting designs across
 						the site. the lighting had been delivered by various teams and
-						contractors — each working to their own brief, resulting in a patchwork of approaches
+						contractors - each working to their own brief, resulting in a patchwork of approaches
 						across one of the region's most ambitious destination projects.</span
 					>
 					<div class="spacer-med"></div>
 					<span
 						>the goal was <span class="splash"
 							>a unified guest experience</span
-						> across the landscapes, plazas and parks — bringing coherence to the whole
+						> across the landscapes, plazas and parks - bringing coherence to the whole
 						while respecting the design intent of each area.</span
 					>
 				</div>
@@ -139,12 +139,12 @@
 					<span
 						>we conducted a peer review of existing work and coordinated with the original
 						project lighting designers to maintain design intent while making the adjustments
-						the event required. each zone had its own narrative — our role was to find the
+						the event required. each zone had its own narrative - our role was to find the
 						thread that connected them without flattening the individuality of each space.</span
 					>
 					<div class="spacer-med"></div>
 					<span
-						>the result was visual consistency without uniformity — <span class="splash"
+						>the result was visual consistency without uniformity - <span class="splash"
 							>each zone retaining its character</span
 						> while feeling part of the same place.</span
 					>
@@ -164,7 +164,6 @@
 					<span><strong>type:</strong> destination, public realm</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
 					<div class="spacer-med"></div>
-					<span>learn more about our <a href="/services/lighting">lighting design</a> and <a href="/services/control">control systems</a> services.</span>
 					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>

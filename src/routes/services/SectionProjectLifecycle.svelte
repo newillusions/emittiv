@@ -18,7 +18,7 @@
 				<div class="spacer-reg"></div>
 				<span
 					>we're able to support projects from concept through to operation and anything in
-					between — aligned with the RIBA Plan of Work stages that our architecture and
+					between - aligned with the RIBA Plan of Work stages that our architecture and
 					interior design partners follow.</span
 				>
 			</div>

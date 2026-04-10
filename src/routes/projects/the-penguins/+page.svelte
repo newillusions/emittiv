@@ -59,7 +59,7 @@
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-penguins","name":"The Penguins — Animal Habitat Attraction","description":"Lighting and control for a penguin habitat attraction in the UAE, balancing guest experience with animal welfare","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/dubai-mall-penguinarium/hero.jpg","locationCreated":{"@type":"Place","name":"UAE"},"keywords":"attraction lighting, control, animal welfare, family entertainment, UAE"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The Penguins","item":"https://www.emittiv.com/projects/the-penguins"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-penguins","name":"The Penguins - Animal Habitat Attraction","description":"Lighting and control for a penguin habitat attraction in the UAE, balancing guest experience with animal welfare","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/dubai-mall-penguinarium/hero.jpg","locationCreated":{"@type":"Place","name":"UAE"},"keywords":"attraction lighting, control, animal welfare, family entertainment, UAE"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The Penguins","item":"https://www.emittiv.com/projects/the-penguins"}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -107,7 +107,7 @@
 					<span
 						>the challenge was establishing a distinctive, believable frozen environment for guests while
 						prioritising animal comfort and natural lighting cycles. the habitat lighting had to serve
-						two very different audiences — the animals living there and the visitors experiencing it.
+						two very different audiences - the animals living there and the visitors experiencing it.
 						a further layer of complexity came from integrating with show control systems to produce
 						an immersive animated experience synchronised with educational video content.</span
 					>
@@ -141,8 +141,8 @@
 					<h2>our role</h2>
 					<div class="spacer-med"></div>
 					<span
-						>we worked collaboratively across multiple stakeholders — including zoological
-						consultants and attraction designers — conducting thorough research to establish
+						>we worked collaboratively across multiple stakeholders - including zoological
+						consultants and attraction designers - conducting thorough research to establish
 						the right conditions for the animals alongside the guest experience.</span
 					>
 					<div class="spacer-med"></div>
@@ -170,7 +170,6 @@
 					<span><strong>type:</strong> family entertainment, attraction</span>
 					<span><strong>disciplines:</strong> lighting, control</span>
 					<div class="spacer-med"></div>
-					<span>learn more about our <a href="/services/lighting">lighting design</a> and <a href="/services/control">control systems</a> services.</span>
 					<div class="spacer-lge"></div>
 					<span class="underline">
 						<a class="navItem" href="/projects">back to projects</a>

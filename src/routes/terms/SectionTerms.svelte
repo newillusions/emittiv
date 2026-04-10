@@ -26,7 +26,7 @@
 
 				<span class="section-head">Intellectual property</span>
 				<p>
-					All content on this website — including text, graphics, logos, icons and design — is the
+					All content on this website - including text, graphics, logos, icons and design - is the
 					property of emittiv or its licensors and is protected by applicable intellectual property
 					laws. You may view and print pages for personal, non-commercial use. You may not
 					reproduce, distribute, modify or republish any material without our written permission.

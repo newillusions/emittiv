@@ -20,7 +20,7 @@ the invisible layer.
 
 ### shaping spaces with sound
 
-sound has a profound impact on how a space feels, yet it's often handled last. the playback system, the acoustics, the content, how people move — it's all connected. we treat it as one system.
+sound has a profound impact on how a space feels, yet it's often handled last. the playback system, the acoustics, the content, how people move - it's all connected. we treat it as one system.
 
 ### beyond background music
 
@@ -28,7 +28,7 @@ sound design isn't just setting a playlist. it's about:
 
 - **spatial audio** that places sound in three dimensions
 - **environmental sources** that feel native to the space
-- **purposeful content** — curated or composed for the environment
+- **purposeful content** - curated or composed for the environment
 - **zoning and control** that gives each area its own character
 
 ### networked audio systems
@@ -37,15 +37,15 @@ Dante, AES67 and modern networked platforms allow routing and reconfiguration wi
 
 we design audio that is:
 
-- **flexible** — ready for change
-- **integrated** — part of the wider sensory system
-- **manageable** — intuitive to operate
+- **flexible** - ready for change
+- **integrated** - part of the wider sensory system
+- **manageable** - intuitive to operate
 
 ### soundscapes and ambient audio
 
 ambient soundscapes can define atmosphere subtly but powerfully: water and birdsong in wellness, the energy of a market in a food hall, quiet tonal layers in a lobby.
 
-we create bespoke audio content or collaborate with composers. when we bring composers in, it's early — understanding the system and the space shapes their work, and it shows in the end result.
+we create bespoke audio content or collaborate with composers. when we bring composers in, it's early - understanding the system and the space shapes their work, and it shows in the end result.
 
 ### through to handover
 
@@ -57,7 +57,7 @@ acoustic modelling tools allow us to predict coverage and identify issues long b
 
 we don't sell equipment. we specify what the project needs. we have manufacturers we trust, but the choice always follows the brief.
 
-we also lean toward repairable, modular equipment — amplifiers with swappable cards, serviceable loudspeakers. the lifespan is longer, and long-term waste is lower.
+we also lean toward repairable, modular equipment - amplifiers with swappable cards, serviceable loudspeakers. the lifespan is longer, and long-term waste is lower.
 
 ---
 
