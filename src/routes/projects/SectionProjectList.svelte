@@ -41,6 +41,7 @@
 				<span class="list-head"><span class="splash">FECs and Attractions:</span></span>
 				<ul class="disc">
 					<li><a href="/projects/the-hub">The Hub</a></li>
+					<li><a href="/projects/the-backdrop">The Backdrop</a></li>
 					<li><a href="/projects/the-penguins">The Penguins</a></li>
 					<li>Utopia Adventure Park</li>
 					<li>The View</li>

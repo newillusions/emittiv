@@ -149,7 +149,7 @@
 					<span
 						>the system includes <span class="splash">custom software</span> that simulates
 						lunar phases, changing the building's colour nightly with the moon cycles - a
-						feature of the original design that needed to carry forward seamlessly.</span
+						feature of the original design that needed to carry forward without interruption.</span
 					>
 				</div>
 			</div>

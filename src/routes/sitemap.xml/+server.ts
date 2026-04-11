@@ -62,6 +62,12 @@ const routes: SitemapRoute[] = [
 		changefreq: 'yearly',
 		priority: 0.7
 	},
+	{
+		path: '/projects/the-backdrop',
+		lastmod: '2026-04-11',
+		changefreq: 'yearly',
+		priority: 0.7
+	},
 
 	// Other pages
 	{ path: '/about', lastmod: '2026-02-20', changefreq: 'monthly', priority: 0.8 },

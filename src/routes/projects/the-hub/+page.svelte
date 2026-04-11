@@ -142,7 +142,7 @@
 					>
 					<div class="spacer-med"></div>
 					<span
-						>our experience in show lighting allowed us to seamlessly integrate with the
+						>our experience in show lighting allowed us to integrate cleanly with the
 						wider systems installed - incorporating the fountain lighting and architectural
 						control systems with the theatrical lighting controls into a unified system
 						across the attraction. careful programming ensured smooth transitions between
