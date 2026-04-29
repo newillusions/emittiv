@@ -63,6 +63,12 @@ const routes: SitemapRoute[] = [
 		priority: 0.7
 	},
 	{
+		path: '/projects/the-observatory',
+		lastmod: '2026-04-10',
+		changefreq: 'yearly',
+		priority: 0.7
+	},
+	{
 		path: '/projects/the-backdrop',
 		lastmod: '2026-04-11',
 		changefreq: 'yearly',
