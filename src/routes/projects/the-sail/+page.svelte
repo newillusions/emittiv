@@ -172,7 +172,11 @@
 				<div class="v-padding-1 f col middle order-2">
 					<span><strong>location:</strong> Dubai, UAE</span>
 					<span><strong>type:</strong> iconic building, hospitality</span>
-					<span><strong>disciplines:</strong> lighting, control</span>
+					<span
+						><strong>disciplines:</strong>
+						<a href="/services/lighting">lighting</a>,
+						<a href="/services/control">control</a></span
+					>
 					<div class="spacer-med"></div>
 					<div class="spacer-lge"></div>
 					<span class="underline">

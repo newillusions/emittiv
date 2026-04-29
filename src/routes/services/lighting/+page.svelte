@@ -40,7 +40,7 @@
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Service","@id":"https://www.emittiv.com/services/lighting","name":"Architectural Lighting Design","provider":{"@id":"https://www.emittiv.com/#organization"},"description":"Specialist architectural lighting design combining theatrical expertise with modern technology. Dynamic, programmable lighting systems for hospitality, retail and commercial spaces.","serviceType":"Lighting Design Consultancy","areaServed":{"@type":"Country","name":"United Arab Emirates"},"relatedLink":["https://www.emittiv.com/services/control","https://www.emittiv.com/services/sound","https://www.emittiv.com/services/video","https://www.emittiv.com/services/content","https://www.emittiv.com/services/scent"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.emittiv.com/services"},{"@type":"ListItem","position":3,"name":"Lighting","item":"https://www.emittiv.com/services/lighting"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Service","@id":"https://www.emittiv.com/services/lighting","name":"Architectural Lighting Design","provider":{"@id":"https://www.emittiv.com/#organization"},"description":"Specialist architectural lighting design combining theatrical expertise with modern technology. Dynamic, programmable lighting systems for hospitality, retail and commercial spaces.","serviceType":"Lighting Design Consultancy","areaServed":[{"@type":"Country","name":"United Arab Emirates"},{"@type":"City","name":"Dubai"},{"@type":"City","name":"Abu Dhabi"}],"relatedLink":["https://www.emittiv.com/services/control","https://www.emittiv.com/services/sound","https://www.emittiv.com/services/video","https://www.emittiv.com/services/content","https://www.emittiv.com/services/scent"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.emittiv.com/services"},{"@type":"ListItem","position":3,"name":"Lighting","item":"https://www.emittiv.com/services/lighting"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does an architectural lighting designer do?","acceptedAnswer":{"@type":"Answer","text":"An architectural lighting designer defines how a space should feel and behave through light, then specifies the equipment, layout, control strategy and programming to make it happen. The designer stays involved through installation and commissioning so the result matches the original intent."}},{"@type":"Question","name":"Where in the UAE does emittiv work?","acceptedAnswer":{"@type":"Answer","text":"emittiv is based in Dubai South and works across the UAE and wider GCC. Most projects are in Dubai and Abu Dhabi, with selected work elsewhere in the Gulf."}},{"@type":"Question","name":"How do you approach hotel facade lighting?","acceptedAnswer":{"@type":"Answer","text":"Hotel facade lighting is a hybrid problem: the building has to read clearly from a distance, sit comfortably in its context and shift mood through the night without becoming a billboard. emittiv designs with layered intent - silhouette, accent and dynamic colour - and specifies fixtures rated for Gulf conditions."}},{"@type":"Question","name":"What kinds of projects do you take on?","acceptedAnswer":{"@type":"Answer","text":"Hospitality (hotels, restaurants and spas), retail and brand spaces, cultural and public-realm projects, themed entertainment, and selected residential work. emittiv is interested wherever light is doing real narrative or experiential work."}},{"@type":"Question","name":"When should we bring in a lighting designer?","acceptedAnswer":{"@type":"Answer","text":"As early as possible. Lighting is at its best when it shapes the architecture rather than fighting it, so concept stage is ideal. emittiv can also come in mid-project to fix or rescue a scheme - it just costs more than getting it right first time."}},{"@type":"Question","name":"Are you independent from fixture manufacturers?","acceptedAnswer":{"@type":"Answer","text":"Yes. emittiv does not represent brands and does not take supplier commissions. The team specifies what is right for the project - sometimes a high-end European fixture, sometimes a smarter-priced alternative that does the same job."}}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -71,11 +71,11 @@
 					>
 					<div class="spacer-med"></div>
 					<span
-						>emittiv is a young practice built on a long history in the field. our roots are in
-						theatre, where light is a <span class="splash">narrative tool</span>, not just a
-						technical checkbox. we've spent years obsessing over how light moves, how it shifts
-						through a performance, how a single change can transform a moment. yes, we're geeks.
-						the same principles that shape a stage can transform a lobby, a restaurant or a
+						>emittiv is a young dubai-based practice built on a long history in the field. our
+						roots are in theatre, where light is a <span class="splash">narrative tool</span>, not
+						just a technical checkbox. we've spent years obsessing over how light moves, how it
+						shifts through a performance, how a single change can transform a moment. yes, we're
+						geeks. the same principles that shape a stage can transform a lobby, a restaurant or a
 						public space.</span
 					>
 				</div>
@@ -195,7 +195,76 @@
 					>
 					<div class="spacer-med"></div>
 					<span>see our lighting work on <a href="/projects/the-sail">The Sail</a> and <a href="/projects/the-mosque">The Mosque</a>.</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FAQ -->
+	<section class="screen-flow content" data-label="FAQ">
+		<div class="container">
+			<div class="split">
+				<div class="section-title order-1">
+					<h2>questions,<br />answered</h2>
+				</div>
+				<div class="v-padding-1 f col middle order-2">
+					<span class="headline">what does an architectural lighting designer do?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>we design the light, not just the fixtures. that means defining how a space should
+						feel and behave through light, then specifying the equipment, layout, control strategy
+						and programming to make it happen. we stay involved through commissioning so the result
+						matches the intent.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">where in the uae does emittiv work?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>we're based in dubai south and work across the UAE and wider GCC. most projects are
+						in dubai and abu dhabi, but we travel for the right brief.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">how do you approach hotel facade lighting?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>hotel facades are a hybrid problem. they have to read clearly from a distance, sit
+						comfortably in their context, and shift mood across the night without becoming a
+						billboard. we design with layered intent - silhouette, accent, dynamic colour - and
+						specify gear rated for gulf conditions. see <a href="/projects/the-sail">the sail</a>
+						for an example.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">what kinds of projects do you take on?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>hospitality (hotels, F&amp;B, spas), retail and brand spaces, cultural and
+						public-realm work, themed entertainment, and the occasional residential project where
+						the brief is interesting. if light is doing real work, we're interested.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">when should we bring in a lighting designer?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>earlier than you think. lighting is at its best when it shapes the architecture
+						rather than fighting it, so concept stage is ideal. we can also come in mid-project to
+						fix or rescue a scheme - it just costs more than getting it right first time.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">are you independent from fixture manufacturers?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>yes. we don't represent brands. we don't take commissions. we specify what's right
+						for the project - sometimes a high-end european fixture, sometimes a smarter-priced
+						alternative. if your "lighting designer" sells the gear, ask yourself who they're
+						really designing for.</span
+					>
 					<div class="spacer-lge"></div>
+
 					<span>related disciplines: <a class="navItem" href="/services/video">video</a> · <a class="navItem" href="/services/control">control</a></span>
 					<div class="spacer-reg"></div>
 					<span class="underline">
