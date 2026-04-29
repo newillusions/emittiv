@@ -3,7 +3,7 @@
 
 	import emailjs from '@emailjs/browser';
 
-	let send = '';
+	let send = $state('');
 
 	function sendEmail() {
 		let message = document.getElementById('contactForm') as HTMLFormElement;
@@ -46,7 +46,14 @@
 				<div class="spacer-lge"></div>
 			</div>
 			<div class="f col middle order-2">
-				<form class="f col" on:submit|preventDefault={sendEmail} id="contactForm">
+				<form
+					class="f col"
+					onsubmit={(e) => {
+						e.preventDefault();
+						sendEmail();
+					}}
+					id="contactForm"
+				>
 					<label for="form_name">Name:*</label>
 					<input
 						type="text"

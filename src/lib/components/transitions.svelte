@@ -3,7 +3,7 @@
 	import { beforeNavigate, afterNavigate, disableScrollHandling } from '$app/navigation';
 	import { dev } from '$app/environment';
 
-	let { pathname = '' } = $props();
+	let { pathname = '', children } = $props();
 
 	let targetHash = $state('');
 	let isTransitioning = $state(false);
@@ -52,7 +52,7 @@
 			in:fade={{ duration: 500, delay: 500 }}
 			out:fade={{ duration: 500 }}
 		>
-			<slot />
+			{@render children?.()}
 		</div>
 	{/key}
 </div>

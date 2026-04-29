@@ -105,14 +105,14 @@ git add src/ static/ *.config.* package.json svelte.config.js
 git commit -m "$(cat <<'EOF'
 type: concise description of changes
 
-Co-Authored-By: Claude <model-name> <noreply@anthropic.com>
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
 EOF
 )"
 ```
 
 - Scope is optional for this project (single app)
 - Description: 1 line summarizing the change, lowercase, no period
-- Include `Co-Authored-By` with actual model name
+- Co-Authored-By reflects the model that wrote the commit (the main session). Default is Opus 4.7. If the session runs on a different model, update accordingly. The cleanit-reviewer sub-agent runs on Sonnet but does not author the commit.
 
 ### Step 4: Push to Forgejo
 

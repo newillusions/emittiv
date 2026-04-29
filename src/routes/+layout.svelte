@@ -7,12 +7,13 @@
 	import Transitions from '$lib/components/transitions.svelte';
 
 	import type { PageData } from './$types';
-	let { data }: { data: PageData } = $props();
+	import type { Snippet } from 'svelte';
+	let { data, children }: { data: PageData; children: Snippet } = $props();
 </script>
 
 <TheMenu />
 <Transitions pathname={data.pathname}>
-	<slot />
+	{@render children()}
 	<TheFooter />
 </Transitions>
 
