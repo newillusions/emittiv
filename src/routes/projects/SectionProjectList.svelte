@@ -7,15 +7,15 @@
 			<div class="f col">
 				<span class="list-head"><span class="splash">Landmarks:</span></span>
 				<ul class="disc">
-					<li><a href="/projects/the-mosque">The Mosque</a></li>
+					<li><a href="/projects/the-mosque">Sheikh Zayed Grand Mosque</a></li>
 					<li>Sheikh Zayed Bridge</li>
 					<li>Lusail Multpurpose Hall</li>
 					<li>Abu Dhabi Justce Court</li>
 				</ul>
 				<span class="list-head"><span class="splash">Hospitality:</span></span>
 				<ul class="disc">
-					<li><a href="/projects/the-sail">The Sail</a></li>
-					<li><a href="/projects/the-wave">The Wave</a></li>
+					<li><a href="/projects/the-sail">Burj Al Arab</a></li>
+					<li><a href="/projects/the-wave">Jumeirah Beach Hotel</a></li>
 					<li>Mercure Hotel, Dubai</li>
 					<li>Novokov Restaurant</li>
 				</ul>
@@ -29,20 +29,20 @@
 			<div class="f col">
 				<span class="list-head"><span class="splash">Destinations:</span></span>
 				<ul class="disc">
-					<li><a href="/projects/the-exhibition">The Exhibition</a></li>
+					<li><a href="/projects/the-exhibition">Expo 2020 Dubai</a></li>
 					<li>Cirque du Soleil - Zaia</li>
 				</ul>
 				<span class="list-head"><span class="splash">Themed:</span></span>
 				<ul class="disc">
 					<li><a href="/projects/the-fish-tank">Seaworld Abu Dhabi</a></li>
-					<li><a href="/projects/the-theme-parks">The Theme Parks</a></li>
+					<li><a href="/projects/the-theme-parks">Dubai Parks and Resorts</a></li>
 					<li><a href="/projects/the-waterpark">Wild Wadi</a></li>
 				</ul>
 				<span class="list-head"><span class="splash">FECs and Attractions:</span></span>
 				<ul class="disc">
-					<li><a href="/projects/the-hub">The Hub</a></li>
-					<li><a href="/projects/the-backdrop">The Backdrop</a></li>
-					<li><a href="/projects/the-penguins">The Penguins</a></li>
+					<li><a href="/projects/the-hub">City Walk</a></li>
+					<li><a href="/projects/the-backdrop">House of Hype</a></li>
+					<li><a href="/projects/the-penguins">Dubai Mall Penguinarium</a></li>
 					<li>Utopia Adventure Park</li>
 					<li>The View</li>
 					<li>The Palm Fountain</li>
@@ -51,13 +51,17 @@
 			<div class="f col">
 				<span class="list-head"><span class="splash">Venues:</span></span>
 				<ul class="disc">
-					<li><a href="/projects/the-university">The University</a></li>
-					<li><a href="/projects/the-research-centre">The Research Centre</a></li>
+					<li><a href="/projects/the-university">Al Imam University</a></li>
+					<li><a href="/projects/the-research-centre">KAPSARC</a></li>
 					<li>Royal Welsh College of Music and Drama</li>
 					<li>Dubai Opera</li>
 					<li>English National Opera</li>
 					<li>Flash Forum</li>
 					<li>Africa Hall</li>
+				</ul>
+				<span class="list-head"><span class="splash">Feasibility Studies:</span></span>
+				<ul class="disc">
+					<li><a href="/projects/the-observatory">The Observatory</a></li>
 				</ul>
 				<span class="list-head"><span class="splash">Nightclubs:</span></span>
 				<ul class="disc">
