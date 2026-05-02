@@ -1,267 +1,75 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-
-	let scrollY = $state(0);
-	let innerHeight = $state(0);
-	let splitEl: HTMLElement | null = $state(null);
-	let splitRevealed = $state(false);
-
-	function handleScroll() {
-		scrollY = window.scrollY;
-		if (splitEl && !splitRevealed) {
-			const rect = splitEl.getBoundingClientRect();
-			if (rect.top < innerHeight * 0.85) {
-				splitRevealed = true;
-			}
-		}
-	}
-
-	onMount(() => {
-		innerHeight = window.innerHeight;
-		window.addEventListener('scroll', handleScroll, { passive: true });
-		handleScroll();
-		return () => window.removeEventListener('scroll', handleScroll);
-	});
+	import CaseStudyHead from '$lib/components/projects/CaseStudyHead.svelte';
+	import CaseStudyHero from '$lib/components/projects/CaseStudyHero.svelte';
+	import TextSection from '$lib/components/projects/TextSection.svelte';
+	import SplitImageSection from '$lib/components/projects/SplitImageSection.svelte';
+	import ProjectDetails from '$lib/components/projects/ProjectDetails.svelte';
 </script>
 
-<svelte:head>
-	<title>The Exhibition | Public Realm Lighting | Destination Design | emittiv</title>
-	<meta
-		name="description"
-		content="Public realm lighting coordination for a major international exhibition in the UAE. Peer review and harmonisation of site-wide lighting across a vast public realm of landscapes, plazas and public spaces."
-	/>
-	<link rel="canonical" href="https://www.emittiv.com/projects/the-exhibition" />
-	<meta name="robots" content="index,follow" />
-
-	<!-- Open Graph -->
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="The Exhibition | Public Realm Lighting | emittiv" />
-	<meta
-		property="og:description"
-		content="Public realm lighting coordination for a major international exhibition in the UAE. Harmonisation of site-wide lighting across a vast public realm of landscapes, plazas and public spaces."
-	/>
-	<meta property="og:image" content="https://www.emittiv.com/img/projects/expo-2020/hero.jpg" />
-	<meta property="og:url" content="https://www.emittiv.com/projects/the-exhibition" />
-	<meta property="og:site_name" content="emittiv" />
-	<meta property="og:locale" content="en_AE" />
-
-	<!-- Twitter Card -->
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="The Exhibition | Public Realm Lighting | emittiv" />
-	<meta
-		name="twitter:description"
-		content="Public realm lighting coordination for a major international exhibition in the UAE - harmonising site-wide lighting across vast landscapes, plazas and public spaces."
-	/>
-	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/expo-2020/hero.jpg" />
-
-	<!-- Schema.org JSON-LD -->
-	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-exhibition","name":"The Exhibition - Public Realm Lighting","description":"Public realm lighting coordination for a major international exhibition in the UAE","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/expo-2020/hero.jpg","locationCreated":{"@type":"Place","name":"UAE"},"keywords":"public realm, lighting design, exhibition, destination, UAE"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The Exhibition","item":"https://www.emittiv.com/projects/the-exhibition"}]}]}</scr' +
-		'ipt>'}
-</svelte:head>
+<CaseStudyHead
+	title="The Exhibition | Public Realm Lighting | Destination Design | emittiv"
+	description="Public realm lighting coordination for a major international exhibition in the UAE. Peer review and harmonisation of site-wide lighting across a vast public realm of landscapes, plazas and public spaces."
+	slug="the-exhibition"
+	ogImage="/img/projects/expo-2020/hero.jpg"
+	keywords="public realm, lighting design, exhibition, destination, UAE"
+	jsonLdName="The Exhibition - Public Realm Lighting"
+	jsonLdDescription="Public realm lighting coordination for a major international exhibition in the UAE"
+	locationName="UAE"
+/>
 
 <main>
-	<section class="hero-bleed">
-		<picture>
-			<source
-				srcset="/img/projects/expo-2020/hero-400w.webp 400w, /img/projects/expo-2020/hero-800w.webp 800w, /img/projects/expo-2020/hero.webp 1920w"
-				sizes="100vw"
-				type="image/webp"
-			/>
-			<img
-				class="hero-image"
-				src="/img/projects/expo-2020/hero.jpg"
-				srcset="/img/projects/expo-2020/hero-400w.jpg 400w, /img/projects/expo-2020/hero-800w.jpg 800w, /img/projects/expo-2020/hero.jpg 1920w"
-				sizes="100vw"
-				alt="International exhibition public realm lighting at dusk"
-				style="transform: translateY({scrollY * 0.15}px)"
-				loading="eager"
-			/>
-		</picture>
-		<div class="hero-overlay">
-			<h1 class="tagline">The Exhibition</h1>
-			<div class="spacer-reg"></div>
-			<span class="headline">public realm. vast destination.</span>
-			<div class="spacer-reg"></div>
-			<span class="disciplines">lighting / control</span>
-		</div>
-	</section>
+	<CaseStudyHero
+		name="The Exhibition"
+		headline="public realm. vast destination."
+		disciplines="lighting / control"
+		heroPath="/img/projects/expo-2020/hero"
+		heroAlt="International exhibition public realm lighting at dusk"
+		heroSizes={[400, 800, 1920]}
+	/>
 
-	<section class="screen-flow content" data-label="Context">
-		<div class="container">
-			<div class="split">
-				<div class="section-title order-1">
-					<h2>the brief</h2>
-				</div>
-				<div class="v-padding-1 f col middle order-2">
-					<span
-						>the engagement began with unifying multiple public realm lighting designs across
-						the site. the lighting had been delivered by various teams and
-						contractors - each working to their own brief, resulting in a patchwork of approaches
-						across one of the region's most ambitious destination projects.</span
-					>
-					<div class="spacer-med"></div>
-					<span
-						>the goal was <span class="splash"
-							>a unified guest experience</span
-						> across the landscapes, plazas and parks - bringing coherence to the whole
-						while respecting the design intent of each area.</span
-					>
-				</div>
-			</div>
-		</div>
-	</section>
+	<TextSection title="the brief" dataLabel="Context">
+		<span
+			>the engagement began with unifying multiple public realm lighting designs across
+			the site. the lighting had been delivered by various teams and
+			contractors - each working to their own brief, resulting in a patchwork of approaches
+			across one of the region's most ambitious destination projects.</span
+		>
+		<div class="spacer-med"></div>
+		<span
+			>the goal was <span class="splash">a unified guest experience</span> across the landscapes,
+			plazas and parks - bringing coherence to the whole while respecting the design intent
+			of each area.</span
+		>
+	</TextSection>
 
-	<section class="split-section content" bind:this={splitEl}>
-		<div class="container">
-			<div class="split-image-layout">
-				<div class="split-img {splitRevealed ? 'revealed' : ''}">
-					<picture>
-						<source
-							srcset="/img/projects/expo-2020/district-400w.webp 400w, /img/projects/expo-2020/district-800w.webp 800w, /img/projects/expo-2020/district.webp 1200w"
-							sizes="(min-width: 768px) 50vw, 100vw"
-							type="image/webp"
-						/>
-						<img
-							src="/img/projects/expo-2020/district.jpg"
-							srcset="/img/projects/expo-2020/district-400w.jpg 400w, /img/projects/expo-2020/district-800w.jpg 800w, /img/projects/expo-2020/district.jpg 1200w"
-							sizes="(min-width: 768px) 50vw, 100vw"
-							alt="Exhibition district illuminated structures at sunset"
-							loading="lazy"
-							width="1200"
-							height="800"
-						/>
-					</picture>
-				</div>
-				<div class="split-text">
-					<h2>our role</h2>
-					<div class="spacer-med"></div>
-					<span
-						>we conducted a peer review of existing work and coordinated with the original
-						project lighting designers to maintain design intent while making the adjustments
-						the event required. each zone had its own narrative - our role was to find the
-						thread that connected them without flattening the individuality of each space.</span
-					>
-					<div class="spacer-med"></div>
-					<span
-						>the result was visual consistency without uniformity - <span class="splash"
-							>each zone retaining its character</span
-						> while feeling part of the same place.</span
-					>
-				</div>
-			</div>
-		</div>
-	</section>
+	<SplitImageSection
+		imagePath="/img/projects/expo-2020/district"
+		imageAlt="Exhibition district illuminated structures at sunset"
+		imageSizes={[400, 800, 1200]}
+		imageWidth={1200}
+		imageHeight={800}
+	>
+		<h2>our role</h2>
+		<div class="spacer-med"></div>
+		<span
+			>we conducted a peer review of existing work and coordinated with the original
+			project lighting designers to maintain design intent while making the adjustments
+			the event required. each zone had its own narrative - our role was to find the
+			thread that connected them without flattening the individuality of each space.</span
+		>
+		<div class="spacer-med"></div>
+		<span
+			>the result was visual consistency without uniformity - <span class="splash"
+				>each zone retaining its character</span
+			> while feeling part of the same place.</span
+		>
+	</SplitImageSection>
 
-	<section class="screen-flow content" data-label="Details">
-		<div class="container">
-			<div class="split">
-				<div class="section-title order-1">
-					<h2>project details</h2>
-				</div>
-				<div class="v-padding-1 f col middle order-2">
-					<span><strong>location:</strong> UAE</span>
-					<span><strong>type:</strong> destination, public realm</span>
-					<span><strong>disciplines:</strong> lighting, control</span>
-					<div class="spacer-med"></div>
-					<div class="spacer-lge"></div>
-					<span class="underline">
-						<a class="navItem" href="/projects">back to projects</a>
-					</span>
-				</div>
-			</div>
-		</div>
-	</section>
+	<ProjectDetails
+		fields={[
+			{ label: 'location', value: 'UAE' },
+			{ label: 'type', value: 'destination, public realm' },
+			{ label: 'disciplines', value: 'lighting, control' }
+		]}
+	/>
 </main>
-
-<style lang="scss">
-	.disciplines {
-		font-size: 0.8rem;
-		letter-spacing: 0.15em;
-		opacity: 0.6;
-	}
-
-	.hero-bleed {
-		position: relative;
-		height: 85vh;
-		overflow: hidden;
-	}
-
-	.hero-image {
-		position: absolute;
-		inset: -15% 0;
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		object-position: center;
-		will-change: transform;
-	}
-
-	.hero-overlay {
-		position: absolute;
-		inset: 0;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: flex-end;
-		padding-bottom: 8vh;
-		background: linear-gradient(
-			to bottom,
-			transparent 30%,
-			rgba(0, 0, 0, 0.4) 60%,
-			rgba(0, 0, 0, 0.85) 100%
-		);
-	}
-
-	/* ── Split image + text ── */
-	.split-section {
-		padding: 4rem 0;
-	}
-
-	.split-image-layout {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 3rem;
-		align-items: center;
-		min-height: 40vh;
-
-		h2 {
-			font-family: 'Ubuntu', sans-serif;
-			font-size: clamp(1.5rem, 3vw, 2.5rem);
-			font-weight: 300;
-			color: var(--white);
-		}
-	}
-
-	.split-img {
-		overflow: hidden;
-		border-radius: 2px;
-		clip-path: inset(0 100% 0 0);
-		transition: clip-path 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-
-		&.revealed {
-			clip-path: inset(0 0 0 0);
-		}
-
-		img {
-			display: block;
-			width: 100%;
-			transition: transform 0.6s ease;
-		}
-
-		&:hover img {
-			transform: scale(1.03);
-		}
-	}
-
-	@media (max-width: 768px) {
-		.hero-bleed {
-			height: 60vh;
-		}
-
-		.split-image-layout {
-			grid-template-columns: 1fr;
-			gap: 2rem;
-		}
-	}
-</style>
