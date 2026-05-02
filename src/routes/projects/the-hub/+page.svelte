@@ -1,268 +1,77 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-
-	let scrollY = $state(0);
-	let innerHeight = $state(0);
-	let splitEl: HTMLElement | null = $state(null);
-	let splitRevealed = $state(false);
-
-	function handleScroll() {
-		scrollY = window.scrollY;
-		if (splitEl && !splitRevealed) {
-			const rect = splitEl.getBoundingClientRect();
-			if (rect.top < innerHeight * 0.85) {
-				splitRevealed = true;
-			}
-		}
-	}
-
-	onMount(() => {
-		innerHeight = window.innerHeight;
-		window.addEventListener('scroll', handleScroll, { passive: true });
-		handleScroll();
-		return () => window.removeEventListener('scroll', handleScroll);
-	});
+	import CaseStudyHead from '$lib/components/projects/CaseStudyHead.svelte';
+	import CaseStudyHero from '$lib/components/projects/CaseStudyHero.svelte';
+	import TextSection from '$lib/components/projects/TextSection.svelte';
+	import SplitImageSection from '$lib/components/projects/SplitImageSection.svelte';
+	import ProjectDetails from '$lib/components/projects/ProjectDetails.svelte';
 </script>
 
-<svelte:head>
-	<title>The Hub | Urban Multimedia Attraction | Show Lighting | emittiv</title>
-	<meta
-		name="description"
-		content="Theatrical lighting and show control for an urban mixed-use multimedia attraction in the UAE. Permanent and temporary shows integrating lighting, fountains and architectural systems."
-	/>
-	<link rel="canonical" href="https://www.emittiv.com/projects/the-hub" />
-	<meta name="robots" content="index,follow" />
-
-	<!-- Open Graph -->
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="The Hub | Urban Multimedia Attraction | emittiv" />
-	<meta
-		property="og:description"
-		content="Theatrical lighting and show control for an urban mixed-use multimedia attraction. Permanent shows integrating lighting, fountains and architectural systems."
-	/>
-	<meta property="og:image" content="https://www.emittiv.com/img/projects/city-walk/hero.jpg" />
-	<meta property="og:url" content="https://www.emittiv.com/projects/the-hub" />
-	<meta property="og:site_name" content="emittiv" />
-	<meta property="og:locale" content="en_AE" />
-
-	<!-- Twitter Card -->
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="The Hub | Urban Multimedia Attraction | emittiv" />
-	<meta
-		name="twitter:description"
-		content="Theatrical lighting and show control for an urban mixed-use multimedia attraction in the UAE."
-	/>
-	<meta name="twitter:image" content="https://www.emittiv.com/img/projects/city-walk/hero.jpg" />
-
-	<!-- Schema.org JSON-LD -->
-	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://www.emittiv.com/projects/the-hub","name":"The Hub - Urban Multimedia Attraction","description":"Theatrical lighting and show control for an urban mixed-use multimedia attraction in the UAE","creator":{"@id":"https://www.emittiv.com/#organization"},"image":"https://www.emittiv.com/img/projects/city-walk/hero.jpg","locationCreated":{"@type":"Place","name":"UAE"},"keywords":"show lighting, multimedia, fountain lighting, theatrical, control systems, UAE"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://www.emittiv.com/projects"},{"@type":"ListItem","position":3,"name":"The Hub","item":"https://www.emittiv.com/projects/the-hub"}]}]}</scr' +
-		'ipt>'}
-</svelte:head>
+<CaseStudyHead
+	title="The Hub | Urban Multimedia Attraction | Show Lighting | emittiv"
+	description="Theatrical lighting and show control for an urban mixed-use multimedia attraction in the UAE. Permanent and temporary shows integrating lighting, fountains and architectural systems."
+	slug="the-hub"
+	ogImage="/img/projects/city-walk/hero.jpg"
+	keywords="show lighting, multimedia, fountain lighting, theatrical, control systems, UAE"
+	jsonLdName="The Hub - Urban Multimedia Attraction"
+	jsonLdDescription="Theatrical lighting and show control for an urban mixed-use multimedia attraction in the UAE"
+	locationName="UAE"
+/>
 
 <main>
-	<section class="hero-bleed">
-		<picture>
-			<source
-				srcset="/img/projects/city-walk/hero-400w.webp 400w, /img/projects/city-walk/hero-800w.webp 800w, /img/projects/city-walk/hero.webp 1280w"
-				sizes="100vw"
-				type="image/webp"
-			/>
-			<img
-				class="hero-image"
-				src="/img/projects/city-walk/hero.jpg"
-				srcset="/img/projects/city-walk/hero-400w.jpg 400w, /img/projects/city-walk/hero-800w.jpg 800w, /img/projects/city-walk/hero.jpg 1280w"
-				sizes="100vw"
-				alt="Urban mixed-use attraction illuminated at night"
-				style="transform: translateY({scrollY * 0.15}px)"
-				loading="eager"
-			/>
-		</picture>
-		<div class="hero-overlay">
-			<h1 class="tagline">The Hub</h1>
-			<div class="spacer-reg"></div>
-			<span class="headline">multimedia attraction. show lighting.</span>
-			<div class="spacer-reg"></div>
-			<span class="disciplines">lighting / control</span>
-		</div>
-	</section>
+	<CaseStudyHero
+		name="The Hub"
+		headline="multimedia attraction. show lighting."
+		disciplines="lighting / control"
+		heroPath="/img/projects/city-walk/hero"
+		heroAlt="Urban mixed-use attraction illuminated at night"
+		heroSizes={[400, 800, 1280]}
+	/>
 
-	<section class="screen-flow content" data-label="Context">
-		<div class="container">
-			<div class="split">
-				<div class="section-title order-1">
-					<h2>the brief</h2>
-				</div>
-				<div class="v-padding-1 f col middle order-2">
-					<span
-						>retail destinations need more than just shops these days. they need to be
-						<span class="splash">destinations in their own right</span> - providing
-						attractions, family entertainment and experiences that draw people back.</span
-					>
-					<div class="spacer-med"></div>
-					<span
-						>the operators wanted to introduce new multimedia shows to the central attraction
-						- both permanent shows and temporary seasonal events running across several months
-						of the year. the challenge was creating a lighting language that could flex
-						between an everyday ambient state and a fully choreographed performance mode.</span
-					>
-				</div>
-			</div>
-		</div>
-	</section>
+	<TextSection title="the brief" dataLabel="Context">
+		<span
+			>retail destinations need more than just shops these days. they need to be
+			<span class="splash">destinations in their own right</span> - providing attractions, family
+			entertainment and experiences that draw people back.</span
+		>
+		<div class="spacer-med"></div>
+		<span
+			>the operators wanted to introduce new multimedia shows to the central attraction
+			- both permanent shows and temporary seasonal events running across several months
+			of the year. the challenge was creating a lighting language that could flex
+			between an everyday ambient state and a fully choreographed performance mode.</span
+		>
+	</TextSection>
 
-	<section class="split-section content" bind:this={splitEl}>
-		<div class="container">
-			<div class="split-image-layout">
-				<div class="split-img {splitRevealed ? 'revealed' : ''}">
-					<picture>
-						<source
-							srcset="/img/projects/city-walk/attraction-400w.webp 400w, /img/projects/city-walk/attraction.webp 800w"
-							sizes="(min-width: 768px) 50vw, 100vw"
-							type="image/webp"
-						/>
-						<img
-							src="/img/projects/city-walk/attraction.jpg"
-							srcset="/img/projects/city-walk/attraction-400w.jpg 400w, /img/projects/city-walk/attraction.jpg 800w"
-							sizes="(min-width: 768px) 50vw, 100vw"
-							alt="Multimedia attraction show lighting with fountain and architectural integration"
-							loading="lazy"
-							width="800"
-							height="536"
-						/>
-					</picture>
-				</div>
-				<div class="split-text">
-					<h2>our role</h2>
-					<div class="spacer-med"></div>
-					<span
-						>we designed and programmed the lighting, working closely with the creative team and
-						<span class="splash">working nights</span> to minimise disruption to daily
-						operations and the thousands of visitors passing through each day.</span
-					>
-					<div class="spacer-med"></div>
-					<span
-						>our experience in show lighting allowed us to integrate cleanly with the
-						wider systems installed - incorporating the fountain lighting and architectural
-						control systems with the theatrical lighting controls into a unified system
-						across the attraction. careful programming ensured smooth transitions between
-						show states and reliable unattended operation. the shows are still running today.</span
-					>
-				</div>
-			</div>
-		</div>
-	</section>
+	<SplitImageSection
+		imagePath="/img/projects/city-walk/attraction"
+		imageAlt="Multimedia attraction show lighting with fountain and architectural integration"
+		imageSizes={[400, 800]}
+		imageWidth={800}
+		imageHeight={536}
+	>
+		<h2>our role</h2>
+		<div class="spacer-med"></div>
+		<span
+			>we designed and programmed the lighting, working closely with the creative team and
+			<span class="splash">working nights</span> to minimise disruption to daily operations and
+			the thousands of visitors passing through each day.</span
+		>
+		<div class="spacer-med"></div>
+		<span
+			>our experience in show lighting allowed us to integrate cleanly with the
+			wider systems installed - incorporating the fountain lighting and architectural
+			control systems with the theatrical lighting controls into a unified system
+			across the attraction. careful programming ensured smooth transitions between
+			show states and reliable unattended operation. the shows are still running today.</span
+		>
+	</SplitImageSection>
 
-	<section class="screen-flow content" data-label="Details">
-		<div class="container">
-			<div class="split">
-				<div class="section-title order-1">
-					<h2>project details</h2>
-				</div>
-				<div class="v-padding-1 f col middle order-2">
-					<span><strong>location:</strong> UAE</span>
-					<span><strong>type:</strong> destination, multimedia attraction</span>
-					<span><strong>size:</strong> 13,000 m&sup2;</span>
-					<span><strong>disciplines:</strong> lighting, control</span>
-					<div class="spacer-med"></div>
-					<div class="spacer-lge"></div>
-					<span class="underline">
-						<a class="navItem" href="/projects">back to projects</a>
-					</span>
-				</div>
-			</div>
-		</div>
-	</section>
+	<ProjectDetails
+		fields={[
+			{ label: 'location', value: 'UAE' },
+			{ label: 'type', value: 'destination, multimedia attraction' },
+			{ label: 'size', value: '13,000 m²' },
+			{ label: 'disciplines', value: 'lighting, control' }
+		]}
+	/>
 </main>
-
-<style lang="scss">
-	.disciplines {
-		font-size: 0.8rem;
-		letter-spacing: 0.15em;
-		opacity: 0.6;
-	}
-
-	.hero-bleed {
-		position: relative;
-		height: 85vh;
-		overflow: hidden;
-	}
-
-	.hero-image {
-		position: absolute;
-		inset: -15% 0;
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		object-position: center;
-		will-change: transform;
-	}
-
-	.hero-overlay {
-		position: absolute;
-		inset: 0;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: flex-end;
-		padding-bottom: 8vh;
-		background: linear-gradient(
-			to bottom,
-			transparent 30%,
-			rgba(0, 0, 0, 0.4) 60%,
-			rgba(0, 0, 0, 0.85) 100%
-		);
-	}
-
-	/* ── Split image + text ── */
-	.split-section {
-		padding: 4rem 0;
-	}
-
-	.split-image-layout {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 3rem;
-		align-items: center;
-		min-height: 40vh;
-
-		h2 {
-			font-family: 'Ubuntu', sans-serif;
-			font-size: clamp(1.5rem, 3vw, 2.5rem);
-			font-weight: 300;
-			color: var(--white);
-		}
-	}
-
-	.split-img {
-		overflow: hidden;
-		border-radius: 2px;
-		clip-path: inset(0 100% 0 0);
-		transition: clip-path 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-
-		&.revealed {
-			clip-path: inset(0 0 0 0);
-		}
-
-		img {
-			display: block;
-			width: 100%;
-			transition: transform 0.6s ease;
-		}
-
-		&:hover img {
-			transform: scale(1.03);
-		}
-	}
-
-	@media (max-width: 768px) {
-		.hero-bleed {
-			height: 60vh;
-		}
-
-		.split-image-layout {
-			grid-template-columns: 1fr;
-			gap: 2rem;
-		}
-	}
-</style>
