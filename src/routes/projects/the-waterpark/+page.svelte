@@ -29,13 +29,11 @@
 
 	<TextSection title="the brief" dataLabel="Context">
 		<span
-			>one of Dubai's most popular waterparks needed a complete lighting
-			overhaul. after years of battling the elements, the existing metal
-			halide floodlights with their subtractive colour mixing were ready to
-			be replaced with modern LED technology. the owner - the same group
-			behind two of our other projects - wanted to transform the park's
-			night-time experience while rebuilding the control systems from the
-			ground up.</span
+			>one of Dubai's most popular waterparks needed a complete lighting overhaul. after years of
+			battling the elements, the existing metal halide floodlights with their subtractive colour
+			mixing were ready to be replaced with modern LED technology. the owner - the same group behind
+			two of our other projects - wanted to transform the park's night-time experience while
+			rebuilding the control systems from the ground up.</span
 		>
 	</TextSection>
 
@@ -50,19 +48,16 @@
 		<h2>our role</h2>
 		<div class="spacer-med"></div>
 		<span
-			>we designed the complete lighting upgrade and rebuilt the control
-			systems from scratch. the move from subtractive colour mixing on metal
-			halide fixtures to additive RGB LED floodlights was a significant step
-			up - delivering much stronger saturated colours, instant colour changes
+			>we designed the complete lighting upgrade and rebuilt the control systems from scratch. the
+			move from subtractive colour mixing on metal halide fixtures to additive RGB LED floodlights
+			was a significant step up - delivering much stronger saturated colours, instant colour changes
 			and dramatically reduced maintenance.</span
 		>
 		<div class="spacer-med"></div>
 		<span
-			>working around water presented its own challenges - and reusing
-			existing cable infrastructure meant adapting to custom, non-standard
-			cabling rather than conventional DMX runs. the result was a modern,
-			flexible lighting system that completely transformed the park after
-			dark.</span
+			>working around water presented its own challenges - and reusing existing cable infrastructure
+			meant adapting to custom, non-standard cabling rather than conventional DMX runs. the result
+			was a modern, flexible lighting system that completely transformed the park after dark.</span
 		>
 	</SplitImageSection>
 

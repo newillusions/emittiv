@@ -77,9 +77,8 @@
 					>
 					<div class="spacer-med"></div>
 					<span
-						>we bring that mindset to architectural environments. control integration is one of
-						the core strengths of the practice - and a step beyond what most design studios
-						can deliver.</span
+						>we bring that mindset to architectural environments. control integration is one of the
+						core strengths of the practice - and a step beyond what most design studios can deliver.</span
 					>
 				</div>
 			</div>
@@ -234,15 +233,27 @@
 						>.</span
 					>
 					<div class="spacer-med"></div>
-					<span>see control integration in action at <a href="/projects/the-hub">The Hub</a> and <a href="/projects/the-research-centre">The Research Centre</a>.</span>
+					<span
+						>see control integration in action at <a href="/projects/the-hub">The Hub</a> and
+						<a href="/projects/the-research-centre">The Research Centre</a>.</span
+					>
 					<div class="spacer-lge"></div>
-					<span>related disciplines: <a class="navItem" href="/services/lighting">lighting</a> · <a class="navItem" href="/services/video">video</a> · <a class="navItem" href="/services/sound">sound</a></span>
+					<span
+						>related disciplines: <a class="navItem" href="/services/lighting">lighting</a> ·
+						<a class="navItem" href="/services/video">video</a>
+						· <a class="navItem" href="/services/sound">sound</a></span
+					>
 					<div class="spacer-reg"></div>
 					<span class="underline">
 						<a class="navItem" href="/services#streams">back to services</a>
 					</span>
 					<span class="underline">
-						<a class="navItem" href="https://sensory.design/the-senses/#the-whole" target="_blank" rel="noopener">the art of orchestration</a>
+						<a
+							class="navItem"
+							href="https://sensory.design/the-senses/#the-whole"
+							target="_blank"
+							rel="noopener">the art of orchestration</a
+						>
 					</span>
 				</div>
 			</div>

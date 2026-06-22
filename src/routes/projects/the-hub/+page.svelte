@@ -30,15 +30,15 @@
 	<TextSection title="the brief" dataLabel="Context">
 		<span
 			>retail destinations need more than just shops these days. they need to be
-			<span class="splash">destinations in their own right</span> - providing attractions, family
-			entertainment and experiences that draw people back.</span
+			<span class="splash">destinations in their own right</span> - providing attractions, family entertainment
+			and experiences that draw people back.</span
 		>
 		<div class="spacer-med"></div>
 		<span
-			>the operators wanted to introduce new multimedia shows to the central attraction
-			- both permanent shows and temporary seasonal events running across several months
-			of the year. the challenge was creating a lighting language that could flex
-			between an everyday ambient state and a fully choreographed performance mode.</span
+			>the operators wanted to introduce new multimedia shows to the central attraction - both
+			permanent shows and temporary seasonal events running across several months of the year. the
+			challenge was creating a lighting language that could flex between an everyday ambient state
+			and a fully choreographed performance mode.</span
 		>
 	</TextSection>
 
@@ -53,16 +53,16 @@
 		<div class="spacer-med"></div>
 		<span
 			>we designed and programmed the lighting, working closely with the creative team and
-			<span class="splash">working nights</span> to minimise disruption to daily operations and
-			the thousands of visitors passing through each day.</span
+			<span class="splash">working nights</span> to minimise disruption to daily operations and the thousands
+			of visitors passing through each day.</span
 		>
 		<div class="spacer-med"></div>
 		<span
-			>our experience in show lighting allowed us to integrate cleanly with the
-			wider systems installed - incorporating the fountain lighting and architectural
-			control systems with the theatrical lighting controls into a unified system
-			across the attraction. careful programming ensured smooth transitions between
-			show states and reliable unattended operation. the shows are still running today.</span
+			>our experience in show lighting allowed us to integrate cleanly with the wider systems
+			installed - incorporating the fountain lighting and architectural control systems with the
+			theatrical lighting controls into a unified system across the attraction. careful programming
+			ensured smooth transitions between show states and reliable unattended operation. the shows
+			are still running today.</span
 		>
 	</SplitImageSection>
 

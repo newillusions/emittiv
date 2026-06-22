@@ -40,7 +40,12 @@
 	const sortedSizes = $derived([...heroSizes].sort((a, b) => a - b));
 	const largestSize = $derived(sortedSizes[sortedSizes.length - 1]);
 
-	function buildSrcset(path: string, ext: 'webp' | 'jpg', sizes: number[], largest: number): string {
+	function buildSrcset(
+		path: string,
+		ext: 'webp' | 'jpg',
+		sizes: number[],
+		largest: number
+	): string {
 		return sizes
 			.map((w) => {
 				const file = w === largest ? `${path}.${ext}` : `${path}-${w}w.${ext}`;
@@ -49,8 +54,12 @@
 			.join(', ');
 	}
 
-	const webpSrcset = $derived(heroPath ? buildSrcset(heroPath, 'webp', sortedSizes, largestSize) : '');
-	const jpgSrcset = $derived(heroPath ? buildSrcset(heroPath, 'jpg', sortedSizes, largestSize) : '');
+	const webpSrcset = $derived(
+		heroPath ? buildSrcset(heroPath, 'webp', sortedSizes, largestSize) : ''
+	);
+	const jpgSrcset = $derived(
+		heroPath ? buildSrcset(heroPath, 'jpg', sortedSizes, largestSize) : ''
+	);
 </script>
 
 {#if variant === 'image' && heroPath}

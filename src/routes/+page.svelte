@@ -20,10 +20,7 @@
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta
-		property="og:title"
-		content="Lighting & Sensory Design Consultancy Dubai | emittiv"
-	/>
+	<meta property="og:title" content="Lighting & Sensory Design Consultancy Dubai | emittiv" />
 	<meta
 		property="og:description"
 		content="Sensory design consultancy in Dubai. emittiv brings theatrical expertise to lighting, video, sound and scent design for hospitality and commercial environments."
@@ -37,10 +34,7 @@
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta
-		name="twitter:title"
-		content="Lighting & Sensory Design Consultancy Dubai | emittiv"
-	/>
+	<meta name="twitter:title" content="Lighting & Sensory Design Consultancy Dubai | emittiv" />
 	<meta
 		name="twitter:description"
 		content="Transform spaces with multisensory design. Theatrical expertise for hospitality, retail and commercial environments."

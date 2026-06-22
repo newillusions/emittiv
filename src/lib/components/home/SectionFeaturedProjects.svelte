@@ -4,7 +4,8 @@
 			slug: 'the-mosque',
 			imgDir: 'sheikh-zayed-grand-mosque',
 			name: 'The Mosque',
-			description: 'LED re-lighting and control system replacement for a landmark facade in the UAE',
+			description:
+				'LED re-lighting and control system replacement for a landmark facade in the UAE',
 			heroWidth: 1600
 		},
 		{
@@ -18,14 +19,16 @@
 			slug: 'the-exhibition',
 			imgDir: 'expo-2020',
 			name: 'The Exhibition',
-			description: 'Site-wide lighting review - unifying multiple designers\' work across a vast public realm',
+			description:
+				"Site-wide lighting review - unifying multiple designers' work across a vast public realm",
 			heroWidth: 1920
 		},
 		{
 			slug: 'the-research-centre',
 			imgDir: 'kapsarc',
 			name: 'The Research Centre',
-			description: 'Project management of entertainment spaces for an award-winning research centre',
+			description:
+				'Project management of entertainment spaces for an award-winning research centre',
 			heroWidth: 700
 		}
 	];

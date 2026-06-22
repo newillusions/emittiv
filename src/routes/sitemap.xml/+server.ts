@@ -29,7 +29,12 @@ const routes: SitemapRoute[] = [
 	},
 	{ path: '/projects/the-sail', lastmod: '2026-02-15', changefreq: 'yearly', priority: 0.7 },
 	{ path: '/projects/the-exhibition', lastmod: '2026-02-15', changefreq: 'yearly', priority: 0.7 },
-	{ path: '/projects/the-research-centre', lastmod: '2026-03-28', changefreq: 'yearly', priority: 0.7 },
+	{
+		path: '/projects/the-research-centre',
+		lastmod: '2026-03-28',
+		changefreq: 'yearly',
+		priority: 0.7
+	},
 	{
 		path: '/projects/the-theme-parks',
 		lastmod: '2026-03-28',

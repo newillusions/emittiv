@@ -38,9 +38,7 @@
 					description: ldDescription,
 					creator: { '@id': 'https://www.emittiv.com/#organization' },
 					...(ogImageUrl ? { image: ogImageUrl } : {}),
-					...(locationName
-						? { locationCreated: { '@type': 'Place', name: locationName } }
-						: {}),
+					...(locationName ? { locationCreated: { '@type': 'Place', name: locationName } } : {}),
 					keywords
 				},
 				{

@@ -16,8 +16,8 @@
 				<span class="headline">the full <span class="splash">spectrum</span>.</span>
 				<div class="spacer-reg"></div>
 				<span
-					>when sensory signals align, a space feels right. when they conflict, something feels
-					off - even if nobody can say why. our role is <span class="splash">orchestration</span>:
+					>when sensory signals align, a space feels right. when they conflict, something feels off
+					- even if nobody can say why. our role is <span class="splash">orchestration</span>:
 					coordinating light, sound, scent and video into a single, coherent experience.</span
 				>
 				<div class="spacer-reg"></div>

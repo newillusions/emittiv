@@ -71,12 +71,12 @@
 					>
 					<div class="spacer-med"></div>
 					<span
-						>emittiv is a young dubai-based practice built on a long history in the field. our
-						roots are in theatre, where light is a <span class="splash">narrative tool</span>, not
-						just a technical checkbox. we've spent years obsessing over how light moves, how it
-						shifts through a performance, how a single change can transform a moment. yes, we're
-						geeks. the same principles that shape a stage can transform a lobby, a restaurant or a
-						public space.</span
+						>emittiv is a young dubai-based practice built on a long history in the field. our roots
+						are in theatre, where light is a <span class="splash">narrative tool</span>, not just a
+						technical checkbox. we've spent years obsessing over how light moves, how it shifts
+						through a performance, how a single change can transform a moment. yes, we're geeks. the
+						same principles that shape a stage can transform a lobby, a restaurant or a public
+						space.</span
 					>
 				</div>
 			</div>
@@ -194,7 +194,10 @@
 						might be easier to sell, but we'd rather not see our work in a skip five years from now.</span
 					>
 					<div class="spacer-med"></div>
-					<span>see our lighting work on <a href="/projects/the-sail">The Sail</a> and <a href="/projects/the-mosque">The Mosque</a>.</span>
+					<span
+						>see our lighting work on <a href="/projects/the-sail">The Sail</a> and
+						<a href="/projects/the-mosque">The Mosque</a>.</span
+					>
 				</div>
 			</div>
 		</div>
@@ -211,9 +214,9 @@
 					<span class="headline">what does an architectural lighting designer do?</span>
 					<div class="spacer-reg"></div>
 					<span
-						>we design the light, not just the fixtures. that means defining how a space should
-						feel and behave through light, then specifying the equipment, layout, control strategy
-						and programming to make it happen. we stay involved through commissioning so the result
+						>we design the light, not just the fixtures. that means defining how a space should feel
+						and behave through light, then specifying the equipment, layout, control strategy and
+						programming to make it happen. we stay involved through commissioning so the result
 						matches the intent.</span
 					>
 					<div class="spacer-med"></div>
@@ -221,8 +224,8 @@
 					<span class="headline">where in the uae does emittiv work?</span>
 					<div class="spacer-reg"></div>
 					<span
-						>we're based in dubai south and work across the UAE and wider GCC. most projects are
-						in dubai and abu dhabi, but we travel for the right brief.</span
+						>we're based in dubai south and work across the UAE and wider GCC. most projects are in
+						dubai and abu dhabi, but we travel for the right brief.</span
 					>
 					<div class="spacer-med"></div>
 
@@ -240,38 +243,46 @@
 					<span class="headline">what kinds of projects do you take on?</span>
 					<div class="spacer-reg"></div>
 					<span
-						>hospitality (hotels, F&amp;B, spas), retail and brand spaces, cultural and
-						public-realm work, themed entertainment, and the occasional residential project where
-						the brief is interesting. if light is doing real work, we're interested.</span
+						>hospitality (hotels, F&amp;B, spas), retail and brand spaces, cultural and public-realm
+						work, themed entertainment, and the occasional residential project where the brief is
+						interesting. if light is doing real work, we're interested.</span
 					>
 					<div class="spacer-med"></div>
 
 					<span class="headline">when should we bring in a lighting designer?</span>
 					<div class="spacer-reg"></div>
 					<span
-						>earlier than you think. lighting is at its best when it shapes the architecture
-						rather than fighting it, so concept stage is ideal. we can also come in mid-project to
-						fix or rescue a scheme - it just costs more than getting it right first time.</span
+						>earlier than you think. lighting is at its best when it shapes the architecture rather
+						than fighting it, so concept stage is ideal. we can also come in mid-project to fix or
+						rescue a scheme - it just costs more than getting it right first time.</span
 					>
 					<div class="spacer-med"></div>
 
 					<span class="headline">are you independent from fixture manufacturers?</span>
 					<div class="spacer-reg"></div>
 					<span
-						>yes. we don't represent brands. we don't take commissions. we specify what's right
-						for the project - sometimes a high-end european fixture, sometimes a smarter-priced
-						alternative. if your "lighting designer" sells the gear, ask yourself who they're
-						really designing for.</span
+						>yes. we don't represent brands. we don't take commissions. we specify what's right for
+						the project - sometimes a high-end european fixture, sometimes a smarter-priced
+						alternative. if your "lighting designer" sells the gear, ask yourself who they're really
+						designing for.</span
 					>
 					<div class="spacer-lge"></div>
 
-					<span>related disciplines: <a class="navItem" href="/services/video">video</a> · <a class="navItem" href="/services/control">control</a></span>
+					<span
+						>related disciplines: <a class="navItem" href="/services/video">video</a> ·
+						<a class="navItem" href="/services/control">control</a></span
+					>
 					<div class="spacer-reg"></div>
 					<span class="underline">
 						<a class="navItem" href="/services#streams">back to services</a>
 					</span>
 					<span class="underline">
-						<a class="navItem" href="https://sensory.design/the-senses/#light" target="_blank" rel="noopener">light as a sensory medium</a>
+						<a
+							class="navItem"
+							href="https://sensory.design/the-senses/#light"
+							target="_blank"
+							rel="noopener">light as a sensory medium</a
+						>
 					</span>
 				</div>
 			</div>

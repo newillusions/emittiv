@@ -30,20 +30,17 @@
 
 	<TextSection title="the brief" dataLabel="Context">
 		<span
-			>a <span class="splash">100,000 square foot</span> immersive entertainment
-			venue in one of Dubai's largest malls - 25+ individually themed worlds,
-			each one a completely different environment. content-creation focused,
-			heavy on interactive lighting, neon, mirror rooms and sound-reactive
-			installations. lighting wasn't just part of the experience - it was
-			the experience.</span
+			>a <span class="splash">100,000 square foot</span> immersive entertainment venue in one of Dubai's
+			largest malls - 25+ individually themed worlds, each one a completely different environment. content-creation
+			focused, heavy on interactive lighting, neon, mirror rooms and sound-reactive installations. lighting
+			wasn't just part of the experience - it was the experience.</span
 		>
 		<div class="spacer-med"></div>
 		<span
-			>we were brought in by a member of the project management team who
-			had worked with us on a previous major international event. the
-			concept went through several evolutions, including a version in another
-			country, before landing on the final Dubai venue - each iteration
-			bringing lessons that fed into the design.</span
+			>we were brought in by a member of the project management team who had worked with us on a
+			previous major international event. the concept went through several evolutions, including a
+			version in another country, before landing on the final Dubai venue - each iteration bringing
+			lessons that fed into the design.</span
 		>
 	</TextSection>
 
@@ -57,41 +54,34 @@
 		<h2>our role</h2>
 		<div class="spacer-med"></div>
 		<span
-			>we were the sole lighting consultant and designer across the entire
-			site for <span class="splash">over two and a half years</span> - and
-			we're still involved today. every room was a unique design challenge.
-			fluorescent tubes doing a dodgy flicker to emulate a sketchy old
-			laundromat. traffic lights using morse code signals. signage that
-			breathes with the room on DALI and DMX rather than sitting on an
-			isolated circuit. an ocean of chinese lanterns in the ceiling with
-			wave and chase effects rippling through them.</span
+			>we were the sole lighting consultant and designer across the entire site for <span
+				class="splash">over two and a half years</span
+			> - and we're still involved today. every room was a unique design challenge. fluorescent tubes
+			doing a dodgy flicker to emulate a sketchy old laundromat. traffic lights using morse code signals.
+			signage that breathes with the room on DALI and DMX rather than sitting on an isolated circuit.
+			an ocean of chinese lanterns in the ceiling with wave and chase effects rippling through them.</span
 		>
 		<div class="spacer-med"></div>
 		<span
-			>the variety is what makes it special. every single space is different
-			to the last, and every one of them had to feel completely authentic
-			to its own world.</span
+			>the variety is what makes it special. every single space is different to the last, and every
+			one of them had to feel completely authentic to its own world.</span
 		>
 	</SplitImageSection>
 
 	<TextSection title="one system" dataLabel="Control">
 		<span
-			>the control architecture was a challenge in itself. the client had
-			split the lighting package between two contractors - one doing DALI,
-			one doing DMX and pixel-based work. every room had both types of
-			fixture in it, and the contractors were pushing for separate controllers.
-			we insisted on <span class="splash">a single headend</span> - one
-			brain running the whole venue.</span
+			>the control architecture was a challenge in itself. the client had split the lighting package
+			between two contractors - one doing DALI, one doing DMX and pixel-based work. every room had
+			both types of fixture in it, and the contractors were pushing for separate controllers. we
+			insisted on <span class="splash">a single headend</span> - one brain running the whole venue.</span
 		>
 		<div class="spacer-med"></div>
 		<span
-			>we specified nodes with both DALI and DMX outputs, one or more per
-			room, all feeding back to a single controller talking out to media
-			servers and show control playback. construction threw its own problems
-			at us - overseas contractors, delays, budget cuts that killed the
-			pre-visualisation workflow. we ended up rethinking and redesigning
-			sections on the fly during commissioning, working closely with a
-			trusted programmer to get it right under pressure.</span
+			>we specified nodes with both DALI and DMX outputs, one or more per room, all feeding back to
+			a single controller talking out to media servers and show control playback. construction threw
+			its own problems at us - overseas contractors, delays, budget cuts that killed the
+			pre-visualisation workflow. we ended up rethinking and redesigning sections on the fly during
+			commissioning, working closely with a trusted programmer to get it right under pressure.</span
 		>
 	</TextSection>
 

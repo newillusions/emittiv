@@ -194,13 +194,21 @@
 						fragrance partner. the <span class="splash">relationship belongs to you</span> - not us.</span
 					>
 					<div class="spacer-lge"></div>
-					<span>related disciplines: <a class="navItem" href="/services/sound">sound</a> · <a class="navItem" href="/services/lighting">lighting</a></span>
+					<span
+						>related disciplines: <a class="navItem" href="/services/sound">sound</a> ·
+						<a class="navItem" href="/services/lighting">lighting</a></span
+					>
 					<div class="spacer-reg"></div>
 					<span class="underline">
 						<a class="navItem" href="/services#streams">back to services</a>
 					</span>
 					<span class="underline">
-						<a class="navItem" href="https://sensory.design/the-senses/#scent" target="_blank" rel="noopener">scent as a sensory medium</a>
+						<a
+							class="navItem"
+							href="https://sensory.design/the-senses/#scent"
+							target="_blank"
+							rel="noopener">scent as a sensory medium</a
+						>
 					</span>
 				</div>
 			</div>

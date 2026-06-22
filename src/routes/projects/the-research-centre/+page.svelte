@@ -29,17 +29,16 @@
 
 	<TextSection title="the brief" dataLabel="Context">
 		<span
-			>lighting a boldly sculpted architectural interior presents a specific challenge - hundreds
-			of small panels, each with unique dimensions and custom shapes. the lighting systems needed
-			to be <span class="splash">invisible when not in use</span>, allowing the interior design
-			to remain the focal point. careful coordination between luminaire positions and the architectural
-			geometry was essential from the outset.</span
+			>lighting a boldly sculpted architectural interior presents a specific challenge - hundreds of
+			small panels, each with unique dimensions and custom shapes. the lighting systems needed to be <span
+				class="splash">invisible when not in use</span
+			>, allowing the interior design to remain the focal point. careful coordination between
+			luminaire positions and the architectural geometry was essential from the outset.</span
 		>
 		<div class="spacer-med"></div>
 		<span
-			>the main hall subdivides into 5 separate rooms or combines in various
-			configurations. a 328-seat auditorium on the same site serves high-profile
-			clients and press conferences.</span
+			>the main hall subdivides into 5 separate rooms or combines in various configurations. a
+			328-seat auditorium on the same site serves high-profile clients and press conferences.</span
 		>
 	</TextSection>
 
@@ -54,17 +53,15 @@
 		<div class="spacer-med"></div>
 		<span
 			>we <span class="splash">project managed the entertainment spaces installation</span>
-			- coordinating over 40 motorised line-sets, several hundred luminaires, and portable lighting
-			desks that can connect to any room, allowing operators to control all or part of the system
-			with ease.</span
+			- coordinating over 40 motorised line-sets, several hundred luminaires, and portable lighting desks
+			that can connect to any room, allowing operators to control all or part of the system with ease.</span
 		>
 		<div class="spacer-med"></div>
 		<span
-			>the auditorium features fully integrated architectural and stage lighting using
-			DMX and DALI protocols - balanced for event operation and daily use. midway
-			through the project, the client revised electrical supply requirements from dual
-			110v/230v to single supply, requiring system redesign - we met the original
-			deadlines despite the changes.</span
+			>the auditorium features fully integrated architectural and stage lighting using DMX and DALI
+			protocols - balanced for event operation and daily use. midway through the project, the client
+			revised electrical supply requirements from dual 110v/230v to single supply, requiring system
+			redesign - we met the original deadlines despite the changes.</span
 		>
 	</SplitImageSection>
 

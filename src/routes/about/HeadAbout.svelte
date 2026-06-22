@@ -10,8 +10,8 @@
 				<h2>starting fresh<br />from <span class="splash">now</span>.</h2>
 			</div>
 			<div class="v-padding-1 f col middle order-2">
-				emittiv was founded in 2022 by a group of specialists based in Dubai, bringing
-				decades of combined experience under a new, independent practice.
+				emittiv was founded in 2022 by a group of specialists based in Dubai, bringing decades of
+				combined experience under a new, independent practice.
 				<div class="spacer-reg"></div>
 				<span class="headline"
 					>current <span class="splash">standards</span> and a

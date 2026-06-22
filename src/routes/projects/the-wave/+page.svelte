@@ -29,19 +29,17 @@
 
 	<TextSection title="the brief" dataLabel="Context">
 		<span
-			>after many years of fighting the coastal conditions, the engineering team decided
-			it was time to replace their ailing fixtures. this was <span class="splash"
+			>after many years of fighting the coastal conditions, the engineering team decided it was time
+			to replace their ailing fixtures. this was <span class="splash"
 				>the first large-scale dynamic facade lighting project</span
-			> in the region to use LED fixtures, setting a new benchmark for hospitality lighting in the
-			UAE.</span
+			> in the region to use LED fixtures, setting a new benchmark for hospitality lighting in the UAE.</span
 		>
 		<div class="spacer-med"></div>
 		<span
-			>a project of this significance needed to work reliably night after night without
-			fail, while still providing the flexibility to allow the client to join in special
-			events by lighting the facade in various colours. the control architecture was
-			designed to be straightforward enough for in-house operators to manage without specialist
-			support.</span
+			>a project of this significance needed to work reliably night after night without fail, while
+			still providing the flexibility to allow the client to join in special events by lighting the
+			facade in various colours. the control architecture was designed to be straightforward enough
+			for in-house operators to manage without specialist support.</span
 		>
 	</TextSection>
 
@@ -55,8 +53,8 @@
 		<h2>our role</h2>
 		<div class="spacer-med"></div>
 		<span
-			>we designed and implemented the facade lighting system. after several years, we
-			were asked to extend the original design to include the
+			>we designed and implemented the facade lighting system. after several years, we were asked to
+			extend the original design to include the
 			<span class="splash">road side of the building</span> as well.</span
 		>
 	</SplitImageSection>

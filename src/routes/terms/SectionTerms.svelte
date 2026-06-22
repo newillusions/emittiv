@@ -75,10 +75,10 @@
 
 				<span class="section-head">Limitation of liability</span>
 				<p>
-					To the maximum extent permitted by law, emittiv shall not be liable for any loss or
-					damage arising from your use of this website or reliance on its content. This does not
-					affect any liability that cannot be excluded under applicable law, including liability for
-					death, personal injury, or fraud.
+					To the maximum extent permitted by law, emittiv shall not be liable for any loss or damage
+					arising from your use of this website or reliance on its content. This does not affect any
+					liability that cannot be excluded under applicable law, including liability for death,
+					personal injury, or fraud.
 				</p>
 
 				<span class="section-head">Governing law</span>

@@ -43,7 +43,12 @@
 	const sortedSizes = $derived([...imageSizes].sort((a, b) => a - b));
 	const largestSize = $derived(sortedSizes[sortedSizes.length - 1]);
 
-	function buildSrcset(path: string, ext: 'webp' | 'jpg', sizes: number[], largest: number): string {
+	function buildSrcset(
+		path: string,
+		ext: 'webp' | 'jpg',
+		sizes: number[],
+		largest: number
+	): string {
 		return sizes
 			.map((w) => {
 				const file = w === largest ? `${path}.${ext}` : `${path}-${w}w.${ext}`;
@@ -59,15 +64,9 @@
 <section class="split-section content" bind:this={splitEl}>
 	<div class="container">
 		<div class="split-image-layout">
-			<div
-				class="split-img {revealed ? 'revealed' : ''} {hoverEffect ? 'split-img-hover' : ''}"
-			>
+			<div class="split-img {revealed ? 'revealed' : ''} {hoverEffect ? 'split-img-hover' : ''}">
 				<picture>
-					<source
-						srcset={webpSrcset}
-						sizes="(min-width: 768px) 50vw, 100vw"
-						type="image/webp"
-					/>
+					<source srcset={webpSrcset} sizes="(min-width: 768px) 50vw, 100vw" type="image/webp" />
 					<img
 						src="{imagePath}.jpg"
 						srcset={jpgSrcset}

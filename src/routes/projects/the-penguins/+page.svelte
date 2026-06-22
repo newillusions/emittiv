@@ -29,17 +29,17 @@
 
 	<TextSection title="the brief" dataLabel="Context">
 		<span
-			>creating a convincing ice cave in the middle of the desert? sure! why not! linking
-			different lighting control systems to
+			>creating a convincing ice cave in the middle of the desert? sure! why not! linking different
+			lighting control systems to
 			<span class="splash">support the animal welfare</span> as well? sounds like fun!</span
 		>
 		<div class="spacer-med"></div>
 		<span
 			>the challenge was establishing a distinctive, believable frozen environment for guests while
-			prioritising animal comfort and natural lighting cycles. the habitat lighting had to serve
-			two very different audiences - the animals living there and the visitors experiencing it.
-			a further layer of complexity came from integrating with show control systems to produce
-			an immersive animated experience synchronised with educational video content.</span
+			prioritising animal comfort and natural lighting cycles. the habitat lighting had to serve two
+			very different audiences - the animals living there and the visitors experiencing it. a
+			further layer of complexity came from integrating with show control systems to produce an
+			immersive animated experience synchronised with educational video content.</span
 		>
 	</TextSection>
 
@@ -53,17 +53,17 @@
 		<h2>our role</h2>
 		<div class="spacer-med"></div>
 		<span
-			>we worked collaboratively across multiple stakeholders - including zoological
-			consultants and attraction designers - conducting thorough research to establish
-			the right conditions for the animals alongside the guest experience.</span
+			>we worked collaboratively across multiple stakeholders - including zoological consultants and
+			attraction designers - conducting thorough research to establish the right conditions for the
+			animals alongside the guest experience.</span
 		>
 		<div class="spacer-med"></div>
 		<span
-			>photosensors automatically adjust overall attraction lighting levels to align
-			with <span class="splash">animal-specific lighting requirements</span>, supporting natural
-			behavioural patterns and enhancing their overall welfare. the lighting infrastructure integrates
-			with show control to produce the immersive animated experience synchronised with video content,
-			all without compromising the habitat environment.</span
+			>photosensors automatically adjust overall attraction lighting levels to align with <span
+				class="splash">animal-specific lighting requirements</span
+			>, supporting natural behavioural patterns and enhancing their overall welfare. the lighting
+			infrastructure integrates with show control to produce the immersive animated experience
+			synchronised with video content, all without compromising the habitat environment.</span
 		>
 	</SplitImageSection>
 

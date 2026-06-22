@@ -29,13 +29,12 @@
 
 	<TextSection title="the brief" dataLabel="Context">
 		<span
-			>one of the region's largest indoor marine life theme parks was under
-			construction on Yas Island, Abu Dhabi - a next-generation facility
-			housing over <span class="splash">68,000 marine animals</span> across
-			immersive themed realms. the appointed contractor was struggling with
-			the complexity of the lighting systems, and the international design
-			team's specifications didn't always translate to the realities of
-			procurement and operations in the UAE.</span
+			>one of the region's largest indoor marine life theme parks was under construction on Yas
+			Island, Abu Dhabi - a next-generation facility housing over <span class="splash"
+				>68,000 marine animals</span
+			> across immersive themed realms. the appointed contractor was struggling with the complexity of
+			the lighting systems, and the international design team's specifications didn't always translate
+			to the realities of procurement and operations in the UAE.</span
 		>
 	</TextSection>
 
@@ -50,21 +49,19 @@
 		<h2>our role</h2>
 		<div class="spacer-med"></div>
 		<span
-			>we were brought in as a specialist consultant to help get the project
-			back on track. our main focus was rationalising the equipment lists -
-			trimming the vast number of manufacturers and models down to something
-			the local operations team could actually maintain and source spare
+			>we were brought in as a specialist consultant to help get the project back on track. our main
+			focus was rationalising the equipment lists - trimming the vast number of manufacturers and
+			models down to something the local operations team could actually maintain and source spare
 			parts for.</span
 		>
 		<div class="spacer-med"></div>
 		<span
-			>we also worked on getting fixture selections approved, producing the
-			dialux calculations, and contributing to the advanced animal lighting
-			systems. specialist animal habitats - including penguin enclosures in
-			the Antarctica realm - required careful attention to spectrum, intensity
-			and timing to simulate circadian rhythms and seasonal light cycles for
-			animal welfare. this was one of the few projects in the region
-			requiring that level of detail in animal lighting design.</span
+			>we also worked on getting fixture selections approved, producing the dialux calculations, and
+			contributing to the advanced animal lighting systems. specialist animal habitats - including
+			penguin enclosures in the Antarctica realm - required careful attention to spectrum, intensity
+			and timing to simulate circadian rhythms and seasonal light cycles for animal welfare. this
+			was one of the few projects in the region requiring that level of detail in animal lighting
+			design.</span
 		>
 	</SplitImageSection>
 

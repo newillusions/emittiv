@@ -37,8 +37,7 @@
 						<strong>{field.label}:</strong>
 						{#if isLinkedValue(field.value)}
 							{#if field.value.links && field.value.links.length > 0}
-								{#each field.value.links as link, i (link.href)}<a
-										href={link.href}>{link.text}</a
+								{#each field.value.links as link, i (link.href)}<a href={link.href}>{link.text}</a
 									>{i < (field.value.links?.length ?? 0) - 1 ? ', ' : ''}{/each}
 							{:else}
 								{field.value.text}

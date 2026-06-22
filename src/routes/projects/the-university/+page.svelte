@@ -29,13 +29,13 @@
 
 	<TextSection title="the brief" dataLabel="Context">
 		<span
-			>originally built in the 1970s, this major campus had fallen behind in terms of
-			technical capability. the project began with renovating and reinvigorating the
-			2,500-seat theatre and a number of smaller auditoria - designing new lighting,
-			audio, video and automated rigging systems to
+			>originally built in the 1970s, this major campus had fallen behind in terms of technical
+			capability. the project began with renovating and reinvigorating the 2,500-seat theatre and a
+			number of smaller auditoria - designing new lighting, audio, video and automated rigging
+			systems to
 			<span class="splash">restore the space to its former condition</span> and take it significantly
-			further. the scale and ambition of the brief made it one of the most comprehensive performance
-			venue projects we have undertaken.</span
+			further. the scale and ambition of the brief made it one of the most comprehensive performance venue
+			projects we have undertaken.</span
 		>
 	</TextSection>
 
@@ -50,17 +50,15 @@
 		<div class="spacer-med"></div>
 		<span
 			>this renovation was the first in the region to incorporate
-			<span class="splash"
-				>colour-changing LED technology for the auditorium seating area</span
-			> (FoH) - allowing the lighting designs on stage to be brought out into the house and
-			enveloping the audience in the performance.</span
+			<span class="splash">colour-changing LED technology for the auditorium seating area</span> (FoH)
+			- allowing the lighting designs on stage to be brought out into the house and enveloping the audience
+			in the performance.</span
 		>
 		<div class="spacer-med"></div>
 		<span
-			>the scope extended well beyond the main theatre, encompassing the Ladies Campus,
-			Student Lobby, Library, Water Tower, Sports Stadium, Royal Gate and Boundary
-			Fence - a truly campus-wide transformation of the technical and aesthetic
-			lighting infrastructure.</span
+			>the scope extended well beyond the main theatre, encompassing the Ladies Campus, Student
+			Lobby, Library, Water Tower, Sports Stadium, Royal Gate and Boundary Fence - a truly
+			campus-wide transformation of the technical and aesthetic lighting infrastructure.</span
 		>
 	</SplitImageSection>
 

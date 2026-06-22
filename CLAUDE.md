@@ -58,15 +58,15 @@ src/
 
 Configured in `.mcp.json` (gitignored), using credential wrapper where needed:
 
-| Server        | Package                    | Purpose                                    |
-| ------------- | -------------------------- | ------------------------------------------ |
-| svelte        | @sveltejs/mcp              | Official Svelte docs + autofixer           |
-| gsc           | mcp-server-gsc             | Google Search Console data                 |
-| matomo        | @mj-kiwi/matomo-mcp-server | Matomo analytics                           |
-| lighthouse    | @danielsogl/lighthouse-mcp | Performance, SEO, a11y, Core Web Vitals    |
-| linkinator    | linkinator-mcp             | Broken link detection (internal + external)|
-| accessibility | accessibility-mcp          | Advanced WCAG gap detection                |
-| pagespeed     | pagespeed-mcp-server       | PageSpeed Insights & SEO audits            |
+| Server        | Package                    | Purpose                                     |
+| ------------- | -------------------------- | ------------------------------------------- |
+| svelte        | @sveltejs/mcp              | Official Svelte docs + autofixer            |
+| gsc           | mcp-server-gsc             | Google Search Console data                  |
+| matomo        | @mj-kiwi/matomo-mcp-server | Matomo analytics                            |
+| lighthouse    | @danielsogl/lighthouse-mcp | Performance, SEO, a11y, Core Web Vitals     |
+| linkinator    | linkinator-mcp             | Broken link detection (internal + external) |
+| accessibility | accessibility-mcp          | Advanced WCAG gap detection                 |
+| pagespeed     | pagespeed-mcp-server       | PageSpeed Insights & SEO audits             |
 
 Credentials loaded via `~/.claude/scripts/mcp-with-creds.sh` from `~/.claude/.credentials.env` (gsc, matomo only — other servers need no credentials).
 
@@ -91,8 +91,8 @@ Located in `.claude/agents/`:
 
 Located in `.claude/hooks/`:
 
-| Hook | Event | Purpose |
-|------|-------|---------|
+| Hook                | Event           | Purpose                                       |
+| ------------------- | --------------- | --------------------------------------------- |
 | pre-deploy-check.sh | PreToolUse:Bash | Validates build + types before any `git push` |
 
 ## CI/CD

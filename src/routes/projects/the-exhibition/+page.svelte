@@ -29,16 +29,15 @@
 
 	<TextSection title="the brief" dataLabel="Context">
 		<span
-			>the engagement began with unifying multiple public realm lighting designs across
-			the site. the lighting had been delivered by various teams and
-			contractors - each working to their own brief, resulting in a patchwork of approaches
-			across one of the region's most ambitious destination projects.</span
+			>the engagement began with unifying multiple public realm lighting designs across the site.
+			the lighting had been delivered by various teams and contractors - each working to their own
+			brief, resulting in a patchwork of approaches across one of the region's most ambitious
+			destination projects.</span
 		>
 		<div class="spacer-med"></div>
 		<span
-			>the goal was <span class="splash">a unified guest experience</span> across the landscapes,
-			plazas and parks - bringing coherence to the whole while respecting the design intent
-			of each area.</span
+			>the goal was <span class="splash">a unified guest experience</span> across the landscapes, plazas
+			and parks - bringing coherence to the whole while respecting the design intent of each area.</span
 		>
 	</TextSection>
 
@@ -52,10 +51,10 @@
 		<h2>our role</h2>
 		<div class="spacer-med"></div>
 		<span
-			>we conducted a peer review of existing work and coordinated with the original
-			project lighting designers to maintain design intent while making the adjustments
-			the event required. each zone had its own narrative - our role was to find the
-			thread that connected them without flattening the individuality of each space.</span
+			>we conducted a peer review of existing work and coordinated with the original project
+			lighting designers to maintain design intent while making the adjustments the event required.
+			each zone had its own narrative - our role was to find the thread that connected them without
+			flattening the individuality of each space.</span
 		>
 		<div class="spacer-med"></div>
 		<span
