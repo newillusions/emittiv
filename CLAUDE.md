@@ -141,5 +141,6 @@ After content changes, follow this workflow:
 ## Known Issues
 
 - ~~**Cloudflare Pages 404 on nested routes:**~~ **RESOLVED (Feb 2026)** — All nested routes now return 200 OK. 17 sub-pages still unknown to Google (not yet crawled) — use GSC index_inspect and IndexNow agent to accelerate discovery.
-- 4 svelte-check warnings remain: `slot_element_deprecated`, `event_directive_deprecated`, `non_reactive_update` (non-critical)
+- `npx svelte-check` is clean (0 errors, 0 warnings) as of 2026-07-02 — the previously-documented 4 warnings are resolved (fixed as part of the 2026-06-22 CI lint unbreak, commit 6ae8a4d). Re-verify with the same command before trusting this line if it ages.
 - ipvlan L2 on br0: Unraid host can't curl its own containers — test from Mac
+- CI was silently red for ~4 months (2026-02-26 to 2026-06-22) on a lint-only failure (34 unformatted files) while build/deploy stayed green the whole time — see `.claude/rules/judgment.md` for the trap and the verification recipe.

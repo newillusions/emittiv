@@ -49,7 +49,7 @@
 4. **Manual GSC "Request indexing" for /services/video** via web UI - API doesn't expose this endpoint. Wait ~7-14 days then recheck status.
 5. Wait ~7-14 days then recheck position for "hotel facade lighting" / "architectural lighting dubai" / "lighting designer dubai" - see if 41dbded /services/lighting depth moved them
 6. Wait ~7-14 days then recheck GSC indexing for the 5 unknown URLs (Backdrop, Observatory, Waterpark, Fish Tank, services/video)
-7. Watch for e-marketing R07 outcomes via emittiv-coordination topic - canonical brand-voice.md + positioning.md will trigger website-side adoption sweep (rewrite /about, possibly fix brand casing if it changes, update proof points, retire gtm/ + market-* skills)
+7. **STALE, CORRECTED 2026-07-02:** e-marketing R07 already landed 2026-05-03 (brand-voice.md + positioning.md canonical) and e-marketing has since moved on to Mission 2 (lead-finding). The website-side adoption sweep (rewrite /about, fix brand casing if changed, update proof points, retire gtm/ + market-* skills) was never done - it's owner-gated content work, not a "wait and see" item. Needs explicit scheduling.
 8. Consider /about SERP snippet review (37 impressions, 2.7% CTR at position 1.8 - title/meta description optimization opportunity)
 9. Optional follow-up: trace what's using `claude-mcp-service` SA (0 traffic 30d but referenced via GOOGLE_APPLICATION_CREDENTIALS) - either retire or put back into use deliberately
 10. ENTTEC image permission still pending
@@ -68,6 +68,7 @@
 - **Company profile R07 handoff to e-marketing** (2026-04-30): handoff pack delivered to e-marketing/sources/2026-04-30-emittiv-website-handoff/. emittiv-website now waits on R07 outcomes.
 
 ## Notes
+- **2026-07-02 freshness check:** local `main` was found 2 commits behind `origin/main` (ci concurrency-group commit 7de55f2 + CI lint-unbreak fix 6ae8a4d, both merged 2026-06-22) and has been fast-forwarded. See `.claude/rules/judgment.md` for the CI incident and lesson.
 - Site is currently doing well: 12 clicks on homepage (26% CTR), 3 clicks on /the-mosque (27% CTR). Rest of clicks scattered single-digit across /about, /contact, /services, /downloads.
 - Brand search nearly nonexistent ("emit dubai" pos 1 but only 1 impression in 30d) - brand awareness work is the ceiling for direct traffic and will become e-marketing's job.
 - Old anonymized URLs (/projects/burj-al-arab, /projects/sheikh-zayed-grand-mosque) still showing up in GSC impressions but with redirects pointing Google to the new canonicals - confirmed NEUTRAL verdict, will decay over weeks-months.
