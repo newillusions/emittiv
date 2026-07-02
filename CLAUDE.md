@@ -1,6 +1,6 @@
 # Emittiv Website
 
-Production company website for **Emittiv L.L.C-FZ** — a sensory design consultancy based in Dubai, UAE.
+Production company website for **Emittiv L.L.C-FZ** - a sensory design consultancy based in Dubai, UAE.
 
 ## Tech Stack
 
@@ -68,7 +68,7 @@ Configured in `.mcp.json` (gitignored), using credential wrapper where needed:
 | accessibility | accessibility-mcp          | Advanced WCAG gap detection                 |
 | pagespeed     | pagespeed-mcp-server       | PageSpeed Insights & SEO audits             |
 
-Credentials loaded via `~/.claude/scripts/mcp-with-creds.sh` from `~/.claude/.credentials.env` (gsc, matomo only — other servers need no credentials).
+Credentials loaded via `~/.claude/scripts/mcp-with-creds.sh` from `~/.claude/.credentials.env` (gsc, matomo only - other servers need no credentials).
 
 ## Custom Agents
 
@@ -108,9 +108,9 @@ Flat config at `eslint.config.js` (ESLint 10, migrated from legacy `.eslintrc.cj
 
 Key rule overrides:
 
-- `svelte/no-at-html-tags: warn` — `{@html}` is used intentionally for structured content (not user input)
-- `svelte/require-each-key: warn` — good practice, not enforced yet
-- `svelte/no-navigation-without-resolve: off` — site deploys to root, no base path needed
+- `svelte/no-at-html-tags: warn` - `{@html}` is used intentionally for structured content (not user input)
+- `svelte/require-each-key: warn` - good practice, not enforced yet
+- `svelte/no-navigation-without-resolve: off` - site deploys to root, no base path needed
 
 Packages: `typescript-eslint`, `eslint-plugin-svelte`, `eslint-config-prettier`
 
@@ -118,29 +118,29 @@ Packages: `typescript-eslint`, `eslint-plugin-svelte`, `eslint-config-prettier`
 
 - **Forgejo primary, GitHub secondary:** `origin` → Forgejo for development, `github` → GitHub for Cloudflare Pages deployment
 - **SCSS over Tailwind:** Project uses Sass for styling, not Tailwind
-- **Svelte 5 runes:** Use `$state`, `$derived`, `$effect` — not legacy `$:` syntax
+- **Svelte 5 runes:** Use `$state`, `$derived`, `$effect` - not legacy `$:` syntax
 - **Matomo SPA tracking:** Implemented in `transitions.svelte` via `afterNavigate`, production-only
-- **Business model:** Emittiv is design and consultancy ONLY — does not sell or install products
+- **Business model:** Emittiv is design and consultancy ONLY - does not sell or install products
 - **`.claude/` in .prettierignore:** Session artifacts are excluded from formatting checks
 
 ## SEO & Indexing
 
 After content changes, follow this workflow:
 
-1. **Build check:** `npm run build` — must pass with 0 errors
-2. **Push to GitHub:** `git push github main` — triggers Cloudflare Pages deployment
+1. **Build check:** `npm run build` - must pass with 0 errors
+2. **Push to GitHub:** `git push github main` - triggers Cloudflare Pages deployment
 3. **Verify live site:** Check new URLs return 200 (not 404) before requesting indexing
 4. **GSC sitemap resubmit:** `mcp__gsc__submit_sitemap` with `sc-domain:emittiv.com` and `https://www.emittiv.com/sitemap.xml`
 5. **GSC URL inspection:** `mcp__gsc__index_inspect` for each changed URL to request recrawl
 6. **IndexNow (Bing/Yandex):** Use the `indexnow-notify` agent or POST to `https://api.indexnow.org/indexnow` with changed URLs (API key: `a4bd0f7dc314443d9624867deaf91084`)
-7. **Matomo:** No action needed — SPA tracking picks up new pages automatically via `afterNavigate`
+7. **Matomo:** No action needed - SPA tracking picks up new pages automatically via `afterNavigate`
 
 **GSC property:** `sc-domain:emittiv.com` (domain-level, site owner)
-**GSC API limitation:** Sitemap submit returns 403 — OAuth token may need write scope. Use GSC web UI as fallback.
+**GSC API limitation:** Sitemap submit returns 403 - OAuth token may need write scope. Use GSC web UI as fallback.
 
 ## Known Issues
 
-- ~~**Cloudflare Pages 404 on nested routes:**~~ **RESOLVED (Feb 2026)** — All nested routes now return 200 OK. 17 sub-pages still unknown to Google (not yet crawled) — use GSC index_inspect and IndexNow agent to accelerate discovery.
-- `npx svelte-check` is clean (0 errors, 0 warnings) as of 2026-07-02 — the previously-documented 4 warnings are resolved (fixed as part of the 2026-06-22 CI lint unbreak, commit 6ae8a4d). Re-verify with the same command before trusting this line if it ages.
-- ipvlan L2 on br0: Unraid host can't curl its own containers — test from Mac
-- CI was silently red for ~4 months (2026-02-26 to 2026-06-22) on a lint-only failure (34 unformatted files) while build/deploy stayed green the whole time — see `.claude/rules/judgment.md` for the trap and the verification recipe.
+- ~~**Cloudflare Pages 404 on nested routes:**~~ **RESOLVED (Feb 2026)** - All nested routes now return 200 OK. 17 sub-pages still unknown to Google (not yet crawled) - use GSC index_inspect and IndexNow agent to accelerate discovery.
+- `npx svelte-check` is clean (0 errors, 0 warnings) as of 2026-07-02 - the previously-documented 4 warnings are resolved (fixed as part of the 2026-06-22 CI lint unbreak, commit 6ae8a4d). Re-verify with the same command before trusting this line if it ages.
+- ipvlan L2 on br0: Unraid host can't curl its own containers - test from Mac
+- CI was silently red for ~4 months (2026-02-26 to 2026-06-22) on a lint-only failure (34 unformatted files) while build/deploy stayed green the whole time - see `.claude/rules/judgment.md` for the trap and the verification recipe.
