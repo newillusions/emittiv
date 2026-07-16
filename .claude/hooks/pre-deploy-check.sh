@@ -9,7 +9,7 @@
 set -euo pipefail
 
 TOOL_INPUT="${1:-}"
-PROJECT_DIR="/Volumes/base/dev/web/emittiv"
+PROJECT_DIR="$(cd "$(dirname "$0")/../.." && pwd)"
 
 # Only intercept git push commands
 if ! echo "$TOOL_INPUT" | grep -qE 'git\s+push'; then
@@ -21,17 +21,13 @@ echo "Pre-deploy hook: Detected git push — running build validation..."
 
 # Step 1: Type checking
 echo "  Checking types..."
-if ! cd "$PROJECT_DIR" && npm run check 2>&1 | tail -5; then
-  echo "BLOCK: Type checking failed. Fix errors before pushing."
-  exit 2
-fi
+cd "$PROJECT_DIR" || { echo "BLOCK: Cannot access project directory: $PROJECT_DIR"; exit 2; }
+npm run check 2>&1 | tail -5 || { echo "BLOCK: Type checking failed. Fix errors before pushing."; exit 2; }
 
 # Step 2: Build
 echo "  Building..."
-if ! cd "$PROJECT_DIR" && npm run build 2>&1 | tail -10; then
-  echo "BLOCK: Build failed. Fix errors before pushing."
-  exit 2
-fi
+cd "$PROJECT_DIR" || { echo "BLOCK: Cannot access project directory: $PROJECT_DIR"; exit 2; }
+npm run build 2>&1 | tail -10 || { echo "BLOCK: Build failed. Fix errors before pushing."; exit 2; }
 
 echo "Pre-deploy hook: All checks passed. Proceeding with push."
 exit 0
