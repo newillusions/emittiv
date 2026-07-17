@@ -25,7 +25,38 @@ jobs:
       - name: Type check
         run: npm run check
 
+      - name: Test
+        run: npm test
+
       - name: Build
         run: npm run build
         env:
           DOCKER_BUILD: 'true'
+
+  build-image:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    env:
+      DOCKER_HOST: tcp://10.0.23.137:2376
+      DOCKER_TLS_VERIFY: '1'
+      DOCKER_CERT_PATH: /certs/client-primary
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Docker CLI
+        run: apt-get update -qq && apt-get install -y -qq docker.io > /dev/null 2>&1 && docker info --format '{{.ServerVersion}}'
+
+      - name: Login to registry
+        run: echo "${{ secrets.REGISTRY_TOKEN }}" | docker login forge.mms.name -u martin --password-stdin
+
+      - name: Build and push
+        run: |
+          REGISTRY=forge.mms.name
+          IMAGE=${REGISTRY}/emittiv/emittiv-website
+          SHORT_SHA=$(echo "$GITHUB_SHA" | cut -c1-7)
+
+          docker build --network=host -t ${IMAGE}:sha-${SHORT_SHA} .
+          docker push ${IMAGE}:sha-${SHORT_SHA}
+          docker tag ${IMAGE}:sha-${SHORT_SHA} ${IMAGE}:latest
+          docker push ${IMAGE}:latest
