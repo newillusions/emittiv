@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { dev } from '$app/environment';
+
 	let { side = '' } = $props();
 
 	import emailjs from '@emailjs/browser';
@@ -13,19 +15,31 @@
 				resetForm();
 				send = 'success';
 			},
-			() => {
-				resetForm();
+			(error) => {
+				// Keep the prospect's typed message on screen - clearing it here would force
+				// them to retype everything to retry, and a failed send with no operator
+				// signal is how an inquiry vanishes without anyone noticing.
+				reportSendFailure(error);
 				send = 'failed';
 			}
 		);
 	}
 
-	let formData = {
+	function reportSendFailure(error: unknown) {
+		console.error('[EmailForm] contact form send failed', error);
+		if (!dev && typeof window !== 'undefined' && window._paq) {
+			window._paq.push(['trackEvent', 'Contact Form', 'Send Failed']);
+		}
+	}
+
+	// $state so that resetForm()'s assignments below actually propagate back to the
+	// bound inputs - a plain object here does not re-render bind:value on Svelte 5.
+	let formData = $state({
 		from_name: '',
 		from_email: '',
 		from_phone: '',
 		message: ''
-	};
+	});
 
 	function resetForm() {
 		formData.from_name = '';
