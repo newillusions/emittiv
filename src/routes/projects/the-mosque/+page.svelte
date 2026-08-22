@@ -14,6 +14,18 @@
 	keywords="facade lighting, mosque, iconic building, LED, control systems, UAE"
 	jsonLdDescription="Facade lighting renewal for a landmark house of worship in the UAE"
 	locationName="UAE"
+	faqs={[
+		{
+			question: 'What did the mosque facade lighting renewal involve?',
+			answer:
+				'Replacement of over 1,000 facade fixtures and a complete lighting control system overhaul comprising 40+ switches and 100 nodes, integrated with the existing network infrastructure while remaining indistinguishable from the original design.'
+		},
+		{
+			question: "How does the mosque's dynamic lighting system work?",
+			answer:
+				"The system includes custom software that simulates lunar phases, changing the building's colour nightly with the moon cycles - a feature of the original design that was carried forward without interruption."
+		}
+	]}
 />
 
 <main>

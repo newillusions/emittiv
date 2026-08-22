@@ -15,6 +15,18 @@
 	jsonLdName="The Theme Parks"
 	jsonLdDescription="Sensory design for a large-scale themed entertainment destination in the UAE"
 	locationName="UAE"
+	faqs={[
+		{
+			question: 'What kind of work did emittiv do across the theme parks?',
+			answer:
+				'Original lighting concepts for renovations of existing areas and new IP-based themed attractions, working simultaneously across multiple parks from area development through to individual rides.'
+		},
+		{
+			question: 'How do lighting concepts get approved for IP-based attractions?',
+			answer:
+				"Concepts have to align with the IP holder's vision and requirements. emittiv managed external teams through the schematic and detailed design phases to ensure every system and project linked into the park-wide controls."
+		}
+	]}
 />
 
 <main>

@@ -1,0 +1,27 @@
+# emittiv
+
+> emittiv is a Dubai-based sensory design consultancy specialising in architectural lighting, sound, video, scent and show-control design for hospitality, retail, cultural and entertainment spaces across the UAE and wider GCC. The practice's roots are in theatre, bringing timing, narrative and precision to architectural environments. emittiv is independent of manufacturers and installers - it does not sell or install products, only designs and specifies systems.
+
+## Services
+
+- [Lighting Design](https://www.emittiv.com/services/lighting): Architectural lighting design, dynamic and programmable systems, theatrical techniques applied to buildings.
+- [Sound Design](https://www.emittiv.com/services/sound): Networked audio systems, ambient soundscapes and acoustic consulting.
+- [Scent Design](https://www.emittiv.com/services/scent): Multi-zone ambient scenting systems and fragrance strategy.
+- [Video & Media Facade Design](https://www.emittiv.com/services/video): Media facades, LED video walls, projection mapping and digital art installations.
+- [Content Creation](https://www.emittiv.com/services/content): Ongoing content creation and curation for video walls and digital displays, plus in-house ambient soundscape production.
+- [Show Control & Systems Integration](https://www.emittiv.com/services/control): Unified scene-based control across lighting, video, sound and scent.
+- [Services Overview](https://www.emittiv.com/services): All disciplines and how they combine into one sensory system.
+
+## Case Studies
+
+Anonymised project case studies covering facade lighting, immersive entertainment, themed attractions, public realm, performance venues and specialist consultancy work across the UAE and wider Middle East. Full portfolio at [Projects](https://www.emittiv.com/projects).
+
+## Company
+
+- [About](https://www.emittiv.com/about): Practice background and team.
+- [Contact](https://www.emittiv.com/contact): Get in touch.
+
+## Notes
+
+- emittiv is a design and consultancy practice only - it does not sell, supply or install lighting, audio, video, scent or control equipment.
+- Case studies are anonymised for client confidentiality; project types, scale and disciplines are accurately described.

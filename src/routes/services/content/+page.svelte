@@ -40,7 +40,7 @@
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Service","@id":"https://www.emittiv.com/services/content","name":"Content Creation for Digital Environments","provider":{"@id":"https://www.emittiv.com/#organization"},"description":"Ongoing content creation and curation for video walls, soundscapes and digital displays. Keeping sensory environments fresh and engaging.","serviceType":"Content Creation","areaServed":{"@type":"Country","name":"United Arab Emirates"},"relatedLink":["https://www.emittiv.com/services/lighting","https://www.emittiv.com/services/control","https://www.emittiv.com/services/sound","https://www.emittiv.com/services/video","https://www.emittiv.com/services/scent"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.emittiv.com/services"},{"@type":"ListItem","position":3,"name":"Content","item":"https://www.emittiv.com/services/content"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Service","@id":"https://www.emittiv.com/services/content","name":"Content Creation for Digital Environments","provider":{"@id":"https://www.emittiv.com/#organization"},"description":"Ongoing content creation and curation for video walls, soundscapes and digital displays. Keeping sensory environments fresh and engaging.","serviceType":"Content Creation","areaServed":[{"@type":"Country","name":"United Arab Emirates"},{"@type":"City","name":"Dubai"},{"@type":"City","name":"Abu Dhabi"}],"relatedLink":["https://www.emittiv.com/services/lighting","https://www.emittiv.com/services/control","https://www.emittiv.com/services/sound","https://www.emittiv.com/services/video","https://www.emittiv.com/services/scent"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.emittiv.com/services"},{"@type":"ListItem","position":3,"name":"Content","item":"https://www.emittiv.com/services/content"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does the emittiv content service cover?","acceptedAnswer":{"@type":"Answer","text":"Ongoing content creation and curation for video walls, soundscapes and digital displays - keeping sensory environments fresh and engaging rather than left as an afterthought once the hardware is installed."}},{"@type":"Question","name":"Do you produce video content in-house?","acceptedAnswer":{"@type":"Answer","text":"No, deliberately so. The field is wide and styles vary, so we connect clients to specialist artists who match the aesthetic and technical needs of the system, and clients can work through us or directly with the creators."}},{"@type":"Question","name":"Do you create the ambient soundscapes yourselves?","acceptedAnswer":{"@type":"Answer","text":"Yes. Ambient soundscapes are something we develop directly, crafted to strengthen the atmosphere and narrative of a space, shift by time of day or zone, and adapt to seasons, events and operational patterns."}},{"@type":"Question","name":"What does a content strategy define?","acceptedAnswer":{"@type":"Answer","text":"What stories to tell, the content types needed (ambient loops, feature sequences, interactive elements), the update cadence, and content guidelines that keep coherence across multiple creators."}},{"@type":"Question","name":"Why bring emittiv in for content rather than going directly to a content studio?","acceptedAnswer":{"@type":"Answer","text":"We translate between creative intention and system capability, making sure content is built with a clear understanding of what the hardware can actually do - we designed the system and want to see it come alive."}}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -179,7 +179,66 @@
 					<span
 						>we designed the system. we want to see it <span class="splash">come alive</span>.</span
 					>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FAQ -->
+	<section class="screen-flow content" data-label="FAQ">
+		<div class="container">
+			<div class="split">
+				<div class="section-title order-1">
+					<h2>questions,<br />answered</h2>
+				</div>
+				<div class="v-padding-1 f col middle order-2">
+					<span class="headline">what does emittiv's content service cover?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>ongoing content creation and curation for video walls, soundscapes and digital displays
+						- keeping sensory environments fresh and engaging rather than left as an afterthought
+						once the hardware is installed.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">do you produce video content in-house?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>no, and that's deliberate. the field is wide and styles vary, so we connect clients to
+						specialist artists who match the aesthetic and technical needs of the system. clients
+						can work through us or directly with the creators.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">do you create the ambient soundscapes yourselves?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>yes. ambient soundscapes are something we develop directly, crafted to strengthen the
+						atmosphere and narrative of a space, shift by time of day or zone, and adapt to seasons,
+						events and operational patterns.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">what does a content strategy define?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>what stories to tell, the content types needed - ambient loops, feature sequences,
+						interactive elements - the update cadence, and content guidelines that keep coherence
+						across multiple creators.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline"
+						>why bring emittiv in for content rather than going directly to a content studio?</span
+					>
+					<div class="spacer-reg"></div>
+					<span
+						>we translate between creative intention and system capability, making sure content is
+						built with a clear understanding of what the hardware can actually do. we designed the
+						system - we want to see it come alive.</span
+					>
 					<div class="spacer-lge"></div>
+
 					<span
 						>related disciplines: <a class="navItem" href="/services/video">video</a> ·
 						<a class="navItem" href="/services/sound">sound</a></span

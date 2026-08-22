@@ -16,6 +16,18 @@
 	jsonLdName="The Backdrop - Immersive Entertainment Lighting"
 	jsonLdDescription="Lighting design for a 100,000 sq ft immersive entertainment venue in Dubai with 25+ unique themed worlds. Sole lighting consultant across a 2.5-year engagement."
 	locationName="Dubai, UAE"
+	faqs={[
+		{
+			question: 'What was the scope of the lighting design for this venue?',
+			answer:
+				'Sole lighting consultant and designer across a 100,000 sq ft venue with 25+ individually themed worlds, spanning over two and a half years - every room a unique design challenge, from flickering fluorescents to pixel-mapped mirror rooms.'
+		},
+		{
+			question: 'How was the lighting control system unified across two contractors?',
+			answer:
+				'The lighting package was split between a DALI contractor and a DMX/pixel contractor, each room carrying both fixture types. A single headend was specified, with nodes carrying both DALI and DMX outputs feeding one controller talking out to media servers and show control playback.'
+		}
+	]}
 />
 
 <main>

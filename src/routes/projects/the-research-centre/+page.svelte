@@ -15,6 +15,18 @@
 	jsonLdName="The Research Centre Multipurpose Hall"
 	jsonLdDescription="Lighting and control systems for a landmark research centre multipurpose hall in the Middle East"
 	locationName="Middle East"
+	faqs={[
+		{
+			question: 'What was the scope of the research centre lighting project?',
+			answer:
+				'Project management of the entertainment spaces installation - coordinating over 40 motorised line-sets, several hundred luminaires, and portable lighting desks that can connect to any of the 5 subdividable rooms, plus a fully integrated 328-seat auditorium.'
+		},
+		{
+			question: 'What made the lighting installation technically demanding?',
+			answer:
+				'The lighting had to be invisible when not in use across hundreds of uniquely shaped panels, and the auditorium runs DMX and DALI protocols balanced for both event operation and daily use - all while the client revised electrical supply requirements mid-project.'
+		}
+	]}
 />
 
 <main>

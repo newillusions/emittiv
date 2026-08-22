@@ -12,6 +12,18 @@
 	keywords="projection feasibility, visitor centre, video, content, consultancy"
 	jsonLdName="The Observatory - Projection Feasibility Study"
 	jsonLdDescription="Projection feasibility study for a remote mountaintop visitor centre and stargazing experience. Research-led consultancy delivering an honest, well-evidenced answer."
+	faqs={[
+		{
+			question: 'What is a projection feasibility study?',
+			answer:
+				'Six to eight weeks of research - 3D modelling, projection study software and conversations with manufacturers, media server companies, AV consultants and content designers - to test whether a projection concept can actually work before budget is committed to it.'
+		},
+		{
+			question: 'What was the outcome of the observatory feasibility study?',
+			answer:
+				'Five or six partial solutions plus one technically viable option were delivered, but the shallow oval ceiling made conventional projection impractical for the intended use. The building was ultimately scrapped, and the client moved forward knowing every reasonable option had been explored.'
+		}
+	]}
 />
 
 <main>

@@ -15,6 +15,18 @@
 	jsonLdName="The Exhibition - Public Realm Lighting"
 	jsonLdDescription="Public realm lighting coordination for a major international exhibition in the UAE"
 	locationName="UAE"
+	faqs={[
+		{
+			question: 'What kind of lighting work was done at the exhibition?',
+			answer:
+				'A peer review and harmonisation of public realm lighting designs across landscapes, plazas and parks that had previously been delivered by multiple teams and contractors, each working to their own brief.'
+		},
+		{
+			question: 'How do you unify lighting designed by several different teams?',
+			answer:
+				'By coordinating with the original project lighting designers to find the thread connecting each zone - maintaining design intent while achieving visual consistency without flattening the individual character of each space.'
+		}
+	]}
 />
 
 <main>

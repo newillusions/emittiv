@@ -40,7 +40,7 @@
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Service","@id":"https://www.emittiv.com/services/control","name":"Show Control & Systems Integration","provider":{"@id":"https://www.emittiv.com/#organization"},"description":"Integrated control systems that orchestrate lighting, video, sound and scent as one. Scene-based design, intuitive interfaces and responsive environments for hospitality and commercial spaces.","serviceType":"Systems Integration","areaServed":{"@type":"Country","name":"United Arab Emirates"},"relatedLink":["https://www.emittiv.com/services/lighting","https://www.emittiv.com/services/sound","https://www.emittiv.com/services/video","https://www.emittiv.com/services/content","https://www.emittiv.com/services/scent"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.emittiv.com/services"},{"@type":"ListItem","position":3,"name":"Control","item":"https://www.emittiv.com/services/control"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Service","@id":"https://www.emittiv.com/services/control","name":"Show Control & Systems Integration","provider":{"@id":"https://www.emittiv.com/#organization"},"description":"Integrated control systems that orchestrate lighting, video, sound and scent as one. Scene-based design, intuitive interfaces and responsive environments for hospitality and commercial spaces.","serviceType":"Systems Integration","areaServed":[{"@type":"Country","name":"United Arab Emirates"},{"@type":"City","name":"Dubai"},{"@type":"City","name":"Abu Dhabi"}],"relatedLink":["https://www.emittiv.com/services/lighting","https://www.emittiv.com/services/sound","https://www.emittiv.com/services/video","https://www.emittiv.com/services/content","https://www.emittiv.com/services/scent"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.emittiv.com/services"},{"@type":"ListItem","position":3,"name":"Control","item":"https://www.emittiv.com/services/control"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is show control and systems integration?","acceptedAnswer":{"@type":"Answer","text":"Unifying lighting, video, sound and scent into one coherent system via scenes rather than separate switches - bringing a theatrical background of timing, sequencing and precision to architectural environments."}},{"@type":"Question","name":"What are scenes in a control system?","acceptedAnswer":{"@type":"Answer","text":"Combinations of settings that create a defined mood - morning arrival with bright, energising light and upbeat audio; evening service with warm light and a softer soundscape; event mode with bold lighting and elevated audio."}},{"@type":"Question","name":"Are the control interfaces easy for non-technical staff to use?","acceptedAnswer":{"@type":"Answer","text":"Yes. Interfaces are designed to make sense to non-technical users, offering simple day-to-day control with depth when needed, working across wall panels, tablets and mobile devices."}},{"@type":"Question","name":"Can the system automate based on schedules or sensors?","acceptedAnswer":{"@type":"Answer","text":"Yes. Systems interface with BMS platforms and booking systems, with scenes able to trigger automatically from time schedules, occupancy and sensors, calendar or event data, and external APIs."}},{"@type":"Question","name":"Are you independent from control system manufacturers?","acceptedAnswer":{"@type":"Answer","text":"Yes. emittiv does not sell hardware and is not tied to manufacturers - platforms are specified because they suit the project, with a preference for modular systems where components can be swapped rather than entire racks replaced."}}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -237,7 +237,65 @@
 						>see control integration in action at <a href="/projects/the-hub">The Hub</a> and
 						<a href="/projects/the-research-centre">The Research Centre</a>.</span
 					>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FAQ -->
+	<section class="screen-flow content" data-label="FAQ">
+		<div class="container">
+			<div class="split">
+				<div class="section-title order-1">
+					<h2>questions,<br />answered</h2>
+				</div>
+				<div class="v-padding-1 f col middle order-2">
+					<span class="headline">what is show control and systems integration?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>unifying lighting, video, sound and scent into one coherent system via scenes rather
+						than separate switches - bringing a theatrical background of timing, sequencing and
+						precision to architectural environments.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">what are "scenes" in a control system?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>combinations of settings that create a defined mood. morning arrival - bright,
+						energising light, upbeat audio, fresh scent. evening service - warm light, softer
+						soundscape, richer fragrance. event mode - bold lighting, active video, elevated audio.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline"
+						>are the control interfaces easy for non-technical staff to use?</span
+					>
+					<div class="spacer-reg"></div>
+					<span
+						>yes. we design interfaces that make sense to non-technical users - simple day-to-day
+						control with depth when needed, working across wall panels, tablets and mobile.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">can the system automate based on schedules or sensors?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>yes. our systems interface with BMS platforms, booking systems and other operational
+						tools - scenes can trigger automatically from time schedules, occupancy and sensors,
+						calendar or event data, and external APIs.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">are you independent from control system manufacturers?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>yes. we don't sell hardware and we're not tied to manufacturers. we specify platforms
+						because they suit the project, and we prefer modular systems where components can be
+						swapped rather than entire racks replaced.</span
+					>
 					<div class="spacer-lge"></div>
+
 					<span
 						>related disciplines: <a class="navItem" href="/services/lighting">lighting</a> ·
 						<a class="navItem" href="/services/video">video</a>

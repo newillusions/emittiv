@@ -1,4 +1,9 @@
 <script lang="ts">
+	interface FaqEntry {
+		question: string;
+		answer: string;
+	}
+
 	interface Props {
 		title: string;
 		description: string;
@@ -8,6 +13,7 @@
 		jsonLdName?: string;
 		jsonLdDescription?: string;
 		locationName?: string;
+		faqs?: FaqEntry[];
 	}
 
 	let {
@@ -18,7 +24,8 @@
 		keywords,
 		jsonLdName,
 		jsonLdDescription,
-		locationName
+		locationName,
+		faqs
 	}: Props = $props();
 
 	const canonical = $derived(`https://www.emittiv.com/projects/${slug}`);
@@ -58,7 +65,19 @@
 						},
 						{ '@type': 'ListItem', position: 3, name: breadcrumbName, item: canonical }
 					]
-				}
+				},
+				...(faqs && faqs.length > 0
+					? [
+							{
+								'@type': 'FAQPage',
+								mainEntity: faqs.map((faq) => ({
+									'@type': 'Question',
+									name: faq.question,
+									acceptedAnswer: { '@type': 'Answer', text: faq.answer }
+								}))
+							}
+						]
+					: [])
 			]
 		})
 	);

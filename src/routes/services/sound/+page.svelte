@@ -40,7 +40,7 @@
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Service","@id":"https://www.emittiv.com/services/sound","name":"Architectural Sound Design","provider":{"@id":"https://www.emittiv.com/#organization"},"description":"Professional sound design for the built environment. Networked audio systems, ambient soundscapes and acoustic consulting for hospitality and commercial spaces.","serviceType":"Audio System Design","areaServed":{"@type":"Country","name":"United Arab Emirates"},"relatedLink":["https://www.emittiv.com/services/lighting","https://www.emittiv.com/services/control","https://www.emittiv.com/services/video","https://www.emittiv.com/services/content","https://www.emittiv.com/services/scent"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.emittiv.com/services"},{"@type":"ListItem","position":3,"name":"Sound","item":"https://www.emittiv.com/services/sound"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Service","@id":"https://www.emittiv.com/services/sound","name":"Architectural Sound Design","provider":{"@id":"https://www.emittiv.com/#organization"},"description":"Professional sound design for the built environment. Networked audio systems, ambient soundscapes and acoustic consulting for hospitality and commercial spaces.","serviceType":"Audio System Design","areaServed":[{"@type":"Country","name":"United Arab Emirates"},{"@type":"City","name":"Dubai"},{"@type":"City","name":"Abu Dhabi"}],"relatedLink":["https://www.emittiv.com/services/lighting","https://www.emittiv.com/services/control","https://www.emittiv.com/services/video","https://www.emittiv.com/services/content","https://www.emittiv.com/services/scent"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.emittiv.com/services"},{"@type":"ListItem","position":3,"name":"Sound","item":"https://www.emittiv.com/services/sound"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does an architectural sound designer do?","acceptedAnswer":{"@type":"Answer","text":"An architectural sound designer treats the playback system, acoustics, content and how people move through a space as one connected system - specifying networked audio and staying involved through tuning and commissioning so the result matches the intent."}},{"@type":"Question","name":"Where does emittiv provide sound design services?","acceptedAnswer":{"@type":"Answer","text":"emittiv is based in Dubai South and works across the UAE and wider GCC, with most projects in Dubai and Abu Dhabi."}},{"@type":"Question","name":"What is the difference between playlists and sound design?","acceptedAnswer":{"@type":"Answer","text":"Playlists are not sound design. Real sound design means spatial audio placed in three dimensions, environmental sources that feel native to the space, purposeful content curated or composed for the environment, and zoning and control that gives each area its own character."}},{"@type":"Question","name":"What are networked audio systems and why do they matter?","acceptedAnswer":{"@type":"Answer","text":"Dante, AES67 and modern networked platforms allow routing and reconfiguration with ease - zones shift in software and systems scale without redesign, making the audio flexible, integrated with the wider sensory system, and manageable to operate."}},{"@type":"Question","name":"Are you independent from audio equipment manufacturers?","acceptedAnswer":{"@type":"Answer","text":"Yes. emittiv does not sell speakers or amplifiers and is not pushing any particular brand. The choice always follows the brief, favouring repairable, modular equipment with swappable cards and serviceable loudspeakers."}}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -196,7 +196,64 @@
 						serviceable loudspeakers. the lifespan is longer, and we'd rather not contribute to the
 						pile of e-waste.</span
 					>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FAQ -->
+	<section class="screen-flow content" data-label="FAQ">
+		<div class="container">
+			<div class="split">
+				<div class="section-title order-1">
+					<h2>questions,<br />answered</h2>
+				</div>
+				<div class="v-padding-1 f col middle order-2">
+					<span class="headline">what does an architectural sound designer do?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>we treat the playback system, the acoustics, the content and how people move through
+						the space as one connected system - specifying networked audio and staying involved
+						through tuning and commissioning so the result matches the intent.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">where does emittiv provide sound design services?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>we're based in dubai south and work across the UAE and wider GCC, with most projects in
+						dubai and abu dhabi.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">what's the difference between playlists and sound design?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>playlists are not sound design, sorry. real sound design means spatial audio placed in
+						three dimensions, environmental sources that feel native to the space, purposeful
+						content curated or composed for the environment, and zoning and control that gives each
+						area its own character.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">what are networked audio systems and why do they matter?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>Dante, AES67 and modern networked platforms allow routing and reconfiguration with
+						ease. zones shift in software and systems scale without redesign - flexible, integrated
+						with the wider sensory system, and manageable to operate.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">are you independent from audio equipment manufacturers?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>yes. we don't sell speakers or amplifiers and we're not pushing any particular brand.
+						the choice always follows the brief, and we favour repairable, modular equipment -
+						amplifiers with swappable cards, serviceable loudspeakers.</span
+					>
 					<div class="spacer-lge"></div>
+
 					<span
 						>related disciplines: <a class="navItem" href="/services/scent">scent</a> ·
 						<a class="navItem" href="/services/content">content</a></span

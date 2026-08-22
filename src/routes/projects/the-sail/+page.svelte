@@ -14,6 +14,18 @@
 	keywords="facade lighting, iconic building, hospitality, LED, Dubai"
 	jsonLdDescription="Facade lighting design for an iconic sail-shaped hotel in Dubai. LED replacement with extreme throw distances."
 	locationName="Dubai, UAE"
+	faqs={[
+		{
+			question: "What made this hotel's facade lighting replacement challenging?",
+			answer:
+				'Finding LED fixtures with sufficient output and narrow enough beams to throw 300 metres in a marine environment, at extreme height, while withstanding salt air, heat and wind loading without sacrificing colour or output consistency.'
+		},
+		{
+			question: 'Can the facade lighting change colour for events?',
+			answer:
+				'Yes. The control system was designed for straightforward day-to-day operation while retaining the flexibility to create bespoke colour schemes for special events and national celebrations.'
+		}
+	]}
 />
 
 <main>

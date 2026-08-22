@@ -15,6 +15,18 @@
 	jsonLdName="The Wave - Facade Lighting"
 	jsonLdDescription="Dynamic facade lighting design for an iconic beachfront hotel in Dubai, UAE"
 	locationName="Dubai, UAE"
+	faqs={[
+		{
+			question: 'What made this facade lighting project significant?',
+			answer:
+				'It was the first large-scale dynamic facade lighting project in the region to use LED fixtures, setting a new benchmark for hospitality lighting in the UAE, with a control architecture simple enough for in-house operators to manage without specialist support.'
+		},
+		{
+			question: 'Did the facade lighting design later expand?',
+			answer:
+				'Yes. Several years after the original design and implementation, emittiv was asked to extend it to include the road side of the building as well.'
+		}
+	]}
 />
 
 <main>

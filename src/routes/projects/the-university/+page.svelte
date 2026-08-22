@@ -15,6 +15,18 @@
 	jsonLdName="The University - Performance Venue Renovation"
 	jsonLdDescription="Lighting and control design for a major university auditorium renovation in the Middle East, including a 2,500-seat theatre and campus-wide facilities"
 	locationName="Middle East"
+	faqs={[
+		{
+			question: 'What was the scope of the university renovation?',
+			answer:
+				'Renovating and reinvigorating a 2,500-seat theatre and several smaller auditoria with new lighting, audio, video and automated rigging systems, then extending across the Ladies Campus, Student Lobby, Library, Water Tower, Sports Stadium, Royal Gate and Boundary Fence.'
+		},
+		{
+			question: 'What made the auditorium lighting design notable?',
+			answer:
+				'It was the first renovation in the region to incorporate colour-changing LED technology for the auditorium seating area (FoH), bringing the on-stage lighting design out into the house and enveloping the audience in the performance.'
+		}
+	]}
 />
 
 <main>

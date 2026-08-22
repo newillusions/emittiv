@@ -37,7 +37,7 @@
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Service","@id":"https://www.emittiv.com/services/scent","name":"Scent Design","provider":{"@id":"https://www.emittiv.com/#organization"},"description":"Scent design for the built environment. Multi-zone ambient scenting systems that shift through the day, reinforcing atmosphere and experience in hospitality and commercial spaces.","serviceType":"Scent Design","areaServed":{"@type":"Country","name":"United Arab Emirates"},"relatedLink":["https://www.emittiv.com/services/lighting","https://www.emittiv.com/services/control","https://www.emittiv.com/services/sound","https://www.emittiv.com/services/video","https://www.emittiv.com/services/content"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.emittiv.com/services"},{"@type":"ListItem","position":3,"name":"Scent","item":"https://www.emittiv.com/services/scent"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Service","@id":"https://www.emittiv.com/services/scent","name":"Scent Design","provider":{"@id":"https://www.emittiv.com/#organization"},"description":"Scent design for the built environment. Multi-zone ambient scenting systems that shift through the day, reinforcing atmosphere and experience in hospitality and commercial spaces.","serviceType":"Scent Design","areaServed":[{"@type":"Country","name":"United Arab Emirates"},{"@type":"City","name":"Dubai"},{"@type":"City","name":"Abu Dhabi"}],"relatedLink":["https://www.emittiv.com/services/lighting","https://www.emittiv.com/services/control","https://www.emittiv.com/services/sound","https://www.emittiv.com/services/video","https://www.emittiv.com/services/content"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.emittiv.com/services"},{"@type":"ListItem","position":3,"name":"Scent","item":"https://www.emittiv.com/services/scent"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does a scent designer do?","acceptedAnswer":{"@type":"Answer","text":"A scent designer defines where scent is used, how it is delivered, and guides clients toward the right fragrance direction - building a narrative across zones and times rather than a single signature note."}},{"@type":"Question","name":"How does scent design work across different zones of a space?","acceptedAnswer":{"@type":"Answer","text":"Modern diffusion systems cycle through multiple fragrances on schedule or by activity - bright in the morning, grounding in the evening, distinct tones for different areas - so scent becomes part of the choreography."}},{"@type":"Question","name":"What delivery systems are used for ambient scenting?","acceptedAnswer":{"@type":"Answer","text":"HVAC-integrated diffusion for broad coverage, standalone units for specific zones, and programmable systems that adjust intensity or fragrance by schedule or occupancy."}},{"@type":"Question","name":"How does scent design fit with the rest of a sensory scheme?","acceptedAnswer":{"@type":"Answer","text":"Scent works best when aligned with lighting, sound and movement - warm light with warm fragrances, energising audio with bright, fresh tones - so the coordinated layers reinforce each other."}},{"@type":"Question","name":"Are you independent from fragrance suppliers?","acceptedAnswer":{"@type":"Answer","text":"Yes. emittiv does not sell diffusers or push a signature scent. We design the system, define the zones and timing, and help clients find the right fragrance partner - the relationship belongs to the client, not us."}}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -193,7 +193,64 @@
 						>we design the system, define the zones and timing, and help you find the right
 						fragrance partner. the <span class="splash">relationship belongs to you</span> - not us.</span
 					>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FAQ -->
+	<section class="screen-flow content" data-label="FAQ">
+		<div class="container">
+			<div class="split">
+				<div class="section-title order-1">
+					<h2>questions,<br />answered</h2>
+				</div>
+				<div class="v-padding-1 f col middle order-2">
+					<span class="headline">what does a scent designer do?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>we define where scent is used, how it's delivered, and guide clients toward the right
+						fragrance direction - building a narrative across zones and times rather than a single
+						signature note.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">how does scent design work across different zones of a space?</span
+					>
+					<div class="spacer-reg"></div>
+					<span
+						>modern diffusion systems cycle through multiple fragrances on schedule or by activity -
+						bright in the morning, grounding in the evening, distinct tones for different areas - so
+						scent becomes part of the choreography.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">what delivery systems are used for ambient scenting?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>HVAC-integrated diffusion for broad coverage, standalone units for specific zones, and
+						programmable systems that adjust intensity or fragrance by schedule or occupancy.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">how does scent design fit with the rest of a sensory scheme?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>scent works best when aligned with lighting, sound and movement - warm light with warm
+						fragrances, energising audio with bright, fresh tones - so the coordinated layers
+						reinforce each other.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">are you independent from fragrance suppliers?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>yes. we don't sell diffusers or push a signature scent. we design the system, define
+						the zones and timing, and help you find the right fragrance partner - the relationship
+						belongs to you, not us.</span
+					>
 					<div class="spacer-lge"></div>
+
 					<span
 						>related disciplines: <a class="navItem" href="/services/sound">sound</a> ·
 						<a class="navItem" href="/services/lighting">lighting</a></span

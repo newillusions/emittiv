@@ -40,7 +40,7 @@
 
 	<!-- Schema.org JSON-LD -->
 	{@html '<scr' +
-		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Service","@id":"https://www.emittiv.com/services/video","name":"Video & Media Facade Design","provider":{"@id":"https://www.emittiv.com/#organization"},"description":"Video system design for architecture: media facades, LED video walls, projection mapping and digital signage. Creating dynamic visual environments for commercial spaces.","serviceType":"Video System Design","areaServed":{"@type":"Country","name":"United Arab Emirates"},"relatedLink":["https://www.emittiv.com/services/lighting","https://www.emittiv.com/services/control","https://www.emittiv.com/services/sound","https://www.emittiv.com/services/content","https://www.emittiv.com/services/scent"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.emittiv.com/services"},{"@type":"ListItem","position":3,"name":"Video","item":"https://www.emittiv.com/services/video"}]}]}</scr' +
+		'ipt type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Service","@id":"https://www.emittiv.com/services/video","name":"Video & Media Facade Design","provider":{"@id":"https://www.emittiv.com/#organization"},"description":"Video system design for architecture: media facades, LED video walls, projection mapping and digital signage. Creating dynamic visual environments for commercial spaces.","serviceType":"Video System Design","areaServed":[{"@type":"Country","name":"United Arab Emirates"},{"@type":"City","name":"Dubai"},{"@type":"City","name":"Abu Dhabi"}],"relatedLink":["https://www.emittiv.com/services/lighting","https://www.emittiv.com/services/control","https://www.emittiv.com/services/sound","https://www.emittiv.com/services/content","https://www.emittiv.com/services/scent"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.emittiv.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.emittiv.com/services"},{"@type":"ListItem","position":3,"name":"Video","item":"https://www.emittiv.com/services/video"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does video and media facade design involve?","acceptedAnswer":{"@type":"Answer","text":"Designing media facades that animate exteriors, LED video walls for lobbies and retail, projection mapping for features and events, and digital art installations that respond to context or interaction."}},{"@type":"Question","name":"Why does emittiv design open video systems rather than proprietary ones?","acceptedAnswer":{"@type":"Answer","text":"Too many beautiful installations go dark when the original vendor walks away with proprietary tools and closed formats. emittiv designs open platforms with documented workflows and standard formats, so any content partner can develop for the system and the client owns the platform, not just the files it plays."}},{"@type":"Question","name":"Do you produce the video content yourselves?","acceptedAnswer":{"@type":"Answer","text":"We help shape the initial creative direction and can introduce content developers where needed, but the client is never locked into a particular studio or workflow - we stay on the design team through specification, installation and commissioning."}},{"@type":"Question","name":"How do you avoid problems with pixel density and viewing angles?","acceptedAnswer":{"@type":"Answer","text":"3D visualisation tools map viewing angles, pixel densities and legibility long before construction, avoiding surprises once the system is installed."}},{"@type":"Question","name":"Are you independent from LED panel and media server manufacturers?","acceptedAnswer":{"@type":"Answer","text":"Yes. emittiv does not sell LED panels or media servers and evaluates products on performance and longevity - modular panels, serviceable components, processors that evolve with firmware updates."}}]}]}</scr' +
 		'ipt>'}
 </svelte:head>
 
@@ -208,7 +208,70 @@
 						>see our video work at <a href="/projects/the-wave">The Wave</a> and
 						<a href="/projects/the-hub">The Hub</a>.</span
 					>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FAQ -->
+	<section class="screen-flow content" data-label="FAQ">
+		<div class="container">
+			<div class="split">
+				<div class="section-title order-1">
+					<h2>questions,<br />answered</h2>
+				</div>
+				<div class="v-padding-1 f col middle order-2">
+					<span class="headline">what does video and media facade design involve?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>media facades that animate exteriors, LED video walls for lobbies and retail,
+						projection mapping for features and events, and digital art installations that respond
+						to context or interaction.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline"
+						>why do you design open video systems rather than proprietary ones?</span
+					>
+					<div class="spacer-reg"></div>
+					<span
+						>we've seen too many beautiful installations go dark when the original vendor walked
+						away and took the keys with them. we design open platforms - documented workflows,
+						standard formats - so any content partner can develop for the system, and the client
+						owns the platform, not just the files it plays.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline">do you produce the video content yourselves?</span>
+					<div class="spacer-reg"></div>
+					<span
+						>we help shape the initial creative direction and can introduce content developers where
+						needed, but the client is never locked into a particular studio or workflow - we stay on
+						the design team through specification, installation and commissioning.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline"
+						>how do you avoid problems with pixel density and viewing angles?</span
+					>
+					<div class="spacer-reg"></div>
+					<span
+						>3d visualisation tools let us map viewing angles, pixel densities and legibility long
+						before construction, avoiding surprises later.</span
+					>
+					<div class="spacer-med"></div>
+
+					<span class="headline"
+						>are you independent from LED panel and media server manufacturers?</span
+					>
+					<div class="spacer-reg"></div>
+					<span
+						>yes. we don't sell LED panels or media servers - we evaluate products on performance
+						and longevity. modular panels, serviceable components, processors that evolve with
+						firmware updates. the cheapest option rarely is.</span
+					>
 					<div class="spacer-lge"></div>
+
 					<span
 						>related disciplines: <a class="navItem" href="/services/lighting">lighting</a> ·
 						<a class="navItem" href="/services/content">content</a></span

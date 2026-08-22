@@ -14,6 +14,18 @@
 	jsonLdName="The Waterpark - Themed Attraction Lighting Upgrade"
 	jsonLdDescription="LED lighting upgrade and control system rebuild for a popular themed waterpark in Dubai."
 	locationName="Dubai, UAE"
+	faqs={[
+		{
+			question: "Why was the waterpark's lighting upgraded?",
+			answer:
+				'The existing metal halide floodlights with subtractive colour mixing had reached the end of their life after years of battling the elements. The owner wanted to transform the night-time experience and rebuild the control systems from the ground up.'
+		},
+		{
+			question: 'What technical challenges came with the upgrade?',
+			answer:
+				'Moving from subtractive colour mixing on metal halide fixtures to additive RGB LED floodlights, working around water, and reusing existing cable infrastructure meant adapting to custom, non-standard cabling rather than conventional DMX runs.'
+		}
+	]}
 />
 
 <main>

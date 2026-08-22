@@ -14,6 +14,18 @@
 	jsonLdName="The Fish Tank - Specialist Animal Lighting"
 	jsonLdDescription="Specialist lighting consultancy for a major indoor marine life theme park in Abu Dhabi. Equipment rationalisation and advanced animal lighting systems."
 	locationName="Abu Dhabi, UAE"
+	faqs={[
+		{
+			question: 'What is animal welfare lighting?',
+			answer:
+				'Lighting specified to spectrum, intensity and timing that simulates circadian rhythms and seasonal light cycles for animal welfare - required here for specialist habitats including penguin enclosures, alongside the standard visitor-facing lighting design.'
+		},
+		{
+			question: "What was emittiv's role on this marine theme park project?",
+			answer:
+				'Brought in as a specialist consultant to rationalise equipment lists down to something the local operations team could maintain and source spares for, get fixture selections approved, produce dialux calculations, and contribute to the advanced animal lighting systems.'
+		}
+	]}
 />
 
 <main>

@@ -15,6 +15,18 @@
 	jsonLdName="The Penguins - Animal Habitat Attraction"
 	jsonLdDescription="Lighting and control for a penguin habitat attraction in the UAE, balancing guest experience with animal welfare"
 	locationName="UAE"
+	faqs={[
+		{
+			question: 'How does the lighting balance animal welfare with the guest experience?',
+			answer:
+				'Photosensors automatically adjust overall attraction lighting levels to align with animal-specific requirements, supporting natural behavioural patterns, while the same infrastructure integrates with show control to produce an immersive experience for visitors.'
+		},
+		{
+			question: 'What disciplines were involved in the penguin habitat project?',
+			answer:
+				'Lighting and control, developed collaboratively with zoological consultants and attraction designers, with the lighting synchronised to educational video content via the show control system.'
+		}
+	]}
 />
 
 <main>

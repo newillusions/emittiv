@@ -15,6 +15,18 @@
 	jsonLdName="The Hub - Urban Multimedia Attraction"
 	jsonLdDescription="Theatrical lighting and show control for an urban mixed-use multimedia attraction in the UAE"
 	locationName="UAE"
+	faqs={[
+		{
+			question: 'What is show lighting for a multimedia attraction?',
+			answer:
+				'A lighting language that can flex between an everyday ambient state and a fully choreographed performance mode, with permanent and temporary shows programmed to run reliably across several months of the year.'
+		},
+		{
+			question: 'How were the fountain, lighting and architectural systems integrated?',
+			answer:
+				'The fountain lighting and architectural control systems were incorporated with the theatrical lighting controls into a single unified system across the attraction, with programming ensuring smooth transitions between show states and reliable unattended operation.'
+		}
+	]}
 />
 
 <main>
