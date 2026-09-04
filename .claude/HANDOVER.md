@@ -2,7 +2,7 @@
 
 ## Current Status
 
-Live, stable, maintenance mode. PR#4 (EmailForm silent-loss fix), PR#5 (CI build-image job), PR#6 (docker npm-ci fix) all merged as of 2026-07-17 - deploys are now merge -> CI -> update_container, no more hand-built images. 13 case studies live on 6 shared composable components since 2026-05-02. PR#7 (AEO/FAQPage schema extension + llms.txt) open as of 2026-08-22, not yet merged/deployed. GBP suspension still active, Path B reinstatement pending (owner-gated, docs not yet gathered).
+Live, stable, maintenance mode. PR#4 (EmailForm silent-loss fix), PR#5 (CI build-image job), PR#6 (docker npm-ci fix) all merged as of 2026-07-17 - deploys are now merge -> CI -> update_container, no more hand-built images. 13 case studies live on 6 shared composable components since 2026-05-02. **PR#7 (AEO/FAQPage schema extension + llms.txt) is MERGED AND LIVE (corrected 2026-09-04, was stale)**: squash-merged to `main` at 2026-08-22T22:23:53+04:00 (commit `0bccc9f`), `github/main` already matches `origin/main` at the same commit, and the live site confirms it - `https://www.emittiv.com/llms.txt` returns 200 and `/services/sound` serves `FAQPage` JSON-LD (both checked this session, 2026-09-04). Primary-Unraid container image currency for this commit was NOT checked this session (orchestrator-owned `update_container` verification) - see Next Steps. GBP suspension still active, Path B reinstatement pending (owner-gated, docs not yet gathered).
 
 **DOC-ROT FOUND AND PARTIALLY FIXED (2026-08-22):** this file was found committed on `main` at its 2026-05-02 state - every session summary from 2026-07-17 onward existed only as UNCOMMITTED changes sitting on a stale, abandoned `docs/audit-2026-07` branch checkout (which also carried unrelated, never-finished JSDoc/README edits). That stale work was stashed rather than discarded (`git stash push -u -m "stashed pre-existing docs/audit-2026-07 uncommitted work..."`, still recoverable via `git stash list` if anyone wants to resume the JSDoc pass) before branching cleanly from `origin/main` for this session's work. This rewrite reconstructs accurate history from git log + the KB mission record and gets it committed - if this file goes stale again, check `git log -- .claude/HANDOVER.md` against `git log main` for the same drift.
 
@@ -36,7 +36,7 @@ Case study standardisation (21 commits, +1,541/-3,468 lines): 13 case study page
 | Resource                 | Value                                                                                                                                                                                     |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Component library        | `src/lib/components/projects/` (6 components, `CaseStudyHead` now also carries optional FAQ schema)                                                                                     |
-| PR #7 (AEO extension)     | https://forge.mms.name/emittiv/emittiv-website/pulls/7 - open, mergeable, gates green, not deployed                                                                                     |
+| PR #7 (AEO extension)     | https://forge.mms.name/emittiv/emittiv-website/pulls/7 - MERGED 2026-08-22T22:23:53+04:00, squash commit `0bccc9f` on `main`; live on Cloudflare Pages (verified 2026-09-04, llms.txt 200 + FAQPage on /services/sound); Unraid container currency unverified (as of 2026-09-04) |
 | Recon report              | `/Users/martin/dev-reports/2026-08-22-recon-emittiv-web.md`                                                                                                                              |
 | GitHub push workaround    | HTTPS remote needs gh-token credential helper: `git -c "credential.helper=" -c "credential.helper=!f() { echo username=newillusions; echo password=\$(gh auth token); }; f" push github main` |
 | GSC property              | sc-domain:emittiv.com                                                                                                                                                                    |
@@ -49,19 +49,20 @@ Case study standardisation (21 commits, +1,541/-3,468 lines): 13 case study page
 
 ## Next Steps
 
-1. **Merge + deploy PR #7** (orchestrator-owned) - AEO/FAQPage schema extension, mergeable, all gates green. (as of 2026-08-22)
+1. **Verify Primary-Unraid container currency for PR#7** (orchestrator-owned) - Cloudflare Pages confirmed live at commit `0bccc9f`; the `emittiv` container's image tag was not checked this session. (as of 2026-09-04)
 2. **GBP Path B reinstatement** (owner-gated, priority) - user gathers trade license, DEWA utility bill/office lease, VAT cert if registered, recent UAE client invoice; emittiv-website instance drafts narrative referencing Dec 2024 prior approval; user submits via https://support.google.com/business/contact/local_appeals?authuser=0 (as of 2026-08-22)
-3. **R07 brand-adoption sweep** (owner-gated, stale since 2026-07-02) - rewrite `/about`, fix brand casing, retire `gtm/` + `market-*` skill/agent cruft. R07 landed 2026-05-03; sweep never scheduled. (as of 2026-08-22)
-4. **DOC-ROT reconciliation** (owner-gated) - decide/document which deploy path(s) are authoritative now that CI publishes the container image too (Cloudflare Pages vs Primary Unraid container vs both). (as of 2026-08-22)
-5. Fix the pre-existing `EmailForm.svelte` label/input id mismatch (`<label for="form_name">` but the input only has `name="from_name"`, no `id`) - real accessibility bug, found while writing tests for PR#4, still open. (as of 2026-08-22)
+3. **R07 brand-adoption sweep** (owner-gated, stale since 2026-07-02) - rewrite `/about`, fix brand casing, retire `gtm/` + `market-*` skill/agent cruft. R07 landed 2026-05-03; sweep never scheduled. (as of 2026-09-04, still open)
+4. **DOC-ROT reconciliation** (owner-gated) - decide/document which deploy path(s) are authoritative now that CI publishes the container image too (Cloudflare Pages vs Primary Unraid container vs both). (as of 2026-09-04, still open)
+5. Fix the pre-existing `EmailForm.svelte` label/input id mismatch (`<label for="form_name">` but the input only has `name="from_name"`, no `id`) - real accessibility bug, found while writing tests for PR#4, still open. (as of 2026-09-04, still open)
 6. Consider /about SERP snippet review (37 impressions, 2.7% CTR at position 1.8). (as of 2026-08-22)
 7. ENTTEC image permission still pending. (as of 2026-08-22)
+8. **Stale remote branches** - 6 fully-merged PR branches remain on `origin` (ci/build-image, ci/dedup-concurrency, docs/audit-2026-07, fix/build-image-npm-ci, fix/emailform-silent-loss, fix/pre-deploy-gate-hook) plus 2 stray worktrees under `/Volumes/base/dev/web/emittiv/.claude/worktrees/` (epic-torvalds, thirsty-volhard, both marked prunable). Listed for the orchestrator to prune, not deleted here. (as of 2026-09-04)
 
 ## Current Tasks
 
-- [ ] Merge + deploy PR #7 (as of 2026-08-22)
+- [x] Merge + deploy PR #7 - merged 2026-08-22, confirmed live on Cloudflare Pages 2026-09-04; Unraid container currency still unverified (as of 2026-09-04)
 - [ ] GBP Path B reinstatement (next session) - user gathers docs, instance drafts narrative, submit together (as of 2026-08-22)
-- [x] Ship PR#4/#5/#6/#7 - #4-6 merged/live 2026-07-17; #7 open 2026-08-22
+- [x] Ship PR#4/#5/#6/#7 - all four merged and confirmed live (as of 2026-09-04)
 
 ## Recent Decisions
 
@@ -82,4 +83,4 @@ Case study standardisation (21 commits, +1,541/-3,468 lines): 13 case study page
 
 ---
 
-_Updated: 2026-08-22_
+_Updated: 2026-09-04 (full project review; corrected the stale PR#7 open/not-deployed claim - verified merged and live)_
