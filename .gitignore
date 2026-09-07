@@ -17,3 +17,8 @@ node_modules
 /docs/
 /google-business-profile-setup.md
 /jeddah-search.md
+
+# Weekly rank + LLM-appearance monitor: raw GSC query data and LLM completion
+# text (may include business-sensitive keyword strategy). Never commit to this
+# repo (publicly mirrored on GitHub) - see scripts/monitor/README.md.
+/data/monitor/
