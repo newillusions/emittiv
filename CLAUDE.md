@@ -54,6 +54,12 @@ src/
 - **Development:** Forgejo (`origin` remote → `forge.mms.name/emittiv/emittiv-website`)
 - **Docker:** Available at `10.0.23.134:3000` (Unraid primary, br0 ipvlan L2)
 
+### PUID/PGID
+
+The `emittiv` container follows Unraid's own convention (docs.unraid.net "Managing and Customizing Containers": "PUID=99 and PGID=100: These set the user and group IDs for file permissions") - same shape as linuxserver.io images and this workspace's watchdog/anchor/ailx containers (decision:oc236l222dcnewii0vw6, 2026-09-12: "every Emittiv-built container image honours PUID/PGID (default 99:100) the linuxserver.io way").
+
+The image starts as root; `docker-entrypoint.sh` remaps the baked-in `emittiv` user/group to the `PUID`/`PGID` env vars (default `99:100`, Unraid's `nobody:users`), chowns `/app` (defense in depth - this container has no persistent volume mounts, so nothing is actually written to at runtime), then drops privileges via `su-exec` before exec'ing `node build`. No Unraid template ships in this repo (the container is created/updated directly on the host) - if one is added later it should carry `PUID`/`PGID` `<Config Type="Variable" Display="always" Default="99"/"100">` entries matching the ailx templates.
+
 ## MCP Servers
 
 Configured in `.mcp.json` (gitignored), using credential wrapper where needed:
