@@ -9,8 +9,8 @@
 				<ul class="disc">
 					<li><a href="/projects/the-mosque">Sheikh Zayed Grand Mosque</a></li>
 					<li>Sheikh Zayed Bridge</li>
-					<li>Lusail Multpurpose Hall</li>
-					<li>Abu Dhabi Justce Court</li>
+					<li>Lusail Multipurpose Hall</li>
+					<li>Abu Dhabi Justice Court</li>
 				</ul>
 				<span class="list-head"><span class="splash">Hospitality:</span></span>
 				<ul class="disc">

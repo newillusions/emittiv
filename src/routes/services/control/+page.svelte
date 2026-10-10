@@ -1,4 +1,5 @@
 <script lang="ts">
+	import EnquiryCta from '$lib/components/EnquiryCta.svelte';
 </script>
 
 <svelte:head>
@@ -317,4 +318,5 @@
 			</div>
 		</div>
 	</section>
+	<EnquiryCta />
 </main>

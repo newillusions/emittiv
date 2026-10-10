@@ -14,9 +14,8 @@ import EmailForm from './EmailForm.svelte';
 
 const sendForm = emailjs.sendForm as unknown as ReturnType<typeof vi.fn>;
 
-// The form's <label for="..."> targets don't match any input id (a pre-existing,
-// out-of-scope markup issue), so labels can't be used to locate fields - query by
-// the `name` attribute instead, which is what the submit path actually depends on.
+// Fields are located by `name`, which is what the submit path depends on; label
+// association is covered separately by the "labels are associated" test below.
 function fieldByName(container: HTMLElement, name: string): HTMLInputElement | HTMLTextAreaElement {
 	const el = container.querySelector(`[name="${name}"]`);
 	if (!el) throw new Error(`field not found: ${name}`);
@@ -88,5 +87,43 @@ describe('EmailForm', () => {
 
 		expect(consoleError).toHaveBeenCalled();
 		consoleError.mockRestore();
+	});
+
+	test('every label is associated with its input (regression: for/id mismatch)', () => {
+		const { container } = render(EmailForm);
+		const labels = container.querySelectorAll('label[for]');
+		expect(labels.length).toBe(4);
+		for (const label of labels) {
+			const target = container.querySelector(`#${label.getAttribute('for')}`);
+			expect(target, `no element with id ${label.getAttribute('for')}`).not.toBeNull();
+		}
+		expect(screen.getByLabelText(/name/i)).toBeInTheDocument();
+	});
+
+	test('a failed submit offers retry and a mailto fallback, and re-enables Send', async () => {
+		sendForm.mockRejectedValueOnce(new Error('network error'));
+		const user = userEvent.setup();
+		const { container } = render(EmailForm);
+
+		await fillAndSubmit(container, user);
+		await screen.findByText(/we seem to have had a problem/i);
+
+		expect(screen.getByRole('link', { name: 'hello@emittiv.com' })).toHaveAttribute(
+			'href',
+			'mailto:hello@emittiv.com'
+		);
+		expect(screen.getByRole('button', { name: 'Send' })).toBeEnabled();
+		expect(screen.queryByText(/refresh the page/i)).not.toBeInTheDocument();
+	});
+
+	test('Send is disabled while a submit is in flight', async () => {
+		sendForm.mockReturnValueOnce(new Promise(() => {}));
+		const user = userEvent.setup();
+		const { container } = render(EmailForm);
+
+		await fillAndSubmit(container, user);
+
+		expect(await screen.findByText(/sending/i)).toBeInTheDocument();
+		expect(screen.getByRole('button', { name: 'Send' })).toBeDisabled();
 	});
 });

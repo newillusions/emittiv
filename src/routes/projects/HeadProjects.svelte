@@ -23,7 +23,7 @@
 				>
 				<div class="spacer-reg"></div>
 				<span
-					>our team have been involved with some of the worlds'
+					>our team have been involved with some of the world's
 					<span class="splash">largest</span>, most
 					<span class="splash">significant</span>, and highly
 					<span class="splash">complex</span> events and installations.</span

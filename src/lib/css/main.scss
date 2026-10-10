@@ -81,6 +81,39 @@ h3 {
 	color: var(--splash);
 }
 
+// Call-to-action buttons (hero, enquiry block, contact page)
+.btn {
+	display: inline-block;
+	padding: 0.6rem 1.6rem;
+	border: 2px solid var(--splash);
+	border-radius: 7px;
+	color: var(--white);
+	background-color: transparent;
+	font-family: 'Ubuntu', sans-serif;
+	letter-spacing: 0.125rem;
+	text-decoration: none;
+	transition:
+		background-color 0.2s ease,
+		color 0.2s ease;
+
+	&:hover,
+	&:focus-visible {
+		background-color: var(--splash);
+		color: var(--black);
+	}
+}
+
+.btn-primary {
+	background-color: var(--splash);
+	color: var(--black);
+
+	&:hover,
+	&:focus-visible {
+		background-color: transparent;
+		color: var(--splash);
+	}
+}
+
 .tagline {
 	font-size: 4rem;
 	line-height: 3.2rem;

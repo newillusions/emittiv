@@ -10,7 +10,7 @@
 			</div>
 			<div class="v-padding-1 f col middle order-2">
 				<span
-					>based in <span class="splash">Dubai</span>, emittiv is a lighting design consultancy that
+					>based in <span class="splash">Dubai</span>, emittiv is a sensory design consultancy that
 					works across the UAE, Saudi Arabia and the wider GCC.</span
 				>
 				<div class="spacer-med"></div>

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import ContactPhone from '$lib/components/ContactPhone.svelte';
 	let { side = '' } = $props();
 </script>
 
@@ -14,7 +15,7 @@
 				<span>dubai south, dubai, uae</span>
 				<div class="spacer-reg"></div>
 				<span class="headline">email us</span>
-				<span>hello(at)emittiv.com</span>
+				<span><a class="contact-link" href="mailto:hello@emittiv.com">hello@emittiv.com</a></span>
 				<div class="spacer-reg"></div>
 				<span class="headline">operating hours</span>
 				<span>Monday - Thursday</span>
@@ -23,7 +24,22 @@
 				<span>9am-2pm</span>
 				<span>...</span>
 				<span>Ha! We wish! 🙂</span>
+				<div class="spacer-reg"></div>
+				<ContactPhone />
 			</div>
 		</div>
 	</div>
 </section>
+
+<style lang="scss">
+	.contact-link {
+		color: var(--white);
+		text-decoration: none;
+		border-bottom: 1px solid var(--splash);
+
+		&:hover,
+		&:focus-visible {
+			color: var(--splash);
+		}
+	}
+</style>

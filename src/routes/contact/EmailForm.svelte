@@ -72,6 +72,7 @@
 					<input
 						type="text"
 						class="input-box"
+						id="form_name"
 						name="from_name"
 						required
 						bind:value={formData.from_name}
@@ -80,21 +81,29 @@
 					<input
 						type="email"
 						class="input-box"
+						id="form_email"
 						name="from_email"
 						required
 						bind:value={formData.from_email}
 					/>
 					<label for="from_phone">Phone:</label>
-					<input type="tel" class="input-box" name="from_phone" bind:value={formData.from_phone} />
+					<input
+						type="tel"
+						class="input-box"
+						id="from_phone"
+						name="from_phone"
+						bind:value={formData.from_phone}
+					/>
 					<label for="message">Message:*</label>
 					<textarea
+						id="message"
 						name="message"
 						class="input-box"
 						wrap="hard"
 						required
 						bind:value={formData.message}
 					></textarea>
-					<input type="submit" class="submit" value="Send" />
+					<input type="submit" class="submit" value="Send" disabled={send === 'sending'} />
 				</form>
 				<div class="spacer-reg"></div>
 				{#if send === 'sending'}
@@ -107,8 +116,9 @@
 					</div>
 				{:else if send === 'failed'}
 					<div class="spacer-med">
-						<span class="splash"> We seem to have had a problems sending your email. </span><br
-						/>Please refresh the page and try again.
+						<span class="splash"> We seem to have had a problem sending your email. </span><br
+						/>Your message is still in the form, so press Send to try again, or email us at
+						<a class="contact-link" href="mailto:hello@emittiv.com">hello@emittiv.com</a>.
 					</div>
 				{:else}
 					<div class="spacer-med"></div>
@@ -145,6 +155,17 @@
 
 	label {
 		font-size: 0.8rem;
+	}
+
+	.contact-link {
+		color: var(--white);
+		border-bottom: 1px solid var(--splash);
+		text-decoration: none;
+	}
+
+	.submit:disabled {
+		opacity: 0.5;
+		cursor: not-allowed;
 	}
 
 	.submit {

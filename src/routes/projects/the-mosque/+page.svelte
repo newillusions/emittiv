@@ -1,4 +1,5 @@
 <script lang="ts">
+	import EnquiryCta from '$lib/components/EnquiryCta.svelte';
 	import CaseStudyHead from '$lib/components/projects/CaseStudyHead.svelte';
 	import CaseStudyHero from '$lib/components/projects/CaseStudyHero.svelte';
 	import TextSection from '$lib/components/projects/TextSection.svelte';
@@ -93,4 +94,5 @@
 			}
 		]}
 	/>
+	<EnquiryCta />
 </main>

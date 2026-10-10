@@ -20,8 +20,10 @@
 		<div class="footer-col order-1">
 			<div class="footer-head">Contact</div>
 			<div class="footer-body">
-				dubai south, dubai, uae<br />
-				hello (at) emittiv.com
+				<div>
+					dubai south, dubai, uae
+					<a href="mailto:hello@emittiv.com">hello@emittiv.com</a>
+				</div>
 			</div>
 		</div>
 		<div class="footer-col order-2">
