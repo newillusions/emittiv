@@ -3,23 +3,20 @@
 </script>
 
 <svelte:head>
-	<title>Architectural Lighting Design Dubai | Dynamic Lighting Systems | emittiv</title>
+	<title>Lighting Designer &amp; Consultant Dubai | emittiv</title>
 	<meta
 		name="description"
-		content="Specialist architectural lighting design combining theatrical expertise with modern technology. Dynamic, programmable lighting systems for hospitality, retail and commercial spaces in Dubai."
+		content="Independent lighting designer and consultant in Dubai, for hospitality, cultural and entertainment projects across the UAE and GCC."
 	/>
 	<link rel="canonical" href="https://www.emittiv.com/services/lighting" />
 	<meta name="robots" content="index,follow" />
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta
-		property="og:title"
-		content="Architectural Lighting Design Dubai | Dynamic Lighting Systems | emittiv"
-	/>
+	<meta property="og:title" content="Lighting Designer & Consultant Dubai | emittiv" />
 	<meta
 		property="og:description"
-		content="Specialist architectural lighting design combining theatrical expertise with modern technology. Dynamic, programmable lighting systems for hospitality, retail and commercial spaces in Dubai."
+		content="Independent lighting designer and consultant in Dubai, for hospitality, cultural and entertainment projects across the UAE and GCC."
 	/>
 	<meta property="og:image" content="https://www.emittiv.com/img/og-default.png" />
 	<meta property="og:image:width" content="1200" />
@@ -30,10 +27,10 @@
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="Architectural Lighting Design Dubai | emittiv" />
+	<meta name="twitter:title" content="Lighting Designer & Consultant Dubai | emittiv" />
 	<meta
 		name="twitter:description"
-		content="Specialist architectural lighting design combining theatrical expertise with modern technology."
+		content="Independent lighting designer and consultant in Dubai, working across the UAE and wider GCC."
 	/>
 	<meta name="twitter:image" content="https://www.emittiv.com/img/og-default.png" />
 	<meta property="og:image:width" content="1200" />
@@ -50,9 +47,42 @@
 	<section class="screen-flow content" data-label="Hero">
 		<div class="container">
 			<div class="f col center middle">
-				<h1 class="tagline">lighting</h1>
+				<h1 class="tagline">lighting design consultancy in dubai</h1>
 				<div class="spacer-reg"></div>
 				<span class="headline">beyond simple illumination.</span>
+			</div>
+		</div>
+	</section>
+
+	<!-- Dubai lighting designer / consultant intro -->
+	<section class="screen-flow content" data-label="Dubai">
+		<div class="container">
+			<div class="split">
+				<div class="section-title order-3">
+					<h2>lighting designer<br />and consultant, dubai</h2>
+				</div>
+				<div class="v-padding-1 f col middle order-2">
+					<span
+						>emittiv is an independent lighting design consultancy in dubai south. we design and
+						specify architectural, facade and themed-environment lighting for hospitality, cultural
+						and entertainment projects across the UAE and wider GCC, and stay involved from concept
+						through commissioning.</span
+					>
+					<div class="spacer-med"></div>
+					<span
+						>as lighting consultants we work for the client's design team, not for a fixture
+						supplier. that means specifications written around the brief, control strategy and
+						programming that match the intent, and honest advice on what a scheme needs to look
+						right and keep running.</span
+					>
+					<div class="spacer-med"></div>
+					<span
+						>see the work: <a href="/projects/the-sail">The Sail</a>,
+						<a href="/projects/the-mosque">The Mosque</a>,
+						<a href="/projects/the-backdrop">The Backdrop</a> and
+						<a href="/projects/the-waterpark">The Waterpark</a>.</span
+					>
+				</div>
 			</div>
 		</div>
 	</section>
