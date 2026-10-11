@@ -22,7 +22,7 @@
 						<a class="btn" href="/contact">Discuss a project</a>
 						<a class="btn" href="/services">Our services</a>
 						<a class="btn" href="https://sensory.design" target="_blank" rel="noopener"
-							>The&nbsp;discipline<span aria-hidden="true">&nbsp;&#8599;</span>
+							>The&nbsp;discipline&nbsp;<span class="cta-arrow" aria-hidden="true">&#8599;</span>
 							<span class="sr-only">(opens in a new tab)</span></a
 						>
 					</div>
@@ -56,6 +56,9 @@
 		white-space: nowrap;
 		letter-spacing: 0.04rem;
 		padding-inline: 1rem;
+	}
+	.cta-arrow {
+		font-size: 0.65em;
 	}
 	.cta-main:focus-visible,
 	.cta-trio .btn:focus-visible {
