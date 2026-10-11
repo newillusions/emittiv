@@ -33,6 +33,12 @@
 </section>
 
 <style>
+	@media (min-width: 600px) {
+		/* 3rem 'Environment' is wider than its split column just above 600px; scale down, capped at 3rem from ~945px */
+		h2 {
+			font-size: clamp(2rem, 5.5vw, 3rem);
+		}
+	}
 	.cta-stack {
 		display: flex;
 		flex-direction: column;

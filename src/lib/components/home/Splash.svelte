@@ -15,7 +15,7 @@
 					width="960px"
 				/>
 			</div>
-			<div class="v-padding-1 f center middle">
+			<div class="v-padding-1 f center middle hero-taglines">
 				<h1 class="sr-only">Sensory Design for the Built Environment</h1>
 				<span class="tagline animate fadeIn three"
 					>make<span class="animate toSplash six">:</span></span
@@ -29,6 +29,10 @@
 <style>
 	.hero-section {
 		position: relative;
+	}
+
+	.hero-taglines {
+		flex-wrap: wrap;
 	}
 
 	.hero-content {
