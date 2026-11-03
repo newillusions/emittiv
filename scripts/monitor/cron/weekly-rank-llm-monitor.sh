@@ -22,7 +22,7 @@
 #   export CLAUDE_INBOX_EMAIL="claude@mjr.email"
 #   export CLAUDE_INBOX_PASSWORD="<value from the credential store: CLAUDE_INBOX_PASSWORD>"
 #   export OPENAI_API_KEY="<value from the credential store: OPENAI_API_KEY>"
-#   # export PERPLEXITY_API_KEY="..."  # optional, not configured yet (skipped in report)
+#   export PERPLEXITY_API_KEY="<value from the credential store: PERPLEXITY_API_KEY>"  # added 2026-11-03, Agent API; unset = skipped in report
 #   EOF
 #   chmod 600 ~/.e-website-monitor.env
 #

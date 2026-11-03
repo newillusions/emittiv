@@ -3,9 +3,10 @@
 //
 // Credential names looked up in ~/.claude/credential-directory.md:
 // OPENAI_API_KEY, ANTHROPIC_API_KEY and GEMINI_API_KEY are present (verified
-// 2026-09-08). PERPLEXITY_API_KEY is deliberately absent for now (owner,
-// 2026-11-03): that provider is skipped and reported as "skipped (not
-// configured)", never an error. Adding the key later needs no code change.
+// 2026-09-08). PERPLEXITY_API_KEY was added to the store 2026-11-03 (group
+// "ai"); Perplexity runs on the Agent API (POST /v1/agent). When the variable
+// is unset the provider is still skipped and reported as "skipped (not
+// configured)", never an error.
 
 const REQUEST_TIMEOUT_MS = 25_000;
 
@@ -17,8 +18,10 @@ export class MissingCredentialError extends Error {
 	}
 }
 
-function withTimeout(opts) {
-	return { ...opts, signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) };
+const PERPLEXITY_TIMEOUT_MS = 45_000;
+
+function withTimeout(opts, ms = REQUEST_TIMEOUT_MS) {
+	return { ...opts, signal: AbortSignal.timeout(ms) };
 }
 
 async function readErrorBody(res) {
@@ -95,22 +98,45 @@ export async function askGemini(question) {
 	return (data.candidates?.[0]?.content?.parts ?? []).map((p) => p.text ?? '').join('');
 }
 
+/**
+ * Perplexity Agent API (the old /chat/completions "sonar" endpoint now returns
+ * 403 chat_completions_not_available). effort "fast" = single-question lookup
+ * with web search and inline citations, the closest match to the one-shot
+ * calls the other providers make (~0.002 USD per call). Answer text is the
+ * concatenation of content[].text of the output items of type "message".
+ * Anything other than a completed response with text throws, so the report
+ * shows the provider as failed instead of scoring an empty answer as "not
+ * mentioned".
+ */
 export async function askPerplexity(question) {
 	const key = process.env.PERPLEXITY_API_KEY;
 	if (!key) {
 		throw new MissingCredentialError('PERPLEXITY_API_KEY', 'optional provider, not configured');
 	}
 	const res = await fetch(
-		'https://api.perplexity.ai/chat/completions',
-		withTimeout({
-			method: 'POST',
-			headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
-			body: JSON.stringify({ model: 'sonar', messages: [{ role: 'user', content: question }] })
-		})
+		'https://api.perplexity.ai/v1/agent',
+		withTimeout(
+			{
+				method: 'POST',
+				headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
+				body: JSON.stringify({ effort: 'fast', input: question })
+			},
+			PERPLEXITY_TIMEOUT_MS
+		)
 	);
 	if (!res.ok) throw new Error(`Perplexity HTTP ${res.status}: ${await readErrorBody(res)}`);
 	const data = await res.json();
-	return data.choices?.[0]?.message?.content ?? '';
+	if (data.status !== 'completed') {
+		const detail = data.error ? ` (${JSON.stringify(data.error).slice(0, 200)})` : '';
+		throw new Error(`Perplexity response status ${data.status ?? 'missing'}${detail}`);
+	}
+	const text = (data.output ?? [])
+		.filter((item) => item?.type === 'message')
+		.flatMap((item) => item.content ?? [])
+		.map((part) => part?.text ?? '')
+		.join('');
+	if (!text.trim()) throw new Error('Perplexity response completed but contained no message text');
+	return text;
 }
 
 export const PROVIDERS = [

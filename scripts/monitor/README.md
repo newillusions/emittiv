@@ -32,12 +32,12 @@ Looked up in `~/.claude/credential-directory.md` (checked 2026-09-07), never gue
 | Anthropic (Claude)        | `ANTHROPIC_API_KEY`              | **present, verified this session** (`GET /v1/models` -> 200)                                                                                                                                                                        |
 | Google AI Studio (Gemini) | `GEMINI_API_KEY`                 | **present, verified this session** (`GET /v1beta/models` -> 200)                                                                                                                                                                    |
 | OpenAI (ChatGPT)          | `OPENAI_API_KEY`                 | **present** (credential-directory.md, verified 2026-09-08)                                                                                                                                                                          |
-| Perplexity                | `PERPLEXITY_API_KEY`             | **not configured by design (2026-11-03)** - reported as "skipped (not configured)", never an error. Create at perplexity.ai/settings/api and add the variable to enable.                                                            |
+| Perplexity                | `PERPLEXITY_API_KEY`             | **configured 2026-11-03** - Agent API (`POST /v1/agent`, effort `fast`); the old sonar `/chat/completions` endpoint returns 403. Unset = reported as "skipped (not configured)", never an error.                                    |
 
 `llm-appearance-report.mjs` skips a provider whose variable is unset and records the gap in
-its `skipped` array and in the emailed report - it never fails the whole run. Once
-PERPLEXITY_API_KEY exists in the credential store, no code change is needed;
-the cron secrets file (below) just needs that line added.
+its `skipped` array and in the emailed report - it never fails the whole run. PERPLEXITY_API_KEY
+is in the credential store; the cron run must have it injected (the cron secrets file
+below needs that line, or wrap the run with `creds-run.sh PERPLEXITY_API_KEY --`).
 
 ## Running it once, interactively
 
