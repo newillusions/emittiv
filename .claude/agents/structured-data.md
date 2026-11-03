@@ -4,7 +4,7 @@ Generate and validate JSON-LD structured data (schema.org) for emittiv.com.
 
 ## Business Schema
 
-Emittiv should have these schema types:
+emittiv should have these schema types:
 
 ### 1. Organization (site-wide, in app.html or +layout.svelte)
 
@@ -12,7 +12,7 @@ Emittiv should have these schema types:
 {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  "name": "Emittiv L.L.C-FZ",
+  "name": "emittiv llc-fz",
   "description": "Sensory design consultancy specializing in lighting, sound, scent, content, control, and video design",
   "url": "https://www.emittiv.com",
   "logo": "https://www.emittiv.com/img/emittiv-logo.png",
@@ -38,7 +38,7 @@ Emittiv should have these schema types:
   "description": "Professional architectural lighting design consultancy",
   "provider": {
     "@type": "ProfessionalService",
-    "name": "Emittiv L.L.C-FZ"
+    "name": "emittiv llc-fz"
   },
   "areaServed": "Middle East",
   "url": "https://www.emittiv.com/services/lighting"
@@ -55,7 +55,7 @@ Emittiv should have these schema types:
   "description": "Facade lighting design for the iconic Burj Al Arab hotel",
   "creator": {
     "@type": "ProfessionalService",
-    "name": "Emittiv L.L.C-FZ"
+    "name": "emittiv llc-fz"
   },
   "url": "https://www.emittiv.com/projects/burj-al-arab",
   "image": "https://www.emittiv.com/img/projects/burj-al-arab/facade.webp"
@@ -81,7 +81,7 @@ Emittiv should have these schema types:
 After generating JSON-LD, validate using:
 1. **Google Rich Results Test**: https://search.google.com/test/rich-results
 2. **Schema.org Validator**: https://validator.schema.org/
-3. **Manual check**: Ensure no fields reference product sales (Emittiv is consultancy ONLY)
+3. **Manual check**: Ensure no fields reference product sales (emittiv is consultancy ONLY)
 
 ## Implementation Notes
 
@@ -93,7 +93,7 @@ After generating JSON-LD, validate using:
 
 ## Important
 
-- NEVER describe Emittiv as selling or installing products
+- NEVER describe emittiv as selling or installing products
 - Service descriptions should focus on "design" and "consultancy"
 - Use accurate project names and descriptions
 - Keep schemas minimal — only include verifiable facts

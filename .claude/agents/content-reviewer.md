@@ -19,7 +19,7 @@ For each page, check:
 - No placeholder or lorem ipsum text
 
 ### 2. Brand Consistency
-- Company name: "Emittiv" (not "EMITTIV" or "emittiv" in body copy)
+- Company name: always lowercase "emittiv" (never "Emittiv" or "EMITTIV"); legal entity "emittiv llc-fz" (R07 canonical facts)
 - Services described as "sensory design consultancy"
 - Six disciplines: Lighting, Sound, Scent, Content, Control, Video
 - Location: Dubai, UAE
@@ -77,7 +77,7 @@ SEO OPPORTUNITIES
 
 ## Business Context
 
-- **Emittiv L.L.C-FZ**: UAE (Dubai) sensory design consultancy
+- **emittiv llc-fz**: UAE (Dubai) sensory design consultancy
 - **Services**: Lighting Design, Sound Design, Scent Design, Content Design, Control Systems, Video Design
 - **NOT**: Product sales, installation, manufacturing
 - **Contact**: martin@emittiv.com

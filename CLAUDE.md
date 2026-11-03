@@ -1,6 +1,6 @@
-# Emittiv Website
+# emittiv website
 
-Production company website for **Emittiv L.L.C-FZ** - a sensory design consultancy based in Dubai, UAE.
+Production company website for **emittiv llc-fz** - a sensory design consultancy based in Dubai, UAE.
 
 ## Tech Stack
 
@@ -126,7 +126,7 @@ Packages: `typescript-eslint`, `eslint-plugin-svelte`, `eslint-config-prettier`
 - **SCSS over Tailwind:** Project uses Sass for styling, not Tailwind
 - **Svelte 5 runes:** Use `$state`, `$derived`, `$effect` - not legacy `$:` syntax
 - **Matomo SPA tracking:** Implemented in `transitions.svelte` via `afterNavigate`, production-only
-- **Business model:** Emittiv is design and consultancy ONLY - does not sell or install products
+- **Business model:** emittiv is design and consultancy ONLY - does not sell or install products
 - **`.claude/` in .prettierignore:** Session artifacts are excluded from formatting checks
 
 ## SEO & Indexing

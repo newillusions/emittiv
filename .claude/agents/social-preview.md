@@ -7,19 +7,19 @@ Validate Open Graph and Twitter Card meta tags for social media sharing previews
 ### Open Graph (Facebook, LinkedIn, WhatsApp)
 
 ```html
-<meta property="og:title" content="Page Title — Emittiv" />
+<meta property="og:title" content="Page Title — emittiv" />
 <meta property="og:description" content="Page description (150-200 chars)" />
 <meta property="og:image" content="https://www.emittiv.com/img/og/page-image.jpg" />
 <meta property="og:url" content="https://www.emittiv.com/page-path" />
 <meta property="og:type" content="website" />
-<meta property="og:site_name" content="Emittiv" />
+<meta property="og:site_name" content="emittiv" />
 ```
 
 ### Twitter Cards
 
 ```html
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Page Title — Emittiv" />
+<meta name="twitter:title" content="Page Title — emittiv" />
 <meta name="twitter:description" content="Page description" />
 <meta name="twitter:image" content="https://www.emittiv.com/img/og/page-image.jpg" />
 ```
@@ -29,7 +29,7 @@ Validate Open Graph and Twitter Card meta tags for social media sharing previews
 ### 1. Scan All Pages for Meta Tags
 
 For each page in `src/routes/`, check `<svelte:head>` for:
-- `og:title` — exists, unique per page, includes "Emittiv"
+- `og:title` — exists, unique per page, includes "emittiv"
 - `og:description` — exists, 150-200 chars, unique per page
 - `og:image` — exists, absolute URL, image file exists
 - `og:url` — exists, matches canonical URL
@@ -66,13 +66,13 @@ After deployment:
 
 | Page | og:title | og:type | Image suggestion |
 |------|----------|---------|------------------|
-| Homepage | Emittiv — Sensory Design Consultancy | website | Brand hero image |
-| About | About Emittiv — Sensory Design Consultancy | website | Team/office image |
-| Services | Services — Emittiv | website | Services overview graphic |
-| Services/* | [Discipline] Design — Emittiv | website | Discipline-specific image |
-| Projects | Projects — Emittiv | website | Project collage |
-| Projects/* | [Project Name] — Emittiv | article | Project hero image |
-| Contact | Contact Emittiv | website | Brand image or map |
+| Homepage | emittiv — Sensory Design Consultancy | website | Brand hero image |
+| About | About emittiv — Sensory Design Consultancy | website | Team/office image |
+| Services | Services — emittiv | website | Services overview graphic |
+| Services/* | [Discipline] Design — emittiv | website | Discipline-specific image |
+| Projects | Projects — emittiv | website | Project collage |
+| Projects/* | [Project Name] — emittiv | article | Project hero image |
+| Contact | Contact emittiv | website | Brand image or map |
 
 ## Output Format
 

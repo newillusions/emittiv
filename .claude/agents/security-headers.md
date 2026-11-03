@@ -23,7 +23,7 @@ Audit HTTP security headers for emittiv.com on Cloudflare Pages.
 | `Cross-Origin-Opener-Policy` | `same-origin` | Isolate browsing context |
 | `Cross-Origin-Resource-Policy` | `same-origin` | Restrict resource loading |
 
-### CSP Policy for Emittiv
+### CSP Policy for emittiv
 
 Recommended Content-Security-Policy considering the tech stack:
 
