@@ -31,20 +31,20 @@ Looked up in `~/.claude/credential-directory.md` (checked 2026-09-07), never gue
 | Google Search Console     | `GOOGLE_APPLICATION_CREDENTIALS` | **present, verified working this session** - path to a service-account key JSON (`/Volumes/base/dev/credentials/emittiv-website-07a4cbcb8991.json`), same credential the `.claude/mcp-local/mcp-server-gsc` MCP server already uses |
 | Anthropic (Claude)        | `ANTHROPIC_API_KEY`              | **present, verified this session** (`GET /v1/models` -> 200)                                                                                                                                                                        |
 | Google AI Studio (Gemini) | `GEMINI_API_KEY`                 | **present, verified this session** (`GET /v1beta/models` -> 200)                                                                                                                                                                    |
-| OpenAI (ChatGPT)          | `OPENAI_API_KEY`                 | **absent** - no entry anywhere in the credential directory. Create at platform.openai.com/api-keys, then add `OPENAI_API_KEY` to the credential store and directory.                                                                |
-| Perplexity                | `PERPLEXITY_API_KEY`             | **absent** - no entry anywhere in the credential directory. Create at perplexity.ai/settings/api, then add `PERPLEXITY_API_KEY`.                                                                                                    |
+| OpenAI (ChatGPT)          | `OPENAI_API_KEY`                 | **present** (credential-directory.md, verified 2026-09-08)                                                                                                                                                                          |
+| Perplexity                | `PERPLEXITY_API_KEY`             | **not configured by design (2026-11-03)** - reported as "skipped (not configured)", never an error. Create at perplexity.ai/settings/api and add the variable to enable.                                                            |
 
 `llm-appearance-report.mjs` skips a provider whose variable is unset and records the gap in
 its `skipped` array and in the emailed report - it never fails the whole run. Once
-OPENAI_API_KEY / PERPLEXITY_API_KEY exist in the credential store, no code change is needed;
-the cron secrets file (below) just needs the two extra lines uncommented.
+PERPLEXITY_API_KEY exists in the credential store, no code change is needed;
+the cron secrets file (below) just needs that line added.
 
 ## Running it once, interactively
 
 ```bash
 cd /Volumes/base/dev/claude/e-website
 npm install --legacy-peer-deps   # first time only, or after package.json changes
-~/.claude/scripts/creds-run.sh GOOGLE_APPLICATION_CREDENTIALS ANTHROPIC_API_KEY GEMINI_API_KEY CLAUDE_INBOX_PASSWORD -- \
+~/.claude/scripts/creds-run.sh GOOGLE_APPLICATION_CREDENTIALS ANTHROPIC_API_KEY GEMINI_API_KEY OPENAI_API_KEY CLAUDE_INBOX_PASSWORD -- \
   bash -c 'export CLAUDE_INBOX_EMAIL=claude@mjr.email; npm run monitor:weekly'
 ```
 

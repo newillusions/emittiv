@@ -45,3 +45,27 @@ describe('detectMention', () => {
 		expect(result.position).toBeNull();
 	});
 });
+
+describe('runLlmAppearanceReport optional providers', () => {
+	it('reports a missing PERPLEXITY_API_KEY as skipped (not configured) without failing', async () => {
+		const { runLlmAppearanceReport } = await import('./llm-appearance-report.mjs');
+		const saved = {};
+		for (const k of [
+			'OPENAI_API_KEY',
+			'ANTHROPIC_API_KEY',
+			'GEMINI_API_KEY',
+			'PERPLEXITY_API_KEY'
+		]) {
+			saved[k] = process.env[k];
+			delete process.env[k];
+		}
+		try {
+			const r = await runLlmAppearanceReport();
+			const p = r.skipped.find((s) => s.provider === 'perplexity');
+			expect(p.reason).toBe('skipped (not configured): PERPLEXITY_API_KEY not set');
+			expect(Object.keys(r.providers)).toHaveLength(0);
+		} finally {
+			for (const [k, v] of Object.entries(saved)) if (v !== undefined) process.env[k] = v;
+		}
+	});
+});

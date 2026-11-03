@@ -11,6 +11,7 @@
 //      markdown in the email body).
 //
 // Usage: node scripts/monitor/run-weekly.mjs [--to EMAIL] [--dry-run]
+//   --test prefixes the email subject with [TEST] (use with --to claude@mjr.email).
 //   --dry-run writes the report files but skips the email send (used by CI/tests).
 
 import { writeFileSync, mkdirSync, readdirSync, readFileSync, existsSync } from 'node:fs';
@@ -41,7 +42,7 @@ export function findPreviousGscReport(dataDir, today) {
 	}
 }
 
-export async function runWeekly({ to = DEFAULT_TO, dryRun = false } = {}) {
+export async function runWeekly({ to = DEFAULT_TO, dryRun = false, test = false } = {}) {
 	mkdirSync(DATA_DIR, { recursive: true });
 	const today = new Date().toISOString().slice(0, 10);
 
@@ -64,7 +65,15 @@ export async function runWeekly({ to = DEFAULT_TO, dryRun = false } = {}) {
 			try {
 				const out = execFileSync(
 					'python3',
-					[SEND_SCRIPT, '--to', to, '--subject', DEFAULT_SUBJECT, '--md', reportPath],
+					[
+						SEND_SCRIPT,
+						'--to',
+						to,
+						'--subject',
+						(test ? '[TEST] ' : '') + DEFAULT_SUBJECT,
+						'--md',
+						reportPath
+					],
 					{ encoding: 'utf8', timeout: 30_000 }
 				);
 				emailResult = { sent: true, output: out.trim() };
@@ -83,7 +92,7 @@ export async function runWeekly({ to = DEFAULT_TO, dryRun = false } = {}) {
 function parseArgs(argv) {
 	const to = argv.includes('--to') ? argv[argv.indexOf('--to') + 1] : undefined;
 	const dryRun = argv.includes('--dry-run');
-	return { to, dryRun };
+	return { to, dryRun, test: argv.includes('--test') };
 }
 
 const isMain = process.argv[1] && import.meta.url === `file://${process.argv[1]}`;

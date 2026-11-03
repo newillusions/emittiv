@@ -1,14 +1,11 @@
 // LLM appearance probes: ask each provider a fixed buyer-style question and
 // report whether emittiv (or the legacy newillusions surface) is named.
 //
-// Credential names looked up in ~/.claude/credential-directory.md
-// (2026-09-07 check): ANTHROPIC_API_KEY (verified, GET /v1/models 200) and
-// GEMINI_API_KEY (Google AI Studio, verified this session, GET /v1beta/models
-// 200). No OPENAI_API_KEY or PERPLEXITY_API_KEY entry exists anywhere in the
-// directory - those two providers are skipped and the gap is reported, not
-// guessed. To add them: create an API key at platform.openai.com/api-keys or
-// perplexity.ai/settings/api, then add OPENAI_API_KEY / PERPLEXITY_API_KEY to
-// the credential store and this directory.
+// Credential names looked up in ~/.claude/credential-directory.md:
+// OPENAI_API_KEY, ANTHROPIC_API_KEY and GEMINI_API_KEY are present (verified
+// 2026-09-08). PERPLEXITY_API_KEY is deliberately absent for now (owner,
+// 2026-11-03): that provider is skipped and reported as "skipped (not
+// configured)", never an error. Adding the key later needs no code change.
 
 const REQUEST_TIMEOUT_MS = 25_000;
 
@@ -35,10 +32,7 @@ async function readErrorBody(res) {
 export async function askOpenAI(question) {
 	const key = process.env.OPENAI_API_KEY;
 	if (!key) {
-		throw new MissingCredentialError(
-			'OPENAI_API_KEY',
-			'create at platform.openai.com/api-keys; not present in credential-directory.md as of 2026-09-07'
-		);
+		throw new MissingCredentialError('OPENAI_API_KEY', 'OPENAI_API_KEY not set');
 	}
 	const res = await fetch(
 		'https://api.openai.com/v1/chat/completions',
@@ -104,10 +98,7 @@ export async function askGemini(question) {
 export async function askPerplexity(question) {
 	const key = process.env.PERPLEXITY_API_KEY;
 	if (!key) {
-		throw new MissingCredentialError(
-			'PERPLEXITY_API_KEY',
-			'create at perplexity.ai/settings/api; not present in credential-directory.md as of 2026-09-07'
-		);
+		throw new MissingCredentialError('PERPLEXITY_API_KEY', 'optional provider, not configured');
 	}
 	const res = await fetch(
 		'https://api.perplexity.ai/chat/completions',

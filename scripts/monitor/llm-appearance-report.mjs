@@ -54,7 +54,7 @@ export async function runLlmAppearanceReport() {
 			result.skipped.push({
 				provider: provider.id,
 				label: provider.label,
-				reason: `missing credential ${provider.credential}`
+				reason: `skipped (not configured): ${provider.credential} not set`
 			});
 			continue;
 		}

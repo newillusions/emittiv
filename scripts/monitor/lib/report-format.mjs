@@ -70,14 +70,19 @@ function llmSection(llm) {
 	const providerIds = Object.keys(llm.providers);
 	if (providerIds.length) {
 		const totalMentions = providerIds.reduce((s, id) => s + llm.providers[id].mentioned_count, 0);
-		const totalAsked = providerIds.reduce((s, id) => s + llm.providers[id].total_questions, 0);
+		const answered = (id) => llm.providers[id].results.filter((r) => !r.error).length;
+		const totalAsked = providerIds.reduce((s, id) => s + answered(id), 0);
+		const totalErrors = providerIds.reduce(
+			(s, id) => s + llm.providers[id].total_questions - answered(id),
+			0
+		);
 		bullets.push(
-			`**LLM mentions:** emittiv/newillusions named in ${totalMentions} of ${totalAsked} provider-question pairs across ${providerIds.length} provider(s).`
+			`**LLM mentions:** emittiv/newillusions named in ${totalMentions} of ${totalAsked} answered provider-question pairs across ${providerIds.length} provider(s)${totalErrors ? `; ${totalErrors} call(s) errored (see table)` : ''}.`
 		);
 	}
 	if (llm.skipped.length) {
 		bullets.push(
-			`**Providers skipped (no credential):** ${llm.skipped.map((s) => s.label).join(', ')}.`
+			`**Providers skipped (not configured, not an error):** ${llm.skipped.map((s) => s.label).join(', ')}.`
 		);
 	}
 	const rows = [];

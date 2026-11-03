@@ -69,7 +69,11 @@ function llmFixture(overrides = {}) {
 			}
 		},
 		skipped: [
-			{ provider: 'openai', label: 'ChatGPT (OpenAI)', reason: 'missing credential OPENAI_API_KEY' }
+			{
+				provider: 'openai',
+				label: 'ChatGPT (OpenAI)',
+				reason: 'skipped (not configured): OPENAI_API_KEY not set'
+			}
 		],
 		...overrides
 	};
@@ -99,6 +103,7 @@ describe('buildMarkdownReport', () => {
 	it('reports skipped providers by name', () => {
 		const md = buildMarkdownReport({ gsc: gscFixture(), prevGsc: null, llm: llmFixture() });
 		expect(md).toContain('ChatGPT (OpenAI)');
+		expect(md).toContain('not configured, not an error');
 	});
 
 	it('degrades gracefully when GSC failed entirely', () => {
