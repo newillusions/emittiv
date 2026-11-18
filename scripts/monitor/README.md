@@ -53,14 +53,16 @@ skips the email send - used by the test suite and for local iteration.
 
 ## Scheduling
 
-No n8n-ai or Unraid-cron workflow already exists for this class of script. The closest
-workspace precedent is `claude/e-marketing/scripts/cron/surface-industry-press.sh`, which
-runs daily via the Mac's own `crontab` (not n8n, not a container). This monitor mirrors that:
-`cron/weekly-rank-llm-monitor.sh` is the wrapper, with full setup + crontab install
-instructions in its header comment. It follows `tools/studio-digest`'s cron-secrets
-convention (a dedicated 0600 `~/.e-website-monitor.env`) rather than the interactive
-`creds-run.sh`/vault wrappers, because those may depend on session/Keychain context a
-non-interactive cron job does not have.
+Runs as LaunchAgent `com.emittiv.rank-llm-monitor` (Monday 05:00 local), not cron: cron has no
+login-keychain session, so `creds-run.sh` could not read the vault and every run since 2026-11-16
+failed with "credential PERPLEXITY_API_KEY not found". The plist runs
+`creds-run.sh PERPLEXITY_API_KEY -- cron/weekly-rank-llm-monitor.sh`; the other keys still come from
+the 0600 `~/.e-website-monitor.env`. Files: `launchd/com.emittiv.rank-llm-monitor.plist`,
+`launchd/install.sh [--dry-run]` (lints, removes the crontab job line, bootstraps, prints
+`launchctl print`), `launchd/uninstall.sh`. Logs: `~/Library/Logs/rank-llm-monitor/`.
+
+`cron/weekly-rank-llm-monitor.sh --check` verifies the environment and credential presence with no
+API call (a full run makes real paid calls to Anthropic, Gemini, OpenAI and Perplexity).
 
 ## Target terms and buyer questions
 

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Weekly emittiv.com rank + LLM-appearance monitor, Monday 05:00 local time.
+     LaunchAgent in the gui/<uid> domain, NOT cron: cron has no login-keychain session, so creds-run.sh
+     reported "credential PERPLEXITY_API_KEY not found" on every run since 2026-11-16.
+     Do not bootstrap by hand while the crontab line is live (double run): use scripts/monitor/launchd/install.sh.
+     Logs: ~/Library/Logs/rank-llm-monitor/. -->
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.emittiv.rank-llm-monitor</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/martin/.claude/scripts/creds-run.sh</string>
+		<string>PERPLEXITY_API_KEY</string>
+		<string>--</string>
+		<string>/Volumes/base/dev/claude/e-website/scripts/monitor/cron/weekly-rank-llm-monitor.sh</string>
+	</array>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>PATH</key>
+		<string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+	</dict>
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Weekday</key><integer>1</integer>
+		<key>Hour</key><integer>5</integer>
+		<key>Minute</key><integer>0</integer>
+	</dict>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>StandardOutPath</key>
+	<string>/Users/martin/Library/Logs/rank-llm-monitor/out.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/martin/Library/Logs/rank-llm-monitor/err.log</string>
+</dict>
+</plist>
