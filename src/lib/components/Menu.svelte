@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { tick } from 'svelte';
 	import { page } from '$app/stores';
 	import data from '$lib/data/nav.json';
 
@@ -6,22 +7,64 @@
 	const navSecondary = data.navSecondary;
 
 	let isOpen = $state(false);
+	let button: HTMLButtonElement | undefined = $state();
+	let overlay: HTMLDivElement | undefined = $state();
 
 	function navToggle() {
 		isOpen = !isOpen;
+		if (isOpen) focusFirstLink();
 	}
 
 	function navClose() {
 		isOpen = false;
 	}
+
+	async function focusFirstLink() {
+		// the overlay is inert until the next render, so wait for it
+		await tick();
+		overlay?.querySelector<HTMLElement>('a')?.focus();
+	}
+
+	function focusables(): HTMLElement[] {
+		const links = Array.from(overlay?.querySelectorAll<HTMLElement>('a[href]') ?? []);
+		return button ? [...links, button] : links;
+	}
+
+	function onWindowKeydown(e: KeyboardEvent) {
+		if (!isOpen) return;
+		if (e.key === 'Escape') {
+			e.preventDefault();
+			navClose();
+			button?.focus();
+			return;
+		}
+		if (e.key !== 'Tab') return;
+		// keep focus inside the open menu (links + close button), never the page behind it
+		const items = focusables();
+		if (items.length === 0) return;
+		const first = items[0];
+		const last = items[items.length - 1];
+		const active = document.activeElement;
+		if (e.shiftKey && (active === first || !items.includes(active as HTMLElement))) {
+			e.preventDefault();
+			last.focus();
+		} else if (!e.shiftKey && (active === last || !items.includes(active as HTMLElement))) {
+			e.preventDefault();
+			first.focus();
+		}
+	}
 </script>
 
-<!-- svelte-ignore a11y_no_static_element_interactions -->
+<svelte:window onkeydown={onWindowKeydown} />
+
+<!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_static_element_interactions -->
 <div
+	bind:this={overlay}
+	id="site-nav"
 	class="nav-overlay f col center middle"
 	class:open={isOpen}
+	inert={!isOpen}
 	onclick={navClose}
-	onkeydown={(e) => e.key === 'Escape' && navClose()}
 >
 	<nav aria-label="Main navigation">
 		<div class="split">
@@ -52,17 +95,18 @@
 		</div>
 	</nav>
 </div>
-<div
+<button
+	bind:this={button}
+	type="button"
 	class="menu-btn"
 	class:open={isOpen}
 	onclick={navToggle}
-	onkeydown={(e) => e.key === 'Enter' && navToggle()}
-	role="button"
-	tabindex="0"
+	aria-expanded={isOpen}
+	aria-controls="site-nav"
 	aria-label="Toggle navigation menu"
 >
-	<div class="menu-btn__burger"></div>
-</div>
+	<span class="menu-btn__burger"></span>
+</button>
 
 <style scoped lang="scss">
 	.active {
@@ -86,7 +130,7 @@
 		overflow: hidden;
 		display: flex;
 		flex-direction: column;
-		transition: all 0.4s ease-in-out;
+		transition: height 0.4s ease-in-out;
 		z-index: 10;
 
 		&.open {
@@ -117,9 +161,18 @@
 	}
 
 	.navItem-small:hover,
-	.navItem:hover {
+	.navItem:hover,
+	.navItem-small:focus-visible,
+	.navItem:focus-visible {
 		text-decoration: underline;
 		text-underline-offset: 0.25rem;
+	}
+
+	.navItem-small:focus-visible,
+	.navItem:focus-visible,
+	.menu-btn:focus-visible {
+		outline: 2px solid var(--splash);
+		outline-offset: 4px;
 	}
 
 	.menu-btn {
@@ -131,12 +184,16 @@
 		align-items: center;
 		width: 2em;
 		height: 45px;
+		padding: 0;
+		border: 0;
+		background: none;
 		cursor: pointer;
 		transition: all 0.5s ease-in-out;
 		z-index: 11;
 	}
 
 	.menu-btn__burger {
+		display: block;
 		width: 2em;
 		height: 7px;
 		background-color: var(--splash);
