@@ -75,7 +75,7 @@
 			installed - incorporating the fountain lighting and architectural control systems with the
 			theatrical lighting controls into a unified system across the attraction. careful programming
 			ensured smooth transitions between show states and reliable unattended operation. the shows
-			are still running today.</span
+			kept running for years.</span
 		>
 	</SplitImageSection>
 
